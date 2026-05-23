@@ -8,8 +8,6 @@ export default function Footer() {
       <div className="ft-brand">Eduweer · Harvoria &amp; Beyond</div>
       <div className="ft-copy">© 2026 Radosław Kamysz</div>
       <nav className="ft-links">
-        <a href="#">{t("about")}</a>
-        <a href="#">{t("contact")}</a>
         <Link href="/privacy">{t("privacy")}</Link>
       </nav>
     </footer>
