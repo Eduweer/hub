@@ -159,22 +159,29 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  // Add to Resend Audience (upserts — no duplicate error)
-  const audienceId = process.env.RESEND_AUDIENCE_ID;
-  if (audienceId) {
-    try {
-      await resend.contacts.create({
-        email: cleanEmail,
-        audienceId,
-        unsubscribed: false,
-      });
-    } catch (err) {
-      console.error("[newsletter] audience error:", err);
-      return NextResponse.json(
-        { error: "Coś poszło nie tak. Spróbuj ponownie." },
-        { status: 500 }
-      );
-    }
+  // KROK 1 — dodaj kontakt do globalnej listy
+  const { error: contactError } = await resend.contacts.create({
+    email: cleanEmail,
+    unsubscribed: false,
+  });
+
+  if (contactError) {
+    console.error("[newsletter] contact error:", contactError);
+    return NextResponse.json(
+      { error: "Błąd zapisu kontaktu" },
+      { status: 500 }
+    );
+  }
+
+  // KROK 2 — przypisz do segmentu Newsletter
+  const { error: segmentError } = await resend.contacts.segments.add({
+    email: cleanEmail,
+    segmentId: process.env.RESEND_SEGMENT_ID!,
+  });
+
+  if (segmentError) {
+    console.error("[newsletter] segment error:", segmentError);
+    // Nie przerywaj — kontakt jest zapisany, tylko segment nie działa
   }
 
   // Send welcome email (non-blocking — failure doesn't abort signup)
