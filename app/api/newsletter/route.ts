@@ -166,6 +166,7 @@ export async function POST(req: NextRequest) {
       await resend.contacts.create({
         email: cleanEmail,
         audienceId,
+        unsubscribed: false,
       });
     } catch (err) {
       console.error("[newsletter] audience error:", err);
