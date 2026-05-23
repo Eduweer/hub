@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import styles from "./HeroVideo.module.css";
+import { assetUrl } from "@/lib/cdn";
 
 export default function HeroVideo() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -33,7 +34,7 @@ export default function HeroVideo() {
         preload="auto"
         className={styles.video}
       >
-        <source src="/videos/trailer.mp4" type="video/mp4" />
+        <source src={assetUrl("/videos/trailer.mp4")} type="video/mp4" />
       </video>
     </div>
   );
