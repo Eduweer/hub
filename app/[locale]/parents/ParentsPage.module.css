@@ -111,11 +111,12 @@
 }
 
 /* full-bleed decorative background for sections */
+/* --bg-url set via inline style on the element (CDN-aware via assetUrl) */
 .probWithBg.sAlt::before,
 .elemWithBg.sAlt::before,
 .benefitsWithBg.sAlt::before,
 .faqWithBg.sAlt::before {
-  background: url("/images/bg_1.webp") center / cover no-repeat fixed;
+  background: var(--bg-url) center / cover no-repeat fixed;
 }
 
 /* sAlt2 — subtle gold tint */

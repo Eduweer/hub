@@ -11,6 +11,7 @@ import FaqAccordion from "@/components/parent/FaqAccordion";
 import ContactSection from "@/components/parent/ContactSection";
 import ScrollReveal from "@/components/shared/ScrollReveal";
 import styles from "./ParentsPage.module.css";
+import { assetUrl } from "@/lib/cdn";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations("parent.meta");
@@ -116,7 +117,7 @@ export default function ParentsPage() {
         <div className={styles.wrap}>
 
           {/* ── S2 — PROBLEM ── */}
-          <section id="problem" className={`${styles.section} ${styles.sAlt} ${styles.probWithBg}`}>
+          <section id="problem" className={`${styles.section} ${styles.sAlt} ${styles.probWithBg}`} style={{ '--bg-url': `url('${assetUrl("/images/bg_1.webp")}')` } as React.CSSProperties}>
             <div className={styles.probLayout}>
               <div className={styles.probText}>
                 <span className={styles.eye} style={{ color: "var(--green)" }}>
@@ -169,7 +170,7 @@ export default function ParentsPage() {
           </div>
 
           {/* ── S4 — THREE ELEMENTS ── */}
-          <section id="elements" className={`${styles.section} ${styles.sAlt} ${styles.elemWithBg}`}>
+          <section id="elements" className={`${styles.section} ${styles.sAlt} ${styles.elemWithBg}`} style={{ '--bg-url': `url('${assetUrl("/images/bg_1.webp")}')` } as React.CSSProperties}>
             <div style={{ textAlign: "center" }}>
               <span className={styles.eye} style={{ color: "var(--green)" }}>
                 {t("elements.eyebrow")}
@@ -363,7 +364,7 @@ export default function ParentsPage() {
           </div>
 
           {/* ── S9+S10 — BENEFITS ── */}
-          <section id="benefits" className={`${styles.section} ${styles.sAlt} ${styles.benefitsWithBg}`}>
+          <section id="benefits" className={`${styles.section} ${styles.sAlt} ${styles.benefitsWithBg}`} style={{ '--bg-url': `url('${assetUrl("/images/bg_1.webp")}')` } as React.CSSProperties}>
             <div className={styles.benefitsGrid}>
               {/* Child benefits */}
               <div>
@@ -503,7 +504,7 @@ export default function ParentsPage() {
           </div> */}
 
           {/* ── S13 — FAQ ── */}
-          <section id="faq" className={`${styles.section} ${styles.sAlt} ${styles.faqWithBg}`}>
+          <section id="faq" className={`${styles.section} ${styles.sAlt} ${styles.faqWithBg}`} style={{ '--bg-url': `url('${assetUrl("/images/bg_1.webp")}')` } as React.CSSProperties}>
             <span className={styles.eye} style={{ color: "var(--green)" }}>
               {t("faq.eyebrow")}
             </span>
