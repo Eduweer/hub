@@ -555,7 +555,7 @@ export default function InvestorsPage() {
             </h2>
             <p className={`${styles.ctaSub} ${styles.rev}`}>{t("cta.subtitle")}</p>
             <div className={`${styles.ctaBtns} ${styles.rev}`}>
-              <a href="mailto:kontakt@eduweer.pl" className={styles.btnP}>{t("cta.btn1")}</a>
+              <a href="mailto:radoslaw.kamysz@gmail.com" className={styles.btnP}>{t("cta.btn1")}</a>
               <a href={assetUrl("/docs/pitch-deck.pdf")} target="_blank" rel="noopener noreferrer" className={styles.btnS}>{t("cta.btn2")}</a>
               <a href="/parents" className={styles.btnLink}>{t("cta.btn3")} →</a>
             </div>
