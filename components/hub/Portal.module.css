@@ -1,0 +1,236 @@
+.pw {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: rise 0.85s cubic-bezier(0.34, 1.18, 0.64, 1) both;
+}
+
+/* ── Portal circle ── */
+.portal {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  transition: transform 0.45s cubic-bezier(0.34, 1.38, 0.64, 1);
+}
+
+.portal:hover {
+  transform: scale(1.07) translateY(-10px);
+}
+
+/* ── Halo glow behind ── */
+.halo {
+  position: absolute;
+  inset: -28%;
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.12;
+  transition: opacity 0.45s ease;
+  animation: halo-breathe 5s ease-in-out infinite;
+}
+
+.pw:hover .halo,
+.pw:has(.btn:hover) .halo { opacity: 0.45; }
+
+/* ── Illustration ── */
+.scene {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 1;
+  filter: brightness(0.72) saturate(0.85);
+  transition: filter 0.4s ease;
+}
+
+.portal:hover .scene,
+.pw:has(.btn:hover) .scene {
+  filter: brightness(1) saturate(1);
+}
+
+/* ── Hover overlay (portal.webp) ── */
+.hoverOverlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  mix-blend-mode: screen;
+}
+
+.portal:hover .hoverOverlay,
+.pw:has(.btn:hover) .hoverOverlay {
+  opacity: 0.55;
+}
+
+/* spinner wrapper — slightly oversized so corners never peek through */
+.portalSpin {
+  position: absolute;
+  inset: -12%;
+}
+
+.portal:hover .portalSpin,
+.pw:has(.btn:hover) .portalSpin {
+  animation: portal-slow-spin 22s linear infinite;
+}
+
+@keyframes portal-slow-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ── Edge fade into background ── */
+.edge {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  z-index: 4;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse 100% 100% at 50% 50%,
+    transparent 52%,
+    rgba(232, 236, 240, 0.45) 74%,
+    rgba(232, 236, 240, 0.82) 91%,
+    var(--paper) 100%
+  );
+}
+
+/* ── Ring ── */
+.ringSvg {
+  position: absolute;
+  inset: -7px;
+  width: calc(100% + 14px);
+  height: calc(100% + 14px);
+  z-index: 6;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+/* ── Rotating arc ── */
+.arc {
+  position: absolute;
+  inset: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  z-index: 7;
+  pointer-events: none;
+  animation: arc-spin 9s linear infinite;
+}
+
+/* ── Dust ── */
+.dust {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.dustParticle {
+  position: absolute;
+  border-radius: 50%;
+  animation: pd-float ease-in-out infinite;
+}
+
+/* ── Label below portal ── */
+.label {
+  margin-top: 28px;
+  text-align: center;
+  pointer-events: none;
+  transition: transform 0.32s ease;
+}
+
+.portal:hover ~ .label {
+  transform: translateY(-4px);
+}
+
+.tag {
+  font-family: var(--f-head);
+  font-size: 9px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.name {
+  font-family: var(--f-head);
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--ink);
+  display: block;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.desc {
+  font-family: var(--f-body);
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 1.7;
+  max-width: 210px;
+  margin: 0 auto 16px;
+  color: var(--ink-soft);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 22px;
+  border-radius: var(--r-btn);
+  font-family: var(--f-head);
+  font-size: 10px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid;
+  pointer-events: auto;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover { transform: translateY(-2px); }
+
+.btnArr {
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  font-size: 14px;
+}
+
+.btn:hover .btnArr { transform: translateX(5px); }
+
+/* ── Color themes ── */
+.cGreen .halo          { background: radial-gradient(circle, var(--green-glow), transparent 70%); }
+.cGreen .tag           { color: var(--green); }
+.cGreen .btn   { color: var(--green); border-color: var(--green-border); }
+
+.cBlue .halo   { background: radial-gradient(circle, var(--blue-glow), transparent 70%); }
+.cBlue .tag    { color: var(--blue); }
+.cBlue .btn    { color: var(--blue); border-color: var(--blue-border); }
+
+.cCopper .halo { background: radial-gradient(circle, var(--copper-glow), transparent 70%); }
+.cCopper .tag  { color: var(--copper); }
+.cCopper .btn  { color: var(--copper); border-color: var(--copper-border); }
+
+/* ── Responsive ── */
+@media (max-width: 1080px) {
+  .portal { width: 260px; height: 260px; }
+}
+
+@media (max-width: 820px) {
+  .portal { width: 240px; height: 240px; }
+}
+
+@media (max-width: 640px) {
+  .portal { width: 280px; height: 280px; }
+}

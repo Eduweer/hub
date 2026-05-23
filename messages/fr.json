@@ -1,0 +1,853 @@
+{
+  "nav": {
+    "mainNav": "Navigation principale",
+    "about": "À propos",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": "À propos",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité"
+  },
+  "hub": {
+    "eyebrow": "Choisis ton chemin",
+    "titleBefore": "Un ",
+    "titleAccent": "monde",
+    "titleAfter": ",",
+    "titleLine2": "trois portails",
+    "subtitle": "Eduweer est une aventure éducative qui combine un livre, un cahier d'exercices et une application en un écosystème cohérent.",
+    "portals": {
+      "parent": {
+        "tag": "Porte principale",
+        "name": "Pour les parents",
+        "desc": "Ton enfant apprend parce qu'il le veut — parce que l'histoire l'attire. Tu es là avec lui.",
+        "cta": "Entrer dans le monde"
+      },
+      "investor": {
+        "tag": "Portail système",
+        "name": "Pour les investisseurs",
+        "desc": "Un écosystème éducatif évolutif — IP, narratif, application et jeu dans une seule pipeline.",
+        "cta": "Explorer le système"
+      },
+      "campaign": {
+        "tag": "Campagne",
+        "name": "Soutenir le projet",
+        "desc": "Fais partie de l'histoire dès le premier chapitre. Des récompenses t'attendent.",
+        "cta": "Soutenir le monde"
+      }
+    },
+    "tagline": {
+      "world": {
+        "icon": "✦",
+        "label": "Un monde",
+        "text": "Livre, cahier et application — un écosystème cohérent"
+      },
+      "paths": {
+        "icon": "◈",
+        "label": "Trois chemins",
+        "text": "Pour les parents, investisseurs et soutiens de campagne"
+      },
+      "harvoria": {
+        "icon": "᛭",
+        "label": "Harvoria",
+        "text": "Le premier royaume — un début calme pour chaque aventure"
+      }
+    }
+  },
+  "parent": {
+    "meta": {
+      "title": "Eduweer — L'apprentissage qui commence par l'aventure",
+      "description": "Eduweer combine un livre, un cahier et l'app Mentor pour transformer l'apprentissage de ton enfant en une aventure calme et partagée."
+    },
+    "hero": {
+      "eyebrow": "Pour les parents",
+      "title": "L'apprentissage qui commence par l'aventure",
+      "subtitle": "Eduweer combine un livre, un cahier d'exercices et l'app Mentor en un écosystème — parce que apprendre fonctionne mieux quand c'est une histoire."
+    },
+    "cta": {
+      "primary": "Découvrir Harvoria",
+      "secondary": "Comment ça fonctionne ?"
+    },
+    "bridge": {
+      "question": "Et si apprendre ressemblait à une <gold>aventure</gold> dès le début ?",
+      "lead": "Les premiers pas scolaires d'un enfant peuvent être plus que des tâches à accomplir — ils peuvent devenir une histoire commune à laquelle il veut toujours revenir."
+    },
+    "problem": {
+      "eyebrow": "Une aventure commune",
+      "title": "L'apprentissage ne devrait pas commencer par un <accent>combat</accent>",
+      "p1": "Beaucoup de parents connaissent ce moment : l'enfant a des tâches à faire mais perd rapidement l'intérêt. Au lieu de la curiosité, il y a la fatigue, les négociations et les tensions.",
+      "p2": "Eduweer part d'une hypothèse différente : les enfants s'engagent plus facilement quand ils voient le but. Quand une tâche n'est pas une feuille déconnectée, mais fait partie d'une plus grande histoire.",
+      "points": [
+        "Les tâches sont intégrées dans l'aventure — l'enfant comprend pourquoi il les fait",
+        "Le parent guide, mais n'a pas à se battre pour chaque minute d'apprentissage",
+        "L'enfant voit la progression de son héros — la récompense fait partie de l'histoire",
+        "L'apprentissage devient une partie d'un rituel commun et calme"
+      ]
+    },
+    "what": {
+      "eyebrow": "Qu'est-ce qu'Eduweer",
+      "title": "Eduweer est une <accent>aventure</accent> racontée de plusieurs façons",
+      "lead": "Eduweer combine un livre, un cahier et l'app Mentor en une expérience. Le parent lit l'histoire avec l'enfant, l'enfant accomplit des tâches dans le Journal du Héros, et l'application aide à suivre la progression.",
+      "tagline": "Pas seulement un livre. Pas seulement une application. Un système calme d'apprentissage par l'histoire.",
+      "flow": [
+        {
+          "icon": "📖",
+          "title": "Lire ensemble",
+          "desc": "L'histoire guide à travers l'aventure"
+        },
+        {
+          "icon": "✏️",
+          "title": "L'enfant agit",
+          "desc": "Les tâches découlent de l'intrigue"
+        },
+        {
+          "icon": "⭐",
+          "title": "Le parent apprécie",
+          "desc": "Notation par étoiles dans l'app"
+        },
+        {
+          "icon": "🗺️",
+          "title": "Le héros grandit",
+          "desc": "Le personnage de l'enfant se développe"
+        },
+        {
+          "icon": "🌿",
+          "title": "L'histoire continue",
+          "desc": "Les prochains chapitres attendent"
+        }
+      ]
+    },
+    "elements": {
+      "eyebrow": "Une aventure, quatre éléments",
+      "title": "Quatre éléments qui <accent>travaillent ensemble</accent>",
+      "lead": "Eduweer a été conçu pour que les enfants ne passent pas entre des activités aléatoires. Chaque élément a son rôle dans une aventure.",
+      "book": {
+        "eyebrow": "Élément 01 · Narratif",
+        "title": "Le livre qui ouvre le monde",
+        "body": "L'histoire introduit l'enfant à Eduweer — une terre pleine d'aventures, de héros et de défis. Le parent le lit avec l'enfant, et chaque nouvel événement mène naturellement à des tâches.",
+        "bullets": [
+          "Narratif d'aventure chaleureux pour enfants et parents",
+          "L'enfant fait partie de l'histoire — pas seulement la lit",
+          "Les tâches découlent naturellement de l'intrigue",
+          "Le parent devient guide dans le monde d'Eduweer"
+        ],
+        "caption": "L'histoire est le début de chaque aventure — elle donne du sens aux tâches."
+      },
+      "workbook": {
+        "eyebrow": "Élément 02 · Action",
+        "title": "Le Journal du Héros où l'enfant agit vraiment",
+        "body": "Le cahier n'est pas une feuille de travail déconnectée. C'est un endroit où l'enfant aide des héros, résout des énigmes, collecte des étoiles et voit que ses efforts comptent dans le monde d'Eduweer.",
+        "bullets": [
+          "Tâches directement liées à l'intrigue",
+          "Espace pour écrire, dessiner et résoudre",
+          "Étoiles attribuées par le parent après chaque tâche",
+          "Sentiment d'agentivité — le travail de l'enfant a un effet"
+        ],
+        "caption": "L'enfant n'écoute pas seulement l'histoire — il aide à la faire avancer."
+      },
+      "app": {
+        "eyebrow": "Élément 03 · Soutien parental",
+        "title": "L'app Mentor qui aide à guider l'aventure",
+        "body": "L'app ne remplace pas le livre ni la relation avec l'enfant. C'est un outil calme pour le parent : montre les progrès, permet d'évaluer les tâches et de voir le développement du héros.",
+        "bullets": [
+          "Profil enfant et héros avec niveau et EXP",
+          "Carte de progression — voir où en est l'enfant dans l'aventure",
+          "Évaluation des tâches avec étoiles (1, 2 ou 3)",
+          "Actions importantes sécurisées par un PIN parental"
+        ],
+        "caption": "Mentor aide le parent à voir les progrès sans transformer l'apprentissage en tableur."
+      },
+      "game": {
+        "eyebrow": "Élément 04 · Monde du jeu",
+        "title": "Eduweer Adventure — le jeu où <accent>l'histoire vit</accent>",
+        "body": "Eduweer Adventure est un jeu mobile où l'enfant incarne son héros et accomplit des tâches d'action dans le monde d'Harvoria. Des paramètres d'écran sûrs et le personnage Mentor rendent le jeu sûr et engageant.",
+        "bullets": [
+          "Tâches d'action comme extensions de l'aventure du livre",
+          "Le personnage Mentor apparaît dans le jeu — familier de l'application",
+          "Paramètres d'écran sûrs conçus pour les jeunes joueurs",
+          "Progression en jeu liée aux progrès dans le livre et le cahier"
+        ],
+        "caption": "Le jeu ne remplace pas l'apprentissage — il le renforce par le jeu dans un monde sûr et cohérent."
+      }
+    },
+    "advHow": {
+      "eyebrow": "Comment ça fonctionne",
+      "title": "À quoi ressemble l'<accent>aventure</accent> étape par étape ?",
+      "lead": "Eduweer a un rythme simple qui devient rapidement une partie naturelle de la soirée.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Lire un passage de l'histoire",
+          "desc": "Le parent lit à l'enfant la prochaine partie de l'aventure. L'enfant rencontre les personnages, le cadre et le défi."
+        },
+        {
+          "num": "02",
+          "title": "L'enfant accomplit une tâche",
+          "desc": "La tâche dans le Journal du Héros découle de l'histoire. L'enfant ne la résout pas 'parce qu'il le doit', mais parce qu'il aide quelqu'un dans le monde d'Eduweer."
+        },
+        {
+          "num": "03",
+          "title": "Le parent évalue l'effort",
+          "desc": "Après la tâche, le parent attribue 1, 2 ou 3 étoiles. C'est une façon simple d'apprécier le travail, la concentration et l'indépendance."
+        },
+        {
+          "num": "04",
+          "title": "Le héros gagne en progression",
+          "desc": "Dans l'app Mentor, le personnage de l'enfant se développe, gagne de l'expérience et avance sur la carte d'aventure."
+        },
+        {
+          "num": "05",
+          "title": "L'histoire continue",
+          "desc": "Les prochaines tâches et chapitres débloquent la suite de l'aventure — l'enfant veut savoir ce qui se passe ensuite."
+        }
+      ]
+    },
+    "benefits": {
+      "child": {
+        "eyebrow": "Pour l'enfant",
+        "title": "L'enfant voit que l'apprentissage <accent>compte</accent>",
+        "lead": "L'enfant obtient un rôle dans un monde qui répond à ses efforts. Chaque tâche résolue l'aide à avancer et à développer son héros.",
+        "cards": [
+          {
+            "icon": "🔍",
+            "title": "Curiosité",
+            "desc": "L'histoire encourage l'enfant à découvrir ce qui se passe ensuite."
+          },
+          {
+            "icon": "⚡",
+            "title": "Agentivité",
+            "desc": "Les tâches ne sont pas déconnectées — elles aident des héros et débloquent les prochaines étapes."
+          },
+          {
+            "icon": "⭐",
+            "title": "Motivation",
+            "desc": "Les étoiles, l'EXP et la progression montrent à l'enfant que son travail a un effet visible."
+          },
+          {
+            "icon": "🌱",
+            "title": "Développement",
+            "desc": "Pensée, calcul, lecture, mémoire et indépendance — par l'aventure."
+          }
+        ]
+      },
+      "parent": {
+        "eyebrow": "Pour le parent",
+        "title": "Le parent n'a pas besoin d'être un <accent>enseignant</accent>",
+        "lead": "Eduweer crée une structure d'apprentissage prête à l'emploi à la maison — calmement, étape par étape, avec une vraie vue sur la progression.",
+        "cards": [
+          {
+            "num": "01",
+            "title": "Moins de disputes sur les tâches",
+            "desc": "L'enfant comprend pourquoi il fait la tâche — parce que c'est une partie de l'histoire."
+          },
+          {
+            "num": "02",
+            "title": "Plus de temps partagé",
+            "desc": "La lecture et les tâches deviennent un rituel familial auquel on veut revenir."
+          },
+          {
+            "num": "03",
+            "title": "Progression visible",
+            "desc": "L'app montre ce qui a été fait et comment le héros de l'enfant se développe."
+          },
+          {
+            "num": "04",
+            "title": "Guidage simple",
+            "desc": "Le parent ne conçoit pas le processus — il entre simplement dans l'aventure avec l'enfant."
+          }
+        ]
+      }
+    },
+    "safety": {
+      "eyebrow": "Sécurité",
+      "title": "La technologie doit soutenir, pas remplacer, la <accent>relation</accent>",
+      "lead": "Chez Eduweer, le centre de l'expérience reste l'histoire commune, la conversation et les tâches effectuées loin des écrans. L'app Mentor est un outil pour le parent.",
+      "points": [
+        "L'app soutient le parent, ne le remplace pas",
+        "Le livre et le cahier sont le centre physique de l'expérience",
+        "L'enfant n'acquiert pas de connaissances par des clics sans réflexion",
+        "La progression vient uniquement des tâches accomplies",
+        "Les actions importantes sont approuvées par le parent — toujours sous contrôle"
+      ],
+      "badges": [
+        {
+          "icon": "📵",
+          "title": "Sans publicité",
+          "desc": "Aucune publicité ciblant les enfants ni notifications intrusives."
+        },
+        {
+          "icon": "🏆",
+          "title": "Sans pay-to-win",
+          "desc": "L'EXP et les récompenses ne peuvent être gagnés que par l'apprentissage et les tâches. Pas en achetant."
+        },
+        {
+          "icon": "🔒",
+          "title": "PIN parental",
+          "desc": "Les actions importantes comme les évaluations de tâches et les changements de profil nécessitent le PIN parental."
+        },
+        {
+          "icon": "📖",
+          "title": "Centre physique",
+          "desc": "Le livre et le cahier sont plus importants que l'écran — l'app est un outil de soutien."
+        }
+      ],
+      "principles": "Principes d'une application sûre"
+    },
+    "day": {
+      "eyebrow": "Une soirée exemple",
+      "title": "À quoi pourrait ressembler une <gold>soirée</gold> avec Eduweer ?",
+      "lead": "Eduweer est censé créer un rythme calme auquel on veut revenir. Tu n'as pas besoin de tout faire en même temps.",
+      "moments": [
+        {
+          "icon": "🛋️",
+          "num": "Moment 01",
+          "title": "Vous vous asseyez ensemble",
+          "desc": "Après le dîner, vous ouvrez le livre et retournez à Harvoria."
+        },
+        {
+          "icon": "📖",
+          "num": "Moment 02",
+          "title": "Vous lisez un passage",
+          "desc": "L'enfant apprend que les héros ont besoin d'aide à la ferme. L'histoire donne du sens."
+        },
+        {
+          "icon": "✏️",
+          "num": "Moment 03",
+          "title": "L'enfant résout une tâche",
+          "desc": "Une tâche liée à l'histoire apparaît dans le Journal du Héros. L'enfant travaille de façon autonome."
+        },
+        {
+          "icon": "⭐",
+          "num": "Moment 04",
+          "title": "Le parent attribue des étoiles",
+          "desc": "Après la tâche, le parent apprécie les efforts de l'enfant et note la progression dans l'app Mentor."
+        },
+        {
+          "icon": "🗺️",
+          "num": "Moment 05",
+          "title": "Le héros avance",
+          "desc": "La prochaine étape apparaît sur la carte. L'enfant voit que son travail a changé quelque chose dans le monde d'Eduweer."
+        },
+        {
+          "icon": "🌙",
+          "num": "Moment 06",
+          "title": "Vous finissez calmement",
+          "desc": "Vous n'avez pas besoin de tout faire en même temps. Eduweer crée un rythme calme auquel on veut revenir."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Questions fréquentes",
+      "title": "Des questions ? <accent>Nous avons des réponses.</accent>",
+      "items": [
+        {
+          "q": "Eduweer est-il une application éducative ?",
+          "a": "Pas seulement. Eduweer est une combinaison d'un livre, d'un cahier et de l'app Mentor. L'app soutient le parent, mais le cœur de l'expérience reste l'histoire et les tâches accomplies par l'enfant."
+        },
+        {
+          "q": "Pour quel âge est Eduweer ?",
+          "a": "Le projet est conçu pour les enfants d'environ 6 à 12 ans. Le premier volume convient particulièrement aux enfants qui commencent leur scolarité."
+        },
+        {
+          "q": "Le parent doit-il être enseignant ?",
+          "a": "Non. Le parent prend le rôle de Mentor — lit, soutient, évalue les efforts et aide l'enfant à avancer. Le système guide la famille étape par étape."
+        },
+        {
+          "q": "L'enfant utilise-t-il un téléphone ?",
+          "a": "L'app Mentor est principalement pour le parent. L'enfant peut voir son héros et sa progression, mais l'activité principale se déroule dans le livre et le cahier — pas devant un écran."
+        },
+        {
+          "q": "Les étoiles affectent-elles la progression ?",
+          "a": "Les étoiles sont la façon du parent d'apprécier le travail de l'enfant. Elles montrent les tâches accomplies et se traduisent en récompenses dans le système."
+        },
+        {
+          "q": "Eduweer aura-t-il un jeu ?",
+          "a": "Oui — le jeu fait partie de la vision plus large du monde Eduweer. À ce stade, le centre de l'expérience est le livre, le cahier et l'app Mentor. Le jeu sera une future extension du monde."
+        }
+      ]
+    },
+    "join": {
+      "newsletter": {
+        "eyebrow": "Sois le premier",
+        "title": "Rejoins le monde d'Eduweer",
+        "lead": "Nous sommes au milieu de la première édition d'Harvoria. Inscris-toi sur la liste — nous t'informerons quand c'est prêt.",
+        "emailPlaceholder": "ton@email.fr",
+        "cta": "S'inscrire",
+        "success": "Merci ! Nous t'informerons quand Harvoria est prêt.",
+        "trust": [
+          "Pas de spam",
+          "Uniquement les nouvelles importantes",
+          "Se désabonner à tout moment"
+        ]
+      },
+      "contact": {
+        "eyebrow": "Une question ?",
+        "title": "Écris-nous",
+        "lead": "Nous répondons personnellement.",
+        "namePlaceholder": "Nom complet",
+        "emailPlaceholder": "Adresse e-mail",
+        "messagePlaceholder": "Ton message...",
+        "submit": "Envoyer le message",
+        "success": "Merci ! Nous te répondrons bientôt.",
+        "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+      }
+    },
+    "navLinks": {
+      "howItWorks": "Comment ça marche",
+      "forParents": "Pour les parents",
+      "safety": "Sécurité",
+      "join": "Rejoindre"
+    }
+  },
+  "investor": {
+    "meta": {
+      "title": "Eduweer — Portail Investisseurs · Système & Vision",
+      "description": "Un écosystème éducatif évolutif — IP, narratif, application et jeu dans une seule pipeline."
+    },
+    "hero": {
+      "eyebrow": "Portail Investisseurs · Système & Vision",
+      "title": "Eduweer — l'éducation comme <gold>aventure</gold>, conçue comme un système évolutif.",
+      "subtitle": "Nous combinons narratif, tâches éducatives, une application parent et un futur jeu d'aventure en une boucle fermée.",
+      "support": "Nous construisons un univers où les enfants n'accomplissent pas des tâches 'parce qu'ils le doivent', mais parce que chaque tâche fait avancer leur héros dans l'histoire.",
+      "cta1": "Voir le modèle système",
+      "cta2": "Télécharger le one-pager",
+      "cta3": "Page parents"
+    },
+    "problem": {
+      "eyebrow": "Problème",
+      "title": "L'éducation perd la bataille pour <gold>l'attention de l'enfant.</gold>",
+      "subtitle": "Les enfants d'aujourd'hui vivent dans un monde de stimulation instantanée. L'apprentissage traditionnel leur donne souvent peu de contexte, d'émotion ou de sentiment d'agentivité.",
+      "cards": [
+        {
+          "title": "Contenu dopamine rapide",
+          "body": "Les formats courts, les jeux et les animations récompensent plus vite que l'apprentissage."
+        },
+        {
+          "title": "Pas de contexte",
+          "body": "Un enfant ne peut souvent pas voir pourquoi il fait une tâche. Sans histoire, l'apprentissage devient une obligation."
+        },
+        {
+          "title": "Parents épuisés",
+          "body": "Les parents veulent soutenir leur enfant mais manquent souvent d'un outil qui les guide calmement à travers l'apprentissage."
+        }
+      ]
+    },
+    "loop": {
+      "eyebrow": "Système",
+      "title": "La Boucle Éducative <gold>Fermée</gold>",
+      "subtitle": "Eduweer transforme une seule tâche en partie d'une plus grande aventure.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Histoire",
+          "desc": "Le narratif donne du contexte aux tâches. L'enfant sait pourquoi il agit."
+        },
+        {
+          "num": "02",
+          "title": "Tâche",
+          "desc": "Les exercices développent des compétences scolaires spécifiques, intégrés dans des événements."
+        },
+        {
+          "num": "03",
+          "title": "Évaluation Mentor",
+          "desc": "Le parent évalue la performance et guide l'enfant à travers l'aventure."
+        },
+        {
+          "num": "04",
+          "title": "Récompense",
+          "desc": "Le système accorde des points, de l'EXP et des récompenses selon la progression."
+        },
+        {
+          "num": "05",
+          "title": "Progression du héros",
+          "desc": "L'enfant voit son personnage, ses cartes, ses compétences et les éléments du monde évoluer."
+        },
+        {
+          "num": "06",
+          "title": "Retour au monde",
+          "desc": "La progression encourage l'enfant à continuer l'histoire et à prendre de nouvelles tâches."
+        }
+      ],
+      "quote": "Connaissance → progression → motivation → retour.",
+      "why": {
+        "title": "Pourquoi ce modèle fonctionne-t-il ?",
+        "points": [
+          "L'histoire donne du sens à chaque tâche",
+          "Le parent reste au cœur du processus",
+          "La motivation vient des réussites, pas des récompenses aléatoires",
+          "Le système enseigne de vraies compétences, pas seulement des clics",
+          "Évolutif dans les livres, l'appli et les jeux"
+        ]
+      }
+    },
+    "ecosystem": {
+      "eyebrow": "Écosystème",
+      "title": "Un monde, <gold>plusieurs points d'entrée.</gold>",
+      "subtitle": "Eduweer est conçu comme un écosystème où les éléments physiques et numériques se renforcent mutuellement.",
+      "cards": [
+        {
+          "label": "Fondation narrative",
+          "title": "Livre + Cahier",
+          "body": "Le livre et le cahier forment l'expérience centrale.",
+          "pill": "Physique · PDF numérique"
+        },
+        {
+          "label": "Progression guidée par les parents",
+          "title": "App Mentor",
+          "body": "L'app Mentor permet aux parents de guider leur enfant à travers l'aventure.",
+          "pill": "iOS · Android · MVP planifié"
+        },
+        {
+          "label": "Engagement à long terme",
+          "title": "Jeu d'aventure",
+          "body": "Le jeu étend le monde Eduweer au-delà du livre.",
+          "pill": "Tranche Harvoria · En concept"
+        },
+        {
+          "label": "Couche d'accès évolutive",
+          "title": "Web / Plateforme",
+          "body": "Le portail web gère les comptes, le contenu, les matériaux et les partenariats.",
+          "pill": "Écoles · Partenaires · B2B"
+        }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Comment ça fonctionne",
+      "title": "Comment une seule tâche devient partie d'une plus grande <gold>aventure.</gold>",
+      "subtitle": "Eduweer ne se termine pas avec la résolution d'un exercice.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Ils lisent",
+          "desc": "Parent et enfant lisent un passage de l'histoire avec un défi"
+        },
+        {
+          "num": "02",
+          "title": "Il le résout",
+          "desc": "L'enfant accomplit la tâche dans le cahier"
+        },
+        {
+          "num": "03",
+          "title": "Il l'évalue",
+          "desc": "Le parent ouvre l'app Mentor et attribue des étoiles"
+        },
+        {
+          "num": "04",
+          "title": "Récompense",
+          "desc": "Le système calcule l'EXP et met à jour la carte de progression"
+        },
+        {
+          "num": "05",
+          "title": "Veut plus",
+          "desc": "Le héros grandit — l'enfant revient de lui-même"
+        }
+      ]
+    },
+    "traction": {
+      "eyebrow": "Statut du projet",
+      "title": "Ce n'est pas juste un concept. <gold>La fondation existe déjà.</gold>",
+      "subtitle": "Eduweer a un monde développé, un livre ébauché et une direction claire.",
+      "done": {
+        "badge": "Terminé",
+        "items": [
+          "Ébauche du premier volume",
+          "Worldbuilding central d'Eduweer",
+          "Terres principales et conflit mondial",
+          "Boucle éducative centrale",
+          "Concept de l'app Mentor",
+          "Fondations du jeu d'aventure"
+        ]
+      },
+      "wip": {
+        "badge": "En cours",
+        "items": [
+          "Journal du héros / cahier",
+          "Design final de la page HUB",
+          "Page parents",
+          "Page investisseurs",
+          "Matériaux pitch / one-pager",
+          "Maquettes app Mentor"
+        ]
+      },
+      "next": {
+        "badge": "Suivant",
+        "items": [
+          "Tests avec enfants et parents",
+          "MVP app Mentor",
+          "Prototype du jeu",
+          "Campagne de crowdfunding",
+          "Conversations avec investisseurs",
+          "Localisation EN/DE/FR/ES/IT/JP"
+        ]
+      }
+    },
+    "scale": {
+      "eyebrow": "Évolutivité",
+      "title": "Mise à l'échelle à travers le monde, pas seulement les <gold>fonctionnalités.</gold>",
+      "subtitle": "Chaque terre Eduweer signifie un nouveau volume, un nouveau set de compétences et de nouvelles opportunités produit.",
+      "dimsTitle": "4 dimensions d'expansion",
+      "dimsSubtitle": "Eduweer peut croître simultanément selon quatre axes indépendants.",
+      "lands": [
+        {
+          "name": "Harvoria",
+          "tag": "Livre 1 · Actif",
+          "body": "Agriculture, responsabilité, rythme de la nature, compétences scolaires et sociales de base.",
+          "variant": "active"
+        },
+        {
+          "name": "Summitara",
+          "tag": "Livre 2 · Planifié",
+          "body": "Montagnes, navires volants, commerce et conflits.",
+          "variant": "future"
+        },
+        {
+          "name": "Lyra'Glen",
+          "tag": "Livre 3 · Concept",
+          "body": "Arbres géants, champignons lumineux, équilibre de l'écosystème.",
+          "variant": "future"
+        },
+        {
+          "name": "Mazurai",
+          "tag": "Livre 4 · Verrouillé",
+          "body": "Lacs et rivières, harmonie, relations sociales, choix moraux.",
+          "variant": "locked"
+        },
+        {
+          "name": "Dunnvol",
+          "tag": "Livre 5 · Verrouillé",
+          "body": "Désert, énergie, technologie et responsabilité des ressources.",
+          "variant": "locked"
+        },
+        {
+          "name": "Futurion",
+          "tag": "Arc final",
+          "body": "Le centre du monde, technologie et conflit final.",
+          "variant": "final"
+        }
+      ],
+      "dims": [
+        {
+          "n": "∞",
+          "title": "Échelle de contenu",
+          "body": "Plus de livres, chapitres, quêtes et tâches pour chaque terre."
+        },
+        {
+          "n": "5+",
+          "title": "Échelle produit",
+          "body": "Application, jeu, portail, jeu de plateau, ateliers éducatifs."
+        },
+        {
+          "n": "7",
+          "title": "Échelle géographique",
+          "body": "Localisations PL/EN/DE/FR/ES/IT/JP et autres marchés."
+        },
+        {
+          "n": "B2C+",
+          "title": "Échelle partenariat",
+          "body": "Familles, écoles, institutions, éditeurs, partenariats éducatifs."
+        }
+      ]
+    },
+    "tech": {
+      "eyebrow": "Technologie",
+      "title": "Construit pour la progression, les données et l'<gold>expansion.</gold>",
+      "subtitle": "Eduweer est conçu dès le départ pour soutenir la synchronisation des progrès et les récompenses dynamiques.",
+      "layers": [
+        {
+          "label": "Expérience",
+          "tags": [
+            "Livre",
+            "Cahier",
+            "App Mentor",
+            "Jeu d'aventure",
+            "Portail web"
+          ]
+        },
+        {
+          "label": "Application",
+          "tags": [
+            "Auth",
+            "Profils enfants",
+            "Suivi de progression",
+            "Validation des tâches",
+            "Récompenses",
+            "Livraison de contenu",
+            "Contrôles Mentor"
+          ]
+        },
+        {
+          "label": "Données",
+          "tags": [
+            "Utilisateurs · Héros",
+            "Livres · Tâches",
+            "Progression",
+            "Inventaire · Compétences",
+            "Récompenses · Événements"
+          ]
+        },
+        {
+          "label": "Intelligence",
+          "tags": [
+            "Analytique",
+            "Apprentissage adaptatif",
+            "Contenu assisté par IA",
+            "Localisation",
+            "Rapports"
+          ]
+        },
+        {
+          "label": "Infrastructure",
+          "tags": [
+            "Piste d'audit",
+            "Event sourcing",
+            "Propriété sécurisée",
+            "Architecture prête pour l'avenir"
+          ]
+        }
+      ]
+    },
+    "biz": {
+      "eyebrow": "Modèle commercial",
+      "title": "Des revenus sans briser la <gold>confiance.</gold>",
+      "subtitle": "Eduweer monétise l'IP, les produits éducatifs et les compléments numériques sans vendre la progression ou l'avantage éducatif d'un enfant.",
+      "streams": [
+        {
+          "num": "01",
+          "title": "Livres & Cahiers",
+          "body": "Éditions physiques et numériques de livres, journaux de héros et autres volumes."
+        },
+        {
+          "num": "02",
+          "title": "App Mentor Premium",
+          "body": "Rapports étendus, tâches supplémentaires, personnalisation."
+        },
+        {
+          "num": "03",
+          "title": "Contenu de jeu & Cosmétiques",
+          "body": "Cosmétiques, skins et extensions — pas de pay-to-win."
+        },
+        {
+          "num": "04",
+          "title": "Écoles & Institutions",
+          "body": "Packages pour les écoles, salles de classe, enseignants et partenariats éducatifs."
+        },
+        {
+          "num": "05",
+          "title": "Merchandise & Jeu de plateau",
+          "body": "Jeux de plateau, produits familiaux, éléments du monde à collectionner."
+        }
+      ],
+      "trust": {
+        "title": "Principes de confiance",
+        "rules": [
+          "L'EXP ne peut pas être acheté.",
+          "Les récompenses basées sur les connaissances doivent être gagnées.",
+          "Pas de publicité ciblant les enfants.",
+          "Le parent reste en contrôle.",
+          "La monétisation soutient l'écosystème éducatif."
+        ]
+      }
+    },
+    "roadmap": {
+      "eyebrow": "Feuille de route",
+      "title": "Un plan pour un monde qui <gold>grandit.</gold>",
+      "stages": [
+        {
+          "marker": "01",
+          "tag": "Proof of World",
+          "date": "Q4 2025 – Q2 2026",
+          "items": [
+            "Finalisation du monde",
+            "Ébauche du livre #1",
+            "Page parents & investisseurs",
+            "Concept d'app"
+          ]
+        },
+        {
+          "marker": "02",
+          "tag": "MVP",
+          "date": "Q3 2026 – Q4 2026",
+          "items": [
+            "Livre & cahier v1",
+            "Tests en famille",
+            "MVP Mentor App",
+            "Système de progression"
+          ]
+        },
+        {
+          "marker": "03",
+          "tag": "Early Access",
+          "date": "2027",
+          "items": [
+            "Lancement livre #1",
+            "MVP Mentor App",
+            "Early Access",
+            "Campagne communautaire"
+          ]
+        },
+        {
+          "marker": "04",
+          "tag": "Expansion",
+          "date": "2027 – 2028",
+          "items": [
+            "Plus de livres",
+            "Adventure Game",
+            "Localisations linguistiques",
+            "Écoles & partenaires"
+          ]
+        },
+        {
+          "marker": "05",
+          "tag": "Global Ecosystem",
+          "date": "2029+",
+          "items": [
+            "Plateforme mondiale",
+            "Terres supplémentaires",
+            "Merch & Licensing",
+            "Personnalisation IA"
+          ]
+        }
+      ],
+      "status": {
+        "eyebrow": "Statut actuel",
+        "title": "Qu'avons-nous aujourd'hui ?",
+        "items": [
+          "Livre — tome 1 prêt, concepts tomes 2 & 3",
+          "Application mobile Mentor — version alpha",
+          "Exercices & design du cahier (sans illustrations)",
+          "Backend & serveur de jeu — version alpha",
+          "Jeu d'aventure — concept & démos techniques",
+          "Plan de développement sur 5 ans",
+          "Modèle pédagogique & boucles du système"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Parlons de l'avenir de l'<gold>éducation.</gold>",
+      "subtitle": "Nous cherchons des partenaires qui comprennent que l'avenir de l'éducation ne signifie pas plus d'écrans — mais un meilleur contexte et un système de croissance bien conçu.",
+      "btn1": "Planifier un appel",
+      "btn2": "Télécharger le one-pager investisseur",
+      "btn3": "Voir la page parents",
+      "info1": "Radosław Kamysz — Développeur & Fondateur",
+      "info2": "15+ ans d'expérience en production",
+      "info3": "Eduweer — conçu avec l'évolutivité à l'esprit"
+    },
+    "navLabels": [
+      "Système",
+      "Écosystème",
+      "Modèle",
+      "Roadmap",
+      "Contact"
+    ]
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "name": "Nom complet",
+    "email": "Adresse e-mail",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "newsletter": "S'abonner à la newsletter",
+    "success": "Merci ! Nous vous répondrons bientôt.",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+  }
+}
