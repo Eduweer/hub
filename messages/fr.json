@@ -849,5 +849,62 @@
     "newsletter": "S'abonner à la newsletter",
     "success": "Merci ! Nous vous répondrons bientôt.",
     "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Politique de confidentialité — Eduweer",
+      "description": "Découvrez comment Eduweer traite vos données personnelles conformément au RGPD."
+    },
+    "eyebrow": "Documents légaux",
+    "title": "Politique de confidentialité",
+    "updated": "Dernière mise à jour : 23 mai 2026",
+    "intro": "Cette politique de confidentialité décrit comment Eduweer collecte, utilise et protège vos données personnelles. Nous respectons votre vie privée et traitons les données uniquement dans la mesure nécessaire au fonctionnement de nos services.",
+    "sections": [
+      {
+        "title": "1. Responsable du traitement",
+        "body": "Le responsable du traitement est Radosław Kamysz, porteur du projet Eduweer. Contact : hello@support.eduweer.com"
+      },
+      {
+        "title": "2. Données collectées",
+        "body": "Nous collectons uniquement les données que vous nous transmettez volontairement :\n• Adresse e-mail — lors de l'inscription à la newsletter\n• Nom, adresse e-mail, contenu du message — lors de l'envoi du formulaire de contact\n\nNous ne collectons pas de données de localisation et n'utilisons pas de publicité comportementale."
+      },
+      {
+        "title": "3. Finalités et bases légales",
+        "body": "Nous traitons vos données aux fins suivantes :\n• Newsletter — envoi d'actualités Eduweer (base légale : consentement, art. 6(1)(a) RGPD)\n• Formulaire de contact — réponse à votre demande (base légale : intérêts légitimes, art. 6(1)(f) RGPD)"
+      },
+      {
+        "title": "4. Sous-traitants",
+        "body": "Nous faisons appel aux sous-traitants suivants :\n• Resend (resend.com) — plateforme d'envoi d'e-mails et gestion de la newsletter\n• Vercel (vercel.com) — hébergement et infrastructure\n\nTous les sous-traitants assurent un niveau de protection adéquat conformément au RGPD."
+      },
+      {
+        "title": "5. Durée de conservation",
+        "body": "• Données newsletter — jusqu'au retrait du consentement\n• Données du formulaire de contact — 2 ans maximum\n\nAu-delà de ces délais, les données sont définitivement supprimées."
+      },
+      {
+        "title": "6. Vos droits",
+        "body": "Vous disposez des droits suivants :\n• Accès, rectification, effacement\n• Limitation du traitement\n• Portabilité des données\n• Opposition au traitement\n• Retrait du consentement (désinscription newsletter à tout moment)\n\nPour exercer ces droits : hello@support.eduweer.com. Nous répondrons dans les 30 jours."
+      },
+      {
+        "title": "7. Désinscription",
+        "body": "Vous pouvez vous désinscrire de la newsletter à tout moment en cliquant sur Se désinscrire dans nos e-mails ou en nous contactant : hello@support.eduweer.com"
+      },
+      {
+        "title": "8. Cookies",
+        "body": "Ce site n'utilise pas de cookies à des fins analytiques ou publicitaires. Nous utilisons uniquement des cookies de session techniques nécessaires au fonctionnement du site."
+      },
+      {
+        "title": "9. Sécurité des données",
+        "body": "Nous appliquons des mesures techniques et organisationnelles appropriées pour protéger vos données. La transmission s'effectue via une connexion HTTPS chiffrée."
+      },
+      {
+        "title": "10. Modifications",
+        "body": "Nous nous réservons le droit de mettre à jour cette politique. Les abonnés à la newsletter seront informés des changements importants. La version en vigueur est disponible sur eduweer.com/privacy."
+      },
+      {
+        "title": "11. Autorité de contrôle",
+        "body": "Vous avez le droit d'introduire une réclamation auprès de l'autorité de protection des données compétente si vous estimez que nous traitons vos données de manière illicite."
+      }
+    ],
+    "contact": "Des questions ? Écrivez-nous : hello@support.eduweer.com"
   }
 }

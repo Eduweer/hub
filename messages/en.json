@@ -894,5 +894,62 @@
     "newsletter": "Subscribe to newsletter",
     "success": "Thank you! We'll get back to you soon.",
     "error": "Something went wrong. Please try again."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy — Eduweer",
+      "description": "Learn how Eduweer processes your personal data in accordance with GDPR."
+    },
+    "eyebrow": "Legal Documents",
+    "title": "Privacy Policy",
+    "updated": "Last updated: 23 May 2026",
+    "intro": "This privacy policy describes how Eduweer collects, uses and protects your personal data. We care about your privacy and process data only to the extent necessary to operate our services.",
+    "sections": [
+      {
+        "title": "1. Data Controller",
+        "body": "The data controller is Radoslaw Kamysz, running the Eduweer project. Contact: hello@support.eduweer.com"
+      },
+      {
+        "title": "2. Data We Collect",
+        "body": "We only collect data that you voluntarily provide:\n• Email address — when subscribing to the newsletter\n• Name, email address, message content — when submitting the contact form\n\nWe do not collect location data, do not profile users, and do not use behavioural advertising."
+      },
+      {
+        "title": "3. Purpose and Legal Basis",
+        "body": "We process your data for the following purposes:\n• Newsletter — sending Eduweer updates (legal basis: consent, Art. 6(1)(a) GDPR)\n• Contact form — responding to your enquiry (legal basis: legitimate interests, Art. 6(1)(f) GDPR)"
+      },
+      {
+        "title": "4. Data Processors",
+        "body": "We use the following sub-processors:\n• Resend (resend.com) — email sending platform and newsletter list management\n• Vercel (vercel.com) — application hosting and infrastructure\n\nAll sub-processors provide an adequate level of data protection under GDPR."
+      },
+      {
+        "title": "5. Data Retention",
+        "body": "• Newsletter data — until consent is withdrawn (unsubscribed)\n• Contact form data — for the period necessary to handle correspondence, max. 2 years\n\nAfter these periods, data is permanently deleted."
+      },
+      {
+        "title": "6. Your Rights",
+        "body": "You have the following rights:\n• Access — ask what data we hold about you\n• Rectification — correct inaccurate data\n• Erasure — request deletion of your data\n• Restriction — limit how we process your data\n• Portability — receive your data in a structured format\n• Objection — object to processing based on legitimate interests\n• Withdrawal of consent — unsubscribe from the newsletter at any time\n\nTo exercise these rights, write to hello@support.eduweer.com. We will respond within 30 days."
+      },
+      {
+        "title": "7. Unsubscribing",
+        "body": "You can unsubscribe from the newsletter at any time by clicking the Unsubscribe link in any email from us, or by contacting us: hello@support.eduweer.com"
+      },
+      {
+        "title": "8. Cookies",
+        "body": "This site does not use cookies for analytics or advertising. We only use technical session cookies necessary for the site to function."
+      },
+      {
+        "title": "9. Data Security",
+        "body": "We apply appropriate technical and organisational measures to protect your data. Data transmission occurs over an encrypted HTTPS connection."
+      },
+      {
+        "title": "10. Policy Changes",
+        "body": "We reserve the right to update this policy. Newsletter subscribers will be notified of significant changes. The current version is always available at eduweer.com/privacy."
+      },
+      {
+        "title": "11. Supervisory Authority",
+        "body": "If you believe we are processing your data unlawfully, you have the right to lodge a complaint with your local data protection authority. In Poland: UODO, ul. Stawki 2, 00-193 Warsaw, www.uodo.gov.pl"
+      }
+    ],
+    "contact": "Questions? Contact us: hello@support.eduweer.com"
   }
 }

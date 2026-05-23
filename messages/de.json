@@ -849,5 +849,62 @@
     "newsletter": "Newsletter abonnieren",
     "success": "Danke! Wir melden uns bald.",
     "error": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Datenschutzerklärung — Eduweer",
+      "description": "Erfahren Sie, wie Eduweer Ihre personenbezogenen Daten gemäß DSGVO verarbeitet."
+    },
+    "eyebrow": "Rechtliche Dokumente",
+    "title": "Datenschutzerklärung",
+    "updated": "Zuletzt aktualisiert: 23. Mai 2026",
+    "intro": "Diese Datenschutzerklärung beschreibt, wie Eduweer Ihre personenbezogenen Daten erhebt, verwendet und schützt. Wir nehmen den Datenschutz ernst und verarbeiten Daten nur im für den Betrieb notwendigen Umfang.",
+    "sections": [
+      {
+        "title": "1. Verantwortlicher",
+        "body": "Verantwortlicher ist Radosław Kamysz, Betreiber des Eduweer-Projekts. Kontakt: hello@support.eduweer.com"
+      },
+      {
+        "title": "2. Erhobene Daten",
+        "body": "Wir erheben ausschließlich Daten, die Sie uns freiwillig mitteilen:\n• E-Mail-Adresse — bei der Newsletter-Anmeldung\n• Name, E-Mail-Adresse, Nachrichteninhalt — beim Absenden des Kontaktformulars\n\nWir erheben keine Standortdaten und verwenden keine Verhaltenswerbung."
+      },
+      {
+        "title": "3. Zweck und Rechtsgrundlage",
+        "body": "Wir verarbeiten Ihre Daten zu folgenden Zwecken:\n• Newsletter — Versand von Eduweer-Neuigkeiten (Rechtsgrundlage: Einwilligung, Art. 6 Abs. 1 lit. a DSGVO)\n• Kontaktformular — Beantwortung Ihrer Anfrage (Rechtsgrundlage: berechtigte Interessen, Art. 6 Abs. 1 lit. f DSGVO)"
+      },
+      {
+        "title": "4. Auftragsverarbeiter",
+        "body": "Wir nutzen folgende Dienstleister:\n• Resend (resend.com) — E-Mail-Versandplattform und Newsletter-Verwaltung\n• Vercel (vercel.com) — Hosting und Infrastruktur\n\nAlle Auftragsverarbeiter gewährleisten ein angemessenes Datenschutzniveau gemäß DSGVO."
+      },
+      {
+        "title": "5. Speicherdauer",
+        "body": "• Newsletter-Daten — bis zum Widerruf der Einwilligung\n• Kontaktformular-Daten — für den zur Bearbeitung erforderlichen Zeitraum, maximal 2 Jahre\n\nNach Ablauf dieser Fristen werden die Daten dauerhaft gelöscht."
+      },
+      {
+        "title": "6. Ihre Rechte",
+        "body": "Sie haben folgende Rechte:\n• Auskunft, Berichtigung, Löschung\n• Einschränkung der Verarbeitung\n• Datenübertragbarkeit\n• Widerspruch gegen die Verarbeitung\n• Widerruf der Einwilligung (jederzeit vom Newsletter abmelden)\n\nZur Ausübung dieser Rechte: hello@support.eduweer.com. Wir antworten innerhalb von 30 Tagen."
+      },
+      {
+        "title": "7. Newsletter-Abmeldung",
+        "body": "Sie können sich jederzeit vom Newsletter abmelden, indem Sie auf den Link Abmelden in unseren E-Mails klicken oder uns kontaktieren: hello@support.eduweer.com"
+      },
+      {
+        "title": "8. Cookies",
+        "body": "Diese Website verwendet keine Cookies für Analyse- oder Werbezwecke. Wir verwenden ausschließlich technische Session-Cookies, die für den Betrieb notwendig sind."
+      },
+      {
+        "title": "9. Datensicherheit",
+        "body": "Wir treffen geeignete technische und organisatorische Maßnahmen zum Schutz Ihrer Daten. Die Datenübertragung erfolgt über eine verschlüsselte HTTPS-Verbindung."
+      },
+      {
+        "title": "10. Änderungen",
+        "body": "Wir behalten uns das Recht vor, diese Erklärung zu aktualisieren. Newsletter-Abonnenten werden über wesentliche Änderungen informiert. Die aktuelle Version ist stets unter eduweer.com/privacy abrufbar."
+      },
+      {
+        "title": "11. Aufsichtsbehörde",
+        "body": "Sie haben das Recht, eine Beschwerde bei der zuständigen Datenschutzbehörde einzureichen, wenn Sie der Ansicht sind, dass wir Ihre Daten unrechtmäßig verarbeiten."
+      }
+    ],
+    "contact": "Fragen? Schreiben Sie uns: hello@support.eduweer.com"
   }
 }

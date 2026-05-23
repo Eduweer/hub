@@ -873,5 +873,62 @@
     "newsletter": "Zapisz mnie do newslettera",
     "success": "Dziękujemy! Wrócimy do Ciebie wkrótce.",
     "error": "Coś poszło nie tak. Spróbuj ponownie."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Polityka prywatności — Eduweer",
+      "description": "Dowiedz się jak Eduweer przetwarza Twoje dane osobowe zgodnie z RODO."
+    },
+    "eyebrow": "Dokumenty prawne",
+    "title": "Polityka prywatności",
+    "updated": "Ostatnia aktualizacja: 23 maja 2026 r.",
+    "intro": "Niniejsza polityka prywatności opisuje, w jaki sposób Eduweer zbiera, używa i chroni Twoje dane osobowe. Dbamy o Twoją prywatność i przetwarzamy dane wyłącznie w zakresie niezbędnym do działania naszych usług.",
+    "sections": [
+      {
+        "title": "1. Administrator danych",
+        "body": "Administratorem Twoich danych osobowych jest Radosław Kamysz, prowadzący projekt Eduweer. Kontakt: hello@support.eduweer.com"
+      },
+      {
+        "title": "2. Jakie dane zbieramy",
+        "body": "Zbieramy wyłącznie dane, które nam dobrowolnie przekazujesz:\n• Adres e-mail — przy zapisie do newslettera\n• Imię, adres e-mail, treść wiadomości — przy wysłaniu formularza kontaktowego\n\nNie zbieramy danych o lokalizacji, nie stosujemy profilowania ani reklam behawioralnych."
+      },
+      {
+        "title": "3. Cel i podstawa przetwarzania",
+        "body": "Twoje dane przetwarzamy w następujących celach:\n• Newsletter — wysyłanie informacji o Eduweer (podstawa: zgoda, art. 6 ust. 1 lit. a RODO)\n• Formularz kontaktowy — odpowiedź na Twoją wiadomość (podstawa: prawnie uzasadniony interes, art. 6 ust. 1 lit. f RODO)"
+      },
+      {
+        "title": "4. Podmioty przetwarzające",
+        "body": "Korzystamy z następujących podwykonawców:\n• Resend (resend.com) — platforma do wysyłki e-maili i zarządzania listą newslettera\n• Vercel (vercel.com) — hosting i infrastruktura aplikacji\n\nWszyscy podwykonawcy zapewniają odpowiedni poziom ochrony danych zgodnie z RODO."
+      },
+      {
+        "title": "5. Czas przechowywania danych",
+        "body": "• Dane newsletterowe — do czasu wycofania zgody (wypisania się)\n• Dane z formularza kontaktowego — przez czas niezbędny do obsługi korespondencji, maksymalnie 2 lata\n\nPo upływie tych okresów dane są trwale usuwane."
+      },
+      {
+        "title": "6. Twoje prawa",
+        "body": "Przysługują Ci następujące prawa:\n• Dostęp do danych\n• Sprostowanie błędnych danych\n• Usunięcie danych (prawo do bycia zapomnianym)\n• Ograniczenie przetwarzania\n• Przeniesienie danych\n• Sprzeciw wobec przetwarzania\n• Cofnięcie zgody — możesz wypisać się z newslettera w dowolnej chwili\n\nAby skorzystać z tych praw, napisz na hello@support.eduweer.com. Odpowiemy w ciągu 30 dni."
+      },
+      {
+        "title": "7. Rezygnacja z newslettera",
+        "body": "Możesz wypisać się z newslettera w dowolnym momencie, klikając link Zrezygnuj z subskrypcji w każdej wiadomości od nas lub kontaktując się: hello@support.eduweer.com"
+      },
+      {
+        "title": "8. Pliki cookie",
+        "body": "Ta strona nie używa plików cookie do celów analitycznych ani reklamowych. Używamy jedynie technicznych plików sesyjnych niezbędnych do działania strony."
+      },
+      {
+        "title": "9. Bezpieczeństwo danych",
+        "body": "Stosujemy odpowiednie środki techniczne i organizacyjne, aby chronić Twoje dane. Transmisja danych odbywa się przez szyfrowane połączenie HTTPS."
+      },
+      {
+        "title": "10. Zmiany polityki",
+        "body": "Zastrzegamy sobie prawo do zmiany niniejszej polityki. O istotnych zmianach poinformujemy subskrybentów newslettera. Aktualna wersja jest zawsze dostępna pod adresem eduweer.com/privacy."
+      },
+      {
+        "title": "11. Organ nadzorczy",
+        "body": "Masz prawo wnieść skargę do Prezesa Urzędu Ochrony Danych Osobowych (UODO), ul. Stawki 2, 00-193 Warszawa, www.uodo.gov.pl"
+      }
+    ],
+    "contact": "Pytania? Napisz do nas: hello@support.eduweer.com"
   }
 }

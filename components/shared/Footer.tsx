@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -9,7 +10,7 @@ export default function Footer() {
       <nav className="ft-links">
         <a href="#">{t("about")}</a>
         <a href="#">{t("contact")}</a>
-        <a href="#">{t("privacy")}</a>
+        <Link href="/privacy">{t("privacy")}</Link>
       </nav>
     </footer>
   );

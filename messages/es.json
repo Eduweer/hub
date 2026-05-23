@@ -849,5 +849,62 @@
     "newsletter": "Suscribirse al boletín",
     "success": "¡Gracias! Nos pondremos en contacto pronto.",
     "error": "Algo salió mal. Por favor, inténtalo de nuevo."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de privacidad — Eduweer",
+      "description": "Conozca cómo Eduweer trata sus datos personales de acuerdo con el RGPD."
+    },
+    "eyebrow": "Documentos legales",
+    "title": "Política de privacidad",
+    "updated": "Última actualización: 23 de mayo de 2026",
+    "intro": "Esta política de privacidad describe cómo Eduweer recopila, usa y protege sus datos personales. Nos preocupamos por su privacidad y procesamos los datos únicamente en la medida necesaria para el funcionamiento de nuestros servicios.",
+    "sections": [
+      {
+        "title": "1. Responsable del tratamiento",
+        "body": "El responsable del tratamiento es Radosław Kamysz, responsable del proyecto Eduweer. Contacto: hello@support.eduweer.com"
+      },
+      {
+        "title": "2. Datos que recopilamos",
+        "body": "Solo recopilamos los datos que usted nos facilita voluntariamente:\n• Dirección de correo electrónico — al suscribirse al boletín\n• Nombre, correo electrónico, contenido del mensaje — al enviar el formulario de contacto\n\nNo recopilamos datos de ubicación ni utilizamos publicidad conductual."
+      },
+      {
+        "title": "3. Finalidad y base jurídica",
+        "body": "Tratamos sus datos con las siguientes finalidades:\n• Boletín — envío de novedades de Eduweer (base jurídica: consentimiento, art. 6(1)(a) RGPD)\n• Formulario de contacto — respuesta a su consulta (base jurídica: intereses legítimos, art. 6(1)(f) RGPD)"
+      },
+      {
+        "title": "4. Encargados del tratamiento",
+        "body": "Contamos con los siguientes subcontratistas:\n• Resend (resend.com) — plataforma de envío de correos y gestión del boletín\n• Vercel (vercel.com) — alojamiento e infraestructura\n\nTodos los subcontratistas garantizan un nivel adecuado de protección conforme al RGPD."
+      },
+      {
+        "title": "5. Plazo de conservación",
+        "body": "• Datos del boletín — hasta la retirada del consentimiento\n• Datos del formulario de contacto — máximo 2 años\n\nTranscurridos estos plazos, los datos se eliminan de forma permanente."
+      },
+      {
+        "title": "6. Sus derechos",
+        "body": "Usted tiene los siguientes derechos:\n• Acceso, rectificación, supresión\n• Limitación del tratamiento\n• Portabilidad de datos\n• Oposición al tratamiento\n• Retirada del consentimiento (cancelar suscripción en cualquier momento)\n\nPara ejercer estos derechos: hello@support.eduweer.com. Responderemos en 30 días."
+      },
+      {
+        "title": "7. Cancelación de suscripción",
+        "body": "Puede cancelar su suscripción al boletín en cualquier momento haciendo clic en Cancelar suscripción de nuestros correos o contactándonos: hello@support.eduweer.com"
+      },
+      {
+        "title": "8. Cookies",
+        "body": "Este sitio no utiliza cookies con fines analíticos ni publicitarios. Solo utilizamos cookies de sesión técnicas necesarias para el funcionamiento del sitio."
+      },
+      {
+        "title": "9. Seguridad de los datos",
+        "body": "Aplicamos las medidas técnicas y organizativas adecuadas para proteger sus datos. La transmisión se realiza mediante conexión HTTPS cifrada."
+      },
+      {
+        "title": "10. Cambios en la política",
+        "body": "Nos reservamos el derecho de actualizar esta política. Informaremos a los suscriptores del boletín sobre cambios significativos. La versión vigente está disponible en eduweer.com/privacy."
+      },
+      {
+        "title": "11. Autoridad de control",
+        "body": "Si considera que tratamos sus datos de forma ilícita, tiene derecho a presentar una reclamación ante la autoridad de protección de datos competente."
+      }
+    ],
+    "contact": "¿Preguntas? Escríbanos: hello@support.eduweer.com"
   }
 }
