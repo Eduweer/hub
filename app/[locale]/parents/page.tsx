@@ -297,7 +297,7 @@ export default function ParentsPage() {
               <div className={styles.pbVisual}>
                 <div className={styles.gameTablet}>
                   <Image
-                    src="/images/mobile_game_concept_godot.webp"
+                    src="/images/game_concept_godot_2.webp"
                     alt="Eduweer Adventure — koncepcja gry mobilnej w Godot, widok horyzontalny"
                     width={1280}
                     height={800}
