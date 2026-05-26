@@ -38,13 +38,13 @@ const ECO_HEADERS = [
   "/images/i_portal_header.webp",
 ] as const;
 
-const ORBIT_NODES = [
-  { icon: "/images/i_book_icon_1.webp",     name: "BOOK",            desc: "Historia świata\ni bohaterów" },
-  { icon: "/images/i_workbook_icon_1.webp", name: "WORKBOOK",        desc: "Zadania\ni ćwiczenia" },
-  { icon: "/images/i_phone_icon_1.webp",    name: "MENTOR APP",      desc: "Ocena, progres\ni raporty" },
-  { icon: "/images/i_pad_icon_1.webp",      name: "ADVENTURE GAME",  desc: "Przygoda, questy\ni nagrody" },
-  { icon: "/images/i_web_icon_1.webp",      name: "WEB PORTAL",      desc: "Społeczność,\nszkoły, partnerzy" },
-  { icon: "/images/i_parent_icon_1.webp",   name: "PARENT / MENTOR", desc: "Rodzic prowadzi,\nwspiera, inspiruje" },
+const ORBIT_ICONS = [
+  "/images/i_book_icon_1.webp",
+  "/images/i_workbook_icon_1.webp",
+  "/images/i_phone_icon_1.webp",
+  "/images/i_pad_icon_1.webp",
+  "/images/i_web_icon_1.webp",
+  "/images/i_parent_icon_1.webp",
 ] as const;
 
 const NODE_CLASSES = ["on0", "on1", "on2", "on3", "on4", "on5"] as const;
@@ -83,6 +83,8 @@ export default function InvestorsPage() {
   const techLayers   = t.raw("tech.layers")      as Array<{ label: string; tags: string[] }>;
   const bizStreams    = t.raw("biz.streams")      as Array<{ num: string; title: string; body: string }>;
   const trustRules   = t.raw("biz.trust.rules")  as string[];
+  const orbitNodes   = t.raw("hero.orbitNodes")  as Array<{ name: string; desc: string }>;
+  const heroBadges   = t.raw("hero.badges")      as string[];
   const navLabels = t.raw("navLabels") as string[];
   const NAV_HREFS = ["#loop", "#ecosystem", "#biz", "#roadmap", "#cta"] as const;
   const navLinks  = navLabels.map((label, i) => ({ label, href: NAV_HREFS[i] ?? "#" }));
@@ -168,11 +170,11 @@ export default function InvestorsPage() {
                   </div>
 
                   {/* Orbit nodes */}
-                  {ORBIT_NODES.map((node, i) => (
+                  {orbitNodes.map((node, i) => (
                     <div key={i} className={`${styles.orbitNode} ${styles[NODE_CLASSES[i]]}`}>
                       <div className={styles.nodeCircle}>
                         <Image
-                          src={node.icon}
+                          src={ORBIT_ICONS[i]}
                           alt={node.name}
                           width={30}
                           height={30}
@@ -191,21 +193,15 @@ export default function InvestorsPage() {
 
             {/* Badges — full width below the grid */}
             <div className={styles.heroBadges}>
-              {[
-                ["Cross-platform IP",           "bGold"],
-                ["Global localization ready",    "bBlue"],
-                ["Story-driven learning",        "bGreen"],
-                ["Parent-guided model",          "bGreen"],
-                ["Physical + digital ecosystem", "bBlue"],
-                ["Ethical monetization",         "bGold"],
-                ["Expandable world",             "bViolet"],
-                ["Designed for ages 6–12",       "bViolet"],
-                ["No ads / no pay-to-win",       "bGreen"],
-              ].map(([label, color]) => (
-                <span key={label} className={`${styles.badge} ${styles[color]}`}>
-                  <span className={styles.bDot} />{label}
-                </span>
-              ))}
+              {heroBadges.map((label, i) => {
+                const BADGE_COLORS = ["bGold","bBlue","bGreen","bGreen","bBlue","bGold","bViolet","bViolet","bGreen"] as const;
+                const color = BADGE_COLORS[i] ?? "bGold";
+                return (
+                  <span key={i} className={`${styles.badge} ${styles[color]}`}>
+                    <span className={styles.bDot} />{label}
+                  </span>
+                );
+              })}
             </div>
           </div>
         </section>

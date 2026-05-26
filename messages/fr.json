@@ -411,7 +411,44 @@
       "support": "Nous construisons un univers où les enfants n'accomplissent pas des tâches 'parce qu'ils le doivent', mais parce que chaque tâche fait avancer leur héros dans l'histoire.",
       "cta1": "Voir le modèle système",
       "cta2": "Télécharger le one-pager",
-      "cta3": "Page parents"
+      "cta3": "Page parents",
+      "orbitNodes": [
+        {
+          "name": "LIVRE",
+          "desc": "Histoire du monde\n& personnages"
+        },
+        {
+          "name": "CAHIER",
+          "desc": "Tâches\n& exercices"
+        },
+        {
+          "name": "APP MENTOR",
+          "desc": "Évaluation, progrès\n& rapports"
+        },
+        {
+          "name": "JEU D'AVENTURE",
+          "desc": "Aventure, quêtes\n& récompenses"
+        },
+        {
+          "name": "PORTAIL WEB",
+          "desc": "Communauté,\nécoles & partenaires"
+        },
+        {
+          "name": "PARENT / MENTOR",
+          "desc": "Le parent guide,\nsoutient, inspire"
+        }
+      ],
+      "badges": [
+        "IP multiplateforme",
+        "Prêt pour la localisation mondiale",
+        "Apprentissage narratif",
+        "Modèle guidé par les parents",
+        "Écosystème physique + numérique",
+        "Monétisation éthique",
+        "Univers extensible",
+        "Conçu pour les 6–12 ans",
+        "Sans pub / sans pay-to-win"
+      ]
     },
     "problem": {
       "eyebrow": "Problème",

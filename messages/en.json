@@ -456,7 +456,44 @@
       "support": "We are building a universe where children do not complete tasks \"because they have to\" — but because every task moves their hero forward in the story and unlocks new elements of the world.",
       "cta1": "See the system model",
       "cta2": "Download one-pager",
-      "cta3": "Parent page"
+      "cta3": "Parent page",
+      "orbitNodes": [
+        {
+          "name": "BOOK",
+          "desc": "World story\n& characters"
+        },
+        {
+          "name": "WORKBOOK",
+          "desc": "Tasks\n& exercises"
+        },
+        {
+          "name": "MENTOR APP",
+          "desc": "Assessment, progress\n& reports"
+        },
+        {
+          "name": "ADVENTURE GAME",
+          "desc": "Adventure, quests\n& rewards"
+        },
+        {
+          "name": "WEB PORTAL",
+          "desc": "Community,\nschools & partners"
+        },
+        {
+          "name": "PARENT / MENTOR",
+          "desc": "Parent guides,\nsupports, inspires"
+        }
+      ],
+      "badges": [
+        "Cross-platform IP",
+        "Global localization ready",
+        "Story-driven learning",
+        "Parent-guided model",
+        "Physical + digital ecosystem",
+        "Ethical monetization",
+        "Expandable world",
+        "Designed for ages 6–12",
+        "No ads / no pay-to-win"
+      ]
     },
     "problem": {
       "eyebrow": "Problem",

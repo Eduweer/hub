@@ -411,7 +411,44 @@
       "support": "Stiamo costruendo un universo dove i bambini non completano compiti 'perché devono', ma perché ogni compito fa avanzare il loro eroe nella storia.",
       "cta1": "Vedere il modello di sistema",
       "cta2": "Scaricare one-pager",
-      "cta3": "Pagina genitori"
+      "cta3": "Pagina genitori",
+      "orbitNodes": [
+        {
+          "name": "LIBRO",
+          "desc": "Storia del mondo\n& personaggi"
+        },
+        {
+          "name": "QUADERNO",
+          "desc": "Compiti\n& esercizi"
+        },
+        {
+          "name": "APP MENTOR",
+          "desc": "Valutazione, progressi\n& report"
+        },
+        {
+          "name": "GIOCO AVVENTURA",
+          "desc": "Avventura, missioni\n& premi"
+        },
+        {
+          "name": "PORTALE WEB",
+          "desc": "Community,\nscuole & partner"
+        },
+        {
+          "name": "GENITORE / MENTOR",
+          "desc": "Il genitore guida,\nsostiene, ispira"
+        }
+      ],
+      "badges": [
+        "IP multipiattaforma",
+        "Pronto per la localizzazione globale",
+        "Apprendimento narrativo",
+        "Modello guidato dai genitori",
+        "Ecosistema fisico + digitale",
+        "Monetizzazione etica",
+        "Universo espandibile",
+        "Progettato per bambini 6–12 anni",
+        "Senza pubblicità / senza pay-to-win"
+      ]
     },
     "problem": {
       "eyebrow": "Problema",

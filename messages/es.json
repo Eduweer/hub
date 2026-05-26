@@ -76,7 +76,7 @@
       "eyebrow": "Una aventura compartida",
       "title": "El aprendizaje no debería comenzar con una <accent>batalla</accent>",
       "p1": "Muchos padres conocen este momento: el niño tiene tareas que hacer pero pierde rápidamente el interés. En lugar de curiosidad, hay fatiga, negociaciones y tensión.",
-      "p2": "Eduweer parte de una suposición diferente: los niños se comprometen más fácilmente cuando ven el propósito. Cuando una tarea no es una hoja desconectada, sino parte de una historia más grande.",
+      "p2": "Eduweer parte de una premisa diferente: los niños se comprometen más fácilmente cuando ven el propósito. Cuando una tarea no es una hoja desconectada, sino parte de una historia más grande.",
       "points": [
         "Las tareas están integradas en la aventura — el niño entiende por qué las hace",
         "El padre guía, pero no tiene que luchar por cada minuto de aprendizaje",
@@ -411,7 +411,44 @@
       "support": "Estamos construyendo un universo donde los niños no completan tareas 'porque tienen que hacerlo', sino porque cada tarea hace avanzar a su héroe en la historia.",
       "cta1": "Ver el modelo del sistema",
       "cta2": "Descargar one-pager",
-      "cta3": "Página de padres"
+      "cta3": "Página de padres",
+      "orbitNodes": [
+        {
+          "name": "LIBRO",
+          "desc": "Historia del mundo\n& personajes"
+        },
+        {
+          "name": "CUADERNO",
+          "desc": "Tareas\n& ejercicios"
+        },
+        {
+          "name": "APP MENTOR",
+          "desc": "Evaluación, progreso\n& informes"
+        },
+        {
+          "name": "JUEGO AVENTURA",
+          "desc": "Aventura, misiones\n& recompensas"
+        },
+        {
+          "name": "PORTAL WEB",
+          "desc": "Comunidad,\nescuelas & socios"
+        },
+        {
+          "name": "PADRE / MENTOR",
+          "desc": "El padre guía,\napoya, inspira"
+        }
+      ],
+      "badges": [
+        "IP multiplataforma",
+        "Listo para localización global",
+        "Aprendizaje narrativo",
+        "Modelo guiado por padres",
+        "Ecosistema físico + digital",
+        "Monetización ética",
+        "Universo expandible",
+        "Diseñado para niños de 6–12 años",
+        "Sin anuncios / sin pay-to-win"
+      ]
     },
     "problem": {
       "eyebrow": "Problema",

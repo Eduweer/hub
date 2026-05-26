@@ -435,7 +435,44 @@
       "support": "Tworzymy uniwersum, w którym dziecko nie rozwiązuje zadań „bo musi” — ale dlatego, że każde zadanie przesuwa bohatera dalej w historii i otwiera kolejne elementy świata.",
       "cta1": "Zobacz model systemu",
       "cta2": "Pobierz one-pager",
-      "cta3": "Strona rodzica"
+      "cta3": "Strona rodzica",
+      "orbitNodes": [
+        {
+          "name": "BOOK",
+          "desc": "Historia świata\ni bohaterów"
+        },
+        {
+          "name": "WORKBOOK",
+          "desc": "Zadania\ni ćwiczenia"
+        },
+        {
+          "name": "MENTOR APP",
+          "desc": "Ocena, progres\ni raporty"
+        },
+        {
+          "name": "ADVENTURE GAME",
+          "desc": "Przygoda, questy\ni nagrody"
+        },
+        {
+          "name": "WEB PORTAL",
+          "desc": "Społeczność,\nszkoły, partnerzy"
+        },
+        {
+          "name": "PARENT / MENTOR",
+          "desc": "Rodzic prowadzi,\nwspiera, inspiruje"
+        }
+      ],
+      "badges": [
+        "Cross-platform IP",
+        "Globalnie gotowy na lokalizację",
+        "Nauka przez narrację",
+        "Model prowadzony przez rodzica",
+        "Ekosystem fizyczny + cyfrowy",
+        "Etyczna monetyzacja",
+        "Rozszerzalny świat",
+        "Zaprojektowany dla dzieci 6–12 lat",
+        "Bez reklam / bez pay-to-win"
+      ]
     },
     "problem": {
       "eyebrow": "Problem",

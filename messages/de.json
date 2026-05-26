@@ -411,7 +411,44 @@
       "support": "Wir bauen ein Universum, in dem Kinder Aufgaben nicht erledigen, 'weil sie müssen', sondern weil jede Aufgabe ihren Helden in der Geschichte voranbringt.",
       "cta1": "Das Systemmodell sehen",
       "cta2": "One-Pager herunterladen",
-      "cta3": "Elternseite"
+      "cta3": "Elternseite",
+      "orbitNodes": [
+        {
+          "name": "BUCH",
+          "desc": "Weltgeschichte\n& Charaktere"
+        },
+        {
+          "name": "ARBEITSHEFT",
+          "desc": "Aufgaben\n& Übungen"
+        },
+        {
+          "name": "MENTOR-APP",
+          "desc": "Bewertung, Fortschritt\n& Berichte"
+        },
+        {
+          "name": "ABENTEUERSPIEL",
+          "desc": "Abenteuer, Quests\n& Belohnungen"
+        },
+        {
+          "name": "WEBPORTAL",
+          "desc": "Community,\nSchulen & Partner"
+        },
+        {
+          "name": "ELTERN / MENTOR",
+          "desc": "Eltern leiten,\nunterstützen, inspirieren"
+        }
+      ],
+      "badges": [
+        "Plattformübergreifendes IP",
+        "Global lokalisierungsbereit",
+        "Narratives Lernen",
+        "Elterngeführtes Modell",
+        "Physisches + digitales Ökosystem",
+        "Ethische Monetarisierung",
+        "Erweiterbares Universum",
+        "Für Kinder von 6–12 Jahren",
+        "Keine Werbung / kein Pay-to-Win"
+      ]
     },
     "problem": {
       "eyebrow": "Problem",
