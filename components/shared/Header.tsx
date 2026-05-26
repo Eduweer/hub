@@ -33,7 +33,12 @@ export default function Header({ navLinks }: { navLinks?: NavLink[] }) {
 
   return (
     <header className={styles.hdr}>
-      <div className={styles.logo}>Eduweer</div>
+      <a
+        href={locale === "pl" ? "https://eduweer.com" : `https://eduweer.com/${locale}`}
+        className={styles.logo}
+      >
+        Eduweer
+      </a>
 
       {/* <nav className={styles.nav} aria-label={t("mainNav")}>
         {(navLinks ?? [

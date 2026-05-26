@@ -16,6 +16,12 @@
   letter-spacing: 5px;
   text-transform: uppercase;
   color: var(--ink-soft);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.logo:hover {
+  color: var(--ink);
 }
 
 .nav {
