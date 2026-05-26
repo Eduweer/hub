@@ -13,8 +13,9 @@ import ScrollReveal from "@/components/shared/ScrollReveal";
 import styles from "./ParentsPage.module.css";
 import { assetUrl } from "@/lib/cdn";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("parent.meta");
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "parent.meta" });
   return { title: t("title"), description: t("description") };
 }
 

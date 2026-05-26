@@ -49,8 +49,9 @@ const ORBIT_NODES = [
 
 const NODE_CLASSES = ["on0", "on1", "on2", "on3", "on4", "on5"] as const;
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("investor.meta");
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "investor.meta" });
   return { title: t("title"), description: t("description") };
 }
 

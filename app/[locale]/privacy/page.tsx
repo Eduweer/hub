@@ -6,8 +6,9 @@ import Background from "@/components/shared/Background";
 import Footer from "@/components/shared/Footer";
 import styles from "./PrivacyPage.module.css";
 
-export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("privacy.meta");
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "privacy.meta" });
   return { title: t("title"), description: t("description") };
 }
 
