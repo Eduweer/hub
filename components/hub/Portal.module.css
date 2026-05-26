@@ -146,6 +146,11 @@
   text-align: center;
   pointer-events: none;
   transition: transform 0.32s ease;
+  /* stretch to fill remaining height so .btn stays at bottom */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .portal:hover ~ .label {
@@ -179,6 +184,7 @@
   max-width: 210px;
   margin: 0 auto 16px;
   color: var(--ink-soft);
+  flex: 1; /* pushes .btn to the bottom */
 }
 
 .btn {

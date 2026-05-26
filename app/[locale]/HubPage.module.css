@@ -72,7 +72,7 @@
   width: 100%;
   max-width: 1100px;
   display: flex;
-  align-items: flex-end;
+  align-items: stretch;   /* all pw same height → circles always at top */
   justify-content: center;
   padding: 16px 0 60px;
   gap: 48px;
