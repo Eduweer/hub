@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -40,11 +39,6 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Eduweer — Nauka, która zaczyna się od przygody",
-  description:
-    "Eduweer łączy książkę, zeszyt ćwiczeń i aplikację Mentor, aby zamienić naukę dziecka w spokojną, wspólną przygodę z rodzicem.",
-};
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

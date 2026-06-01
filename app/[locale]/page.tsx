@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Background from "@/components/shared/Background";
 import Motes from "@/components/shared/Motes";
 import Header from "@/components/shared/Header";
@@ -6,6 +8,12 @@ import Footer from "@/components/shared/Footer";
 import Portal from "@/components/hub/Portal";
 import styles from "./HubPage.module.css";
 import { assetUrl } from "@/lib/cdn";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "parent.meta" });
+  return { title: t("title"), description: t("description") };
+}
 
 export default function HubPage() {
   const t = useTranslations("hub");
