@@ -6,13 +6,16 @@ import { useRouter, usePathname } from "@/i18n/navigation";
 import styles from "./Header.module.css";
 
 const LANGUAGES = [
-  { code: "pl", flag: "🇵🇱", name: "Polski" },
-  { code: "en", flag: "🇬🇧", name: "English" },
-  { code: "de", flag: "🇩🇪", name: "Deutsch" },
-  { code: "fr", flag: "🇫🇷", name: "Français" },
-  { code: "es", flag: "🇪🇸", name: "Español" },
-  { code: "it", flag: "🇮🇹", name: "Italiano" },
-  { code: "ja", flag: "🇯🇵", name: "日本語" },
+  { code: "pl", name: "Polski" },
+  { code: "en", name: "English" },
+  { code: "de", name: "Deutsch" },
+  { code: "fr", name: "Français" },
+  { code: "es", name: "Español" },
+  { code: "it", name: "Italiano" },
+  { code: "ja", name: "日本語" },
+  { code: "da", name: "Dansk" },
+  { code: "nl", name: "Nederlands" },
+  { code: "pt", name: "Português" },
 ];
 
 interface NavLink { label: string; href: string; }
@@ -57,7 +60,6 @@ export default function Header({ navLinks }: { navLinks?: NavLink[] }) {
           aria-haspopup="listbox"
           aria-expanded={open}
         >
-          <span className={styles.flag}>{current.flag}</span>
           <span className={styles.code}>{current.code.toUpperCase()}</span>
           <span className={styles.caret} aria-hidden="true">▾</span>
         </button>
@@ -72,7 +74,6 @@ export default function Header({ navLinks }: { navLinks?: NavLink[] }) {
                 className={`${styles.langItem} ${lang.code === locale ? styles.active : ""}`}
                 onClick={(e) => { e.stopPropagation(); switchLocale(lang.code); }}
               >
-                <span className={styles.liFlag}>{lang.flag}</span>
                 <span className={styles.liName}>{lang.name}</span>
                 <span className={styles.liCode}>{lang.code.toUpperCase()}</span>
               </button>

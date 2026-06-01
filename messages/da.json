@@ -1,0 +1,974 @@
+{
+  "nav": {
+    "mainNav": "Hovednavigation",
+    "about": "Om os",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "about": "Om os",
+    "contact": "Kontakt",
+    "privacy": "Privatlivspolitik"
+  },
+  "hub": {
+    "eyebrow": "Vælg din vej",
+    "titleBefore": "Én ",
+    "titleAccent": "verden",
+    "titleAfter": ",",
+    "titleLine2": "tre indgange",
+    "subtitle": "Eduweer er et pædagogisk eventyr, der kombinerer en bog, en opgavebog og en app til ét sammenhængende økosystem.",
+    "portals": {
+      "parent": {
+        "tag": "Hovedindgang",
+        "name": "Til forældre",
+        "desc": "Dit barn lærer, fordi det vil — fordi historien trækker det ind. Du er lige ved siden af.",
+        "cta": "Træd ind i verdenen"
+      },
+      "investor": {
+        "tag": "Systemportal",
+        "name": "Til investorer",
+        "desc": "Et skalerbart pædagogisk økosystem — IP, fortælling, app og spil i én pipeline.",
+        "cta": "Udforsk systemet"
+      },
+      "campaign": {
+        "tag": "Kampagne",
+        "name": "Støt projektet",
+        "desc": "Vær en del af historien fra det allerførste kapitel. Belønninger venter.",
+        "cta": "Støt verdenen"
+      }
+    },
+    "tagline": {
+      "world": {
+        "icon": "✦",
+        "label": "Én verden",
+        "text": "Bog, opgavebog og app — ét sammenhængende økosystem"
+      },
+      "paths": {
+        "icon": "◈",
+        "label": "Tre veje",
+        "text": "Til forældre, investorer og kampagnestøtter"
+      },
+      "harvoria": {
+        "icon": "᛭",
+        "label": "Harvoria",
+        "text": "Det første rige — en rolig start på ethvert eventyr"
+      }
+    }
+  },
+  "parent": {
+    "meta": {
+      "title": "Eduweer — Læring, der starter med eventyr",
+      "description": "Eduweer kombinerer en bog, en opgavebog og Mentor-appen for at gøre dit barns læring til et roligt, fælles eventyr."
+    },
+    "hero": {
+      "eyebrow": "Til forældre",
+      "title": "Velkommen til Eduweer",
+      "subtitle": "Her bliver dit barn helten i en historie fuld af mysterier, udfordringer og små sejre — og hvert skridt fører dem videre."
+    },
+    "cta": {
+      "primary": "Opdage Harvoria",
+      "secondary": "Hvordan virker det?"
+    },
+    "bridge": {
+      "question": "Hvad nu hvis læring føltes som <gold>eventyr</gold> fra allerførste øjeblik?",
+      "lead": "Et barns første skridt i skolen kan være mere end opgaver at løse — de kan blive en fælles historie, som det altid vil vende tilbage til."
+    },
+    "adventure": {
+      "eyebrow": "Et fælles eventyr",
+      "title": "Læring behøver ikke at starte med en kamp",
+      "lead": "Harvoria er en verden, hvor de tidlige skoleår ikke føles som pligt. Hver lektion er et skridt videre ind i historien — bogen drager dig ind, opgavebogen cementerer det, og appen besvarer spørgsmål, som dit barn faktisk vil stille.",
+      "book": {
+        "label": "Harvoria-bog",
+        "desc": "En engagerende historie, hvor karaktererne lærer ved siden af dit barn. I læser sammen — og begge vil vide, hvad der sker næste gang."
+      },
+      "workbook": {
+        "label": "Opgavebog",
+        "desc": "Øvelser forankret i Harvorias verden. Ingen sum for summens skyld — enhver opgave har et narrativt formål."
+      },
+      "app": {
+        "label": "Mentor-app",
+        "desc": "En ledsager fra Harvoria, der forklarer, opmuntrer og motiverer. Virker offline, ingen reklamer, ingen distraktioner."
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "Sådan virker det",
+      "title": "Tre trin, én rytme",
+      "lead": "Eduweer-økosystemet fungerer som en forstærkende løkke — hvert element driver det næste og får dit barn til at ville vende tilbage på egen hånd.",
+      "steps": [
+        {
+          "num": "1",
+          "title": "Læs sammen",
+          "desc": "Et aftenritual med Harvoria-bogen. Historien opbygger kontekst for alt, der kommer efter."
+        },
+        {
+          "num": "2",
+          "title": "Øv i opgavebogen",
+          "desc": "Opgaver med formål. Dit barn løser dem for at hjælpe karaktererne — ikke fordi de skal."
+        },
+        {
+          "num": "3",
+          "title": "Udforsk i appen",
+          "desc": "Mentor forklarer, belønner og låser op for de næste kapitler i verdenen. Fremskridt er synligt og mærkbart."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Kontakt",
+      "title": "Har du et spørgsmål?",
+      "lead": "Vi er i den første udgavefase. Skriv til os — vi svarer personligt.",
+      "placeholder": "Kontaktformular — kommer snart"
+    },
+    "problem": {
+      "eyebrow": "Et fælles eventyr",
+      "title": "Læring burde ikke starte med <accent>tvang</accent>",
+      "p1": "Mange forældre kender dette øjeblik: barnet har opgaver at lave, men mister hurtigt interessen. I stedet for nysgerrighed opstår træthed, forhandlinger og spændinger.",
+      "p2": "Vi er gået igennem det samme, derfor begyndte vi at lede efter en anden vej. En, der ikke gør læring til pres, men giver barnet en grund til at ville blive ved. Børn engagerer sig lettere, når de ser meningen. Når en opgave ikke er et løsrevet ark, men en del af en større historie.",
+      "points": [
+        "Opgaver er forankret i eventyret — barnet forstår, hvorfor det løser dem",
+        "Forælderen vejleder, men behøver ikke kæmpe for hvert læringsminut",
+        "Barnet ser sin helts fremskridt — belønningen er en del af historien",
+        "Læring bliver en del af et fælles, roligt ritual"
+      ]
+    },
+    "what": {
+      "eyebrow": "Hvad er Eduweer",
+      "title": "Eduweer er ét <accent>eventyr</accent> fortalt på flere måder",
+      "flow": [
+        {
+          "desc": "Eduweer opstod fra kombinationen af to verdener: rolig, værdifuld læsning med dit barn og de mekanikker, der kendes fra spil, som børn opdager tidligere og tidligere — en helt, fremskridt, niveauer, belønninger og opdagelsen af de næste stadier."
+        },
+        {
+          "desc": "Forskellen er, at disse mekanikker her ikke er ment til at holde barnet foran en skærm så længe som muligt. De er ment til at hjælpe det med at se meningen med anstrengelse. Enhver løst opgave, enhver læst del af historien og ethvert anerkendt fremskridt betyder, at ikke blot barnet udvikler sig, men også dets helt i Eduweers verden."
+        },
+        {
+          "desc": "Takket være dette er læring ikke længere bare en forpligtelse. Det bliver en del af et eventyr, hvor barnet vil finde ud af, hvad der sker næste gang — og forælderen kan være tæt på, guide historien og dele barnets små sejre sammen."
+        }
+      ]
+    },
+    "elements": {
+      "eyebrow": "Ét eventyr, fire elementer",
+      "title": "Fire elementer, der <accent>arbejder sammen</accent>",
+      "lead": "Eduweer er designet, så børn ikke skifter mellem tilfældige aktiviteter. Hvert element har sin rolle i ét eventyr.",
+      "book": {
+        "eyebrow": "Element 01 · Fortælling",
+        "title": "Bogen, der åbner verdenen",
+        "body": "Historien introducerer barnet til Eduweer — et land fuldt af eventyr, helte og udfordringer. Forælderen læser den med barnet, og hver ny begivenhed fører naturligt til opgaver og beslutninger.",
+        "bullets": [
+          "Varm, eventyrlig fortælling for børn og forældre",
+          "Barnet bliver en del af historien — læser den ikke bare",
+          "Opgaver udspringer naturligt af handlingen",
+          "Forælderen bliver en guide through Eduweers verden"
+        ],
+        "caption": "Historien er begyndelsen på ethvert eventyr — den giver opgaverne mening."
+      },
+      "workbook": {
+        "eyebrow": "Element 02 · Handling",
+        "title": "Heltedagbogen, hvor barnet virkelig handler",
+        "body": "Opgavebogen er ikke et løsrevet arbejdsark. Det er et sted, hvor barnet hjælper helte, løser gåder, samler stjerner og ser, at dets indsats betyder noget i Eduweers verden.",
+        "bullets": [
+          "Opgaver direkte knyttet til handlingen",
+          "Plads til at skrive, tegne og løse",
+          "Stjerner tildelt af forælderen efter hver opgave",
+          "Følelse af handlekraft — barnets arbejde har en effekt"
+        ],
+        "caption": "Barnet lytter ikke bare til historien — det hjælper med at skubbe den fremad."
+      },
+      "app": {
+        "eyebrow": "Element 03 · Forældrestøtte",
+        "title": "Mentor-appen, der hjælper med at guide eventyret",
+        "body": "Appen erstatter ikke bogen eller forholdet til barnet. Det er et roligt redskab for forælderen: det viser fremskridt, lader dig vurdere opgaver, tildele stjerner og se heltens udvikling.",
+        "bullets": [
+          "Barn- og helteprofil med niveau og EXP",
+          "Fremskridtskort — se, hvor barnet er i eventyret",
+          "Opgavevurdering med stjerner (1, 2 eller 3)",
+          "Vigtige handlinger sikret med forælde-PIN"
+        ],
+        "caption": "Mentor hjælper forælderen med at se fremskridt uden at gøre læring til et regneark."
+      },
+      "game": {
+        "eyebrow": "Element 04 · Spilverdenen",
+        "title": "Eduweer Adventure — spillet, hvor <accent>historien lever</accent>",
+        "body": "Eduweer Adventure er et mobilspil, hvor barnet træder ind i sin helt og løser handlings- og arbejdsopgaver i Harvorias verden. Sikre skærmindstillinger og den ledsagende Mentor-karakter gør spillet til et sikkert, engagerende supplement til hele økosystemet.",
+        "bullets": [
+          "Handlings- og arbejdsopgaver som forlængelse af bogens eventyr",
+          "Mentor-karakteren optræder i spillet — velkendt fra appen",
+          "Sikre skærmindstillinger designet til unge spillere",
+          "Fremskridt i spillet knyttet til fremskridt i bogen og opgavebogen"
+        ],
+        "caption": "Spillet erstatter ikke læringen — det forstærker den gennem leg i en sikker, sammenhængende verden."
+      }
+    },
+    "advHow": {
+      "eyebrow": "Sådan virker det",
+      "title": "Hvordan ser <accent>eventyret</accent> ud trin for trin?",
+      "lead": "Eduweer har en enkel rytme, der hurtigt bliver en naturlig del af aftenen.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Læs et afsnit af historien",
+          "desc": "Forælderen læser barnet den næste del af eventyret. Barnet møder karaktererne, omgivelserne og udfordringen."
+        },
+        {
+          "num": "02",
+          "title": "Barnet løser en opgave",
+          "desc": "Opgaven i Heltedagbogen udspringer af historien. Barnet løser den ikke 'fordi det skal', men fordi det hjælper nogen i Eduweers verden."
+        },
+        {
+          "num": "03",
+          "title": "Forælderen vurderer indsatsen",
+          "desc": "Efter at have løst opgaven tildeler forælderen 1, 2 eller 3 stjerner. Det er en enkel måde at anerkende arbejde, fokus og selvstændighed på."
+        },
+        {
+          "num": "04",
+          "title": "Helten opnår fremskridt",
+          "desc": "I Mentor-appen udvikler barnets karakter sig, opnår erfaring og rykker frem på eventyrkortet."
+        },
+        {
+          "num": "05",
+          "title": "Historien fortsætter",
+          "desc": "Næste opgaver og kapitler låser op for fortsættelsen af eventyret — barnet vil vide, hvad der sker næste gang."
+        }
+      ]
+    },
+    "benefits": {
+      "child": {
+        "eyebrow": "For barnet",
+        "title": "Barnet ser, at læring <accent>betyder noget</accent>",
+        "lead": "Barnet får en rolle i en verden, der reagerer på dets indsats. Enhver løst opgave hjælper det med at komme videre og udvikle sin helt.",
+        "cards": [
+          {
+            "icon": "🔍",
+            "title": "Nysgerrighed",
+            "desc": "Historien opfordrer barnet til at finde ud af, hvad der sker næste gang."
+          },
+          {
+            "icon": "⚡",
+            "title": "Handlekraft",
+            "desc": "Opgaverne er ikke løsrevne — de hjælper helte og låser op for de næste stadier."
+          },
+          {
+            "icon": "⭐",
+            "title": "Motivation",
+            "desc": "Stjerner, EXP og fremskridt viser barnet, at dets arbejde har en synlig effekt."
+          },
+          {
+            "icon": "🌱",
+            "title": "Udvikling",
+            "desc": "Tænkning, regning, læsning, hukommelse og selvstændighed — gennem eventyr."
+          }
+        ]
+      },
+      "parent": {
+        "eyebrow": "For forælderen",
+        "title": "Forælderen behøver ikke at være en <accent>lærer</accent>",
+        "lead": "Eduweer skaber en færdig læringsstruktur derhjemme — roligt, trin for trin, med et reelt overblik over fremskridt.",
+        "cards": [
+          {
+            "num": "01",
+            "title": "Færre kampe om opgaver",
+            "desc": "Barnet forstår, hvorfor det løser opgaven — fordi det er en del af historien."
+          },
+          {
+            "num": "02",
+            "title": "Mere fælles tid",
+            "desc": "Læsning og opgaver bliver et familieritual, man gerne vil vende tilbage til."
+          },
+          {
+            "num": "03",
+            "title": "Synligt fremskridt",
+            "desc": "Appen viser, hvad der er gjort, og hvordan barnets helt udvikler sig."
+          },
+          {
+            "num": "04",
+            "title": "Enkel vejledning",
+            "desc": "Forælderen designer ikke processen — de træder blot ind i eventyret med barnet."
+          }
+        ]
+      }
+    },
+    "safety": {
+      "eyebrow": "Sikkerhed",
+      "title": "Teknologi bør støtte, ikke erstatte, <accent>relationen</accent>",
+      "lead": "I Eduweer forbliver centrum for oplevelsen den fælles historie, samtalen og opgaver udført væk fra skærmen. Mentor-appen er et redskab for forælderen — den erstatter ikke bogen eller den fælles tid.",
+      "points": [
+        "Appen støtter forælderen, erstatter dem ikke",
+        "Bogen og opgavebogen er det fysiske centrum for oplevelsen",
+        "Barnet opnår ikke viden ved meningsløs klikken",
+        "Fremskridt kommer kun fra løste opgaver",
+        "Vigtige handlinger godkendes af forælderen — altid i kontrol"
+      ],
+      "badges": [
+        {
+          "icon": "📵",
+          "title": "Ingen reklamer",
+          "desc": "Ingen reklamer rettet mod børn eller påtrængende notifikationer."
+        },
+        {
+          "icon": "🏆",
+          "title": "Ingen pay-to-win",
+          "desc": "EXP og belønninger kan kun optjenes gennem læring og opgaver. Ikke ved at købe."
+        },
+        {
+          "icon": "🔒",
+          "title": "Forældre-PIN",
+          "desc": "Vigtige handlinger som opgavevurderinger og profilændringer kræver forælderens PIN."
+        },
+        {
+          "icon": "📖",
+          "title": "Fysisk centrum",
+          "desc": "Bogen og opgavebogen betyder mere end skærmen — appen er et støtteredskab."
+        }
+      ],
+      "principles": "Sikre app-principper"
+    },
+    "day": {
+      "eyebrow": "Et eksempel på en aften",
+      "title": "Hvordan kan én <gold>aften</gold> med Eduweer se ud?",
+      "lead": "Eduweer er ment til at skabe en rolig rytme, man gerne vil vende tilbage til. Du behøver ikke gøre alt på én gang.",
+      "moments": [
+        {
+          "icon": "🛋️",
+          "num": "Øjeblik 01",
+          "title": "I sætter jer sammen",
+          "desc": "Efter middag åbner I bogen og vender tilbage til Harvoria. Intet særligt sted eller tidspunkt er nødvendigt."
+        },
+        {
+          "icon": "📖",
+          "num": "Øjeblik 02",
+          "title": "I læser et afsnit",
+          "desc": "Barnet opdager, at heltene har brug for hjælp på gården. Historien giver mening til det, der snart skal ske."
+        },
+        {
+          "icon": "✏️",
+          "num": "Øjeblik 03",
+          "title": "Barnet løser en opgave",
+          "desc": "En opgave knyttet til historien dukker op i Heltedagbogen. Barnet arbejder selvstændigt."
+        },
+        {
+          "icon": "⭐",
+          "num": "Øjeblik 04",
+          "title": "Forælderen tildeler stjerner",
+          "desc": "Efter opgaven anerkender forælderen barnets indsats og markerer fremskridtet i Mentor-appen."
+        },
+        {
+          "icon": "🗺️",
+          "num": "Øjeblik 05",
+          "title": "Helten rykker videre",
+          "desc": "Det næste trin vises på kortet. Barnet ser, at dets arbejde ændrede noget i Eduweers verden."
+        },
+        {
+          "icon": "🌙",
+          "num": "Øjeblik 06",
+          "title": "I slutter roligt",
+          "desc": "I behøver ikke gøre alt på én gang. Eduweer er ment til at skabe en rolig rytme, man gerne vil vende tilbage til."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Almindelige spørgsmål",
+      "title": "Har du spørgsmål? <accent>Vi har svar.</accent>",
+      "items": [
+        {
+          "q": "Er Eduweer en uddannelsesapp?",
+          "a": "Ikke kun. Eduweer er en kombination af en bog, en opgavebog og Mentor-appen. Appen støtter forælderen, men hjertet af oplevelsen er historien og de opgaver, barnet løser."
+        },
+        {
+          "q": "Hvilken alder er Eduweer til?",
+          "a": "Projektet er designet med børn i alderen ca. 6–12 for øje. Det første bind og det første eventyr er særligt egnet til børn, der begynder deres skoleuddannelse."
+        },
+        {
+          "q": "Skal forælderen være en lærer?",
+          "a": "Nej. Forælderen påtager sig rollen som Mentor — læser, støtter, vurderer indsatsen og hjælper barnet videre. Systemet guider familien trin for trin, uden behov for pædagogisk forberedelse."
+        },
+        {
+          "q": "Bruger barnet en telefon?",
+          "a": "Mentor-appen er primært for forælderen. Barnet kan se sin helt og sit fremskridt, men den vigtigste aktivitet foregår i bogen og opgavebogen — ikke foran en skærm."
+        },
+        {
+          "q": "Påvirker stjerner fremskridtet?",
+          "a": "Stjerner er forælderens måde at anerkende barnets arbejde på. De viser løste opgaver og omsættes til belønninger i systemet, men det vigtigste er følelsen af synligt fremskridt og anerkendt indsats."
+        },
+        {
+          "q": "Vil Eduweer have et spil?",
+          "a": "Ja — spillet er en del af den bredere vision for Eduweers verden. På nuværende tidspunkt er centrum for oplevelsen bogen, opgavebogen og Mentor-appen. Spillet vil være en fremtidig udvidelse af verdenen, der styrker engagement og tilknytning til historien."
+        }
+      ]
+    },
+    "join": {
+      "newsletter": {
+        "eyebrow": "Vær den første",
+        "title": "Tilslut dig Eduweers verden",
+        "lead": "Vi er midt i den første Harvoria-udgave. Tilmeld dig listen — vi giver dig besked, når den er klar, og deler eksklusive forhåndsvisninger.",
+        "emailPlaceholder": "din@email.com",
+        "cta": "Tilmeld dig",
+        "success": "Tak! Vi giver dig besked, når Harvoria er klar.",
+        "trust": [
+          "Ingen spam",
+          "Kun vigtige nyheder",
+          "Afmeld til enhver tid"
+        ]
+      },
+      "contact": {
+        "eyebrow": "Har du et spørgsmål?",
+        "title": "Skriv til os",
+        "lead": "Vi svarer personligt.",
+        "namePlaceholder": "Fulde navn",
+        "emailPlaceholder": "E-mailadresse",
+        "messagePlaceholder": "Din besked...",
+        "submit": "Send besked",
+        "success": "Tak! Vi vender tilbage til dig snart.",
+        "error": "Noget gik galt. Prøv venligst igen."
+      }
+    },
+    "navLinks": {
+      "howItWorks": "Sådan virker det",
+      "forParents": "Til forældre",
+      "safety": "Sikkerhed",
+      "join": "Tilslut dig"
+    }
+  },
+  "investor": {
+    "meta": {
+      "title": "Eduweer — Investorportal · System & Vision",
+      "description": "Et skalerbart pædagogisk økosystem — IP, fortælling, app og spil i én pipeline."
+    },
+    "hero": {
+      "eyebrow": "Investorportal · System & Vision",
+      "title": "Eduweer — uddannelse som <gold>eventyr</gold>, designet som et skalerbart system.",
+      "subtitle": "Vi kombinerer fortælling, pædagogiske opgaver, en forældreapp og et fremtidigt eventyrspil til én lukket løkke: historie → handling → vurdering → belønning → fremskridt → tilbagevenden.",
+      "support": "Vi bygger et univers, hvor børn ikke løser opgaver \"fordi de skal\" — men fordi enhver opgave fører deres helt videre i historien og låser op for nye elementer af verdenen.",
+      "cta1": "Se systemmodellen",
+      "cta2": "Download one-pager",
+      "cta3": "Forældreside",
+      "orbitNodes": [
+        {
+          "name": "BOG",
+          "desc": "Verdenshistorie\nog karakterer"
+        },
+        {
+          "name": "OPGAVEBOG",
+          "desc": "Opgaver\nog øvelser"
+        },
+        {
+          "name": "MENTOR-APP",
+          "desc": "Vurdering, fremskridt\nog rapporter"
+        },
+        {
+          "name": "EVENTYRSPIL",
+          "desc": "Eventyr, quests\nog belønninger"
+        },
+        {
+          "name": "WEBPORTAL",
+          "desc": "Fællesskab,\nskoler og partnere"
+        },
+        {
+          "name": "FORÆLDER / MENTOR",
+          "desc": "Forælderen vejleder,\nstøtter, inspirerer"
+        }
+      ],
+      "badges": [
+        "Cross-platform IP",
+        "Klar til global lokalisering",
+        "Historiedrevet læring",
+        "Forældreledet model",
+        "Fysisk + digitalt økosystem",
+        "Etisk monetarisering",
+        "Udvidelig verden",
+        "Designet til 6–12-årige",
+        "Ingen reklamer / ingen pay-to-win"
+      ]
+    },
+    "problem": {
+      "eyebrow": "Problem",
+      "title": "Uddannelse taber kampen om <gold>barnets opmærksomhed.</gold>",
+      "subtitle": "Børn lever i dag i en verden med øjeblikkelig stimulering. Traditionel læring giver dem ofte ingen kontekst, følelse eller handlekraft.",
+      "cards": [
+        {
+          "title": "Hurtigt dopaminindhold",
+          "body": "Kortformsindhold, spil og animationer belønner hurtigere end læring. Pædagogiske opgaver føles ofte langsomme, løsrevne og følelsesløse til sammenligning."
+        },
+        {
+          "title": "Ingen kontekst",
+          "body": "Et barn kan ofte ikke se, hvorfor det løser en opgave. Uden historie og formål bliver læring en forpligtelse frem for en vej til opdagelse."
+        },
+        {
+          "title": "Udmattede forældre",
+          "body": "Forældre ønsker at støtte deres barn, men mangler ofte et redskab, der roligt guider dem gennem læringen og viser reelle fremskridt."
+        }
+      ]
+    },
+    "loop": {
+      "eyebrow": "System",
+      "title": "Den lukkede pædagogiske <gold>løkke</gold>",
+      "subtitle": "Eduweer gør en enkelt opgave til en del af et større eventyr. Hvert skridt barnet tager betyder noget i historien, appen og heltens udvikling.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Historie",
+          "desc": "Fortælling giver opgaverne kontekst. Barnet ved, hvorfor det handler, og hvad der står på spil."
+        },
+        {
+          "num": "02",
+          "title": "Opgave",
+          "desc": "Øvelser opbygger specifikke skolekompetencer, forankret i begivenheder fra Eduweers verden."
+        },
+        {
+          "num": "03",
+          "title": "Mentor-gennemgang",
+          "desc": "Forælderen vurderer præstationen og guider barnet through eventyret frem for blot at tjekke resultater."
+        },
+        {
+          "num": "04",
+          "title": "Belønning",
+          "desc": "Systemet tildeler point, EXP og belønninger afstemt efter fremskridt og aktivitetstype."
+        },
+        {
+          "num": "05",
+          "title": "Heltens fremskridt",
+          "desc": "Barnet ser sin karakter, kort, færdigheder og verdenselementer udvikle sig."
+        },
+        {
+          "num": "06",
+          "title": "Tilbagevenden til verdenen",
+          "desc": "Fremskridt opfordrer barnet til at fortsætte historien og tage nye opgaver på sig."
+        }
+      ],
+      "quote": "Viden → fremskridt → motivation → tilbagevenden.",
+      "why": {
+        "title": "Hvorfor virker denne model?",
+        "points": [
+          "Historien giver enhver opgave formål",
+          "Forælderen forbliver i centrum for processen",
+          "Motivation udspringer af præstation, ikke tilfældige belønninger",
+          "Systemet underviser i reelle kompetencer, ikke bare klikken",
+          "Skalerbart på tværs af bøger, app og spil"
+        ]
+      }
+    },
+    "ecosystem": {
+      "eyebrow": "Økosystem",
+      "title": "Én verden, <gold>mange indgangspunkter.</gold>",
+      "subtitle": "Eduweer er designet som et økosystem, hvor fysiske og digitale elementer forstærker hinanden — fra bogen og opgavebogen til Mentor-appen og det kommende spil.",
+      "cards": [
+        {
+          "label": "Narrativt fundament",
+          "title": "Bog + Opgavebog",
+          "body": "Bogen og opgavebogen udgør kernen i oplevelsen: historie, opgaver, en rytme af arbejde og fælles tid mellem forælder og barn. Indgangspunktet til Eduweers verden.",
+          "pill": "Fysisk · Digital PDF"
+        },
+        {
+          "label": "Forældreledet fremskridt",
+          "title": "Mentor-app",
+          "body": "Mentor-appen lader forældre guide deres barn through eventyret, følge fremskridt, vurdere opgaver med stjerner og se sin helt vokse.",
+          "pill": "iOS · Android · MVP planlagt"
+        },
+        {
+          "label": "Langsigtet engagement",
+          "title": "Eventyrspil",
+          "body": "Spillet udvider Eduweers verden ud over bogen: landbrug, udforskning, håndværk og quests, der uddyber motivation og tilknytning til IP'et.",
+          "pill": "Harvoria-skive · I konceptfase"
+        },
+        {
+          "label": "Skalerbart adgangslag",
+          "title": "Web / Platform",
+          "body": "Webportalen håndterer konti, indhold, materialer, partnerskaber, skoler og fremtidige fællesskabsmoduler.",
+          "pill": "Skoler · Partnere · B2B"
+        }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Sådan virker det",
+      "title": "Hvordan en enkelt opgave bliver en del af et større <gold>eventyr.</gold>",
+      "subtitle": "Eduweer slutter ikke med at løse en øvelse. Enhver opgave påvirker fremskridtet i bogen, appen og helten.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "De læser",
+          "desc": "Forælder og barn læser et historieafsnit med en udfordring"
+        },
+        {
+          "num": "02",
+          "title": "Løser det",
+          "desc": "Barnet løser opgaven i opgavebogen — fordi den har narrativ mening"
+        },
+        {
+          "num": "03",
+          "title": "Vurderer det",
+          "desc": "Forælderen åbner Mentor-appen og tildeler stjerner"
+        },
+        {
+          "num": "04",
+          "title": "Belønning",
+          "desc": "Systemet beregner EXP og opdaterer fremskridtskortet"
+        },
+        {
+          "num": "05",
+          "title": "Vil have mere",
+          "desc": "Helten vokser — barnet vender tilbage på egen hånd"
+        }
+      ]
+    },
+    "traction": {
+      "eyebrow": "Projektstatus",
+      "title": "Dette er ikke bare et koncept. <gold>Fundamentet eksisterer allerede.</gold>",
+      "subtitle": "Eduweer har en udbygget verden, et udkastet bog, en defineret Mentor-app-model og en klar retning for spillet og platformen.",
+      "done": {
+        "badge": "Afsluttet",
+        "items": [
+          "Første binds udkast",
+          "Kern-worldbuilding for Eduweer",
+          "Vigtigste lande og verdens konflikt",
+          "Kern pædagogisk løkke",
+          "Mentor-app-koncept",
+          "Eventyrspillets fundament"
+        ]
+      },
+      "wip": {
+        "badge": "I gang",
+        "items": [
+          "Heltedagbog / opgavebog",
+          "Endelig HUB-sidedesign",
+          "Forældreside",
+          "Investorside",
+          "Pitch-materialer / one-pager",
+          "Mentor-app-mockups"
+        ]
+      },
+      "next": {
+        "badge": "Næste",
+        "items": [
+          "Tests med børn og forældre",
+          "Mentor-app MVP",
+          "Spilprototype / Harvoria-skive",
+          "Crowdfundingkampagne",
+          "Investorsamtaler",
+          "EN/DE/FR/ES/IT/JP lokalisering"
+        ]
+      }
+    },
+    "scale": {
+      "eyebrow": "Skalerbarhed",
+      "title": "Skalering through verdenen, ikke bare through <gold>funktioner.</gold>",
+      "subtitle": "Hvert Eduweer-land betyder et nyt bind, et nyt kompetencesæt, en ny indholdssæson og nye produktmuligheder.",
+      "dimsTitle": "4 dimensioner af udvidelse",
+      "dimsSubtitle": "Eduweer kan vokse simultant langs fire uafhængige akser — hver åbner nye markeder og indtægtsstrømme.",
+      "lands": [
+        {
+          "name": "Harvoria",
+          "tag": "Bog 1 · Aktiv",
+          "body": "Landbrug, ansvar, naturens rytme, grundlæggende skole- og sociale kompetencer.",
+          "variant": "active"
+        },
+        {
+          "name": "Summitara",
+          "tag": "Bog 2 · Planlagt",
+          "body": "Bjerge, flyvende skibe, handel og konflikter om ressourcekontrol.",
+          "variant": "future"
+        },
+        {
+          "name": "Lyra'Glen",
+          "tag": "Bog 3 · Koncept",
+          "body": "Kæmpe træer, lysende svampe, balance i økosystemet.",
+          "variant": "future"
+        },
+        {
+          "name": "Mazurai",
+          "tag": "Bog 4 · Låst",
+          "body": "Søer og floder, harmoni, sociale relationer, moralske valg.",
+          "variant": "locked"
+        },
+        {
+          "name": "Dunnvol",
+          "tag": "Bog 5 · Låst",
+          "body": "Ørken, energi, teknologi og ressourceansvar.",
+          "variant": "locked"
+        },
+        {
+          "name": "Futurion",
+          "tag": "Slutarc",
+          "body": "Verdenens centrum, teknologi og den endelige konflikt.",
+          "variant": "final"
+        }
+      ],
+      "dims": [
+        {
+          "n": "∞",
+          "title": "Indholdsskala",
+          "body": "Flere bøger, kapitler, quests og opgaver for hvert land."
+        },
+        {
+          "n": "5+",
+          "title": "Produktskala",
+          "body": "App, spil, portal, brætspil, pædagogiske workshops."
+        },
+        {
+          "n": "7",
+          "title": "Geografisk skala",
+          "body": "PL/EN/DE/FR/ES/IT/JP lokaliseringer og yderligere markeder."
+        },
+        {
+          "n": "B2C+",
+          "title": "Partnerskabsskala",
+          "body": "Familier, skoler, institutioner, forlag, pædagogiske partnerskaber."
+        }
+      ]
+    },
+    "tech": {
+      "eyebrow": "Teknologi",
+      "title": "Bygget til fremskridt, data og <gold>udvidelse.</gold>",
+      "subtitle": "Eduweer er fra starten designet til at understøtte fremskridtssynkronisering, dynamiske belønninger, skalerbart indhold og fremtidig læringspersonalisering.",
+      "layers": [
+        {
+          "label": "Oplevelse",
+          "tags": [
+            "Bog",
+            "Opgavebog",
+            "Mentor-app",
+            "Eventyrspil",
+            "Webportal"
+          ]
+        },
+        {
+          "label": "Applikation",
+          "tags": [
+            "Auth",
+            "Barneprofiler",
+            "Fremskridtssporing",
+            "Opgavevalidering",
+            "Belønninger",
+            "Indholdsleverance",
+            "Mentor-kontroller"
+          ]
+        },
+        {
+          "label": "Data",
+          "tags": [
+            "Brugere · Helte",
+            "Bøger · Opgaver",
+            "Fremskridt",
+            "Inventar · Færdigheder",
+            "Belønninger · Begivenheder"
+          ]
+        },
+        {
+          "label": "Intelligens",
+          "tags": [
+            "Analytics",
+            "Adaptiv læring",
+            "AI-assisteret indhold",
+            "Lokalisering",
+            "Rapporter"
+          ]
+        },
+        {
+          "label": "Infrastruktur",
+          "tags": [
+            "Revisionsspor",
+            "Begivenhedskilde",
+            "Sikker ejerskab",
+            "Fremtidsparat arkitektur"
+          ]
+        }
+      ]
+    },
+    "biz": {
+      "eyebrow": "Forretningsmodel",
+      "title": "Indtjening uden at bryde <gold>tilliden.</gold>",
+      "subtitle": "Eduweer monetariserer IP, pædagogiske produkter og digitale tilføjelser uden at sælge et barns fremskridt, EXP eller pædagogisk fordel.",
+      "streams": [
+        {
+          "num": "01",
+          "title": "Bøger og opgavebøger",
+          "body": "Fysiske og digitale udgaver af bøger, heltedagbøger og yderligere bind i serien."
+        },
+        {
+          "num": "02",
+          "title": "Mentor-app Premium",
+          "body": "Udvidede rapporter, ekstra opgaver, personalisering og tilstande, der støtter forælderen eller læreren."
+        },
+        {
+          "num": "03",
+          "title": "Spilindhold og kosmetik",
+          "body": "Kosmetik, skins og æstetiske verdensudvidelser — ingen pay-to-win, ingen køb af viden."
+        },
+        {
+          "num": "04",
+          "title": "Skoler og institutioner",
+          "body": "Pakker til skoler, klasserum, lærere, workshops og pædagogiske partnerskaber."
+        },
+        {
+          "num": "05",
+          "title": "Merchandise og brætspil",
+          "body": "Brætspil, familieprodukter, samlerobjekter fra verdenen og offline pædagogiske materialer."
+        }
+      ],
+      "trust": {
+        "title": "Tillidsprincipper",
+        "rules": [
+          "EXP kan ikke købes.",
+          "Vidensbaserede belønninger skal optjenes.",
+          "Ingen reklamer rettet mod børn.",
+          "Forælderen forbliver i kontrol.",
+          "Monetarisering støtter det pædagogiske økosystem."
+        ]
+      }
+    },
+    "roadmap": {
+      "eyebrow": "Køreplan",
+      "title": "En plan for en verden, der <gold>vokser.</gold>",
+      "stages": [
+        {
+          "marker": "01",
+          "tag": "Bevis på verden",
+          "date": "Q4 2025 – Q2 2026",
+          "items": [
+            "Verdensfærdiggørelse",
+            "Bogudkast #1",
+            "Forældre- og investorside",
+            "App-koncept"
+          ]
+        },
+        {
+          "marker": "02",
+          "tag": "MVP",
+          "date": "Q3 2026 – Q4 2026",
+          "items": [
+            "Bog og opgavebog v1",
+            "Familietest",
+            "Mentor-app MVP",
+            "Fremskridtssystem"
+          ]
+        },
+        {
+          "marker": "03",
+          "tag": "Tidlig adgang",
+          "date": "2027",
+          "items": [
+            "Bog #1 lancering",
+            "Mentor-app MVP",
+            "Tidlig adgang",
+            "Fællesskabskampagne"
+          ]
+        },
+        {
+          "marker": "04",
+          "tag": "Udvidelse",
+          "date": "2027 – 2028",
+          "items": [
+            "Flere bøger",
+            "Eventyrspil",
+            "Sproglokaliseringer",
+            "Skoler og partnere"
+          ]
+        },
+        {
+          "marker": "05",
+          "tag": "Globalt økosystem",
+          "date": "2029+",
+          "items": [
+            "Global platform",
+            "Yderligere lande",
+            "Merchandise og licensering",
+            "AI-personalisering"
+          ]
+        }
+      ],
+      "status": {
+        "eyebrow": "Nuværende status",
+        "title": "Hvad har vi i dag?",
+        "items": [
+          "Bog — bind 1 klar, koncepter til bind 2 og 3",
+          "Mentor mobil-app — alfaversion",
+          "Opgaver og opgavebogdesign (uden illustrationer)",
+          "App-backend og spilserver — alfaversion",
+          "Eventyrspil — koncept og tekniske demoer",
+          "5-årig udviklingsplan",
+          "Pædagogisk model og systemløkker"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Lad os tale om fremtidens <gold>uddannelse.</gold>",
+      "subtitle": "Vi leder efter partnere, der forstår, at fremtidens uddannelse ikke betyder flere skærme — det kan betyde bedre kontekst, stærkere fortælling og et gennemtænkt vækststystem.",
+      "btn1": "Planlæg et opkald",
+      "btn2": "Download investor one-pager",
+      "btn3": "Se forældreside",
+      "info1": "Radosław Kamysz — Udvikler & Grundlægger",
+      "info2": "15+ års produktionserfaring",
+      "info3": "Eduweer — bygget med skalerbarhed for øje"
+    },
+    "navLabels": [
+      "System",
+      "Økosystem",
+      "Model",
+      "Køreplan",
+      "Kontakt"
+    ]
+  },
+  "contact": {
+    "title": "Kom i kontakt",
+    "name": "Fulde navn",
+    "email": "E-mailadresse",
+    "message": "Besked",
+    "submit": "Send besked",
+    "newsletter": "Tilmeld nyhedsbrev",
+    "success": "Tak! Vi vender tilbage til dig snart.",
+    "error": "Noget gik galt. Prøv venligst igen."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privatlivspolitik — Eduweer",
+      "description": "Lær, hvordan Eduweer behandler dine personoplysninger i overensstemmelse med GDPR."
+    },
+    "eyebrow": "Juridiske dokumenter",
+    "title": "Privatlivspolitik",
+    "updated": "Sidst opdateret: 23. maj 2026",
+    "intro": "Denne privatlivspolitik beskriver, hvordan Eduweer indsamler, bruger og beskytter dine personoplysninger. Vi bekymrer os om dit privatliv og behandler kun data i det omfang, det er nødvendigt for at drive vores tjenester.",
+    "sections": [
+      {
+        "title": "1. Dataansvarlig",
+        "body": "Den dataansvarlige er Radoslaw Kamysz, der driver Eduweer-projektet. Kontakt: hello@support.eduweer.com"
+      },
+      {
+        "title": "2. Data vi indsamler",
+        "body": "Vi indsamler kun data, du frivilligt giver os:\n• E-mailadresse — ved tilmelding til nyhedsbrevet\n• Navn, e-mailadresse, beskedindhold — ved indsendelse af kontaktformularen\n\nVi indsamler ikke lokationsdata, profilerer ikke brugere og bruger ikke adfærdsbaseret reklame."
+      },
+      {
+        "title": "3. Formål og retsgrundlag",
+        "body": "Vi behandler dine data til følgende formål:\n• Nyhedsbrev — udsendelse af Eduweer-opdateringer (retsgrundlag: samtykke, art. 6, stk. 1, litra a, GDPR)\n• Kontaktformular — besvarelse af din forespørgsel (retsgrundlag: legitime interesser, art. 6, stk. 1, litra f, GDPR)"
+      },
+      {
+        "title": "4. Databehandlere",
+        "body": "Vi benytter følgende underbehandlere:\n• Resend (resend.com) — platform til e-mailudsendelse og håndtering af nyhedsbrevsliste\n• Vercel (vercel.com) — applikationshosting og infrastruktur\n\nAlle underbehandlere yder et tilstrækkeligt niveau af databeskyttelse i henhold til GDPR."
+      },
+      {
+        "title": "5. Opbevaringsperiode",
+        "body": "• Nyhedsbrevsdata — indtil samtykket tilbagekaldes (afmelding)\n• Kontaktformulardata — i den periode, der er nødvendig for at håndtere korrespondancen, maks. 2 år\n\nEfter disse perioder slettes data permanent."
+      },
+      {
+        "title": "6. Dine rettigheder",
+        "body": "Du har følgende rettigheder:\n• Indsigt — spørg om, hvilke data vi har om dig\n• Berigtigelse — ret unøjagtige data\n• Sletning — anmod om sletning af dine data\n• Begrænsning — begræns, hvordan vi behandler dine data\n• Portabilitet — modtag dine data i et struktureret format\n• Indsigelse — gør indsigelse mod behandling baseret på legitime interesser\n• Tilbagetrækning af samtykke — afmeld nyhedsbrevet til enhver tid\n\nFor at udøve disse rettigheder, skriv til hello@support.eduweer.com. Vi svarer inden for 30 dage."
+      },
+      {
+        "title": "7. Afmelding",
+        "body": "Du kan afmelde nyhedsbrevet til enhver tid ved at klikke på afmeldingslinket i enhver e-mail fra os eller ved at kontakte os: hello@support.eduweer.com"
+      },
+      {
+        "title": "8. Cookies",
+        "body": "Dette websted bruger ikke cookies til analyse eller reklame. Vi bruger kun tekniske sessionscookies, der er nødvendige for webstedets funktion."
+      },
+      {
+        "title": "9. Datasikkerhed",
+        "body": "Vi anvender passende tekniske og organisatoriske foranstaltninger til at beskytte dine data. Dataoverførsler sker via en krypteret HTTPS-forbindelse."
+      },
+      {
+        "title": "10. Ændringer i politikken",
+        "body": "Vi forbeholder os retten til at opdatere denne politik. Nyhedsbrevabonnenter vil blive underrettet om væsentlige ændringer. Den aktuelle version er altid tilgængelig på eduweer.com/privacy."
+      },
+      {
+        "title": "11. Tilsynsmyndighed",
+        "body": "Hvis du mener, at vi behandler dine data ulovligt, har du ret til at indgive en klage til din lokale databeskyttelsesmyndighed. I Danmark: Datatilsynet, Carl Jacobsens Vej 35, 2500 Valby, www.datatilsynet.dk"
+      }
+    ],
+    "contact": "Spørgsmål? Kontakt os: hello@support.eduweer.com"
+  }
+}

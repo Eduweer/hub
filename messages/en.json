@@ -119,9 +119,9 @@
     },
     "problem": {
       "eyebrow": "A shared adventure",
-      "title": "Learning shouldn't start with a <accent>battle</accent>",
+      "title": "Learning shouldn't start with <accent>compulsion</accent>",
       "p1": "Many parents know this moment: the child has tasks to do, but quickly loses interest. Instead of curiosity, there's fatigue, negotiation, and tension.",
-      "p2": "Eduweer starts from a different assumption: children engage more easily when they see the purpose. When a task isn't a disconnected sheet, but part of a bigger story.",
+      "p2": "We went through this too, which is why we started looking for a different way. One that doesn't turn learning into pressure, but gives the child a reason to want to keep going. Children engage more easily when they see the purpose. When a task isn't a disconnected sheet, but part of a bigger story.",
       "points": [
         "Tasks are embedded in the adventure — the child understands why they're doing them",
         "The parent guides, but doesn't have to fight for every minute of learning",
@@ -132,33 +132,15 @@
     "what": {
       "eyebrow": "What is Eduweer",
       "title": "Eduweer is one <accent>adventure</accent> told in several ways",
-      "lead": "Eduweer combines a book, workbook, and Mentor app into one experience. The parent reads the story with the child, the child completes tasks in the Hero's Journal, and the app helps track progress and develop the hero.",
-      "tagline": "It's not just a book. It's not just an app. It's a calm system of learning through story.",
       "flow": [
         {
-          "icon": "📖",
-          "title": "Read together",
-          "desc": "The story guides through the adventure"
+          "desc": "Eduweer was born from the combination of two worlds: calm, valuable reading with your child and the mechanics known from games, which children discover earlier and earlier — a hero, progress, levels, rewards, and the discovery of the next stages."
         },
         {
-          "icon": "✏️",
-          "title": "Child acts",
-          "desc": "Tasks flow from the plot"
+          "desc": "The difference is that here these mechanics aren't meant to keep the child in front of a screen as long as possible. They're meant to help them see the meaning of effort. Every completed task, every read part of the story, and every appreciated progress means that not only the child develops, but also their hero in the world of Eduweer."
         },
         {
-          "icon": "⭐",
-          "title": "Parent appreciates",
-          "desc": "Star ratings in the app"
-        },
-        {
-          "icon": "🗺️",
-          "title": "Hero grows",
-          "desc": "The child's character develops"
-        },
-        {
-          "icon": "🌿",
-          "title": "Story continues",
-          "desc": "Next chapters await"
+          "desc": "Thanks to this, learning is no longer just an obligation. It becomes part of an adventure in which the child wants to find out what happens next — and the parent can be close, guide the story, and share the child's small victories together."
         }
       ]
     },

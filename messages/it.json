@@ -74,9 +74,9 @@
     },
     "problem": {
       "eyebrow": "Un'avventura condivisa",
-      "title": "L'apprendimento non dovrebbe iniziare con una <accent>battaglia</accent>",
+      "title": "L'apprendimento non dovrebbe iniziare con la <accent>costrizione</accent>",
       "p1": "Molti genitori conoscono questo momento: il bambino ha compiti da fare ma perde rapidamente l'interesse. Invece della curiosità, ci sono stanchezza, negoziazioni e tensione.",
-      "p2": "Eduweer parte da un'ipotesi diversa: i bambini si impegnano più facilmente quando vedono lo scopo. Quando un compito non è un foglio scollegato, ma fa parte di una storia più grande.",
+      "p2": "Anche noi l'abbiamo vissuto, per questo abbiamo iniziato a cercare un altro modo. Uno che non trasforma l'apprendimento in pressione, ma dà al bambino un motivo per voler andare avanti. I bambini si impegnano più facilmente quando vedono lo scopo. Quando un compito non è un foglio scollegato, ma fa parte di una storia più grande.",
       "points": [
         "I compiti sono integrati nell'avventura — il bambino capisce perché li fa",
         "Il genitore guida, ma non deve combattere per ogni minuto di apprendimento",
@@ -87,33 +87,15 @@
     "what": {
       "eyebrow": "Cos'è Eduweer",
       "title": "Eduweer è un'<accent>avventura</accent> raccontata in vari modi",
-      "lead": "Eduweer combina un libro, un quaderno e l'app Mentor in un'esperienza. Il genitore legge la storia con il bambino, il bambino completa i compiti nel Diario dell'Eroe, e l'app aiuta a seguire i progressi.",
-      "tagline": "Non solo un libro. Non solo un'app. Un sistema tranquillo di apprendimento attraverso la storia.",
       "flow": [
         {
-          "icon": "📖",
-          "title": "Leggere insieme",
-          "desc": "La storia guida attraverso l'avventura"
+          "desc": "Eduweer è nato dalla combinazione di due mondi: la lettura calma e preziosa con il bambino e le meccaniche note dei giochi, che i bambini scoprono sempre prima — un eroe, il progresso, i livelli, le ricompense e la scoperta delle fasi successive."
         },
         {
-          "icon": "✏️",
-          "title": "Il bambino agisce",
-          "desc": "I compiti derivano dalla trama"
+          "desc": "La differenza è che qui queste meccaniche non sono destinate a trattenere il bambino il più a lungo possibile davanti allo schermo. Sono destinate ad aiutarlo a vedere il senso dello sforzo. Ogni compito risolto, ogni parte letta della storia e ogni progresso apprezzato fanno sì che non solo il bambino si sviluppi, ma anche il suo eroe nel mondo di Eduweer."
         },
         {
-          "icon": "⭐",
-          "title": "Il genitore apprezza",
-          "desc": "Valutazione con stelle nell'app"
-        },
-        {
-          "icon": "🗺️",
-          "title": "L'eroe cresce",
-          "desc": "Il personaggio del bambino si sviluppa"
-        },
-        {
-          "icon": "🌿",
-          "title": "La storia continua",
-          "desc": "I prossimi capitoli aspettano"
+          "desc": "Grazie a ciò, l'apprendimento non è più solo un obbligo. Diventa parte di un'avventura in cui il bambino vuole scoprire cosa succederà dopo — e il genitore può essere vicino, guidare la storia e condividere insieme le piccole vittorie del bambino."
         }
       ]
     },

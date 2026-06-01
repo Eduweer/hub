@@ -1,0 +1,912 @@
+{
+  "nav": {
+    "mainNav": "Hoofdnavigatie",
+    "about": "Over ons",
+    "contact": "Contact"
+  },
+  "footer": {
+    "about": "Over ons",
+    "contact": "Contact",
+    "privacy": "Privacybeleid"
+  },
+  "hub": {
+    "eyebrow": "Kies je pad",
+    "titleBefore": "Één ",
+    "titleAccent": "wereld",
+    "titleAfter": ",",
+    "titleLine2": "drie ingangen",
+    "subtitle": "Eduweer is een educatief avontuur dat een boek, werkboek en app combineert tot één samenhangend ecosysteem.",
+    "portals": {
+      "parent": {
+        "tag": "Hoofdingang",
+        "name": "Voor ouders",
+        "desc": "Jouw kind leert omdat het wil — omdat het verhaal het meezuigt. Jij bent er vlak naast.",
+        "cta": "De wereld betreden"
+      },
+      "investor": {
+        "tag": "Systeemportaal",
+        "name": "Voor investeerders",
+        "desc": "Een schaalbaar educatief ecosysteem — IP, verhaal, app en spel in één pipeline.",
+        "cta": "Het systeem verkennen"
+      },
+      "campaign": {
+        "tag": "Campagne",
+        "name": "Steun het project",
+        "desc": "Maak deel uit van het verhaal vanaf het allereerste hoofdstuk. Beloningen wachten.",
+        "cta": "De wereld steunen"
+      }
+    },
+    "tagline": {
+      "world": {
+        "icon": "✦",
+        "label": "Één wereld",
+        "text": "Boek, werkboek en app — één samenhangend ecosysteem"
+      },
+      "paths": {
+        "icon": "◈",
+        "label": "Drie paden",
+        "text": "Voor ouders, investeerders en campagnesteunders"
+      },
+      "harvoria": {
+        "icon": "᛭",
+        "label": "Harvoria",
+        "text": "Het eerste rijk — een rustige start van elk avontuur"
+      }
+    }
+  },
+  "parent": {
+    "meta": {
+      "title": "Eduweer — Leren dat begint met avontuur",
+      "description": "Eduweer combineert een boek, werkboek en Mentor-app om het leren van jouw kind te veranderen in een rustig, gedeeld avontuur."
+    },
+    "hero": {
+      "eyebrow": "Voor ouders",
+      "title": "Welkom bij Eduweer",
+      "subtitle": "Hier wordt jouw kind de held van een verhaal vol mysteries, uitdagingen en kleine overwinningen — en elke stap brengt hen verder."
+    },
+    "cta": {
+      "primary": "Harvoria ontdekken",
+      "secondary": "Hoe werkt het?"
+    },
+    "bridge": {
+      "question": "Wat als leren voelde als <gold>avontuur</gold> vanaf het allereerste moment?",
+      "lead": "De eerste schoolstappen van een kind kunnen meer zijn dan taken afvinken — ze kunnen een gedeeld verhaal worden waarnaar het altijd wil terugkeren."
+    },
+    "adventure": {
+      "eyebrow": "Een gedeeld avontuur",
+      "title": "Leren hoeft niet te beginnen met een strijd",
+      "lead": "Harvoria is een wereld waar de vroege schooljaren niet als plicht aanvoelen. Elke les is een stap verder in het verhaal — het boek trekt je erin, het werkboek verankert het, en de app beantwoordt vragen die jouw kind écht wil stellen.",
+      "book": {
+        "label": "Harvoria-boek",
+        "desc": "Een meeslepend verhaal waarin personages samen met jouw kind leren. Jullie lezen samen — en beiden willen weten wat er volgt."
+      },
+      "workbook": {
+        "label": "Werkboek",
+        "desc": "Oefeningen geworteld in de wereld van Harvoria. Geen som om de som — elke opdracht heeft een verhaaldoel."
+      },
+      "app": {
+        "label": "Mentor-app",
+        "desc": "Een metgezel uit Harvoria die uitlegt, aanmoedigt en motiveert. Werkt offline, geen advertenties, geen afleidingen."
+      }
+    },
+    "howItWorks": {
+      "eyebrow": "Hoe het werkt",
+      "title": "Drie stappen, één ritme",
+      "lead": "Het Eduweer-ecosysteem werkt als een versterkende lus — elk element voedt het volgende en laat jouw kind uit zichzelf willen terugkomen.",
+      "steps": [
+        {
+          "num": "1",
+          "title": "Samen lezen",
+          "desc": "Een avondritueel met het Harvoria-boek. Het verhaal bouwt context op voor alles wat volgt."
+        },
+        {
+          "num": "2",
+          "title": "Oefenen in het werkboek",
+          "desc": "Opdrachten met betekenis. Jouw kind lost ze op om de personages te helpen — niet omdat het moet."
+        },
+        {
+          "num": "3",
+          "title": "Verkennen in de app",
+          "desc": "Mentor legt uit, beloont en ontgrendelt de volgende hoofdstukken van de wereld. Voortgang is zichtbaar en voelbaar."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Heb je een vraag?",
+      "lead": "We zitten in de eerste editiefase. Schrijf ons — we antwoorden persoonlijk.",
+      "placeholder": "Contactformulier — binnenkort beschikbaar"
+    },
+    "problem": {
+      "eyebrow": "Een gedeeld avontuur",
+      "title": "Leren mag niet beginnen met <accent>dwang</accent>",
+      "p1": "Veel ouders kennen dit moment: het kind heeft taken te doen, maar verliest snel de interesse. In plaats van nieuwsgierigheid ontstaat vermoeidheid, onderhandelen en spanning.",
+      "p2": "Wij zijn er ook doorheen gegaan, daarom zijn we op zoek gegaan naar een andere manier. Eén die leren niet in druk verandert, maar het kind een reden geeft om door te willen gaan. Kinderen raken gemakkelijker betrokken als ze de zin zien. Als een opdracht geen los velletje is, maar deel van een groter verhaal.",
+      "points": [
+        "Opdrachten zijn ingebed in het avontuur — het kind begrijpt waarom het ze doet",
+        "De ouder begeleidt, maar hoeft niet te vechten voor elke leerminuut",
+        "Het kind ziet de voortgang van zijn held — de beloning is deel van het verhaal",
+        "Leren wordt deel van een gedeeld, rustig ritueel"
+      ]
+    },
+    "what": {
+      "eyebrow": "Wat is Eduweer",
+      "title": "Eduweer is één <accent>avontuur</accent> verteld op meerdere manieren",
+      "flow": [
+        {
+          "desc": "Eduweer ontstond uit de combinatie van twee werelden: rustig, waardevol lezen met je kind en de mechanismen bekend uit spellen, die kinderen steeds vroeger ontdekken — een held, voortgang, niveaus, beloningen en het ontdekken van de volgende fases."
+        },
+        {
+          "desc": "Het verschil is dat deze mechanismen hier niet bedoeld zijn om het kind zo lang mogelijk voor een scherm te houden. Ze zijn bedoeld om het kind de betekenis van inspanning te laten zien. Elke opgeloste opdracht, elk gelezen deel van het verhaal en elke gewaardeerde voortgang betekent dat niet alleen het kind zich ontwikkelt, maar ook zijn held in de wereld van Eduweer."
+        },
+        {
+          "desc": "Dankzij dit is leren niet langer alleen een verplichting. Het wordt deel van een avontuur waarin het kind wil weten wat er hierna gebeurt — en de ouder dichtbij kan zijn, het verhaal kan begeleiden en de kleine overwinningen van het kind samen kan beleven."
+        }
+      ]
+    },
+    "elements": {
+      "eyebrow": "Één avontuur, vier elementen",
+      "title": "Vier elementen die <accent>samenwerken</accent>",
+      "lead": "Eduweer is zo ontworpen dat kinderen niet schakelen tussen willekeurige activiteiten. Elk element heeft zijn rol in één avontuur.",
+      "book": {
+        "eyebrow": "Element 01 · Verhaal",
+        "title": "Het boek dat de wereld opent",
+        "body": "Het verhaal introduceert het kind in Eduweer — een land vol avonturen, helden en uitdagingen. De ouder leest het samen met het kind, en elke nieuwe gebeurtenis leidt op natuurlijke wijze tot opdrachten en beslissingen.",
+        "bullets": [
+          "Warm, avontuurlijk verhaal voor kinderen en ouders",
+          "Het kind wordt deel van het verhaal — leest het niet alleen",
+          "Opdrachten vloeien natuurlijk voort uit de plot",
+          "De ouder wordt een gids door de wereld van Eduweer"
+        ],
+        "caption": "Het verhaal is het begin van elk avontuur — het geeft de opdrachten betekenis."
+      },
+      "workbook": {
+        "eyebrow": "Element 02 · Actie",
+        "title": "Het Heldendagboek waar het kind echt handelt",
+        "body": "Het werkboek is geen losstaand werkblad. Het is een plek waar het kind helden helpt, raadsels oplost, sterren verzamelt en ziet dat zijn inzet ertoe doet in de wereld van Eduweer.",
+        "bullets": [
+          "Opdrachten direct gekoppeld aan de plot",
+          "Ruimte voor schrijven, tekenen en oplossen",
+          "Sterren toegekend door de ouder na elke opdracht",
+          "Gevoel van handelingsvermogen — het werk van het kind heeft effect"
+        ],
+        "caption": "Het kind luistert niet alleen naar het verhaal — het helpt het vooruit te duwen."
+      },
+      "app": {
+        "eyebrow": "Element 03 · Ouderondersteuning",
+        "title": "De Mentor-app die helpt het avontuur te begeleiden",
+        "body": "De app vervangt het boek of de relatie met het kind niet. Het is een rustig hulpmiddel voor de ouder: het toont voortgang, laat je opdrachten beoordelen, sterren toekennen en de ontwikkeling van de held volgen.",
+        "bullets": [
+          "Kind- en heldenprofiel met niveau en EXP",
+          "Voortgangskaart — zie waar het kind is in het avontuur",
+          "Opdrachtbeoordeling met sterren (1, 2 of 3)",
+          "Belangrijke acties beveiligd met ouder-PIN"
+        ],
+        "caption": "Mentor helpt de ouder voortgang te zien zonder leren in een spreadsheet te veranderen."
+      },
+      "game": {
+        "eyebrow": "Element 04 · Spelwereld",
+        "title": "Eduweer Adventure — het spel waar het <accent>verhaal leeft</accent>",
+        "body": "Eduweer Adventure is een mobiel spel waarbij het kind in zijn held stapt en actie- en werkopdrachten uitvoert in de wereld van Harvoria. Veilige scherminstellingen en het begeleidende Mentor-personage maken het spel tot een veilig, boeiend aanvulling op het hele ecosysteem.",
+        "bullets": [
+          "Actie- en werkopdrachten als verlengstuk van het boekavontuur",
+          "Het Mentor-personage verschijnt in het spel — bekend uit de app",
+          "Veilige scherminstellingen ontworpen voor jonge spelers",
+          "In-game voortgang gekoppeld aan voortgang in het boek en werkboek"
+        ],
+        "caption": "Het spel vervangt leren niet — het versterkt het via spel in een veilige, samenhangende wereld."
+      }
+    },
+    "advHow": {
+      "eyebrow": "Hoe het werkt",
+      "title": "Hoe ziet het <accent>avontuur</accent> er stap voor stap uit?",
+      "lead": "Eduweer heeft een eenvoudig ritme dat snel een natuurlijk deel van de avond wordt.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Lees een stukje van het verhaal",
+          "desc": "De ouder leest het kind het volgende deel van het avontuur voor. Het kind maakt kennis met de personages, de omgeving en de uitdaging."
+        },
+        {
+          "num": "02",
+          "title": "Het kind lost een opdracht op",
+          "desc": "De opdracht in het Heldendagboek vloeit voort uit het verhaal. Het kind lost hem niet op 'omdat het moet', maar omdat het iemand in de wereld van Eduweer helpt."
+        },
+        {
+          "num": "03",
+          "title": "De ouder beoordeelt de inzet",
+          "desc": "Na het oplossen van de opdracht kent de ouder 1, 2 of 3 sterren toe. Het is een eenvoudige manier om het werk, de concentratie en de zelfstandigheid te waarderen."
+        },
+        {
+          "num": "04",
+          "title": "De held boekt voortgang",
+          "desc": "In de Mentor-app ontwikkelt het personage van het kind zich, doet het ervaring op en vordert het op de avonturenkaart."
+        },
+        {
+          "num": "05",
+          "title": "Het verhaal gaat door",
+          "desc": "Volgende opdrachten en hoofdstukken ontgrendelen het vervolg van het avontuur — het kind wil weten wat er hierna gebeurt."
+        }
+      ]
+    },
+    "benefits": {
+      "child": {
+        "eyebrow": "Voor het kind",
+        "title": "Het kind ziet dat leren <accent>ertoe doet</accent>",
+        "lead": "Het kind krijgt een rol in een wereld die reageert op zijn inzet. Elke opgeloste opdracht helpt het verder te komen en zijn held te ontwikkelen.",
+        "cards": [
+          {
+            "icon": "🔍",
+            "title": "Nieuwsgierigheid",
+            "desc": "Het verhaal moedigt het kind aan te ontdekken wat er hierna gebeurt."
+          },
+          {
+            "icon": "⚡",
+            "title": "Handelingsvermogen",
+            "desc": "Opdrachten zijn niet losstaand — ze helpen helden en ontgrendelen volgende fases."
+          },
+          {
+            "icon": "⭐",
+            "title": "Motivatie",
+            "desc": "Sterren, EXP en voortgang laten het kind zien dat zijn werk zichtbaar effect heeft."
+          },
+          {
+            "icon": "🌱",
+            "title": "Ontwikkeling",
+            "desc": "Denken, rekenen, lezen, geheugen en zelfstandigheid — via avontuur."
+          }
+        ]
+      },
+      "parent": {
+        "eyebrow": "Voor de ouder",
+        "title": "De ouder hoeft geen <accent>leraar</accent> te zijn",
+        "lead": "Eduweer creëert een kant-en-klare leerstructuur thuis — rustig, stap voor stap, met een echt beeld van de voortgang.",
+        "cards": [
+          {
+            "num": "01",
+            "title": "Minder strijd over opdrachten",
+            "desc": "Het kind begrijpt waarom het de opdracht doet — omdat het deel is van het verhaal."
+          },
+          {
+            "num": "02",
+            "title": "Meer gedeelde tijd",
+            "desc": "Lezen en opdrachten worden een familieritueel waarnaar je wilt terugkeren."
+          },
+          {
+            "num": "03",
+            "title": "Zichtbare voortgang",
+            "desc": "De app toont wat er gedaan is en hoe de held van het kind zich ontwikkelt."
+          },
+          {
+            "num": "04",
+            "title": "Eenvoudige begeleiding",
+            "desc": "De ouder ontwerpt het proces niet — ze stappen simpelweg het avontuur in met het kind."
+          }
+        ]
+      }
+    },
+    "safety": {
+      "eyebrow": "Veiligheid",
+      "title": "Technologie moet de <accent>relatie</accent> ondersteunen, niet vervangen",
+      "lead": "In Eduweer blijft het gedeelde verhaal, het gesprek en de opdrachten weg van het scherm het middelpunt van de ervaring. De Mentor-app is een hulpmiddel voor de ouder — het vervangt het boek of de gedeelde tijd niet.",
+      "points": [
+        "De app ondersteunt de ouder, vervangt hen niet",
+        "Het boek en werkboek zijn het fysieke middelpunt van de ervaring",
+        "Het kind doet geen kennis op door zinloos klikken",
+        "Voortgang komt alleen van voltooide opdrachten",
+        "Belangrijke acties worden goedgekeurd door de ouder — altijd in controle"
+      ],
+      "badges": [
+        {
+          "icon": "📵",
+          "title": "Geen advertenties",
+          "desc": "Geen advertenties gericht op kinderen of opdringerige meldingen."
+        },
+        {
+          "icon": "🏆",
+          "title": "Geen pay-to-win",
+          "desc": "EXP en beloningen zijn alleen te verdienen via leren en opdrachten. Niet door te kopen."
+        },
+        {
+          "icon": "🔒",
+          "title": "Ouder-PIN",
+          "desc": "Belangrijke acties zoals opdrachtbeoordelingen en profielwijzigingen vereisen de PIN van de ouder."
+        },
+        {
+          "icon": "📖",
+          "title": "Fysiek middelpunt",
+          "desc": "Het boek en werkboek tellen zwaarder dan het scherm — de app is een ondersteunend hulpmiddel."
+        }
+      ],
+      "principles": "Veilige app-principes"
+    },
+    "day": {
+      "eyebrow": "Een voorbeeldavond",
+      "title": "Hoe kan één <gold>avond</gold> met Eduweer eruitzien?",
+      "lead": "Eduweer is bedoeld om een rustig ritme te creëren waarnaar je wilt terugkeren. Je hoeft niet alles tegelijk te doen.",
+      "moments": [
+        {
+          "icon": "🛋️",
+          "num": "Moment 01",
+          "title": "Jullie gaan samen zitten",
+          "desc": "Na het eten open je het boek en keer je terug naar Harvoria. Geen speciale plek of tijd nodig."
+        },
+        {
+          "icon": "📖",
+          "num": "Moment 02",
+          "title": "Jullie lezen een stukje",
+          "desc": "Het kind ontdekt dat de helden hulp nodig hebben op de boerderij. Het verhaal geeft betekenis aan wat er straks gebeurt."
+        },
+        {
+          "icon": "✏️",
+          "num": "Moment 03",
+          "title": "Het kind lost een opdracht op",
+          "desc": "Een opdracht gekoppeld aan het verhaal verschijnt in het Heldendagboek. Het kind werkt zelfstandig."
+        },
+        {
+          "icon": "⭐",
+          "num": "Moment 04",
+          "title": "De ouder kent sterren toe",
+          "desc": "Na de opdracht waardeert de ouder de inzet van het kind en markeert de voortgang in de Mentor-app."
+        },
+        {
+          "icon": "🗺️",
+          "num": "Moment 05",
+          "title": "De held gaat verder",
+          "desc": "De volgende stap verschijnt op de kaart. Het kind ziet dat zijn werk iets heeft veranderd in de wereld van Eduweer."
+        },
+        {
+          "icon": "🌙",
+          "num": "Moment 06",
+          "title": "Jullie sluiten rustig af",
+          "desc": "Je hoeft niet alles tegelijk te doen. Eduweer is bedoeld om een rustig ritme te creëren waarnaar je wilt terugkeren."
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "Veelgestelde vragen",
+      "title": "Vragen? <accent>We hebben antwoorden.</accent>",
+      "items": [
+        {
+          "q": "Is Eduweer een educatieve app?",
+          "a": "Niet alleen. Eduweer is een combinatie van een boek, werkboek en de Mentor-app. De app ondersteunt de ouder, maar het hart van de ervaring blijft het verhaal en de opdrachten die het kind oplost."
+        },
+        {
+          "q": "Voor welke leeftijd is Eduweer?",
+          "a": "Het project is ontworpen voor kinderen van ongeveer 6–12 jaar. Het eerste deel en het eerste avontuur zijn bijzonder geschikt voor kinderen die beginnen met hun schoolopleiding."
+        },
+        {
+          "q": "Moet de ouder een leraar zijn?",
+          "a": "Nee. De ouder neemt de rol van Mentor op zich — lezen, ondersteunen, inzet beoordelen en het kind helpen verder te komen. Het systeem begeleidt het gezin stap voor stap, zonder enige pedagogische voorbereiding."
+        },
+        {
+          "q": "Gebruikt het kind een telefoon?",
+          "a": "De Mentor-app is primarily voor de ouder. Het kind kan zijn held en voortgang zien, maar de hoofdactiviteit vindt plaats in het boek en werkboek — niet voor een scherm."
+        },
+        {
+          "q": "Beïnvloeden sterren de voortgang?",
+          "a": "Sterren zijn de manier van de ouder om het werk van het kind te waarderen. Ze tonen voltooide opdrachten en vertalen zich in beloningen in het systeem, maar het belangrijkste is het gevoel van zichtbare voortgang en gewaardeerde inzet."
+        },
+        {
+          "q": "Krijgt Eduweer een spel?",
+          "a": "Ja — het spel is deel van de bredere visie voor de wereld van Eduweer. Op dit moment is het middelpunt van de ervaring het boek, het werkboek en de Mentor-app. Het spel zal een toekomstige uitbreiding van de wereld zijn die betrokkenheid en verbinding met het verhaal versterkt."
+        }
+      ]
+    },
+    "join": {
+      "newsletter": {
+        "eyebrow": "Wees de eerste",
+        "title": "Sluit je aan bij de wereld van Eduweer",
+        "lead": "We zitten midden in de eerste Harvoria-editie. Meld je aan voor de lijst — we laten je weten wanneer het klaar is en delen exclusieve previews.",
+        "emailPlaceholder": "jouw@email.com",
+        "cta": "Aanmelden",
+        "success": "Bedankt! We laten je weten wanneer Harvoria klaar is.",
+        "trust": [
+          "Geen spam",
+          "Alleen belangrijk nieuws",
+          "Altijd uitschrijven mogelijk"
+        ]
+      },
+      "contact": {
+        "eyebrow": "Heb je een vraag?",
+        "title": "Schrijf ons",
+        "lead": "We antwoorden persoonlijk.",
+        "namePlaceholder": "Volledige naam",
+        "emailPlaceholder": "E-mailadres",
+        "messagePlaceholder": "Jouw bericht...",
+        "submit": "Bericht versturen",
+        "success": "Bedankt! We komen snel bij je terug.",
+        "error": "Er ging iets mis. Probeer het opnieuw."
+      }
+    },
+    "navLinks": {
+      "howItWorks": "Hoe het werkt",
+      "forParents": "Voor ouders",
+      "safety": "Veiligheid",
+      "join": "Aanmelden"
+    }
+  },
+  "investor": {
+    "meta": {
+      "title": "Eduweer — Investeerdersportaal · Systeem & Visie",
+      "description": "Een schaalbaar educatief ecosysteem — IP, verhaal, app en spel in één pipeline."
+    },
+    "hero": {
+      "eyebrow": "Investeerdersportaal · Systeem & Visie",
+      "title": "Eduweer — onderwijs als <gold>avontuur</gold>, ontworpen als een schaalbaar systeem.",
+      "subtitle": "We combineren verhaal, educatieve opdrachten, een ouder-app en een toekomstig avontuurspel tot één gesloten lus: verhaal → actie → beoordeling → beloning → voortgang → terugkeer.",
+      "support": "We bouwen een universum waar kinderen geen opdrachten oplossen \"omdat het moet\" — maar omdat elke opdracht hun held verder brengt in het verhaal en nieuwe elementen van de wereld ontgrendelt.",
+      "cta1": "Zie het systeemmodel",
+      "cta2": "Download one-pager",
+      "cta3": "Ouderpagina",
+      "orbitNodes": [
+        {
+          "name": "BOEK",
+          "desc": "Wereldverhaal\nen personages"
+        },
+        {
+          "name": "WERKBOEK",
+          "desc": "Opdrachten\nen oefeningen"
+        },
+        {
+          "name": "MENTOR-APP",
+          "desc": "Beoordeling, voortgang\nen rapporten"
+        },
+        {
+          "name": "AVONTUURSPEL",
+          "desc": "Avontuur, quests\nen beloningen"
+        },
+        {
+          "name": "WEBPORTAAL",
+          "desc": "Gemeenschap,\nscholen en partners"
+        },
+        {
+          "name": "OUDER / MENTOR",
+          "desc": "Ouder begeleidt,\nsteunt, inspireert"
+        }
+      ],
+      "badges": [
+        "Cross-platform IP",
+        "Klaar voor mondiale lokalisatie",
+        "Verhaalgestuurd leren",
+        "Oudergeleid model",
+        "Fysiek + digitaal ecosysteem",
+        "Ethische monetarisering",
+        "Uitbreidbare wereld",
+        "Ontworpen voor 6–12 jaar",
+        "Geen advertenties / geen pay-to-win"
+      ]
+    },
+    "problem": {
+      "eyebrow": "Probleem",
+      "title": "Onderwijs verliest de strijd om <gold>de aandacht van het kind.</gold>",
+      "subtitle": "Kinderen leven vandaag in een wereld van onmiddellijke prikkeling. Traditioneel leren geeft hen vaak geen context, gevoel of handelingsvermogen.",
+      "cards": [
+        {
+          "title": "Snelle dopamine-inhoud",
+          "body": "Kortformaat content, spellen en animaties belonen sneller dan leren. Educatieve opdrachten voelen daarvoor vaak traag, losstaand en gevoelloos aan."
+        },
+        {
+          "title": "Geen context",
+          "body": "Een kind kan vaak niet zien waarom het een opdracht doet. Zonder verhaal en doel wordt leren een verplichting in plaats van een weg naar ontdekking."
+        },
+        {
+          "title": "Uitgeputte ouders",
+          "body": "Ouders willen hun kind ondersteunen maar missen vaak een hulpmiddel dat hen rustig door het leren begeleidt en echte voortgang toont."
+        }
+      ]
+    },
+    "loop": {
+      "eyebrow": "Systeem",
+      "title": "De gesloten educatieve <gold>lus</gold>",
+      "subtitle": "Eduweer maakt van één opdracht deel van een groter avontuur. Elke stap die het kind zet telt in het verhaal, de app en de ontwikkeling van de held.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Verhaal",
+          "desc": "Verhaal geeft opdrachten context. Het kind weet waarom het handelt en wat er op het spel staat."
+        },
+        {
+          "num": "02",
+          "title": "Opdracht",
+          "desc": "Oefeningen bouwen specifieke schoolvaardigheden op, ingebed in gebeurtenissen uit de wereld van Eduweer."
+        },
+        {
+          "num": "03",
+          "title": "Mentor-beoordeling",
+          "desc": "De ouder beoordeelt de prestatie en begeleidt het kind door het avontuur in plaats van alleen resultaten te controleren."
+        },
+        {
+          "num": "04",
+          "title": "Beloning",
+          "desc": "Het systeem kent punten, EXP en beloningen toe afgestemd op voortgang en activiteitstype."
+        },
+        {
+          "num": "05",
+          "title": "Voortgang van de held",
+          "desc": "Het kind ziet zijn personage, kaarten, vaardigheden en wereldelementen evolueren."
+        },
+        {
+          "num": "06",
+          "title": "Terugkeer naar de wereld",
+          "desc": "Voortgang moedigt het kind aan het verhaal te vervolgen en nieuwe opdrachten op te pakken."
+        }
+      ],
+      "quote": "Kennis → voortgang → motivatie → terugkeer.",
+      "why": {
+        "title": "Waarom werkt dit model?",
+        "points": [
+          "Verhaal geeft elke opdracht een doel",
+          "Ouder blijft centraal in het proces",
+          "Motivatie komt voort uit prestatie, niet willekeurige beloningen",
+          "Systeem onderwijst echte competenties, niet alleen klikken",
+          "Schaalbaar over boeken, app en spellen"
+        ]
+      }
+    },
+    "ecosystem": {
+      "eyebrow": "Ecosysteem",
+      "title": "Één wereld, <gold>veel ingangspunten.</gold>",
+      "subtitle": "Eduweer is ontworpen als een ecosysteem waar fysieke en digitale elementen elkaar versterken — van het boek en werkboek tot de Mentor-app en het komende spel.",
+      "cards": [
+        {
+          "label": "Narratief fundament",
+          "title": "Boek + Werkboek",
+          "body": "Het boek en werkboek vormen de kern van de ervaring: verhaal, opdrachten, een ritme van werken en gedeelde tijd tussen ouder en kind. Het ingangspunt in de wereld van Eduweer.",
+          "pill": "Fysiek · Digitale PDF"
+        },
+        {
+          "label": "Oudergeleid voortgang",
+          "title": "Mentor-app",
+          "body": "De Mentor-app laat ouders hun kind door het avontuur begeleiden, voortgang bijhouden, opdrachten beoordelen met sterren en hun held zien groeien.",
+          "pill": "iOS · Android · MVP gepland"
+        },
+        {
+          "label": "Langetermijnbetrokkenheid",
+          "title": "Avontuurspel",
+          "body": "Het spel breidt de wereld van Eduweer uit voorbij het boek: landbouw, verkenning, ambacht en quests die motivatie en verbinding met het IP verdiepen.",
+          "pill": "Harvoria-slice · In concept"
+        },
+        {
+          "label": "Schaalbare toegangslaag",
+          "title": "Web / Platform",
+          "body": "Het webportaal beheert accounts, inhoud, materialen, partnerschappen, scholen en toekomstige gemeenschapsmodules.",
+          "pill": "Scholen · Partners · B2B"
+        }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Hoe het werkt",
+      "title": "Hoe één opdracht deel wordt van een groter <gold>avontuur.</gold>",
+      "subtitle": "Eduweer eindigt niet met het oplossen van een oefening. Elke opdracht beïnvloedt de voortgang in het boek, de app en de held.",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Ze lezen",
+          "desc": "Ouder en kind lezen een verhaalparagraaf met een uitdaging"
+        },
+        {
+          "num": "02",
+          "title": "Lost het op",
+          "desc": "Het kind voltooit de opdracht in het werkboek — omdat het verhalende betekenis heeft"
+        },
+        {
+          "num": "03",
+          "title": "Beoordeelt het",
+          "desc": "De ouder opent de Mentor-app en kent sterren toe"
+        },
+        {
+          "num": "04",
+          "title": "Beloning",
+          "desc": "Het systeem berekent EXP en werkt de voortgangskaart bij"
+        },
+        {
+          "num": "05",
+          "title": "Wil meer",
+          "desc": "De held groeit — het kind komt uit zichzelf terug"
+        }
+      ]
+    },
+    "traction": {
+      "eyebrow": "Projectstatus",
+      "title": "Dit is niet alleen een concept. <gold>Het fundament bestaat al.</gold>",
+      "subtitle": "Eduweer heeft een uitgebouwde wereld, een uitgewerkt boek, een gedefinieerd Mentor-app-model en een duidelijke richting voor het spel en platform.",
+      "done": {
+        "badge": "Voltooid",
+        "items": [
+          "Eerste deel concept",
+          "Kern worldbuilding Eduweer",
+          "Belangrijkste landen en wereldconflict",
+          "Kern educatieve lus",
+          "Mentor-app concept",
+          "Avontuurspel fundament"
+        ]
+      },
+      "wip": {
+        "badge": "In uitvoering",
+        "items": [
+          "Heldendagboek / werkboek",
+          "Definitief HUB-paginaontwerp",
+          "Ouderpagina",
+          "Investeerderspagina",
+          "Pitchmaterialen / one-pager",
+          "Mentor-app mockups"
+        ]
+      },
+      "next": {
+        "badge": "Volgende",
+        "items": [
+          "Tests met kinderen en ouders",
+          "Mentor-app MVP",
+          "Spelprototype / Harvoria-slice",
+          "Crowdfundingcampagne",
+          "Investeerdersgesprekken",
+          "EN/DE/FR/ES/IT/JP lokalisatie"
+        ]
+      }
+    },
+    "scale": {
+      "eyebrow": "Schaalbaarheid",
+      "title": "Schalen via de wereld, niet alleen via <gold>functies.</gold>",
+      "subtitle": "Elk Eduweer-land betekent een nieuw deel, een nieuwe competentieset, een nieuw contentseizoen en nieuwe productmogelijkheden.",
+      "dimsTitle": "4 dimensies van uitbreiding",
+      "dimsSubtitle": "Eduweer kan gelijktijdig groeien langs vier onafhankelijke assen — elk opent nieuwe markten en inkomstenstromen.",
+      "lands": [
+        {
+          "name": "Harvoria",
+          "tag": "Boek 1 · Actief",
+          "body": "Landbouw, verantwoordelijkheid, het ritme van de natuur, kern school- en sociale competenties.",
+          "variant": "active"
+        },
+        {
+          "name": "Summitara",
+          "tag": "Boek 2 · Gepland",
+          "body": "Bergen, vliegende schepen, handel en conflicten over resourcecontrole.",
+          "variant": "future"
+        },
+        {
+          "name": "Lyra'Glen",
+          "tag": "Boek 3 · Concept",
+          "body": "Reusachtige bomen, lichtgevende paddenstoelen, ecosysteembalans.",
+          "variant": "future"
+        },
+        {
+          "name": "Mazurai",
+          "tag": "Boek 4 · Vergrendeld",
+          "body": "Meren en rivieren, harmonie, sociale relaties, morele keuzes.",
+          "variant": "locked"
+        },
+        {
+          "name": "Dunnvol",
+          "tag": "Boek 5 · Vergrendeld",
+          "body": "Woestijn, energie, technologie en resourceverantwoordelijkheid.",
+          "variant": "locked"
+        },
+        {
+          "name": "Futurion",
+          "tag": "Eindarc",
+          "body": "Het centrum van de wereld, technologie en het uiteindelijke conflict.",
+          "variant": "final"
+        }
+      ],
+      "dims": [
+        {
+          "n": "∞",
+          "title": "Contentschaal",
+          "body": "Meer boeken, hoofdstukken, quests en opdrachten voor elk land."
+        },
+        {
+          "n": "5+",
+          "title": "Productschaal",
+          "body": "App, spel, portaal, bordspel, educatieve workshops."
+        },
+        {
+          "n": "7",
+          "title": "Geografische schaal",
+          "body": "PL/EN/DE/FR/ES/IT/JP lokalisaties en verdere markten."
+        },
+        {
+          "n": "B2C+",
+          "title": "Partnerschapsschaal",
+          "body": "Gezinnen, scholen, instellingen, uitgevers, educatieve partnerschappen."
+        }
+      ]
+    },
+    "tech": {
+      "eyebrow": "Technologie",
+      "title": "Gebouwd voor voortgang, data en <gold>uitbreiding.</gold>",
+      "subtitle": "Eduweer is vanaf het begin ontworpen om voortgangssynchronisatie, dynamische beloningen, schaalbare content en toekomstige leerPersonalisering te ondersteunen.",
+      "layers": [
+        {
+          "label": "Ervaring",
+          "tags": ["Boek", "Werkboek", "Mentor-app", "Avontuurspel", "Webportaal"]
+        },
+        {
+          "label": "Applicatie",
+          "tags": ["Auth", "Kindprofielen", "Voortgangsmonitoring", "Opdrachtvalidatie", "Beloningen", "Contentlevering", "Mentor-controles"]
+        },
+        {
+          "label": "Data",
+          "tags": ["Gebruikers · Helden", "Boeken · Opdrachten", "Voortgang", "Inventaris · Vaardigheden", "Beloningen · Gebeurtenissen"]
+        },
+        {
+          "label": "Intelligentie",
+          "tags": ["Analytics", "Adaptief leren", "AI-ondersteunde content", "Lokalisatie", "Rapporten"]
+        },
+        {
+          "label": "Infrastructuur",
+          "tags": ["Auditspoor", "Event sourcing", "Veilig eigenaarschap", "Toekomstbestendige architectuur"]
+        }
+      ]
+    },
+    "biz": {
+      "eyebrow": "Businessmodel",
+      "title": "Inkomsten zonder het <gold>vertrouwen</gold> te breken.",
+      "subtitle": "Eduweer monetariseert IP, educatieve producten en digitale add-ons zonder de voortgang, EXP of educatief voordeel van een kind te verkopen.",
+      "streams": [
+        {
+          "num": "01",
+          "title": "Boeken en werkboeken",
+          "body": "Fysieke en digitale edities van boeken, heldendagboeken en verdere delen in de serie."
+        },
+        {
+          "num": "02",
+          "title": "Mentor-app Premium",
+          "body": "Uitgebreide rapporten, extra opdrachten, personalisering en modi die de ouder of leraar ondersteunen."
+        },
+        {
+          "num": "03",
+          "title": "Spelinhoud en cosmetica",
+          "body": "Cosmetica, skins en esthetische werelduitbreidingen — geen pay-to-win, geen kennis kopen."
+        },
+        {
+          "num": "04",
+          "title": "Scholen en instellingen",
+          "body": "Pakketten voor scholen, klaslokalen, leraren, workshops en educatieve partnerschappen."
+        },
+        {
+          "num": "05",
+          "title": "Merchandise en bordspel",
+          "body": "Bordspellen, familieproducten, verzamelobjecten uit de wereld en offline educatieve materialen."
+        }
+      ],
+      "trust": {
+        "title": "Vertrouwensprincipes",
+        "rules": [
+          "EXP kan niet worden gekocht.",
+          "Kennisgebaseerde beloningen moeten worden verdiend.",
+          "Geen advertenties gericht op kinderen.",
+          "Ouder blijft in controle.",
+          "Monetarisering ondersteunt het educatieve ecosysteem."
+        ]
+      }
+    },
+    "roadmap": {
+      "eyebrow": "Roadmap",
+      "title": "Een plan voor een wereld die <gold>groeit.</gold>",
+      "stages": [
+        {
+          "marker": "01",
+          "tag": "Bewijs van de wereld",
+          "date": "Q4 2025 – Q2 2026",
+          "items": ["Wereld afronding", "Boekontwerp #1", "Ouder- en investeerderspagina", "App-concept"]
+        },
+        {
+          "marker": "02",
+          "tag": "MVP",
+          "date": "Q3 2026 – Q4 2026",
+          "items": ["Boek en werkboek v1", "Gezinstests", "Mentor-app MVP", "Voortgangssysteem"]
+        },
+        {
+          "marker": "03",
+          "tag": "Vroege toegang",
+          "date": "2027",
+          "items": ["Boek #1 lancering", "Mentor-app MVP", "Vroege toegang", "Gemeenschapscampagne"]
+        },
+        {
+          "marker": "04",
+          "tag": "Uitbreiding",
+          "date": "2027 – 2028",
+          "items": ["Meer boeken", "Avontuurspel", "Taallokalisaties", "Scholen en partners"]
+        },
+        {
+          "marker": "05",
+          "tag": "Globaal ecosysteem",
+          "date": "2029+",
+          "items": ["Globaal platform", "Extra landen", "Merchandise en licenties", "AI-personalisering"]
+        }
+      ],
+      "status": {
+        "eyebrow": "Huidige status",
+        "title": "Wat hebben we vandaag?",
+        "items": [
+          "Boek — deel 1 klaar, concepten voor deel 2 en 3",
+          "Mentor mobiele app — alfaversie",
+          "Opdrachten en werkboekontwerp (zonder illustraties)",
+          "App-backend en spelserver — alfaversie",
+          "Avontuurspel — concept en technische demo's",
+          "5-jarig ontwikkelingsplan",
+          "Educatief model en systeemlusen"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Laten we praten over de toekomst van <gold>onderwijs.</gold>",
+      "subtitle": "We zoeken partners die begrijpen dat de toekomst van onderwijs niet meer schermen betekent — het kan betekenen betere context, sterker verhaal en een doordacht groeisysteem.",
+      "btn1": "Plan een gesprek",
+      "btn2": "Download investeerder one-pager",
+      "btn3": "Zie ouderpagina",
+      "info1": "Radosław Kamysz — Ontwikkelaar & Oprichter",
+      "info2": "15+ jaar productie-ervaring",
+      "info3": "Eduweer — gebouwd met schaalbaarheid in gedachten"
+    },
+    "navLabels": ["Systeem", "Ecosysteem", "Model", "Roadmap", "Contact"]
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "name": "Volledige naam",
+    "email": "E-mailadres",
+    "message": "Bericht",
+    "submit": "Bericht versturen",
+    "newsletter": "Aanmelden voor nieuwsbrief",
+    "success": "Bedankt! We komen snel bij je terug.",
+    "error": "Er ging iets mis. Probeer het opnieuw."
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacybeleid — Eduweer",
+      "description": "Lees hoe Eduweer uw persoonsgegevens verwerkt in overeenstemming met de AVG."
+    },
+    "eyebrow": "Juridische documenten",
+    "title": "Privacybeleid",
+    "updated": "Laatst bijgewerkt: 23 mei 2026",
+    "intro": "Dit privacybeleid beschrijft hoe Eduweer uw persoonsgegevens verzamelt, gebruikt en beschermt. We geven om uw privacy en verwerken gegevens alleen voor zover noodzakelijk om onze diensten te kunnen leveren.",
+    "sections": [
+      {
+        "title": "1. Verwerkingsverantwoordelijke",
+        "body": "De verwerkingsverantwoordelijke is Radoslaw Kamysz, die het Eduweer-project leidt. Contact: hello@support.eduweer.com"
+      },
+      {
+        "title": "2. Gegevens die we verzamelen",
+        "body": "We verzamelen alleen gegevens die u vrijwillig verstrekt:\n• E-mailadres — bij aanmelding voor de nieuwsbrief\n• Naam, e-mailadres, berichtinhoud — bij het indienen van het contactformulier\n\nWe verzamelen geen locatiegegevens, profileren geen gebruikers en gebruiken geen gedragsgerichte reclame."
+      },
+      {
+        "title": "3. Doel en rechtsgrondslag",
+        "body": "We verwerken uw gegevens voor de volgende doeleinden:\n• Nieuwsbrief — verzending van Eduweer-updates (rechtsgrondslag: toestemming, art. 6, lid 1, sub a, AVG)\n• Contactformulier — beantwoording van uw verzoek (rechtsgrondslag: gerechtvaardigde belangen, art. 6, lid 1, sub f, AVG)"
+      },
+      {
+        "title": "4. Verwerkers",
+        "body": "We maken gebruik van de volgende subverwerkers:\n• Resend (resend.com) — platform voor e-mailverzending en beheer van nieuwsbrievenlijst\n• Vercel (vercel.com) — applicatiehosting en infrastructuur\n\nAlle subverwerkers bieden een adequaat niveau van gegevensbescherming onder de AVG."
+      },
+      {
+        "title": "5. Bewaartermijnen",
+        "body": "• Nieuwsbrievensgegevens — totdat de toestemming wordt ingetrokken (uitgeschreven)\n• Contactformuliergegevens — voor de periode die nodig is om de correspondentie af te handelen, max. 2 jaar\n\nNa deze perioden worden gegevens permanent verwijderd."
+      },
+      {
+        "title": "6. Uw rechten",
+        "body": "U heeft de volgende rechten:\n• Inzage — vraag welke gegevens we over u bewaren\n• Rectificatie — corrigeer onjuiste gegevens\n• Wissing — verzoek om verwijdering van uw gegevens\n• Beperking — beperk hoe we uw gegevens verwerken\n• Overdraagbaarheid — ontvang uw gegevens in een gestructureerd formaat\n• Bezwaar — maak bezwaar tegen verwerking op basis van gerechtvaardigde belangen\n• Intrekking van toestemming — schrijf u op elk moment uit voor de nieuwsbrief\n\nOm deze rechten uit te oefenen, schrijft u naar hello@support.eduweer.com. We reageren binnen 30 dagen."
+      },
+      {
+        "title": "7. Uitschrijven",
+        "body": "U kunt zich op elk moment uitschrijven voor de nieuwsbrief door op de uitschrijflink in een e-mail van ons te klikken, of door contact met ons op te nemen: hello@support.eduweer.com"
+      },
+      {
+        "title": "8. Cookies",
+        "body": "Deze site gebruikt geen cookies voor analyse of reclame. We gebruiken alleen technische sessiecookies die noodzakelijk zijn voor de werking van de site."
+      },
+      {
+        "title": "9. Gegevensbeveiliging",
+        "body": "We passen passende technische en organisatorische maatregelen toe om uw gegevens te beschermen. Gegevensoverdracht vindt plaats via een versleutelde HTTPS-verbinding."
+      },
+      {
+        "title": "10. Beleidswijzigingen",
+        "body": "We behouden ons het recht voor dit beleid bij te werken. Nieuwsbrievensabonnees worden op de hoogte gesteld van belangrijke wijzigingen. De huidige versie is altijd beschikbaar op eduweer.com/privacy."
+      },
+      {
+        "title": "11. Toezichthoudende autoriteit",
+        "body": "Als u van mening bent dat we uw gegevens onrechtmatig verwerken, heeft u het recht een klacht in te dienen bij uw lokale gegevensbeschermingsautoriteit. In Nederland: Autoriteit Persoonsgegevens, Postbus 93374, 2509 AJ Den Haag, www.autoriteitpersoonsgegevens.nl"
+      }
+    ],
+    "contact": "Vragen? Neem contact met ons op: hello@support.eduweer.com"
+  }
+}

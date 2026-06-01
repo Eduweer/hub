@@ -74,9 +74,9 @@
     },
     "problem": {
       "eyebrow": "Una aventura compartida",
-      "title": "El aprendizaje no debería comenzar con una <accent>batalla</accent>",
+      "title": "El aprendizaje no debería comenzar con una <accent>imposición</accent>",
       "p1": "Muchos padres conocen este momento: el niño tiene tareas que hacer pero pierde rápidamente el interés. En lugar de curiosidad, hay fatiga, negociaciones y tensión.",
-      "p2": "Eduweer parte de una premisa diferente: los niños se comprometen más fácilmente cuando ven el propósito. Cuando una tarea no es una hoja desconectada, sino parte de una historia más grande.",
+      "p2": "Nosotros también lo vivimos, por eso empezamos a buscar una forma diferente. Una que no convierte el aprendizaje en presión, sino que le da al niño una razón para querer seguir adelante. Los niños se comprometen más fácilmente cuando ven el propósito. Cuando una tarea no es una hoja desconectada, sino parte de una historia más grande.",
       "points": [
         "Las tareas están integradas en la aventura — el niño entiende por qué las hace",
         "El padre guía, pero no tiene que luchar por cada minuto de aprendizaje",
@@ -87,33 +87,15 @@
     "what": {
       "eyebrow": "Qué es Eduweer",
       "title": "Eduweer es una <accent>aventura</accent> contada de varias maneras",
-      "lead": "Eduweer combina un libro, cuaderno y la app Mentor en una experiencia. El padre lee la historia con el niño, el niño completa tareas en el Diario del Héroe, y la app ayuda a seguir el progreso.",
-      "tagline": "No solo un libro. No solo una app. Un sistema tranquilo de aprendizaje a través de la historia.",
       "flow": [
         {
-          "icon": "📖",
-          "title": "Leer juntos",
-          "desc": "La historia guía a través de la aventura"
+          "desc": "Eduweer nació de la combinación de dos mundos: la lectura tranquila y valiosa con el niño y las mecánicas conocidas de los juegos, que los niños descubren cada vez más pronto — un héroe, progreso, niveles, recompensas y el descubrimiento de las siguientes etapas."
         },
         {
-          "icon": "✏️",
-          "title": "El niño actúa",
-          "desc": "Las tareas fluyen del argumento"
+          "desc": "La diferencia es que aquí estas mecánicas no están destinadas a mantener al niño frente a la pantalla el mayor tiempo posible. Están destinadas a ayudarle a ver el sentido del esfuerzo. Cada tarea completada, cada parte leída de la historia y cada progreso valorado hacen que no solo el niño se desarrolle, sino también su héroe en el mundo de Eduweer."
         },
         {
-          "icon": "⭐",
-          "title": "El padre aprecia",
-          "desc": "Calificación con estrellas en la app"
-        },
-        {
-          "icon": "🗺️",
-          "title": "El héroe crece",
-          "desc": "El personaje del niño se desarrolla"
-        },
-        {
-          "icon": "🌿",
-          "title": "La historia continúa",
-          "desc": "Próximos capítulos esperan"
+          "desc": "Gracias a esto, el aprendizaje ya no es solo una obligación. Se convierte en parte de una aventura en la que el niño quiere descubrir qué pasará después — y el padre puede estar cerca, guiar la historia y compartir juntos las pequeñas victorias del niño."
         }
       ]
     },
