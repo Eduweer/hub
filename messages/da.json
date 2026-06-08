@@ -21,7 +21,7 @@
         "tag": "Hovedindgang",
         "name": "Til forældre",
         "desc": "Dit barn lærer, fordi det vil — fordi historien trækker det ind. Du er lige ved siden af.",
-        "cta": "Træd ind i verdenen"
+        "cta": "Træd ind i Eduweers verden"
       },
       "investor": {
         "tag": "Systemportal",
@@ -33,7 +33,7 @@
         "tag": "Kampagne",
         "name": "Støt projektet",
         "desc": "Vær en del af historien fra det allerførste kapitel. Belønninger venter.",
-        "cta": "Støt verdenen"
+        "cta": "Støt Eduweers verden"
       }
     },
     "tagline": {
@@ -65,7 +65,7 @@
       "subtitle": "Her bliver dit barn helten i en historie fuld af mysterier, udfordringer og små sejre — og hvert skridt fører dem videre."
     },
     "cta": {
-      "primary": "Opdage Harvoria",
+      "primary": "Opdag Harvoria",
       "secondary": "Hvordan virker det?"
     },
     "bridge": {
@@ -107,7 +107,7 @@
         {
           "num": "3",
           "title": "Udforsk i appen",
-          "desc": "Mentor forklarer, belønner og låser op for de næste kapitler i verdenen. Fremskridt er synligt og mærkbart."
+          "desc": "Mentor forklarer, belønner og låser op for de næste kapitler i verden. Fremskridt er synligt og mærkbart."
         }
       ]
     },
@@ -156,7 +156,7 @@
           "Varm, eventyrlig fortælling for børn og forældre",
           "Barnet bliver en del af historien — læser den ikke bare",
           "Opgaver udspringer naturligt af handlingen",
-          "Forælderen bliver en guide through Eduweers verden"
+          "Forælderen bliver en guide gennem Eduweers verden"
         ],
         "caption": "Historien er begyndelsen på ethvert eventyr — den giver opgaverne mening."
       },
@@ -180,7 +180,7 @@
           "Barn- og helteprofil med niveau og EXP",
           "Fremskridtskort — se, hvor barnet er i eventyret",
           "Opgavevurdering med stjerner (1, 2 eller 3)",
-          "Vigtige handlinger sikret med forælde-PIN"
+          "Vigtige handlinger sikres med forældre-PIN"
         ],
         "caption": "Mentor hjælper forælderen med at se fremskridt uden at gøre læring til et regneark."
       },
@@ -310,7 +310,7 @@
         {
           "icon": "🔒",
           "title": "Forældre-PIN",
-          "desc": "Vigtige handlinger som opgavevurderinger og profilændringer kræver forælderens PIN."
+          "desc": "Vigtige handlinger som opgavevurderinger og profilændringer kræver forældre-PIN."
         },
         {
           "icon": "📖",
@@ -411,7 +411,7 @@
         "eyebrow": "Har du et spørgsmål?",
         "title": "Skriv til os",
         "lead": "Vi svarer personligt.",
-        "namePlaceholder": "Fulde navn",
+        "namePlaceholder": "Fuldt navn",
         "emailPlaceholder": "E-mailadresse",
         "messagePlaceholder": "Din besked...",
         "submit": "Send besked",
@@ -435,7 +435,7 @@
       "eyebrow": "Investorportal · System & Vision",
       "title": "Eduweer — uddannelse som <gold>eventyr</gold>, designet som et skalerbart system.",
       "subtitle": "Vi kombinerer fortælling, pædagogiske opgaver, en forældreapp og et fremtidigt eventyrspil til én lukket løkke: historie → handling → vurdering → belønning → fremskridt → tilbagevenden.",
-      "support": "Vi bygger et univers, hvor børn ikke løser opgaver \"fordi de skal\" — men fordi enhver opgave fører deres helt videre i historien og låser op for nye elementer af verdenen.",
+      "support": "Vi bygger et univers, hvor børn ikke løser opgaver \"fordi de skal\" — men fordi enhver opgave fører deres helt videre i historien og låser op for nye dele af verden.",
       "cta1": "Se systemmodellen",
       "cta2": "Download one-pager",
       "cta3": "Forældreside",
@@ -484,7 +484,7 @@
       "cards": [
         {
           "title": "Hurtigt dopaminindhold",
-          "body": "Kortformsindhold, spil og animationer belønner hurtigere end læring. Pædagogiske opgaver føles ofte langsomme, løsrevne og følelsesløse til sammenligning."
+          "body": "Korte videoer, spil og animationer belønner hurtigere end læring. Pædagogiske opgaver føles ofte langsomme, løsrevne og uden følelsesmæssig forbindelse til sammenligning."
         },
         {
           "title": "Ingen kontekst",
@@ -514,7 +514,7 @@
         {
           "num": "03",
           "title": "Mentor-gennemgang",
-          "desc": "Forælderen vurderer præstationen og guider barnet through eventyret frem for blot at tjekke resultater."
+          "desc": "Forælderen vurderer præstationen og guider barnet gennem eventyret frem for blot at tjekke resultater."
         },
         {
           "num": "04",
@@ -558,14 +558,14 @@
         {
           "label": "Forældreledet fremskridt",
           "title": "Mentor-app",
-          "body": "Mentor-appen lader forældre guide deres barn through eventyret, følge fremskridt, vurdere opgaver med stjerner og se sin helt vokse.",
+          "body": "Mentor-appen lader forældre guide deres barn gennem eventyret, følge fremskridt, vurdere opgaver med stjerner og se barnets helt vokse.",
           "pill": "iOS · Android · MVP planlagt"
         },
         {
           "label": "Langsigtet engagement",
           "title": "Eventyrspil",
           "body": "Spillet udvider Eduweers verden ud over bogen: landbrug, udforskning, håndværk og quests, der uddyber motivation og tilknytning til IP'et.",
-          "pill": "Harvoria-skive · I konceptfase"
+          "pill": "Harvoria-del · I konceptfase"
         },
         {
           "label": "Skalerbart adgangslag",
@@ -610,14 +610,14 @@
     "traction": {
       "eyebrow": "Projektstatus",
       "title": "Dette er ikke bare et koncept. <gold>Fundamentet eksisterer allerede.</gold>",
-      "subtitle": "Eduweer har en udbygget verden, et udkastet bog, en defineret Mentor-app-model og en klar retning for spillet og platformen.",
+      "subtitle": "Eduweer har en udbygget verden, et bogudkast, en defineret Mentor-app-model og en klar retning for spillet og platformen.",
       "done": {
         "badge": "Afsluttet",
         "items": [
           "Første binds udkast",
-          "Kern-worldbuilding for Eduweer",
+          "Grundlæggende worldbuilding for Eduweer",
           "Vigtigste lande og verdens konflikt",
-          "Kern pædagogisk løkke",
+          "Grundlæggende pædagogisk løkke",
           "Mentor-app-koncept",
           "Eventyrspillets fundament"
         ]
@@ -638,7 +638,7 @@
         "items": [
           "Tests med børn og forældre",
           "Mentor-app MVP",
-          "Spilprototype / Harvoria-skive",
+          "Spilprototype / Harvoria-del",
           "Crowdfundingkampagne",
           "Investorsamtaler",
           "EN/DE/FR/ES/IT/JP lokalisering"
@@ -647,7 +647,7 @@
     },
     "scale": {
       "eyebrow": "Skalerbarhed",
-      "title": "Skalering through verdenen, ikke bare through <gold>funktioner.</gold>",
+      "title": "Skalering gennem universet, ikke bare gennem <gold>funktioner.</gold>",
       "subtitle": "Hvert Eduweer-land betyder et nyt bind, et nyt kompetencesæt, en ny indholdssæson og nye produktmuligheder.",
       "dimsTitle": "4 dimensioner af udvidelse",
       "dimsSubtitle": "Eduweer kan vokse simultant langs fire uafhængige akser — hver åbner nye markeder og indtægtsstrømme.",
@@ -888,7 +888,7 @@
     },
     "cta": {
       "title": "Lad os tale om fremtidens <gold>uddannelse.</gold>",
-      "subtitle": "Vi leder efter partnere, der forstår, at fremtidens uddannelse ikke betyder flere skærme — det kan betyde bedre kontekst, stærkere fortælling og et gennemtænkt vækststystem.",
+      "subtitle": "Vi leder efter partnere, der forstår, at fremtidens uddannelse ikke betyder flere skærme — det kan betyde bedre kontekst, stærkere fortælling og et gennemtænkt vækstsystem.",
       "btn1": "Planlæg et opkald",
       "btn2": "Download investor one-pager",
       "btn3": "Se forældreside",
@@ -906,7 +906,7 @@
   },
   "contact": {
     "title": "Kom i kontakt",
-    "name": "Fulde navn",
+    "name": "Fuldt navn",
     "email": "E-mailadresse",
     "message": "Besked",
     "submit": "Send besked",
