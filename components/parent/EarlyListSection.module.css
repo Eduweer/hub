@@ -1,4 +1,6 @@
 .card {
+  position: relative;
+  overflow: hidden;
   max-width: 680px;
   margin: 0 auto;
   text-align: center;
@@ -11,6 +13,77 @@
   border: 1px solid var(--green-border);
   border-radius: var(--r-lg, 24px);
   box-shadow: 0 24px 60px -32px rgba(42, 92, 63, 0.35);
+}
+
+.cardInner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* ── Ambient sparkles (A) ──────────────────────────────────────────────────── */
+.sparkleLayer {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.spark {
+  position: absolute;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  will-change: transform, opacity;
+  animation-name: ewFloat;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.sparkDot {
+  display: block;
+  border-radius: 50%;
+}
+
+@keyframes ewFloat {
+  0%   { opacity: 0.12; transform: translate(-50%, -50%) translateY(5px)  scale(0.65); }
+  50%  { opacity: 0.85; transform: translate(-50%, -50%) translateY(-7px) scale(1); }
+  100% { opacity: 0.12; transform: translate(-50%, -50%) translateY(5px)  scale(0.65); }
+}
+
+/* ── Success payoff burst (C) ──────────────────────────────────────────────── */
+.burst {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.burstParticle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  will-change: transform, opacity;
+  animation: ewBurst 0.95s cubic-bezier(0.2, 0.7, 0.3, 1) forwards;
+}
+
+@keyframes ewBurst {
+  0%   { opacity: 1; transform: translate(0, 0) scale(0.3); }
+  70%  { opacity: 1; }
+  100% { opacity: 0; transform: translate(var(--tx), var(--ty)) scale(1); }
 }
 
 .eye {
@@ -120,6 +193,7 @@
 }
 
 .success {
+  position: relative;
   padding: 18px 22px;
   background: var(--green-dim);
   border: 1px solid var(--green-border);
@@ -147,4 +221,9 @@
   .row {
     flex-direction: column;
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sparkleLayer { display: none; }
+  .spark, .burstParticle { animation: none; }
 }
