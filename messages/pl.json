@@ -436,6 +436,21 @@
     }
   },
   "investor": {
+    "contactForm": {
+      "eyebrow": "Kontakt",
+      "title": "Zainteresowany Eduweer? Skontaktuj się.",
+      "lead": "Jeśli chcesz dowiedzieć się więcej o produkcie, roadmapie, możliwości inwestycji lub opcjach partnerstwa, napisz wiadomość — odpowiemy osobiście.",
+      "namePlaceholder": "Imię i nazwisko",
+      "emailPlaceholder": "Adres email",
+      "messagePlaceholder": "Wiadomość",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłam…",
+      "success": "Dziękujemy! Odezwiemy się osobiście.",
+      "errorRequired": "To pole jest wymagane",
+      "errorEmail": "Podaj poprawny adres email",
+      "errorShort": "Wiadomość jest za krótka (minimum 10 znaków)",
+      "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie."
+    },
     "meta": {
       "title": "Eduweer — Portal Inwestora · System & Wizja",
       "description": "Skalowalny ekosystem edukacyjny — IP, narracja, aplikacja i gra w jednym pipeline."

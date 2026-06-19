@@ -439,6 +439,21 @@
     }
   },
   "investor": {
+    "contactForm": {
+      "eyebrow": "Kontakt",
+      "title": "Interesseret i Eduweer? Tag kontakt.",
+      "lead": "Hvis du vil vide mere om produktet, roadmappet, investeringsmuligheden eller partnerskabsmuligheder, så send en besked, og vi svarer personligt.",
+      "namePlaceholder": "Fulde navn",
+      "emailPlaceholder": "E-mailadresse",
+      "messagePlaceholder": "Besked",
+      "submit": "Send besked",
+      "sending": "Sender…",
+      "success": "Tak! Vi vender personligt tilbage til dig.",
+      "errorRequired": "Dette felt er påkrævet",
+      "errorEmail": "Indtast en gyldig e-mailadresse",
+      "errorShort": "Beskeden er for kort (mindst 10 tegn)",
+      "errorGeneric": "Noget gik galt. Prøv igen."
+    },
     "meta": {
       "title": "Eduweer — Investorportal · System & Vision",
       "description": "Et skalerbart pædagogisk økosystem — IP, fortælling, app og spil i én pipeline."

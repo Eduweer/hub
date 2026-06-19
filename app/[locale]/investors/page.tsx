@@ -8,6 +8,7 @@ import Motes from "@/components/shared/Motes";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
 import ScrollReveal from "@/components/shared/ScrollReveal";
+import InvestorContact from "@/components/investor/InvestorContact";
 import styles from "./InvestorsPage.module.css";
 import { assetUrl } from "@/lib/cdn";
 
@@ -561,6 +562,31 @@ export default function InvestorsPage() {
               <div className={styles.ciItem}><div className={styles.ciDot} />{t("cta.info2")}</div>
               <div className={styles.ciItem}><div className={styles.ciDot} />{t("cta.info3")}</div>
             </div>
+          </div>
+        </section>
+
+        <div className={styles.divLine} />
+
+        {/* ── S12 CONTACT FORM ── */}
+        <section className={styles.section} id="contact">
+          <div className={styles.wrap}>
+            <InvestorContact
+              t={{
+                eyebrow: t("contactForm.eyebrow"),
+                title: t("contactForm.title"),
+                lead: t("contactForm.lead"),
+                namePlaceholder: t("contactForm.namePlaceholder"),
+                emailPlaceholder: t("contactForm.emailPlaceholder"),
+                messagePlaceholder: t("contactForm.messagePlaceholder"),
+                submit: t("contactForm.submit"),
+                sending: t("contactForm.sending"),
+                success: t("contactForm.success"),
+                errorRequired: t("contactForm.errorRequired"),
+                errorEmail: t("contactForm.errorEmail"),
+                errorShort: t("contactForm.errorShort"),
+                errorGeneric: t("contactForm.errorGeneric"),
+              }}
+            />
           </div>
         </section>
 

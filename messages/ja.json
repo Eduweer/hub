@@ -439,6 +439,21 @@
     }
   },
   "investor": {
+    "contactForm": {
+      "eyebrow": "お問い合わせ",
+      "title": "Eduweerにご興味がありますか？お問い合わせください。",
+      "lead": "製品、ロードマップ、投資機会、またはパートナーシップについて詳しく知りたい場合は、メッセージをお送りください。担当者が直接ご返信します。",
+      "namePlaceholder": "氏名",
+      "emailPlaceholder": "メールアドレス",
+      "messagePlaceholder": "メッセージ",
+      "submit": "メッセージを送信",
+      "sending": "送信中…",
+      "success": "ありがとうございます！担当者より直接ご連絡いたします。",
+      "errorRequired": "この項目は必須です",
+      "errorEmail": "有効なメールアドレスを入力してください",
+      "errorShort": "メッセージが短すぎます（10文字以上）",
+      "errorGeneric": "問題が発生しました。もう一度お試しください。"
+    },
     "meta": {
       "title": "Eduweer — 投資家ポータル · システム＆ビジョン",
       "description": "スケーラブルな教育エコシステム——IP・物語・アプリ・ゲームを一つのパイプラインに。"

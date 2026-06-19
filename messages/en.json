@@ -439,6 +439,21 @@
     }
   },
   "investor": {
+    "contactForm": {
+      "eyebrow": "Contact",
+      "title": "Interested in Eduweer? Get in touch.",
+      "lead": "If you'd like to learn more about the product, roadmap, investment opportunity, or partnership options, send a message and we'll reply personally.",
+      "namePlaceholder": "Full name",
+      "emailPlaceholder": "Email address",
+      "messagePlaceholder": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thank you! We'll get back to you personally.",
+      "errorRequired": "This field is required",
+      "errorEmail": "Please enter a valid email address",
+      "errorShort": "Message is too short (minimum 10 characters)",
+      "errorGeneric": "Something went wrong. Please try again."
+    },
     "meta": {
       "title": "Eduweer — Investor Portal · System & Vision",
       "description": "A scalable educational ecosystem — IP, narrative, app and game in one pipeline."

@@ -439,6 +439,21 @@
     }
   },
   "investor": {
+    "contactForm": {
+      "eyebrow": "Contact",
+      "title": "Interesse in Eduweer? Neem contact op.",
+      "lead": "Als je meer wilt weten over het product, de roadmap, de investeringsmogelijkheid of samenwerkingsopties, stuur ons een bericht en we reageren persoonlijk.",
+      "namePlaceholder": "Volledige naam",
+      "emailPlaceholder": "E-mailadres",
+      "messagePlaceholder": "Bericht",
+      "submit": "Bericht versturen",
+      "sending": "Versturen…",
+      "success": "Bedankt! We nemen persoonlijk contact met je op.",
+      "errorRequired": "Dit veld is verplicht",
+      "errorEmail": "Voer een geldig e-mailadres in",
+      "errorShort": "Het bericht is te kort (minimaal 10 tekens)",
+      "errorGeneric": "Er ging iets mis. Probeer het opnieuw."
+    },
     "meta": {
       "title": "Eduweer — Investeerdersportaal · Systeem & Visie",
       "description": "Een schaalbaar educatief ecosysteem — IP, verhaal, app en spel in één pipeline."
