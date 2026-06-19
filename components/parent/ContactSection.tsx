@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import { useLocale } from "next-intl";
 import styles from "./ContactSection.module.css";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -33,6 +34,7 @@ interface ContactSectionProps {
 
 // ─── Newsletter Form ──────────────────────────────────────────────────────────
 function NewsletterForm({ t }: { t: NewsletterT }) {
+  const locale = useLocale();
   const [email, setEmail]         = useState("");
   const [loading, setLoading]     = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -57,7 +59,7 @@ function NewsletterForm({ t }: { t: NewsletterT }) {
       const res = await fetch("/api/newsletter", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.trim(), hp }),
+        body: JSON.stringify({ email: email.trim(), hp, locale }),
       });
 
       const data = await res.json() as { success?: boolean; error?: string };
@@ -133,6 +135,7 @@ function NewsletterForm({ t }: { t: NewsletterT }) {
 
 // ─── Contact Form ─────────────────────────────────────────────────────────────
 function ContactForm({ t }: { t: ContactT }) {
+  const locale = useLocale();
   const [name, setName]         = useState("");
   const [email, setEmail]       = useState("");
   const [message, setMessage]   = useState("");
@@ -166,7 +169,7 @@ function ContactForm({ t }: { t: ContactT }) {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: name.trim(), email: email.trim(), message: message.trim(), hp }),
+        body: JSON.stringify({ name: name.trim(), email: email.trim(), message: message.trim(), hp, locale }),
       });
 
       const data = await res.json() as { success?: boolean; error?: string };

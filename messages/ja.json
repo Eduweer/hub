@@ -1,4 +1,40 @@
 {
+  "emails": {
+    "newsletter": {
+      "subject": "Eduweerの世界へようこそ！🌿",
+      "tagline": "冒険 · 知識 · Harvoria",
+      "greeting": "こんにちは！",
+      "thanks": "Eduweerの世界へご参加いただきありがとうございます。🌿",
+      "bodyLine1": "Harvoriaでの最初の冒険がすでに待っています。",
+      "bodyLine2": "新着情報、書籍の発売、Mentorアプリについてお知らせしていきます。",
+      "signoff": "冒険の中でお会いしましょう、",
+      "team": "Eduweerチーム",
+      "cta": "Eduweerを見る →",
+      "footerReason": "このメールは、Eduweerのリストにご登録いただいたため送信されています。",
+      "unsubscribe": "配信を停止する"
+    },
+    "earlyList": {
+      "subject": "Eduweerのアーリーリストへようこそ！🌿",
+      "tagline": "アーリーリスト · Harvoria",
+      "greeting": "こんにちは！",
+      "thanks": "Eduweerのアーリーリストへご登録いただきありがとうございます。🌿",
+      "bodyLine1": "最初のHarvoriaワークブックを現在制作中です。",
+      "bodyLine2": "最初のご家庭の一つとして、プレビューや進捗のお知らせをお届けし、公式リリース前にEduweerをお試しいただけます。",
+      "signoff": "冒険の中でお会いしましょう、",
+      "team": "Eduweerチーム",
+      "cta": "Eduweerを見る →",
+      "footerReason": "このメールは、Eduweerのアーリーリストにご登録いただいたため送信されています。",
+      "unsubscribe": "配信を停止する"
+    },
+    "contactConfirm": {
+      "subject": "メッセージを受け取りました 🌿",
+      "greeting": "{name}さん、こんにちは！",
+      "body": "メッセージをありがとうございます。できるだけ早く、通常は1〜2営業日以内にご返信いたします。",
+      "signoff": "冒険の中でお会いしましょう、",
+      "team": "Eduweerチーム",
+      "footerAuto": "このメッセージは自動送信されています。返信しないでください。"
+    }
+  },
   "nav": {
     "mainNav": "メインナビゲーション",
     "about": "概要",

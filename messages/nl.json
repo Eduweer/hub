@@ -1,4 +1,40 @@
 {
+  "emails": {
+    "newsletter": {
+      "subject": "Welkom in de wereld van Eduweer! 🌿",
+      "tagline": "Avontuur · Kennis · Harvoria",
+      "greeting": "Hallo!",
+      "thanks": "Bedankt dat je je aansluit bij de wereld van Eduweer. 🌿",
+      "bodyLine1": "De eerste avonturen in Harvoria wachten al op je.",
+      "bodyLine2": "We houden je op de hoogte van nieuws, de boeklancering en de Mentor-app.",
+      "signoff": "Tot in het avontuur,",
+      "team": "Het Eduweer-team",
+      "cta": "Ontdek Eduweer →",
+      "footerReason": "Je ontvangt dit bericht omdat je je hebt aangemeld voor de Eduweer-lijst.",
+      "unsubscribe": "Afmelden"
+    },
+    "earlyList": {
+      "subject": "Welkom op de Eduweer vroege lijst! 🌿",
+      "tagline": "Vroege lijst · Harvoria",
+      "greeting": "Hallo!",
+      "thanks": "Bedankt dat je je aanmeldt voor de Eduweer vroege lijst. 🌿",
+      "bodyLine1": "De eerste Harvoria-werkboeken worden nu gemaakt.",
+      "bodyLine2": "Als een van de eerste gezinnen krijg je previews, voortgangsupdates en de kans om Eduweer te proberen vóór de officiële lancering.",
+      "signoff": "Tot in het avontuur,",
+      "team": "Het Eduweer-team",
+      "cta": "Ontdek Eduweer →",
+      "footerReason": "Je ontvangt dit bericht omdat je je hebt aangemeld voor de Eduweer vroege lijst.",
+      "unsubscribe": "Afmelden"
+    },
+    "contactConfirm": {
+      "subject": "We hebben je bericht ontvangen 🌿",
+      "greeting": "Hallo {name}!",
+      "body": "Bedankt voor je bericht. We nemen zo snel mogelijk contact met je op — meestal binnen 1–2 werkdagen.",
+      "signoff": "Tot in het avontuur,",
+      "team": "Het Eduweer-team",
+      "footerAuto": "Dit bericht is automatisch verzonden. Reageer hier niet op."
+    }
+  },
   "nav": {
     "mainNav": "Hoofdnavigatie",
     "about": "Over ons",

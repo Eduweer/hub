@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useMemo, FormEvent } from "react";
+import { useLocale } from "next-intl";
 import styles from "./EarlyListSection.module.css";
 
 // ─── Ambient sparkles (A) ─────────────────────────────────────────────────────
@@ -153,6 +154,7 @@ function Spinner() {
 
 // ─── Section ──────────────────────────────────────────────────────────────────
 export default function EarlyListSection({ t }: { t: EarlyListT }) {
+  const locale                    = useLocale();
   const [email, setEmail]         = useState("");
   const [loading, setLoading]     = useState(false);
   const [submitted, setSubmitted] = useState(false);
@@ -178,7 +180,7 @@ export default function EarlyListSection({ t }: { t: EarlyListT }) {
       const res = await fetch("/api/early-list", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: email.trim(), hp }),
+        body: JSON.stringify({ email: email.trim(), hp, locale }),
       });
 
       const data = await res.json() as { success?: boolean; error?: string };

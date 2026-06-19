@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
+import { contactConfirmEmail } from "@/lib/emails";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -85,57 +86,13 @@ function buildOwnerEmail(name: string, email: string, message: string): string {
 </html>`;
 }
 
-// ─── Email HTML: confirmation to sender ──────────────────────────────────────
-function buildConfirmEmail(name: string): string {
-  return `<!DOCTYPE html>
-<html lang="pl">
-<head><meta charset="UTF-8"></head>
-<body style="margin:0;padding:0;background:#F5F6FA;font-family:'Lato',Arial,sans-serif;">
-  <table width="100%" cellpadding="0" cellspacing="0" style="background:#F5F6FA;padding:40px 16px;">
-    <tr><td align="center">
-      <table width="560" cellpadding="0" cellspacing="0"
-             style="background:#fff;border-radius:16px;overflow:hidden;border:1px solid #E8E0CC;max-width:560px;">
-        <tr>
-          <td style="background:linear-gradient(135deg,#2A5C3F 0%,#3A8A62 100%);padding:40px 48px;text-align:center;">
-            <h1 style="color:#fff;font-size:26px;margin:0;letter-spacing:3px;font-family:Georgia,serif;font-weight:normal;">
-              EDUWEER
-            </h1>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding:48px 48px 36px;">
-            <p style="font-size:18px;color:#2A1F0F;margin:0 0 20px;line-height:1.5;font-weight:300;">
-              Cześć, ${name}!
-            </p>
-            <p style="font-size:15px;color:#4A3F30;margin:0 0 18px;line-height:1.85;font-weight:300;">
-              Dziękujemy za wiadomość. Odezwiemy się najszybciej jak to możliwe — zwykle w ciągu 1–2 dni roboczych.
-            </p>
-            <p style="font-size:15px;color:#4A3F30;margin:0;line-height:1.85;font-weight:300;">
-              Do zobaczenia w przygodzie,<br>
-              <strong style="color:#2A1F0F;font-weight:600;">Zespół Eduweer</strong>
-            </p>
-          </td>
-        </tr>
-        <tr>
-          <td style="padding:20px 48px 28px;border-top:1px solid #F0E8D8;background:#FAFAF7;">
-            <p style="font-size:11px;color:#9B9080;margin:0;line-height:1.7;text-align:center;">
-              Ta wiadomość została wysłana automatycznie. Nie odpowiadaj na nią.
-            </p>
-          </td>
-        </tr>
-      </table>
-    </td></tr>
-  </table>
-</body>
-</html>`;
-}
-
 // ─── Route handler ────────────────────────────────────────────────────────────
 interface ContactPayload {
   name?: string;
   email?: string;
   message?: string;
   hp?: string; // honeypot
+  locale?: string;
 }
 
 export async function POST(req: NextRequest) {
@@ -156,7 +113,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid JSON" }, { status: 400 });
   }
 
-  const { name, email, message, hp } = body as ContactPayload;
+  const { name, email, message, hp, locale } = body as ContactPayload;
 
   // Honeypot — silent success for bots
   if (hp) {
@@ -219,11 +176,12 @@ export async function POST(req: NextRequest) {
 
   // Send confirmation to sender (non-blocking — owner email already sent)
   try {
+    const { subject, html } = await contactConfirmEmail(locale, cleanName);
     await resend.emails.send({
       from: "Eduweer <hello@support.eduweer.com>",
       to: cleanEmail,
-      subject: "Otrzymaliśmy Twoją wiadomość 🌿",
-      html: buildConfirmEmail(cleanName),
+      subject,
+      html,
     });
   } catch (err) {
     console.error("[contact] confirm email error:", err);

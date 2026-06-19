@@ -1,4 +1,40 @@
 {
+  "emails": {
+    "newsletter": {
+      "subject": "Velkommen til Eduweers verden! 🌿",
+      "tagline": "Eventyr · Viden · Harvoria",
+      "greeting": "Hej!",
+      "thanks": "Tak, fordi du slutter dig til Eduweers verden. 🌿",
+      "bodyLine1": "De første eventyr i Harvoria venter allerede.",
+      "bodyLine2": "Vi holder dig opdateret om nyheder, boglanceringen og Mentor-appen.",
+      "signoff": "Vi ses i eventyret,",
+      "team": "Eduweer-teamet",
+      "cta": "Oplev Eduweer →",
+      "footerReason": "Du modtager denne besked, fordi du tilmeldte dig Eduweer-listen.",
+      "unsubscribe": "Afmeld"
+    },
+    "earlyList": {
+      "subject": "Velkommen til Eduweers tidlige liste! 🌿",
+      "tagline": "Tidlig liste · Harvoria",
+      "greeting": "Hej!",
+      "thanks": "Tak, fordi du tilmelder dig Eduweers tidlige liste. 🌿",
+      "bodyLine1": "De første Harvoria-opgavehæfter bliver skabt lige nu.",
+      "bodyLine2": "Som en af de første familier får du forhåndsvisninger, opdateringer om fremskridt og chancen for at prøve Eduweer før den officielle lancering.",
+      "signoff": "Vi ses i eventyret,",
+      "team": "Eduweer-teamet",
+      "cta": "Oplev Eduweer →",
+      "footerReason": "Du modtager denne besked, fordi du tilmeldte dig Eduweers tidlige liste.",
+      "unsubscribe": "Afmeld"
+    },
+    "contactConfirm": {
+      "subject": "Vi har modtaget din besked 🌿",
+      "greeting": "Hej {name}!",
+      "body": "Tak for din besked. Vi vender tilbage hurtigst muligt — normalt inden for 1-2 hverdage.",
+      "signoff": "Vi ses i eventyret,",
+      "team": "Eduweer-teamet",
+      "footerAuto": "Denne besked blev sendt automatisk. Svar venligst ikke på den."
+    }
+  },
   "nav": {
     "mainNav": "Hovednavigation",
     "about": "Om os",

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import { useLocale } from "next-intl";
 import styles from "./InvestorContact.module.css";
 
 export interface InvestorContactT {
@@ -34,6 +35,7 @@ function Spinner() {
 }
 
 export default function InvestorContact({ t }: { t: InvestorContactT }) {
+  const locale                  = useLocale();
   const [name, setName]         = useState("");
   const [email, setEmail]       = useState("");
   const [message, setMessage]   = useState("");
@@ -67,7 +69,7 @@ export default function InvestorContact({ t }: { t: InvestorContactT }) {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name: name.trim(), email: email.trim(), message: message.trim(), hp }),
+        body: JSON.stringify({ name: name.trim(), email: email.trim(), message: message.trim(), hp, locale }),
       });
 
       const data = await res.json() as { success?: boolean; error?: string };

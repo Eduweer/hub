@@ -1,4 +1,40 @@
 {
+  "emails": {
+    "newsletter": {
+      "subject": "Welcome to the world of Eduweer! 🌿",
+      "tagline": "Adventure · Knowledge · Harvoria",
+      "greeting": "Hi!",
+      "thanks": "Thank you for joining the world of Eduweer. 🌿",
+      "bodyLine1": "The first adventures in Harvoria are already waiting.",
+      "bodyLine2": "We'll keep you posted about news, the book launch, and the Mentor app.",
+      "signoff": "See you in the adventure,",
+      "team": "The Eduweer Team",
+      "cta": "Discover Eduweer →",
+      "footerReason": "You're receiving this message because you signed up to the Eduweer list.",
+      "unsubscribe": "Unsubscribe"
+    },
+    "earlyList": {
+      "subject": "Welcome to the Eduweer early list! 🌿",
+      "tagline": "Early list · Harvoria",
+      "greeting": "Hi!",
+      "thanks": "Thank you for joining the Eduweer early list. 🌿",
+      "bodyLine1": "The first Harvoria workbooks are being created right now.",
+      "bodyLine2": "As one of the first families, you'll get previews, progress updates, and the chance to try Eduweer before the official launch.",
+      "signoff": "See you in the adventure,",
+      "team": "The Eduweer Team",
+      "cta": "Discover Eduweer →",
+      "footerReason": "You're receiving this message because you signed up to the Eduweer early list.",
+      "unsubscribe": "Unsubscribe"
+    },
+    "contactConfirm": {
+      "subject": "We received your message 🌿",
+      "greeting": "Hi {name}!",
+      "body": "Thank you for your message. We'll get back to you as soon as possible — usually within 1–2 business days.",
+      "signoff": "See you in the adventure,",
+      "team": "The Eduweer Team",
+      "footerAuto": "This message was sent automatically. Please do not reply."
+    }
+  },
   "nav": {
     "mainNav": "Main navigation",
     "about": "About",
