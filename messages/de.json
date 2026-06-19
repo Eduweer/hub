@@ -348,6 +348,18 @@
         }
       ]
     },
+    "earlyList": {
+      "eyebrow": "Vorab-Liste",
+      "title": "Kleine Schritte. Große Abenteuer.",
+      "lead": "Eduweer entsteht für Familien, die möchten, dass sich Lernen weniger wie Druck und mehr wie eine gemeinsame Reise anfühlt.",
+      "body": "Die ersten Harvoria-Übungshefte werden gerade entwickelt. Wenn du dich in die Vorab-Liste einträgst, erhältst du Vorschauen, Updates zum Fortschritt und die Chance, als eine der ersten Familien Eduweer schon vor dem offiziellen Start auszuprobieren.",
+      "emailPlaceholder": "deine@email.com",
+      "cta": "Zur Vorab-Liste",
+      "loading": "Wird gespeichert…",
+      "success": "Du bist dabei! Wir melden uns mit Vorschauen und Neuigkeiten.",
+      "errorEmail": "Bitte gib eine gültige E-Mail-Adresse ein",
+      "errorGeneric": "Etwas ist schiefgelaufen. Bitte versuche es erneut."
+    },
     "join": {
       "newsletter": {
         "eyebrow": "Sei der Erste",

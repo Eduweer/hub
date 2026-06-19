@@ -348,6 +348,18 @@
         }
       ]
     },
+    "earlyList": {
+      "eyebrow": "Liste anticipée",
+      "title": "Petits pas. Grandes aventures.",
+      "lead": "Eduweer est conçu pour les familles qui souhaitent que l'apprentissage ressemble moins à une pression et davantage à un voyage partagé.",
+      "body": "Les premiers cahiers d'activités de Harvoria sont en cours de création. En rejoignant la liste anticipée, vous recevrez des aperçus, des nouvelles de l'avancement et la chance de faire partie des premières familles à essayer Eduweer avant le lancement officiel.",
+      "emailPlaceholder": "votre@email.com",
+      "cta": "Rejoindre la liste",
+      "loading": "Enregistrement…",
+      "success": "Vous êtes inscrit ! Nous reviendrons vers vous avec des aperçus et des nouveautés.",
+      "errorEmail": "Veuillez saisir une adresse e-mail valide",
+      "errorGeneric": "Une erreur est survenue. Veuillez réessayer."
+    },
     "join": {
       "newsletter": {
         "eyebrow": "Sois le premier",

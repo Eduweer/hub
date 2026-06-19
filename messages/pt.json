@@ -393,6 +393,18 @@
         }
       ]
     },
+    "earlyList": {
+      "eyebrow": "Lista antecipada",
+      "title": "Pequenos passos. Grandes aventuras.",
+      "lead": "O Eduweer está a ser criado para famílias que querem que aprender seja menos uma pressão e mais uma jornada partilhada.",
+      "body": "Os primeiros cadernos de atividades de Harvoria estão agora em desenvolvimento. Ao juntares-te à lista antecipada, vais receber pré-visualizações, novidades sobre o progresso e a oportunidade de seres uma das primeiras famílias a experimentar o Eduweer antes do lançamento oficial.",
+      "emailPlaceholder": "o.teu@email.com",
+      "cta": "Juntar-me à lista",
+      "loading": "A guardar…",
+      "success": "Estás na lista! Entraremos em contacto com pré-visualizações e novidades.",
+      "errorEmail": "Introduz um endereço de email válido",
+      "errorGeneric": "Algo correu mal. Tenta novamente."
+    },
     "join": {
       "newsletter": {
         "eyebrow": "Seja o primeiro",

@@ -390,6 +390,18 @@
         }
       ]
     },
+    "earlyList": {
+      "eyebrow": "Lista przedpremierowa",
+      "title": "Małe kroki. Wielkie przygody.",
+      "lead": "Eduweer powstaje dla rodzin, które chcą, by nauka była mniej presją, a bardziej wspólną podróżą.",
+      "body": "Pierwsze zeszyty ćwiczeń z Harvorii właśnie powstają. Dołączając do listy przedpremierowej, otrzymasz podglądy, informacje o postępach i szansę, by jako jedna z pierwszych rodzin wypróbować Eduweer jeszcze przed oficjalną premierą.",
+      "emailPlaceholder": "twój@email.com",
+      "cta": "Dołącz do listy",
+      "loading": "Zapisuję…",
+      "success": "Jesteś na liście! Odezwiemy się z podglądami i nowościami.",
+      "errorEmail": "Podaj poprawny adres email",
+      "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie."
+    },
     "join": {
       "newsletter": {
         "eyebrow": "Bądź pierwsza/pierwszy",

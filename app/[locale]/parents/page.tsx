@@ -8,6 +8,7 @@ import Motes from "@/components/shared/Motes";
 import Footer from "@/components/shared/Footer";
 import StickyHero from "@/components/parent/StickyHero";
 import FaqAccordion from "@/components/parent/FaqAccordion";
+import EarlyListSection from "@/components/parent/EarlyListSection";
 import ContactSection from "@/components/parent/ContactSection";
 import ScrollReveal from "@/components/shared/ScrollReveal";
 import styles from "./ParentsPage.module.css";
@@ -511,6 +512,28 @@ export default function ParentsPage() {
             </span>
             <h2 className={styles.sectionTitle}>{t.rich("faq.title", { accent })}</h2>
             <FaqAccordion items={faqItems} />
+          </section>
+
+          <div className={styles.orn} aria-hidden="true">
+            <div className={styles.ornLine} /><div className={styles.ornDiamond} /><div className={styles.ornLine} />
+          </div>
+
+          {/* ── EARLY LIST — emotional bridge to newsletter ── */}
+          <section id="early-list" className={styles.section}>
+            <EarlyListSection
+              t={{
+                eyebrow: t("earlyList.eyebrow"),
+                title: t("earlyList.title"),
+                lead: t("earlyList.lead"),
+                body: t("earlyList.body"),
+                emailPlaceholder: t("earlyList.emailPlaceholder"),
+                cta: t("earlyList.cta"),
+                loading: t("earlyList.loading"),
+                success: t("earlyList.success"),
+                errorEmail: t("earlyList.errorEmail"),
+                errorGeneric: t("earlyList.errorGeneric"),
+              }}
+            />
           </section>
 
           <div className={styles.orn} aria-hidden="true">

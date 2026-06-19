@@ -393,6 +393,18 @@
         }
       ]
     },
+    "earlyList": {
+      "eyebrow": "Vroege lijst",
+      "title": "Kleine stapjes. Grote avonturen.",
+      "lead": "Eduweer wordt gemaakt voor gezinnen die willen dat leren minder als druk voelt en meer als een gedeelde reis.",
+      "body": "De eerste Harvoria-werkboeken worden nu ontwikkeld. Door je aan te melden voor de vroege lijst krijg je previews, voortgangsupdates en de kans om als een van de eerste gezinnen Eduweer te proberen vóór de officiële lancering.",
+      "emailPlaceholder": "jouw@email.com",
+      "cta": "Aanmelden voor de lijst",
+      "loading": "Bezig met opslaan…",
+      "success": "Je staat op de lijst! We nemen contact op met previews en updates.",
+      "errorEmail": "Voer een geldig e-mailadres in",
+      "errorGeneric": "Er ging iets mis. Probeer het opnieuw."
+    },
     "join": {
       "newsletter": {
         "eyebrow": "Wees de eerste",

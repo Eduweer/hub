@@ -393,6 +393,18 @@
         }
       ]
     },
+    "earlyList": {
+      "eyebrow": "Early list",
+      "title": "Small steps. Big adventures.",
+      "lead": "Eduweer is being created for families who want learning to feel less like pressure and more like a shared journey.",
+      "body": "The first Harvoria workbooks are now in development. By joining the early list, you'll get previews, progress updates, and the chance to be among the first families to try Eduweer before the official launch.",
+      "emailPlaceholder": "your@email.com",
+      "cta": "Join the early list",
+      "loading": "Joining…",
+      "success": "You're on the list! We'll be in touch with previews and updates.",
+      "errorEmail": "Please enter a valid email address",
+      "errorGeneric": "Something went wrong. Please try again."
+    },
     "join": {
       "newsletter": {
         "eyebrow": "Be the first",

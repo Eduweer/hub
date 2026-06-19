@@ -393,6 +393,18 @@
         }
       ]
     },
+    "earlyList": {
+      "eyebrow": "Tidlig liste",
+      "title": "Små skridt. Store eventyr.",
+      "lead": "Eduweer skabes til familier, der ønsker, at læring føles mindre som pres og mere som en fælles rejse.",
+      "body": "De første Harvoria-opgavehæfter er under udvikling nu. Når du tilmelder dig den tidlige liste, får du forhåndsvisninger, opdateringer om fremskridt og chancen for at være blandt de første familier, der prøver Eduweer før den officielle lancering.",
+      "emailPlaceholder": "din@email.com",
+      "cta": "Tilmeld dig listen",
+      "loading": "Gemmer…",
+      "success": "Du er på listen! Vi vender tilbage med forhåndsvisninger og nyheder.",
+      "errorEmail": "Indtast en gyldig e-mailadresse",
+      "errorGeneric": "Noget gik galt. Prøv igen."
+    },
     "join": {
       "newsletter": {
         "eyebrow": "Vær den første",
