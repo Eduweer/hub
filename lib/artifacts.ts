@@ -82,10 +82,10 @@ export const artifactThemes: Record<
   },
 };
 
-/** Hero background assets (placeholder paths — final media swapped later). */
+/** Hero background assets (flat under public/videos and public/images). */
 export const artifactHeroMedia = {
-  video: "/videos/artifacts/hero-radomir-guardians.mp4",
-  poster: "/images/artifacts/hero-radomir-guardians.jpg",
+  video: "/videos/hero-radomir-guardians.mp4",
+  poster: "/images/hero-radomir-guardians.jpg",
 };
 
 /**
