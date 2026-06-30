@@ -43,15 +43,12 @@
   background: linear-gradient(to left, transparent 62%, var(--soft-accent) 100%);
 }
 
-/* Reversed layout — image on the right, mirrored so it faces the content */
+/* Reversed layout — image on the right */
 .reverse .media {
   order: 2;
 }
 .reverse .body {
   order: 1;
-}
-.reverse .mediaImg {
-  transform: scaleX(-1);
 }
 
 /* ── Content half ── */
@@ -248,12 +245,8 @@
   .reverse .body {
     order: 0;
   }
-  /* Stacked: image sits on top, so keep its original orientation */
-  .reverse .mediaImg {
-    transform: none;
-  }
   .media {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 4 / 3;
     min-height: 0;
   }
   /* Seam fades downward into the content panel */

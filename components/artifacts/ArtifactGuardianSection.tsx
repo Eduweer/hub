@@ -58,14 +58,15 @@ export default function ArtifactGuardianSection({
       aria-labelledby={`${config.id}-title`}
     >
       <div className={styles.layout}>
-        {/* Graphic half — 16:9 guardian illustration. The gradient seam
-            (handled in CSS) blends its inner edge into the content panel. */}
+        {/* Graphic half — guardian preview illustration (1448×1086, 4:3),
+            cropped vertically as needed. The gradient seam (handled in CSS)
+            blends its inner edge into the content panel. */}
         <div className={styles.media}>
           <Image
             src={config.image}
             alt={text.title}
-            width={1376}
-            height={768}
+            width={1448}
+            height={1086}
             loading="lazy"
             sizes="(max-width: 960px) 100vw, 50vw"
             className={styles.mediaImg}
