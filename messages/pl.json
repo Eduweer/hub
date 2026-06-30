@@ -1030,5 +1030,310 @@
       }
     ],
     "contact": "Pytania? Napisz do nas: hello@support.eduweer.com"
+  },
+  "artifacts": {
+    "meta": {
+      "title": "Artefakty Prób Eduweer — Zeszyty ćwiczeń dla dzieci",
+      "description": "Poznaj sześć zeszytów ćwiczeń Eduweer i zdobądź Artefakty Prób. Ćwiczenia wspierają grafomotorykę, koncentrację, logikę, kreatywność, emocje i rozumienie granic."
+    },
+    "hero": {
+      "eyebrow": "Eduweer · Artefakty Prób",
+      "title": "Zdobądź Sześć Artefaktów Prób",
+      "subtitle": "Każdy zeszyt ćwiczeń to osobna przygoda prowadzona przez jednego ze Strażników Eduweer. Dziecko rozwija ważne umiejętności, a po ukończeniu zeszytu może zdobyć artefakt i przypisać go do swojego bohatera.",
+      "primaryCta": "Załóż konto rodzica",
+      "secondaryCta": "Poznaj artefakty",
+      "tertiaryLink": "Jak to działa?",
+      "process": [
+        "Wybierz zeszyt",
+        "Wykonaj próbę",
+        "Zeskanuj kod QR",
+        "Odbierz artefakt"
+      ]
+    },
+    "navLinks": {
+      "how": "Jak to działa",
+      "artifacts": "Artefakty",
+      "parent": "Konto rodzica",
+      "world": "Świat Eduweer"
+    },
+    "how": {
+      "eyebrow": "Jak to działa",
+      "title": "Jak artefakty działają w Eduweer?",
+      "description": "Po ukończeniu zeszytu dziecko nie kończy przygody na papierze. Rodzic może zeskanować kod QR, przypisać zdobyty artefakt do konta dziecka i śledzić rozwój bohatera w panelu rodzica Eduweer.",
+      "steps": [
+        {
+          "title": "Kup lub wybierz zeszyt",
+          "description": "Każdy zeszyt ćwiczy inną umiejętność i jest prowadzony przez innego Strażnika."
+        },
+        {
+          "title": "Wykonaj próbę",
+          "description": "Dziecko przechodzi ćwiczenia, rozwija konkretne umiejętności i poznaje fabularny kontekst artefaktu."
+        },
+        {
+          "title": "Zeskanuj kod QR",
+          "description": "Po ukończeniu zeszytu rodzic skanuje kod i wybiera dziecko, któremu chce przypisać nagrodę."
+        },
+        {
+          "title": "Odbierz artefakt",
+          "description": "Artefakt trafia do profilu bohatera i staje się częścią większej ścieżki rozwoju dziecka."
+        }
+      ]
+    },
+    "pathNav": {
+      "title": "Poznaj sześć ścieżek próby",
+      "items": [
+        {
+          "name": "Auralis",
+          "label": "Litery"
+        },
+        {
+          "name": "Narin",
+          "label": "Labirynty"
+        },
+        {
+          "name": "Tivia",
+          "label": "Logika"
+        },
+        {
+          "name": "Liora",
+          "label": "Kolory"
+        },
+        {
+          "name": "Maela",
+          "label": "Emocje"
+        },
+        {
+          "name": "Boran",
+          "label": "Granice"
+        }
+      ]
+    },
+    "parentBenefits": {
+      "eyebrow": "Konto rodzica",
+      "title": "Artefakty ożywają w panelu rodzica",
+      "description": "Po ukończeniu zeszytu możesz przypisać artefakt do konta dziecka, śledzić zdobyte próby i budować jego ścieżkę bohatera w świecie Eduweer.",
+      "features": [
+        {
+          "title": "Przypisuj artefakty",
+          "description": "Zeskanuj kod QR z zeszytu i dodaj zdobyty artefakt do profilu dziecka."
+        },
+        {
+          "title": "Śledź kolekcję",
+          "description": "Zobacz, które próby zostały ukończone i jakie artefakty dziecko już zdobyło."
+        },
+        {
+          "title": "Dodaj więcej dzieci",
+          "description": "Zarządzaj postępami więcej niż jednego dziecka z jednego konta rodzica."
+        },
+        {
+          "title": "Bądź gotowy na kolejne przygody",
+          "description": "Konto rodzica będzie łączyć zeszyty, książki i przyszłe aktywności Eduweer."
+        }
+      ],
+      "cta": "Załóż konto rodzica"
+    },
+    "world": {
+      "eyebrow": "Świat Eduweer",
+      "title": "To część większego świata Eduweer",
+      "description": "Artefakty Prób są częścią większego świata Eduweer. Dziecko poznaje bohaterów w opowieści, ćwiczy konkretne umiejętności w zeszytach, a rodzic może śledzić postępy i rozwój bohatera w panelu rodzica.",
+      "items": [
+        {
+          "title": "Książki",
+          "description": "Poznaj historię, krainy i bohaterów Eduweer."
+        },
+        {
+          "title": "Zeszyty ćwiczeń",
+          "description": "Wykonuj próby Strażników i rozwijaj konkretne umiejętności."
+        },
+        {
+          "title": "Panel rodzica",
+          "description": "Przypisuj artefakty, śledź postępy i zarządzaj kontem dziecka."
+        },
+        {
+          "title": "Przygoda bohatera",
+          "description": "Zbieraj artefakty i buduj ścieżkę rozwoju młodego bohatera."
+        }
+      ],
+      "cta": "Zobacz stronę dla rodziców"
+    },
+    "faq": {
+      "eyebrow": "Częste pytania",
+      "title": "Najczęstsze pytania",
+      "items": [
+        {
+          "q": "Czy muszę mieć konto rodzica, żeby kupić zeszyt?",
+          "a": "Nie. Zeszyt można kupić niezależnie. Konto rodzica jest potrzebne wtedy, gdy chcesz przypisać zdobyty artefakt do profilu dziecka i śledzić postępy bohatera."
+        },
+        {
+          "q": "Jak przypisać artefakt do dziecka?",
+          "a": "Po ukończeniu zeszytu rodzic skanuje kod QR, loguje się do konta i wybiera dziecko, któremu chce przypisać artefakt."
+        },
+        {
+          "q": "Czy ten sam artefakt można odebrać więcej niż raz?",
+          "a": "Ten sam kod i artefakt powinien być przypisany tylko raz do wybranego dziecka. Dzięki temu kolekcja pozostaje uporządkowana i uczciwa."
+        },
+        {
+          "q": "Dla jakiego wieku są zeszyty?",
+          "a": "Zeszyty są projektowane głównie z myślą o dzieciach w wieku wczesnoszkolnym, ale poziom trudności może różnić się zależnie od rodzaju próby i umiejętności dziecka."
+        },
+        {
+          "q": "Czy zeszyty są częścią większej serii?",
+          "a": "Tak. Zeszyty ćwiczeń, książki, panel rodzica i przyszłe aktywności Eduweer tworzą jeden wspólny świat rozwoju i przygody."
+        },
+        {
+          "q": "Czy ćwiczenia zastępują terapię lub diagnozę?",
+          "a": "Nie. Zeszyty mają charakter edukacyjny i rozwojowy. Mogą wspierać koncentrację, emocje, grafomotorykę i samoregulację, ale nie zastępują konsultacji ze specjalistą."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Rozpocznij pierwszą próbę",
+      "description": "Wybierz zeszyt, załóż konto rodzica i pomóż dziecku zdobywać kolejne artefakty w świecie Eduweer.",
+      "primaryCta": "Załóż konto rodzica",
+      "secondaryCta": "Zobacz zeszyty",
+      "tertiaryCta": "Wróć do strony dla rodziców"
+    },
+    "guardianLabels": {
+      "supports": "Ten zeszyt wspiera",
+      "inside": "W środku znajdziesz",
+      "parent": "Dla rodzica",
+      "buyAmazon": "Kup na Amazon",
+      "buyEmpik": "Kup na Empik",
+      "details": "Zobacz szczegóły"
+    },
+    "guardians": {
+      "auralis": {
+        "guardianRole": "Strażniczka Run",
+        "artifactName": "Amulet Pierwszej Runy",
+        "title": "Auralis i Amulet Pierwszej Runy",
+        "description": "Auralis prowadzi młodych bohaterów przez świat linii, znaków i pierwszych liter. Ten zeszyt pomaga ćwiczyć spokojną dłoń, koncentrację i przygotowanie do pisania. Każda strona jest małą próbą cierpliwości — bo nawet największa magia zaczyna się od jednej dobrze poprowadzonej linii.",
+        "parentDescription": "Ten zeszyt wspiera przygotowanie ręki do pisania, uczy prowadzenia linii i pomaga dziecku ćwiczyć skupienie bez presji.",
+        "supports": [
+          "grafomotoryka",
+          "litery",
+          "koncentracja",
+          "precyzja dłoni",
+          "koordynacja wzrokowo-ruchowa"
+        ],
+        "inside": [
+          "szlaczki",
+          "ćwiczenia po śladzie",
+          "pierwsze litery",
+          "zadania z runami",
+          "krótka próba Strażniczki Run"
+        ],
+        "quote": "Nie każda magia zaczyna się od blasku. Czasem zaczyna się od jednej dobrze poprowadzonej linii."
+      },
+      "narin": {
+        "guardianRole": "Strażnik Tropów",
+        "artifactName": "Artefakt Cichego Tropu",
+        "title": "Narin i Artefakt Cichego Tropu",
+        "description": "Narin uczy cierpliwości, orientacji i uważnego prowadzenia linii. W jego próbie dziecko przemierza labirynty, ścieżki i ukryte przejścia, ćwicząc planowanie ruchu oraz kontrolę dłoni.",
+        "parentDescription": "Ten zeszyt pomaga ćwiczyć orientację przestrzenną, cierpliwość, planowanie oraz kontrolowanie ruchu ręki w wyznaczonych granicach.",
+        "supports": [
+          "labirynty",
+          "uważność",
+          "planowanie",
+          "koncentracja",
+          "koordynacja"
+        ],
+        "inside": [
+          "labirynty",
+          "prowadzenie linii w ścieżkach",
+          "zadania bez wychodzenia poza granice",
+          "tropy i mapy",
+          "próby zwiadowcy"
+        ],
+        "quote": "Droga zwykle istnieje. Trzeba tylko przestać patrzeć tak głośno."
+      },
+      "tivia": {
+        "guardianRole": "Naprawczyni Mechanizmów",
+        "artifactName": "Artefakt Bursztynowego Trybu",
+        "title": "Tivia i Artefakt Bursztynowego Trybu",
+        "description": "Tivia zaprasza dziecko do świata figur, schematów i sprytnych zagadek. W jej zeszycie proste kształty zmieniają się w obrazki, brakujące elementy wracają na swoje miejsce, a logiczne układanki pomagają odkrywać, że każdy problem można rozwiązać krok po kroku.",
+        "parentDescription": "Ten zeszyt wspiera logiczne myślenie, analizę wzrokową, dostrzeganie wzorów i cierpliwe szukanie rozwiązania.",
+        "supports": [
+          "logika",
+          "figury geometryczne",
+          "symetria",
+          "wzory",
+          "rozwiązywanie problemów"
+        ],
+        "inside": [
+          "obrazki z figur",
+          "dorysowywanie brakujących elementów",
+          "proste sudoku obrazkowe",
+          "układanki logiczne",
+          "zadania z mechanizmami"
+        ],
+        "quote": "Jeśli coś nie działa, to jeszcze nie znaczy, że jest zepsute. Może po prostu nie odkryłeś, jak chce działać."
+      },
+      "liora": {
+        "guardianRole": "Opiekunka Żywych Kształtów",
+        "artifactName": "Artefakt Zielonego Pnącza",
+        "title": "Liora i Artefakt Zielonego Pnącza",
+        "description": "Liora prowadzi dziecko przez świat natury, kolorów i spokojnego tworzenia. Ten zeszyt pełen jest roślin, zwierząt, magicznych ogrodów i obrazków do pokolorowania. To próba cierpliwości, harmonii i uważnego patrzenia na to, co rośnie powoli.",
+        "parentDescription": "Ten zeszyt pomaga dziecku wyciszyć się, rozwija kreatywność i wspiera cierpliwe kończenie rozpoczętej pracy.",
+        "supports": [
+          "kolory",
+          "kreatywność",
+          "cierpliwość",
+          "uważność",
+          "estetyka"
+        ],
+        "inside": [
+          "kolorowanki",
+          "rośliny i zwierzęta Eduweer",
+          "magiczne ogrody",
+          "wzory natury",
+          "spokojne zadania twórcze"
+        ],
+        "quote": "To, co rośnie powoli, staje się silne."
+      },
+      "maela": {
+        "guardianRole": "Strażniczka Ciepłej Tarczy",
+        "artifactName": "Artefakt Ciepłej Tarczy",
+        "title": "Maela i Artefakt Ciepłej Tarczy",
+        "description": "Maela uczy, że bohaterstwo to nie tylko odwaga, ale też troska, spokój i zauważanie innych. W jej zeszycie dziecko rozpoznaje emocje, pomaga bohaterom odnaleźć bezpieczne miejsce i ćwiczy proste strategie wyciszenia.",
+        "parentDescription": "Ten zeszyt wspiera rozpoznawanie emocji, rozmowę o potrzebach, samoregulację oraz budowanie poczucia bezpieczeństwa. Może być szczególnie pomocny dla dzieci, które szybko się frustrują, mają dużo energii albo potrzebują prostych, spokojnych rytuałów.",
+        "supports": [
+          "emocje",
+          "empatia",
+          "wyciszenie",
+          "bezpieczeństwo",
+          "samoregulacja"
+        ],
+        "inside": [
+          "zadania o emocjach",
+          "drogi do bezpiecznego miejsca",
+          "łączenie potrzeb z pomocą",
+          "spokojne kolorowanki",
+          "ćwiczenia „zatrzymaj się i wybierz”"
+        ],
+        "quote": "Nie każdy bohater stoi na przedzie wyprawy. Niektórzy idą ostatni, żeby nikt nie został sam."
+      },
+      "boran": {
+        "guardianRole": "Strażnik Czerwonej Wstęgi",
+        "artifactName": "Artefakt Czerwonej Wstęgi",
+        "title": "Boran i Artefakt Czerwonej Wstęgi",
+        "description": "Boran pokazuje, że prawdziwa siła nie polega na popychaniu, krzyku ani uderzaniu. Prawdziwy wojownik potrafi się zatrzymać, ochronić słabszych i użyć swojej odwagi mądrze. Ten zeszyt pomaga dziecku ćwiczyć kontrolę ruchu, cierpliwość, granice i odpowiedzialność za własną siłę.",
+        "parentDescription": "Ten zeszyt wspiera dzieci w rozumieniu granic, kontrolowaniu impulsów i wybieraniu bezpiecznych reakcji. Pomaga rozmawiać o tym, że bycie większym, silniejszym albo szybszym nie daje prawa do krzywdzenia innych.",
+        "supports": [
+          "granice",
+          "kontrola impulsu",
+          "odwaga",
+          "wytrwałość",
+          "odpowiedzialna siła"
+        ],
+        "inside": [
+          "tory treningowe",
+          "zadania z tarczami",
+          "wybieranie dobrych reakcji",
+          "ćwiczenia „stop-klatka”",
+          "krótkie scenki o sile i odpowiedzialności"
+        ],
+        "quote": "Odwaga bez kontroli jest tylko hałasem. Prawdziwy wojownik wie, kiedy ruszyć, a kiedy stanąć."
+      }
+    }
   }
 }

@@ -1033,5 +1033,310 @@
       }
     ],
     "contact": "ご質問は：hello@support.eduweer.com"
+  },
+  "artifacts": {
+    "meta": {
+      "title": "Eduweer Trial Artifacts — Workbooks for Children",
+      "description": "Discover six Eduweer workbooks and collect Trial Artifacts. Activities support handwriting readiness, focus, logic, creativity, emotions, and boundaries."
+    },
+    "hero": {
+      "eyebrow": "Eduweer · Trial Artifacts",
+      "title": "Collect the Six Trial Artifacts",
+      "subtitle": "Each workbook is a separate adventure guided by one of the Eduweer Guardians. Your child develops important skills, and after completing the workbook, they can unlock an artifact and assign it to their hero.",
+      "primaryCta": "Create parent account",
+      "secondaryCta": "Explore artifacts",
+      "tertiaryLink": "How it works",
+      "process": [
+        "Choose a workbook",
+        "Complete the trial",
+        "Scan the QR code",
+        "Unlock the artifact"
+      ]
+    },
+    "navLinks": {
+      "how": "How it works",
+      "artifacts": "Artifacts",
+      "parent": "Parent account",
+      "world": "Eduweer world"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "How do artifacts work in Eduweer?",
+      "description": "Completing a workbook does not end the adventure on paper. A parent can scan the QR code, assign the unlocked artifact to a child profile, and track the hero’s progress in the Eduweer parent panel.",
+      "steps": [
+        {
+          "title": "Choose a workbook",
+          "description": "Each workbook trains a different skill and is guided by a different Guardian."
+        },
+        {
+          "title": "Complete the trial",
+          "description": "The child works through the exercises, develops specific skills, and discovers the story behind the artifact."
+        },
+        {
+          "title": "Scan the QR code",
+          "description": "After the workbook is completed, the parent scans the code and chooses which child should receive the reward."
+        },
+        {
+          "title": "Unlock the artifact",
+          "description": "The artifact is added to the hero profile and becomes part of the child’s larger development path."
+        }
+      ]
+    },
+    "pathNav": {
+      "title": "Explore the six trial paths",
+      "items": [
+        {
+          "name": "Auralis",
+          "label": "Letters"
+        },
+        {
+          "name": "Narin",
+          "label": "Mazes"
+        },
+        {
+          "name": "Tivia",
+          "label": "Logic"
+        },
+        {
+          "name": "Liora",
+          "label": "Colors"
+        },
+        {
+          "name": "Maela",
+          "label": "Emotions"
+        },
+        {
+          "name": "Boran",
+          "label": "Boundaries"
+        }
+      ]
+    },
+    "parentBenefits": {
+      "eyebrow": "Parent account",
+      "title": "Artifacts come alive in the parent panel",
+      "description": "After completing a workbook, you can assign the artifact to your child’s account, track completed trials, and build their hero path in the world of Eduweer.",
+      "features": [
+        {
+          "title": "Assign artifacts",
+          "description": "Scan the QR code from the workbook and add the unlocked artifact to your child’s profile."
+        },
+        {
+          "title": "Track the collection",
+          "description": "See which trials have been completed and which artifacts your child has already earned."
+        },
+        {
+          "title": "Add multiple children",
+          "description": "Manage the progress of more than one child from a single parent account."
+        },
+        {
+          "title": "Get ready for more adventures",
+          "description": "The parent account will connect workbooks, books, and future Eduweer activities."
+        }
+      ],
+      "cta": "Create parent account"
+    },
+    "world": {
+      "eyebrow": "Eduweer world",
+      "title": "Part of the larger Eduweer world",
+      "description": "Trial Artifacts are part of the larger Eduweer world. Children meet characters through stories, practice concrete skills in workbooks, and parents can track progress and hero development in the parent panel.",
+      "items": [
+        {
+          "title": "Books",
+          "description": "Discover the story, lands, and heroes of Eduweer."
+        },
+        {
+          "title": "Workbooks",
+          "description": "Complete Guardian trials and develop concrete skills."
+        },
+        {
+          "title": "Parent panel",
+          "description": "Assign artifacts, track progress, and manage your child’s account."
+        },
+        {
+          "title": "Hero adventure",
+          "description": "Collect artifacts and build the young hero’s development path."
+        }
+      ],
+      "cta": "View parent page"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Do I need a parent account to buy a workbook?",
+          "a": "No. You can buy a workbook independently. A parent account is needed when you want to assign the unlocked artifact to your child’s profile and track hero progress."
+        },
+        {
+          "q": "How do I assign an artifact to a child?",
+          "a": "After completing the workbook, the parent scans the QR code, logs in, and chooses the child who should receive the artifact."
+        },
+        {
+          "q": "Can the same artifact be unlocked more than once?",
+          "a": "The same code and artifact should be assigned only once to the selected child. This keeps the collection organized and fair."
+        },
+        {
+          "q": "What age are the workbooks for?",
+          "a": "The workbooks are mainly designed for early primary school children, but the difficulty may vary depending on the trial and the child’s individual skills."
+        },
+        {
+          "q": "Are the workbooks part of a larger series?",
+          "a": "Yes. The workbooks, books, parent panel, and future Eduweer activities form one connected world of development and adventure."
+        },
+        {
+          "q": "Do the exercises replace therapy or diagnosis?",
+          "a": "No. The workbooks are educational and developmental. They may support focus, emotions, graphomotor skills, and self-regulation, but they do not replace professional consultation."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Start the first trial",
+      "description": "Choose a workbook, create a parent account, and help your child collect new artifacts in the world of Eduweer.",
+      "primaryCta": "Create parent account",
+      "secondaryCta": "View workbooks",
+      "tertiaryCta": "Back to parent page"
+    },
+    "guardianLabels": {
+      "supports": "This workbook supports",
+      "inside": "Inside you will find",
+      "parent": "For parents",
+      "buyAmazon": "Buy on Amazon",
+      "buyEmpik": "Buy on Empik",
+      "details": "View details"
+    },
+    "guardians": {
+      "auralis": {
+        "guardianRole": "Guardian of Runes",
+        "artifactName": "Amulet of the First Rune",
+        "title": "Auralis and the Amulet of the First Rune",
+        "description": "Auralis guides young heroes through the world of lines, symbols, and first letters. This workbook helps children practice a steady hand, focus, and early writing readiness. Each page is a small trial of patience — because even the greatest magic begins with one carefully drawn line.",
+        "parentDescription": "This workbook supports handwriting readiness, line control, and focused practice without pressure.",
+        "supports": [
+          "graphomotor skills",
+          "letters",
+          "focus",
+          "hand precision",
+          "visual-motor coordination"
+        ],
+        "inside": [
+          "pre-writing patterns",
+          "tracing exercises",
+          "first letters",
+          "rune-inspired tasks",
+          "a short trial of the Rune Guardian"
+        ],
+        "quote": "Not every magic begins with a flash. Sometimes it begins with one well-drawn line."
+      },
+      "narin": {
+        "guardianRole": "Guardian of Trails",
+        "artifactName": "Artifact of the Silent Trail",
+        "title": "Narin and the Artifact of the Silent Trail",
+        "description": "Narin teaches patience, orientation, and careful line control. In his trial, children follow mazes, paths, and hidden passages while practicing movement planning and hand control.",
+        "parentDescription": "This workbook supports spatial orientation, patience, planning, and controlled hand movement within clear boundaries.",
+        "supports": [
+          "mazes",
+          "attention",
+          "planning",
+          "focus",
+          "coordination"
+        ],
+        "inside": [
+          "mazes",
+          "line-following paths",
+          "stay-within-the-path exercises",
+          "trails and maps",
+          "scout-themed tasks"
+        ],
+        "quote": "The path usually exists. You just have to stop looking so loudly."
+      },
+      "tivia": {
+        "guardianRole": "Mechanism Mender",
+        "artifactName": "Artifact of the Amber Gear",
+        "title": "Tivia and the Artifact of the Amber Gear",
+        "description": "Tivia invites children into the world of shapes, patterns, and clever puzzles. In her workbook, simple forms turn into pictures, missing parts return to their places, and logic tasks show that every problem can be solved step by step.",
+        "parentDescription": "This workbook supports logical thinking, visual analysis, pattern recognition, and patient problem solving.",
+        "supports": [
+          "logic",
+          "geometric shapes",
+          "symmetry",
+          "patterns",
+          "problem solving"
+        ],
+        "inside": [
+          "pictures built from shapes",
+          "missing-part exercises",
+          "simple picture sudoku",
+          "logic puzzles",
+          "mechanism-themed tasks"
+        ],
+        "quote": "If something does not work, it does not mean it is broken. Maybe you simply have not discovered how it wants to work."
+      },
+      "liora": {
+        "guardianRole": "Keeper of Living Shapes",
+        "artifactName": "Artifact of the Green Vine",
+        "title": "Liora and the Artifact of the Green Vine",
+        "description": "Liora leads children through the world of nature, colors, and calm creation. This workbook is filled with plants, animals, magical gardens, and coloring pages. It is a trial of patience, harmony, and careful observation.",
+        "parentDescription": "This workbook helps children calm down, develop creativity, and practice completing work patiently.",
+        "supports": [
+          "colors",
+          "creativity",
+          "patience",
+          "attention",
+          "aesthetic sense"
+        ],
+        "inside": [
+          "coloring pages",
+          "plants and animals of Eduweer",
+          "magical gardens",
+          "nature patterns",
+          "calm creative tasks"
+        ],
+        "quote": "What grows slowly becomes strong."
+      },
+      "maela": {
+        "guardianRole": "Guardian of the Warm Shield",
+        "artifactName": "Artifact of the Warm Shield",
+        "title": "Maela and the Artifact of the Warm Shield",
+        "description": "Maela teaches that heroism is not only courage, but also care, calmness, and noticing others. In her workbook, children recognize emotions, help characters find safe places, and practice simple calming strategies.",
+        "parentDescription": "This workbook supports emotion recognition, talking about needs, self-regulation, and building a sense of safety. It may be especially helpful for children who get frustrated quickly, have a lot of energy, or benefit from simple calming routines.",
+        "supports": [
+          "emotions",
+          "empathy",
+          "calming down",
+          "safety",
+          "self-regulation"
+        ],
+        "inside": [
+          "emotion-based tasks",
+          "paths to safe places",
+          "matching needs with help",
+          "calm coloring pages",
+          "“pause and choose” exercises"
+        ],
+        "quote": "Not every hero stands at the front of the journey. Some walk last so no one is left alone."
+      },
+      "boran": {
+        "guardianRole": "Guardian of the Red Ribbon",
+        "artifactName": "Artifact of the Red Ribbon",
+        "title": "Boran and the Artifact of the Red Ribbon",
+        "description": "Boran shows that true strength is not about pushing, shouting, or hitting. A true warrior can stop, protect the weaker, and use courage wisely. This workbook helps children practice movement control, patience, boundaries, and responsibility for their own strength.",
+        "parentDescription": "This workbook supports children in understanding boundaries, controlling impulses, and choosing safe reactions. It helps start conversations about the fact that being bigger, stronger, or faster does not give anyone the right to hurt others.",
+        "supports": [
+          "boundaries",
+          "impulse control",
+          "courage",
+          "persistence",
+          "responsible strength"
+        ],
+        "inside": [
+          "training paths",
+          "shield-themed tasks",
+          "choosing good reactions",
+          "“freeze-frame” exercises",
+          "short scenes about strength and responsibility"
+        ],
+        "quote": "Courage without control is only noise. A true warrior knows when to move and when to stop."
+      }
+    }
   }
 }

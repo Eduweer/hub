@@ -1,0 +1,264 @@
+/* Full-bleed two-part section: 16:9 graphic on one side, themed content panel
+   on the other. A narrow gradient seam fades the image edge into the panel
+   color so the split reads as one continuous surface. */
+.section {
+  position: relative;
+  overflow: hidden;
+  background: var(--soft-accent);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  min-height: 540px;
+}
+
+/* ── Graphic half ── */
+.media {
+  position: relative;
+  min-height: 340px;
+}
+
+.mediaImg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Gradient seam — transparent over the image, fading to the panel color on the
+   inner (content) edge. Direction flips for reversed (image-right) sections. */
+.media::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(to right, transparent 62%, var(--soft-accent) 100%);
+}
+.reverse .media::after {
+  background: linear-gradient(to left, transparent 62%, var(--soft-accent) 100%);
+}
+
+/* Reversed layout — image on the right */
+.reverse .media {
+  order: 2;
+}
+.reverse .body {
+  order: 1;
+}
+
+/* ── Content half ── */
+.body {
+  background: var(--soft-accent);
+  padding: clamp(40px, 5vw, 76px) clamp(28px, 5vw, 72px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.artifactBadge {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--f-head);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 14%, #fff);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  padding: 6px 14px;
+  border-radius: var(--r-btn);
+  margin-bottom: 16px;
+}
+
+.role {
+  display: block;
+  font-family: var(--f-head);
+  font-size: 11px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+
+.title {
+  font-family: var(--f-display);
+  font-size: clamp(24px, 3vw, 38px);
+  font-weight: 700;
+  line-height: 1.22;
+  color: var(--ink);
+  margin-bottom: 16px;
+}
+
+.desc {
+  font-family: var(--f-body);
+  font-size: 16px;
+  line-height: 1.82;
+  color: var(--ink-mid);
+  font-weight: 300;
+  margin-bottom: 26px;
+}
+
+.tagGroups {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 26px;
+}
+
+.tagLabel {
+  font-family: var(--f-head);
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 12px;
+}
+
+.tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.tag {
+  font-family: var(--f-body);
+  font-size: 12px;
+  color: var(--ink-mid);
+  background: color-mix(in srgb, var(--accent) 8%, #fff);
+  border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+  padding: 5px 12px;
+  border-radius: var(--r-btn);
+}
+
+.insideList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.insideItem {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+  font-family: var(--f-body);
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-mid);
+  font-weight: 300;
+}
+
+.insideDot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-top: 7px;
+  flex-shrink: 0;
+}
+
+.parentNote {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid color-mix(in srgb, var(--accent) 18%, transparent);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--r-md);
+  padding: 16px 18px;
+  margin-bottom: 24px;
+}
+
+.parentNoteLabel {
+  display: block;
+  font-family: var(--f-head);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 7px;
+}
+
+.parentNoteText {
+  font-family: var(--f-body);
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  font-weight: 300;
+}
+
+/* ── CTAs ── */
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btnPrimary,
+.btnSecondary {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 26px;
+  border-radius: var(--r-btn);
+  font-family: var(--f-head);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s, color 0.2s;
+}
+
+.btnPrimary {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+}
+.btnPrimary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.btnSecondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.btnSecondary:hover {
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+  transform: translateY(-2px);
+}
+
+/* ── Responsive — stack: graphic on top, content below ── */
+@media (max-width: 960px) {
+  .layout {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .reverse .media,
+  .reverse .body {
+    order: 0;
+  }
+  .media {
+    aspect-ratio: 16 / 9;
+    min-height: 0;
+  }
+  /* Seam fades downward into the content panel */
+  .media::after,
+  .reverse .media::after {
+    background: linear-gradient(to bottom, transparent 60%, var(--soft-accent) 100%);
+  }
+}
+
+@media (max-width: 560px) {
+  .tagGroups {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}

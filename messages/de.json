@@ -988,5 +988,310 @@
       }
     ],
     "contact": "Fragen? Schreiben Sie uns: hello@support.eduweer.com"
+  },
+  "artifacts": {
+    "meta": {
+      "title": "Eduweer Prüfungsartefakte — Übungshefte für Kinder",
+      "description": "Entdecke sechs Eduweer-Übungshefte und sammle Prüfungsartefakte. Die Übungen unterstützen Graphomotorik, Konzentration, Logik, Kreativität, Gefühle und Grenzen."
+    },
+    "hero": {
+      "eyebrow": "Eduweer · Prüfungsartefakte",
+      "title": "Sammle die sechs Prüfungsartefakte",
+      "subtitle": "Jedes Übungsheft ist ein eigenes Abenteuer, das von einem der Eduweer-Wächter begleitet wird. Dein Kind entwickelt wichtige Fähigkeiten und kann nach Abschluss des Hefts ein Artefakt freischalten und seinem Helden zuordnen.",
+      "primaryCta": "Elternkonto erstellen",
+      "secondaryCta": "Artefakte entdecken",
+      "tertiaryLink": "So funktioniert es",
+      "process": [
+        "Heft auswählen",
+        "Prüfung abschließen",
+        "QR-Code scannen",
+        "Artefakt freischalten"
+      ]
+    },
+    "navLinks": {
+      "how": "So funktioniert es",
+      "artifacts": "Artefakte",
+      "parent": "Elternkonto",
+      "world": "Eduweer-Welt"
+    },
+    "how": {
+      "eyebrow": "So funktioniert es",
+      "title": "Wie funktionieren Artefakte in Eduweer?",
+      "description": "Nach dem Abschluss eines Übungshefts endet das Abenteuer nicht auf Papier. Ein Elternteil kann den QR-Code scannen, das freigeschaltete Artefakt einem Kinderprofil zuordnen und den Fortschritt des Helden im Eduweer-Elternbereich verfolgen.",
+      "steps": [
+        {
+          "title": "Übungsheft auswählen",
+          "description": "Jedes Heft trainiert eine andere Fähigkeit und wird von einem anderen Wächter begleitet."
+        },
+        {
+          "title": "Prüfung abschließen",
+          "description": "Das Kind bearbeitet die Übungen, entwickelt konkrete Fähigkeiten und entdeckt die Geschichte des Artefakts."
+        },
+        {
+          "title": "QR-Code scannen",
+          "description": "Nach Abschluss des Hefts scannt der Elternteil den Code und wählt das Kind aus, das die Belohnung erhalten soll."
+        },
+        {
+          "title": "Artefakt freischalten",
+          "description": "Das Artefakt wird dem Heldenprofil hinzugefügt und Teil des größeren Entwicklungswegs des Kindes."
+        }
+      ]
+    },
+    "pathNav": {
+      "title": "Entdecke die sechs Prüfungspfade",
+      "items": [
+        {
+          "name": "Auralis",
+          "label": "Buchstaben"
+        },
+        {
+          "name": "Narin",
+          "label": "Labyrinthe"
+        },
+        {
+          "name": "Tivia",
+          "label": "Logik"
+        },
+        {
+          "name": "Liora",
+          "label": "Farben"
+        },
+        {
+          "name": "Maela",
+          "label": "Gefühle"
+        },
+        {
+          "name": "Boran",
+          "label": "Grenzen"
+        }
+      ]
+    },
+    "parentBenefits": {
+      "eyebrow": "Elternkonto",
+      "title": "Artefakte werden im Elternbereich lebendig",
+      "description": "Nach Abschluss eines Übungshefts kannst du das Artefakt dem Konto deines Kindes zuordnen, abgeschlossene Prüfungen verfolgen und seinen Heldenweg in Eduweer aufbauen.",
+      "features": [
+        {
+          "title": "Artefakte zuordnen",
+          "description": "Scanne den QR-Code aus dem Heft und füge das freigeschaltete Artefakt dem Profil deines Kindes hinzu."
+        },
+        {
+          "title": "Sammlung verfolgen",
+          "description": "Sieh, welche Prüfungen abgeschlossen wurden und welche Artefakte dein Kind bereits verdient hat."
+        },
+        {
+          "title": "Mehrere Kinder hinzufügen",
+          "description": "Verwalte den Fortschritt mehrerer Kinder über ein einziges Elternkonto."
+        },
+        {
+          "title": "Bereit für weitere Abenteuer",
+          "description": "Das Elternkonto verbindet Übungshefte, Bücher und zukünftige Eduweer-Aktivitäten."
+        }
+      ],
+      "cta": "Elternkonto erstellen"
+    },
+    "world": {
+      "eyebrow": "Eduweer-Welt",
+      "title": "Teil der größeren Eduweer-Welt",
+      "description": "Prüfungsartefakte sind Teil der größeren Eduweer-Welt. Kinder lernen Figuren in Geschichten kennen, üben konkrete Fähigkeiten in Heften, und Eltern können Fortschritte und Heldenentwicklung im Elternbereich verfolgen.",
+      "items": [
+        {
+          "title": "Bücher",
+          "description": "Entdecke die Geschichte, Länder und Helden von Eduweer."
+        },
+        {
+          "title": "Übungshefte",
+          "description": "Schließe Wächterprüfungen ab und entwickle konkrete Fähigkeiten."
+        },
+        {
+          "title": "Elternbereich",
+          "description": "Ordne Artefakte zu, verfolge Fortschritte und verwalte das Konto deines Kindes."
+        },
+        {
+          "title": "Heldenabenteuer",
+          "description": "Sammle Artefakte und baue den Entwicklungsweg des jungen Helden auf."
+        }
+      ],
+      "cta": "Elternseite ansehen"
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Häufige Fragen",
+      "items": [
+        {
+          "q": "Brauche ich ein Elternkonto, um ein Übungsheft zu kaufen?",
+          "a": "Nein. Du kannst ein Übungsheft unabhängig kaufen. Ein Elternkonto wird benötigt, wenn du das freigeschaltete Artefakt dem Profil deines Kindes zuordnen und den Heldenfortschritt verfolgen möchtest."
+        },
+        {
+          "q": "Wie ordne ich einem Kind ein Artefakt zu?",
+          "a": "Nach Abschluss des Hefts scannt der Elternteil den QR-Code, meldet sich an und wählt das Kind aus, das das Artefakt erhalten soll."
+        },
+        {
+          "q": "Kann dasselbe Artefakt mehrmals freigeschaltet werden?",
+          "a": "Derselbe Code und dasselbe Artefakt sollten nur einmal dem ausgewählten Kind zugeordnet werden. So bleibt die Sammlung übersichtlich und fair."
+        },
+        {
+          "q": "Für welches Alter sind die Übungshefte gedacht?",
+          "a": "Die Hefte sind hauptsächlich für Kinder im frühen Grundschulalter gedacht. Der Schwierigkeitsgrad kann jedoch je nach Prüfung und Fähigkeiten des Kindes variieren."
+        },
+        {
+          "q": "Sind die Hefte Teil einer größeren Serie?",
+          "a": "Ja. Übungshefte, Bücher, Elternbereich und zukünftige Eduweer-Aktivitäten bilden eine verbundene Welt aus Entwicklung und Abenteuer."
+        },
+        {
+          "q": "Ersetzen die Übungen Therapie oder Diagnose?",
+          "a": "Nein. Die Hefte sind pädagogisch und entwicklungsfördernd. Sie können Konzentration, Gefühle, Graphomotorik und Selbstregulation unterstützen, ersetzen aber keine fachliche Beratung."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Starte die erste Prüfung",
+      "description": "Wähle ein Übungsheft, erstelle ein Elternkonto und hilf deinem Kind, neue Artefakte in der Welt von Eduweer zu sammeln.",
+      "primaryCta": "Elternkonto erstellen",
+      "secondaryCta": "Übungshefte ansehen",
+      "tertiaryCta": "Zurück zur Elternseite"
+    },
+    "guardianLabels": {
+      "supports": "Dieses Heft unterstützt",
+      "inside": "Im Inneren findest du",
+      "parent": "Für Eltern",
+      "buyAmazon": "Bei Amazon kaufen",
+      "buyEmpik": "Bei Empik kaufen",
+      "details": "Details ansehen"
+    },
+    "guardians": {
+      "auralis": {
+        "guardianRole": "Wächterin der Runen",
+        "artifactName": "Amulett der Ersten Rune",
+        "title": "Auralis und das Amulett der Ersten Rune",
+        "description": "Auralis führt junge Helden durch die Welt der Linien, Zeichen und ersten Buchstaben. Dieses Übungsheft hilft Kindern, eine ruhige Hand, Konzentration und erste Schreibfertigkeiten zu trainieren. Jede Seite ist eine kleine Geduldsprobe — denn selbst die größte Magie beginnt mit einer gut geführten Linie.",
+        "parentDescription": "Dieses Heft unterstützt die Vorbereitung auf das Schreiben, die Linienführung und konzentriertes Üben ohne Druck.",
+        "supports": [
+          "Graphomotorik",
+          "Buchstaben",
+          "Konzentration",
+          "Handpräzision",
+          "Auge-Hand-Koordination"
+        ],
+        "inside": [
+          "Schwungübungen",
+          "Nachspurübungen",
+          "erste Buchstaben",
+          "Runenaufgaben",
+          "eine kurze Prüfung der Runenwächterin"
+        ],
+        "quote": "Nicht jede Magie beginnt mit einem Leuchten. Manchmal beginnt sie mit einer gut geführten Linie."
+      },
+      "narin": {
+        "guardianRole": "Wächter der Spuren",
+        "artifactName": "Artefakt der Stillen Spur",
+        "title": "Narin und das Artefakt der Stillen Spur",
+        "description": "Narin lehrt Geduld, Orientierung und achtsame Linienführung. In seiner Prüfung folgen Kinder Labyrinthen, Wegen und verborgenen Pfaden und üben dabei Bewegungsplanung und Handkontrolle.",
+        "parentDescription": "Dieses Heft unterstützt räumliche Orientierung, Geduld, Planung und kontrollierte Handbewegungen innerhalb klarer Grenzen.",
+        "supports": [
+          "Labyrinthe",
+          "Achtsamkeit",
+          "Planung",
+          "Konzentration",
+          "Koordination"
+        ],
+        "inside": [
+          "Labyrinthe",
+          "Linienwege",
+          "Übungen ohne die Grenzen zu verlassen",
+          "Spuren und Karten",
+          "Aufgaben eines Spähers"
+        ],
+        "quote": "Der Weg existiert meistens. Man muss nur aufhören, so laut zu schauen."
+      },
+      "tivia": {
+        "guardianRole": "Reparateurin der Mechanismen",
+        "artifactName": "Artefakt des Bernsteinzahnrads",
+        "title": "Tivia und das Artefakt des Bernsteinzahnrads",
+        "description": "Tivia lädt Kinder in die Welt der Formen, Muster und cleveren Rätsel ein. In ihrem Heft werden einfache Formen zu Bildern, fehlende Teile finden ihren Platz und Logikaufgaben zeigen, dass jedes Problem Schritt für Schritt gelöst werden kann.",
+        "parentDescription": "Dieses Heft unterstützt logisches Denken, visuelle Analyse, Mustererkennung und geduldiges Problemlösen.",
+        "supports": [
+          "Logik",
+          "geometrische Formen",
+          "Symmetrie",
+          "Muster",
+          "Problemlösung"
+        ],
+        "inside": [
+          "Bilder aus Formen",
+          "fehlende Elemente ergänzen",
+          "einfaches Bild-Sudoku",
+          "Logikrätsel",
+          "Mechanismus-Aufgaben"
+        ],
+        "quote": "Wenn etwas nicht funktioniert, heißt das noch nicht, dass es kaputt ist. Vielleicht hast du nur noch nicht entdeckt, wie es funktionieren möchte."
+      },
+      "liora": {
+        "guardianRole": "Hüterin der Lebendigen Formen",
+        "artifactName": "Artefakt der Grünen Ranke",
+        "title": "Liora und das Artefakt der Grünen Ranke",
+        "description": "Liora führt Kinder durch die Welt der Natur, Farben und ruhigen Gestaltung. Dieses Heft ist voller Pflanzen, Tiere, magischer Gärten und Ausmalbilder. Es ist eine Prüfung der Geduld, Harmonie und aufmerksamen Beobachtung.",
+        "parentDescription": "Dieses Heft hilft Kindern, zur Ruhe zu kommen, Kreativität zu entwickeln und begonnene Aufgaben geduldig zu beenden.",
+        "supports": [
+          "Farben",
+          "Kreativität",
+          "Geduld",
+          "Achtsamkeit",
+          "Ästhetik"
+        ],
+        "inside": [
+          "Ausmalbilder",
+          "Pflanzen und Tiere aus Eduweer",
+          "magische Gärten",
+          "Naturmuster",
+          "ruhige kreative Aufgaben"
+        ],
+        "quote": "Was langsam wächst, wird stark."
+      },
+      "maela": {
+        "guardianRole": "Wächterin des Warmen Schildes",
+        "artifactName": "Artefakt des Warmen Schildes",
+        "title": "Maela und das Artefakt des Warmen Schildes",
+        "description": "Maela zeigt, dass Heldentum nicht nur Mut bedeutet, sondern auch Fürsorge, Ruhe und das Wahrnehmen anderer. In ihrem Heft erkennen Kinder Gefühle, helfen Figuren, sichere Orte zu finden, und üben einfache Strategien zur Beruhigung.",
+        "parentDescription": "Dieses Heft unterstützt das Erkennen von Gefühlen, Gespräche über Bedürfnisse, Selbstregulation und ein Gefühl von Sicherheit. Es kann besonders hilfreich für Kinder sein, die schnell frustriert sind, viel Energie haben oder einfache ruhige Routinen brauchen.",
+        "supports": [
+          "Gefühle",
+          "Empathie",
+          "Beruhigung",
+          "Sicherheit",
+          "Selbstregulation"
+        ],
+        "inside": [
+          "Aufgaben zu Gefühlen",
+          "Wege zu sicheren Orten",
+          "Bedürfnisse mit Hilfe verbinden",
+          "ruhige Ausmalbilder",
+          "„Anhalten und wählen“-Übungen"
+        ],
+        "quote": "Nicht jeder Held steht vorne auf der Reise. Manche gehen zuletzt, damit niemand allein bleibt."
+      },
+      "boran": {
+        "guardianRole": "Wächter des Roten Bandes",
+        "artifactName": "Artefakt des Roten Bandes",
+        "title": "Boran und das Artefakt des Roten Bandes",
+        "description": "Boran zeigt, dass wahre Stärke nicht im Schubsen, Schreien oder Schlagen liegt. Ein wahrer Krieger kann innehalten, Schwächere schützen und seinen Mut klug einsetzen. Dieses Heft hilft Kindern, Bewegungskontrolle, Geduld, Grenzen und Verantwortung für die eigene Stärke zu üben.",
+        "parentDescription": "Dieses Heft unterstützt Kinder dabei, Grenzen zu verstehen, Impulse zu kontrollieren und sichere Reaktionen zu wählen. Es hilft dabei, darüber zu sprechen, dass größer, stärker oder schneller zu sein niemandem das Recht gibt, andere zu verletzen.",
+        "supports": [
+          "Grenzen",
+          "Impulskontrolle",
+          "Mut",
+          "Ausdauer",
+          "verantwortungsvolle Stärke"
+        ],
+        "inside": [
+          "Trainingswege",
+          "Schild-Aufgaben",
+          "gute Reaktionen auswählen",
+          "„Stoppbild“-Übungen",
+          "kurze Szenen über Stärke und Verantwortung"
+        ],
+        "quote": "Mut ohne Kontrolle ist nur Lärm. Ein wahrer Krieger weiß, wann er sich bewegen und wann er stehen bleiben muss."
+      }
+    }
   }
 }
