@@ -1,0 +1,105 @@
+{
+  "_comment": "Per-workbook store data, keyed by guardian id then locale. `demo` is an optional { title, link } object — when present (non-null) a download-demo button is shown before the store buttons. `links` is an ordered list of buy buttons ({ title, link }); the first renders as the primary CTA, the rest as secondary. When `links` is empty the section shows the `soon` message instead. Missing locales fall back to `en`. Edit freely as availability, platforms and prices change per market — nothing here is hardcoded in the page.",
+  "auralis": {
+    "pl": {
+      "demo": null,
+      "soon": "W przygotowaniu — wkrótce w sprzedaży",
+      "links": []
+    },
+    "en": {
+      "demo": null,
+      "soon": "Coming soon",
+      "links": []
+    },
+    "de": {
+      "demo": null,
+      "soon": "Bald verfügbar",
+      "links": []
+    }
+  },
+  "narin": {
+    "pl": {
+      "demo": null,
+      "soon": "W przygotowaniu — wkrótce w sprzedaży",
+      "links": []
+    },
+    "en": {
+      "demo": null,
+      "soon": "Coming soon",
+      "links": []
+    },
+    "de": {
+      "demo": null,
+      "soon": "Bald verfügbar",
+      "links": []
+    }
+  },
+  "tivia": {
+    "pl": {
+      "demo": null,
+      "soon": "W przygotowaniu — wkrótce w sprzedaży",
+      "links": []
+    },
+    "en": {
+      "demo": null,
+      "soon": "Coming soon",
+      "links": []
+    },
+    "de": {
+      "demo": null,
+      "soon": "Bald verfügbar",
+      "links": []
+    }
+  },
+  "liora": {
+    "pl": {
+      "demo": null,
+      "soon": "W przygotowaniu — wkrótce w sprzedaży",
+      "links": []
+    },
+    "en": {
+      "demo": null,
+      "soon": "Coming soon",
+      "links": []
+    },
+    "de": {
+      "demo": null,
+      "soon": "Bald verfügbar",
+      "links": []
+    }
+  },
+  "maela": {
+    "pl": {
+      "demo": null,
+      "soon": "W przygotowaniu — wkrótce w sprzedaży",
+      "links": []
+    },
+    "en": {
+      "demo": null,
+      "soon": "Coming soon",
+      "links": []
+    },
+    "de": {
+      "demo": null,
+      "soon": "Bald verfügbar",
+      "links": []
+    }
+  },
+  "boran": {
+    "pl": {
+      "demo": null,
+      "soon": "W przygotowaniu — wkrótce w sprzedaży",
+      "links": []
+    },
+    "en": {
+      "demo": null,
+      "soon": "Coming soon",
+      "links": []
+    },
+    "de": {
+      "demo": null,
+      "soon": "Bald verfügbar",
+      "links": []
+    }
+  }
+}

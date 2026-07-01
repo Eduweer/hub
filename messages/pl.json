@@ -1072,7 +1072,7 @@
       "description": "Po ukończeniu zeszytu dziecko nie kończy przygody na papierze. Rodzic może zeskanować kod QR, przypisać zdobyty artefakt do konta dziecka i śledzić rozwój bohatera w panelu rodzica Eduweer.",
       "steps": [
         {
-          "title": "Kup lub wybierz zeszyt",
+          "title": "Wybierz zeszyt",
           "description": "Każdy zeszyt ćwiczy inną umiejętność i jest prowadzony przez innego Strażnika."
         },
         {

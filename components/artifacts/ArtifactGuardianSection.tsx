@@ -1,6 +1,10 @@
 import Image from "next/image";
 import styles from "./ArtifactGuardianSection.module.css";
-import { artifactThemes, type ArtifactGuardianConfig } from "@/lib/artifacts";
+import {
+  artifactThemes,
+  type ArtifactGuardianConfig,
+  type ArtifactStoreEntry,
+} from "@/lib/artifacts";
 
 /** Translated copy for one guardian (joined with config by id). */
 export interface ArtifactGuardianText {
@@ -18,14 +22,14 @@ export interface ArtifactGuardianLabels {
   supports: string;
   inside: string;
   parent: string;
-  buyAmazon: string;
-  buyEmpik: string;
 }
 
 interface ArtifactGuardianSectionProps {
   config: ArtifactGuardianConfig;
   text: ArtifactGuardianText;
   labels: ArtifactGuardianLabels;
+  /** Buy links / availability for this workbook in the current locale. */
+  store: ArtifactStoreEntry;
   /** Reverse media/text columns for visual rhythm between sections. */
   reverse?: boolean;
 }
@@ -40,9 +44,14 @@ export default function ArtifactGuardianSection({
   config,
   text,
   labels,
+  store,
   reverse = false,
 }: ArtifactGuardianSectionProps) {
   const theme = artifactThemes[config.theme];
+  const hasLinks = store.links.length > 0;
+  // Demo is optional — only render when both title and link are provided.
+  const demo = store.demo && store.demo.title && store.demo.link ? store.demo : null;
+  const demoExternal = demo ? /^https?:\/\//.test(demo.link) : false;
 
   const sectionStyle = {
     "--accent": theme.accent,
@@ -112,24 +121,37 @@ export default function ArtifactGuardianSection({
             <p className={styles.parentNoteText}>{text.parentDescription}</p>
           </div>
 
-          <div className={styles.ctas}>
-            <a
-              href={config.amazonUrl}
-              className={styles.btnPrimary}
-              target={config.amazonUrl.startsWith("http") ? "_blank" : undefined}
-              rel={config.amazonUrl.startsWith("http") ? "noopener noreferrer" : undefined}
-            >
-              {labels.buyAmazon}
-            </a>
-            <a
-              href={config.empikUrl}
-              className={styles.btnSecondary}
-              target={config.empikUrl.startsWith("http") ? "_blank" : undefined}
-              rel={config.empikUrl.startsWith("http") ? "noopener noreferrer" : undefined}
-            >
-              {labels.buyEmpik}
-            </a>
-          </div>
+          {/* Optional demo download + buy buttons from the store. When no buy
+              links are set yet, the locale's "coming soon" note is shown. */}
+          {(demo || hasLinks) && (
+            <div className={styles.ctas}>
+              {demo && (
+                <a
+                  href={demo.link}
+                  className={styles.btnDemo}
+                  target={demoExternal ? "_blank" : undefined}
+                  rel={demoExternal ? "noopener noreferrer" : undefined}
+                >
+                  {demo.title}
+                </a>
+              )}
+              {store.links.map((l, i) => {
+                const external = /^https?:\/\//.test(l.link);
+                return (
+                  <a
+                    key={i}
+                    href={l.link}
+                    className={i === 0 ? styles.btnPrimary : styles.btnSecondary}
+                    target={external ? "_blank" : undefined}
+                    rel={external ? "noopener noreferrer" : undefined}
+                  >
+                    {l.title}
+                  </a>
+                );
+              })}
+            </div>
+          )}
+          {!hasLinks && store.soon && <p className={styles.soonNote}>{store.soon}</p>}
         </div>
       </div>
     </section>

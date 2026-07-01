@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Background from "@/components/shared/Background";
 import Motes from "@/components/shared/Motes";
@@ -12,7 +12,7 @@ import ArtifactGuardianSection, {
   type ArtifactGuardianText,
   type ArtifactGuardianLabels,
 } from "@/components/artifacts/ArtifactGuardianSection";
-import { artifactGuardians, artifactLinks } from "@/lib/artifacts";
+import { artifactGuardians, artifactLinks, getArtifactStoreEntry } from "@/lib/artifacts";
 import styles from "./ArtifactsPage.module.css";
 
 export async function generateMetadata({
@@ -37,6 +37,7 @@ const ARTIFACT_MOTES = [
 
 export default function ArtifactsPage() {
   const t = useTranslations("artifacts");
+  const locale = useLocale();
 
   // Translated arrays / objects
   const introParagraphs = t.raw("intro.paragraphs") as string[];
@@ -124,6 +125,7 @@ export default function ArtifactsPage() {
               config={config}
               text={t.raw(`guardians.${config.id}`) as ArtifactGuardianText}
               labels={guardianLabels}
+              store={getArtifactStoreEntry(config.id, locale)}
               reverse={i % 2 === 1}
             />
           ))}

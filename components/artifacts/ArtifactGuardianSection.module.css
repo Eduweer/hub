@@ -201,6 +201,22 @@
   gap: 12px;
 }
 
+/* Shown instead of buttons when no store links are set for this locale yet */
+.soonNote {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  font-family: var(--f-head);
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, #fff);
+  border: 1px dashed color-mix(in srgb, var(--accent) 40%, transparent);
+  border-radius: var(--r-btn);
+  padding: 11px 22px;
+}
+
 .btnPrimary,
 .btnSecondary {
   display: inline-flex;
@@ -213,6 +229,33 @@
   text-transform: uppercase;
   text-decoration: none;
   transition: transform 0.2s, background 0.2s, box-shadow 0.2s, color 0.2s;
+}
+
+/* Demo download — visually distinct from the buy buttons */
+.btnDemo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border-radius: var(--r-btn);
+  font-family: var(--f-head);
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, #fff);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  transition: transform 0.2s, background 0.2s;
+}
+.btnDemo::before {
+  content: "↓";
+  font-size: 13px;
+  line-height: 1;
+}
+.btnDemo:hover {
+  background: color-mix(in srgb, var(--accent) 20%, #fff);
+  transform: translateY(-2px);
 }
 
 .btnPrimary {

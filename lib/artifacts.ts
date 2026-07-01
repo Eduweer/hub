@@ -9,6 +9,8 @@
  * swap artwork and store links from a single place.
  */
 
+import storeData from "./artifact-store.json";
+
 export type ArtifactTheme =
   | "blue"
   | "green"
@@ -26,9 +28,6 @@ export interface ArtifactGuardianConfig {
   anchor: string;
   /** 16:9 guardian illustration that fills the graphic half of the section. */
   image: string;
-  /** Store links — placeholders for now, configurable per guardian. */
-  amazonUrl: string;
-  empikUrl: string;
 }
 
 /** Shared, configurable links used across the page. */
@@ -36,8 +35,6 @@ export const artifactLinks = {
   parentSignup: "/parents#signup",
   parentsPage: "/parents",
   artifactsDetailsBase: "/artifacts",
-  amazon: "#",
-  empik: "#",
 } as const;
 
 /** Theme color tokens per section. Consumed as inline CSS variables. */
@@ -98,47 +95,79 @@ export const artifactGuardians: ArtifactGuardianConfig[] = [
     theme: "blue",
     anchor: "auralis",
     image: "/images/auralis_preview.webp",
-    amazonUrl: artifactLinks.amazon,
-    empikUrl: artifactLinks.empik,
   },
   {
     id: "narin",
     theme: "purple",
     anchor: "narin",
     image: "/images/narin_preview.webp",
-    amazonUrl: artifactLinks.amazon,
-    empikUrl: artifactLinks.empik,
   },
   {
     id: "tivia",
     theme: "amber",
     anchor: "tivia",
     image: "/images/tivia_preview.webp",
-    amazonUrl: artifactLinks.amazon,
-    empikUrl: artifactLinks.empik,
   },
   {
     id: "liora",
     theme: "nature",
     anchor: "liora",
     image: "/images/liora_preview.webp",
-    amazonUrl: artifactLinks.amazon,
-    empikUrl: artifactLinks.empik,
   },
   {
     id: "maela",
     theme: "warm",
     anchor: "maela",
     image: "/images/maela_preview.webp",
-    amazonUrl: artifactLinks.amazon,
-    empikUrl: artifactLinks.empik,
   },
   {
     id: "boran",
     theme: "red",
     anchor: "boran",
     image: "/images/boran_preview.webp",
-    amazonUrl: artifactLinks.amazon,
-    empikUrl: artifactLinks.empik,
   },
 ];
+
+/* ── Store data ──────────────────────────────────────────────────────────────
+   Buy links live in artifact-store.json (per guardian, per locale) so that
+   platforms, prices, languages and release timing can change without touching
+   the page or components. */
+
+/** A single store button. */
+export interface ArtifactStoreLink {
+  title: string;
+  link: string;
+}
+
+/** Availability for one workbook in one locale. */
+export interface ArtifactStoreEntry {
+  /** Optional demo download; when set, shown before the store buttons. */
+  demo?: ArtifactStoreLink | null;
+  /** Shown when there are no `links` yet (e.g. "Coming soon"). */
+  soon?: string;
+  /** Ordered buy buttons; first is the primary CTA. */
+  links: ArtifactStoreLink[];
+}
+
+type ArtifactStore = Record<string, Record<string, ArtifactStoreEntry>>;
+
+// The JSON carries a leading "_comment" key; strip anything non-object defensively.
+const store = storeData as unknown as ArtifactStore & { _comment?: string };
+
+const EMPTY_ENTRY: ArtifactStoreEntry = { links: [] };
+
+/**
+ * Resolve the store entry for a guardian in a given locale.
+ * Falls back to English, then to the first defined locale, then to an empty
+ * entry — so a missing translation never breaks the page.
+ */
+export function getArtifactStoreEntry(id: string, locale: string): ArtifactStoreEntry {
+  const byLocale = store[id];
+  if (!byLocale || typeof byLocale !== "object") return EMPTY_ENTRY;
+  return (
+    byLocale[locale] ??
+    byLocale.en ??
+    byLocale[Object.keys(byLocale)[0]] ??
+    EMPTY_ENTRY
+  );
+}
