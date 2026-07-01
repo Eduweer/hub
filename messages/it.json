@@ -991,306 +991,316 @@
   },
   "artifacts": {
     "meta": {
-      "title": "Eduweer Trial Artifacts — Workbooks for Children",
-      "description": "Discover six Eduweer workbooks and collect Trial Artifacts. Activities support handwriting readiness, focus, logic, creativity, emotions, and boundaries."
+      "title": "Artefatti delle Prove Eduweer — Quaderni di esercizi per bambini",
+      "description": "Scopri sei quaderni di esercizi Eduweer e colleziona gli Artefatti delle Prove. Le attività sostengono la grafomotricità, la concentrazione, la logica, la creatività, le emozioni e i limiti."
     },
     "hero": {
-      "eyebrow": "Eduweer · Trial Artifacts",
-      "title": "Collect the Six Trial Artifacts",
-      "subtitle": "Each workbook is a separate adventure guided by one of the Eduweer Guardians. Your child develops important skills, and after completing the workbook, they can unlock an artifact and assign it to their hero.",
-      "primaryCta": "Create parent account",
-      "secondaryCta": "Explore artifacts",
-      "tertiaryLink": "How it works",
+      "eyebrow": "Eduweer · Artefatti delle Prove",
+      "title": "Colleziona i sei Artefatti delle Prove",
+      "subtitle": "Ogni quaderno è un’avventura a sé, guidata da uno dei Guardiani di Eduweer. Il bambino sviluppa competenze importanti e, dopo aver completato il quaderno, può sbloccare un artefatto e assegnarlo al proprio eroe.",
+      "primaryCta": "Crea un account genitore",
+      "secondaryCta": "Esplora gli artefatti",
+      "tertiaryLink": "Come funziona",
       "process": [
-        "Choose a workbook",
-        "Complete the trial",
-        "Scan the QR code",
-        "Unlock the artifact"
+        "Scegli un quaderno",
+        "Completa la prova",
+        "Scansiona il QR code",
+        "Sblocca l’artefatto"
       ]
     },
+    "intro": {
+      "eyebrow": "Introduzione",
+      "title": "Cosa sono gli Artefatti delle Prove?",
+      "paragraphs": [
+        "Gli Artefatti delle Prove sono quaderni di esercizi aggiuntivi ambientati nel mondo di Eduweer. Ogni quaderno è un’avventura breve e distinta, guidata da uno dei Guardiani di Eduweer — insegnanti che aiutano i giovani eroi a sviluppare competenze importanti.",
+        "Il bambino svolge gli esercizi su carta, ma nella storia affronta la prova di un amuleto scelto: la runa, la traccia, il meccanismo, il rampicante, lo scudo o il nastro rosso.",
+        "Dopo aver completato il quaderno, un genitore può scansionare il QR code, assegnare l’artefatto sbloccato all’eroe del bambino e proseguire lo sviluppo del personaggio nell’app Eduweer Mentor."
+      ],
+      "tagline": "Non è solo un quaderno di esercizi. È una piccola quest che resta con il bambino anche nell’app."
+    },
     "navLinks": {
-      "how": "How it works",
-      "artifacts": "Artifacts",
-      "parent": "Parent account",
-      "world": "Eduweer world"
+      "how": "Come funziona",
+      "artifacts": "Artefatti",
+      "parent": "Account genitore",
+      "world": "Mondo Eduweer"
     },
     "how": {
-      "eyebrow": "How it works",
-      "title": "How do artifacts work in Eduweer?",
-      "description": "Completing a workbook does not end the adventure on paper. A parent can scan the QR code, assign the unlocked artifact to a child profile, and track the hero’s progress in the Eduweer parent panel.",
+      "eyebrow": "Come funziona",
+      "title": "Come funzionano gli artefatti in Eduweer?",
+      "description": "Completare un quaderno non fa finire l’avventura sulla carta. Un genitore può scansionare il QR code, assegnare l’artefatto sbloccato al profilo di un bambino e seguire i progressi dell’eroe nel pannello genitori di Eduweer.",
       "steps": [
         {
-          "title": "Choose a workbook",
-          "description": "Each workbook trains a different skill and is guided by a different Guardian."
+          "title": "Scegli un quaderno",
+          "description": "Ogni quaderno allena una competenza diversa ed è guidato da un Guardiano diverso."
         },
         {
-          "title": "Complete the trial",
-          "description": "The child works through the exercises, develops specific skills, and discovers the story behind the artifact."
+          "title": "Completa la prova",
+          "description": "Il bambino svolge gli esercizi, sviluppa competenze specifiche e scopre la storia dell’artefatto."
         },
         {
-          "title": "Scan the QR code",
-          "description": "After the workbook is completed, the parent scans the code and chooses which child should receive the reward."
+          "title": "Scansiona il QR code",
+          "description": "Dopo aver completato il quaderno, il genitore scansiona il codice e sceglie quale bambino deve ricevere la ricompensa."
         },
         {
-          "title": "Unlock the artifact",
-          "description": "The artifact is added to the hero profile and becomes part of the child’s larger development path."
+          "title": "Sblocca l’artefatto",
+          "description": "L’artefatto viene aggiunto al profilo dell’eroe e diventa parte del percorso di sviluppo del bambino."
         }
       ]
     },
     "pathNav": {
-      "title": "Explore the six trial paths",
+      "title": "Scopri i sei percorsi di prova",
       "items": [
         {
           "name": "Auralis",
-          "label": "Letters"
+          "label": "Lettere"
         },
         {
           "name": "Narin",
-          "label": "Mazes"
+          "label": "Labirinti"
         },
         {
           "name": "Tivia",
-          "label": "Logic"
+          "label": "Logica"
         },
         {
           "name": "Liora",
-          "label": "Colors"
+          "label": "Colori"
         },
         {
           "name": "Maela",
-          "label": "Emotions"
+          "label": "Emozioni"
         },
         {
           "name": "Boran",
-          "label": "Boundaries"
+          "label": "Limiti"
         }
       ]
     },
     "parentBenefits": {
-      "eyebrow": "Parent account",
-      "title": "Artifacts come alive in the parent panel",
-      "description": "After completing a workbook, you can assign the artifact to your child’s account, track completed trials, and build their hero path in the world of Eduweer.",
+      "eyebrow": "Account genitore",
+      "title": "Gli artefatti prendono vita nel pannello genitori",
+      "description": "Dopo aver completato un quaderno, puoi assegnare l’artefatto all’account del tuo bambino, seguire le prove completate e costruire il suo percorso da eroe nel mondo di Eduweer.",
       "features": [
         {
-          "title": "Assign artifacts",
-          "description": "Scan the QR code from the workbook and add the unlocked artifact to your child’s profile."
+          "title": "Assegna artefatti",
+          "description": "Scansiona il QR code del quaderno e aggiungi l’artefatto sbloccato al profilo del tuo bambino."
         },
         {
-          "title": "Track the collection",
-          "description": "See which trials have been completed and which artifacts your child has already earned."
+          "title": "Segui la collezione",
+          "description": "Vedi quali prove sono state completate e quali artefatti il tuo bambino ha già ottenuto."
         },
         {
-          "title": "Add multiple children",
-          "description": "Manage the progress of more than one child from a single parent account."
+          "title": "Aggiungi più bambini",
+          "description": "Gestisci i progressi di più bambini da un unico account genitore."
         },
         {
-          "title": "Get ready for more adventures",
-          "description": "The parent account will connect workbooks, books, and future Eduweer activities."
+          "title": "Pronto per altre avventure",
+          "description": "L’account genitore collegherà quaderni, libri e future attività di Eduweer."
         }
       ],
-      "cta": "Create parent account"
+      "cta": "Crea un account genitore"
     },
     "world": {
-      "eyebrow": "Eduweer world",
-      "title": "Part of the larger Eduweer world",
-      "description": "Trial Artifacts are part of the larger Eduweer world. Children meet characters through stories, practice concrete skills in workbooks, and parents can track progress and hero development in the parent panel.",
+      "eyebrow": "Mondo Eduweer",
+      "title": "Parte del più ampio mondo di Eduweer",
+      "description": "Gli Artefatti delle Prove fanno parte del più ampio mondo di Eduweer. I bambini incontrano i personaggi attraverso le storie, esercitano competenze concrete nei quaderni e i genitori possono seguire i progressi e lo sviluppo dell’eroe nel pannello genitori.",
       "items": [
         {
-          "title": "Books",
-          "description": "Discover the story, lands, and heroes of Eduweer."
+          "title": "Libri",
+          "description": "Scopri la storia, le terre e gli eroi di Eduweer."
         },
         {
-          "title": "Workbooks",
-          "description": "Complete Guardian trials and develop concrete skills."
+          "title": "Quaderni di esercizi",
+          "description": "Completa le prove dei Guardiani e sviluppa competenze concrete."
         },
         {
-          "title": "Parent panel",
-          "description": "Assign artifacts, track progress, and manage your child’s account."
+          "title": "Pannello genitori",
+          "description": "Assegna artefatti, segui i progressi e gestisci l’account del tuo bambino."
         },
         {
-          "title": "Hero adventure",
-          "description": "Collect artifacts and build the young hero’s development path."
+          "title": "Avventura dell’eroe",
+          "description": "Colleziona artefatti e costruisci il percorso di sviluppo del giovane eroe."
         }
       ],
-      "cta": "View parent page"
+      "cta": "Vedi la pagina per i genitori"
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Frequently asked questions",
+      "title": "Domande frequenti",
       "items": [
         {
-          "q": "Do I need a parent account to buy a workbook?",
-          "a": "No. You can buy a workbook independently. A parent account is needed when you want to assign the unlocked artifact to your child’s profile and track hero progress."
+          "q": "Mi serve un account genitore per acquistare un quaderno?",
+          "a": "No. Puoi acquistare un quaderno in modo indipendente. L’account genitore serve quando vuoi assegnare l’artefatto sbloccato al profilo del tuo bambino e seguire i progressi dell’eroe."
         },
         {
-          "q": "How do I assign an artifact to a child?",
-          "a": "After completing the workbook, the parent scans the QR code, logs in, and chooses the child who should receive the artifact."
+          "q": "Come assegno un artefatto a un bambino?",
+          "a": "Dopo aver completato il quaderno, il genitore scansiona il QR code, accede e sceglie il bambino che deve ricevere l’artefatto."
         },
         {
-          "q": "Can the same artifact be unlocked more than once?",
-          "a": "The same code and artifact should be assigned only once to the selected child. This keeps the collection organized and fair."
+          "q": "Lo stesso artefatto può essere sbloccato più di una volta?",
+          "a": "Lo stesso codice e artefatto dovrebbero essere assegnati una sola volta al bambino scelto. Così la collezione resta ordinata e corretta."
         },
         {
-          "q": "What age are the workbooks for?",
-          "a": "The workbooks are mainly designed for early primary school children, but the difficulty may vary depending on the trial and the child’s individual skills."
+          "q": "Per quale età sono i quaderni?",
+          "a": "I quaderni sono pensati principalmente per i bambini dei primi anni della scuola primaria, ma la difficoltà può variare a seconda della prova e delle capacità individuali del bambino."
         },
         {
-          "q": "Are the workbooks part of a larger series?",
-          "a": "Yes. The workbooks, books, parent panel, and future Eduweer activities form one connected world of development and adventure."
+          "q": "I quaderni fanno parte di una serie più ampia?",
+          "a": "Sì. I quaderni, i libri, il pannello genitori e le future attività di Eduweer formano un unico mondo connesso di sviluppo e avventura."
         },
         {
-          "q": "Do the exercises replace therapy or diagnosis?",
-          "a": "No. The workbooks are educational and developmental. They may support focus, emotions, graphomotor skills, and self-regulation, but they do not replace professional consultation."
+          "q": "Gli esercizi sostituiscono la terapia o la diagnosi?",
+          "a": "No. I quaderni sono educativi e di sviluppo. Possono sostenere la concentrazione, le emozioni, la grafomotricità e l’autoregolazione, ma non sostituiscono una consulenza professionale."
         }
       ]
     },
     "finalCta": {
-      "title": "Start the first trial",
-      "description": "Choose a workbook, create a parent account, and help your child collect new artifacts in the world of Eduweer.",
-      "primaryCta": "Create parent account",
-      "secondaryCta": "View workbooks",
-      "tertiaryCta": "Back to parent page"
+      "title": "Inizia la prima prova",
+      "description": "Scegli un quaderno, crea un account genitore e aiuta il tuo bambino a collezionare nuovi artefatti nel mondo di Eduweer.",
+      "primaryCta": "Crea un account genitore",
+      "secondaryCta": "Vedi i quaderni",
+      "tertiaryCta": "Torna alla pagina per i genitori"
     },
     "guardianLabels": {
-      "supports": "This workbook supports",
-      "inside": "Inside you will find",
-      "parent": "For parents",
-      "buyAmazon": "Buy on Amazon",
-      "buyEmpik": "Buy on Empik",
-      "details": "View details"
+      "supports": "Questo quaderno sostiene",
+      "inside": "All’interno troverai",
+      "parent": "Per i genitori",
+      "buyAmazon": "Acquista su Amazon",
+      "buyEmpik": "Acquista su Empik",
+      "details": "Vedi i dettagli"
     },
     "guardians": {
       "auralis": {
-        "guardianRole": "Guardian of Runes",
-        "artifactName": "Amulet of the First Rune",
-        "title": "Auralis and the Amulet of the First Rune",
-        "description": "Auralis guides young heroes through the world of lines, symbols, and first letters. This workbook helps children practice a steady hand, focus, and early writing readiness. Each page is a small trial of patience — because even the greatest magic begins with one carefully drawn line.",
-        "parentDescription": "This workbook supports handwriting readiness, line control, and focused practice without pressure.",
+        "guardianRole": "Guardiana delle Rune",
+        "artifactName": "Amuleto della Prima Runa",
+        "title": "Auralis e l’Amuleto della Prima Runa",
+        "description": "Auralis guida i giovani eroi nel mondo delle linee, dei simboli e delle prime lettere. Questo quaderno aiuta i bambini a esercitare una mano sicura, la concentrazione e la preparazione alla scrittura. Ogni pagina è una piccola prova di pazienza, perché anche la magia più grande inizia con una linea ben tracciata.",
+        "parentDescription": "Questo quaderno sostiene la preparazione alla scrittura, il controllo del tratto e un esercizio concentrato senza pressione.",
         "supports": [
-          "graphomotor skills",
-          "letters",
-          "focus",
-          "hand precision",
-          "visual-motor coordination"
+          "grafomotricità",
+          "lettere",
+          "concentrazione",
+          "precisione della mano",
+          "coordinazione occhio-mano"
         ],
         "inside": [
-          "pre-writing patterns",
-          "tracing exercises",
-          "first letters",
-          "rune-inspired tasks",
-          "a short trial of the Rune Guardian"
+          "tracciati preparatori",
+          "esercizi di ricalco",
+          "prime lettere",
+          "attività ispirate alle rune",
+          "una breve prova della Guardiana delle Rune"
         ],
-        "quote": "Not every magic begins with a flash. Sometimes it begins with one well-drawn line."
+        "quote": "Non tutta la magia inizia con un bagliore. A volte inizia con una sola linea ben tracciata."
       },
       "narin": {
-        "guardianRole": "Guardian of Trails",
-        "artifactName": "Artifact of the Silent Trail",
-        "title": "Narin and the Artifact of the Silent Trail",
-        "description": "Narin teaches patience, orientation, and careful line control. In his trial, children follow mazes, paths, and hidden passages while practicing movement planning and hand control.",
-        "parentDescription": "This workbook supports spatial orientation, patience, planning, and controlled hand movement within clear boundaries.",
+        "guardianRole": "Guardiano delle Tracce",
+        "artifactName": "Artefatto della Traccia Silenziosa",
+        "title": "Narin e l’Artefatto della Traccia Silenziosa",
+        "description": "Narin insegna pazienza, orientamento e un attento controllo del tratto. Nella sua prova i bambini seguono labirinti, sentieri e passaggi nascosti esercitando la pianificazione del movimento e il controllo della mano.",
+        "parentDescription": "Questo quaderno sostiene l’orientamento spaziale, la pazienza, la pianificazione e il movimento controllato della mano entro limiti chiari.",
         "supports": [
-          "mazes",
-          "attention",
-          "planning",
-          "focus",
-          "coordination"
+          "labirinti",
+          "attenzione",
+          "pianificazione",
+          "concentrazione",
+          "coordinazione"
         ],
         "inside": [
-          "mazes",
-          "line-following paths",
-          "stay-within-the-path exercises",
-          "trails and maps",
-          "scout-themed tasks"
+          "labirinti",
+          "sentieri da seguire con il tratto",
+          "esercizi senza uscire dal percorso",
+          "tracce e mappe",
+          "attività da esploratore"
         ],
-        "quote": "The path usually exists. You just have to stop looking so loudly."
+        "quote": "Il cammino di solito esiste. Basta smettere di guardare così forte."
       },
       "tivia": {
-        "guardianRole": "Mechanism Mender",
-        "artifactName": "Artifact of the Amber Gear",
-        "title": "Tivia and the Artifact of the Amber Gear",
-        "description": "Tivia invites children into the world of shapes, patterns, and clever puzzles. In her workbook, simple forms turn into pictures, missing parts return to their places, and logic tasks show that every problem can be solved step by step.",
-        "parentDescription": "This workbook supports logical thinking, visual analysis, pattern recognition, and patient problem solving.",
+        "guardianRole": "Riparatrice di Meccanismi",
+        "artifactName": "Artefatto dell’Ingranaggio d’Ambra",
+        "title": "Tivia e l’Artefatto dell’Ingranaggio d’Ambra",
+        "description": "Tivia invita i bambini nel mondo delle forme, dei motivi e degli enigmi ingegnosi. Nel suo quaderno le forme semplici diventano immagini, i pezzi mancanti tornano al loro posto e i giochi di logica mostrano che ogni problema si può risolvere passo dopo passo.",
+        "parentDescription": "Questo quaderno sostiene il pensiero logico, l’analisi visiva, il riconoscimento di schemi e la risoluzione paziente dei problemi.",
         "supports": [
-          "logic",
-          "geometric shapes",
-          "symmetry",
-          "patterns",
-          "problem solving"
+          "logica",
+          "forme geometriche",
+          "simmetria",
+          "schemi",
+          "risoluzione dei problemi"
         ],
         "inside": [
-          "pictures built from shapes",
-          "missing-part exercises",
-          "simple picture sudoku",
-          "logic puzzles",
-          "mechanism-themed tasks"
+          "immagini composte da forme",
+          "esercizi con pezzi mancanti",
+          "sudoku di immagini semplice",
+          "rompicapi di logica",
+          "attività sui meccanismi"
         ],
-        "quote": "If something does not work, it does not mean it is broken. Maybe you simply have not discovered how it wants to work."
+        "quote": "Se qualcosa non funziona, non vuol dire che sia rotto. Forse non hai ancora scoperto come vuole funzionare."
       },
       "liora": {
-        "guardianRole": "Keeper of Living Shapes",
-        "artifactName": "Artifact of the Green Vine",
-        "title": "Liora and the Artifact of the Green Vine",
-        "description": "Liora leads children through the world of nature, colors, and calm creation. This workbook is filled with plants, animals, magical gardens, and coloring pages. It is a trial of patience, harmony, and careful observation.",
-        "parentDescription": "This workbook helps children calm down, develop creativity, and practice completing work patiently.",
+        "guardianRole": "Custode delle Forme Viventi",
+        "artifactName": "Artefatto del Rampicante Verde",
+        "title": "Liora e l’Artefatto del Rampicante Verde",
+        "description": "Liora guida i bambini nel mondo della natura, dei colori e della creazione tranquilla. Questo quaderno è pieno di piante, animali, giardini magici e pagine da colorare. È una prova di pazienza, armonia e osservazione attenta.",
+        "parentDescription": "Questo quaderno aiuta i bambini a calmarsi, a sviluppare la creatività e a portare a termine con pazienza un lavoro iniziato.",
         "supports": [
-          "colors",
-          "creativity",
-          "patience",
-          "attention",
-          "aesthetic sense"
+          "colori",
+          "creatività",
+          "pazienza",
+          "attenzione",
+          "senso estetico"
         ],
         "inside": [
-          "coloring pages",
-          "plants and animals of Eduweer",
-          "magical gardens",
-          "nature patterns",
-          "calm creative tasks"
+          "pagine da colorare",
+          "piante e animali di Eduweer",
+          "giardini magici",
+          "motivi della natura",
+          "attività creative tranquille"
         ],
-        "quote": "What grows slowly becomes strong."
+        "quote": "Ciò che cresce lentamente diventa forte."
       },
       "maela": {
-        "guardianRole": "Guardian of the Warm Shield",
-        "artifactName": "Artifact of the Warm Shield",
-        "title": "Maela and the Artifact of the Warm Shield",
-        "description": "Maela teaches that heroism is not only courage, but also care, calmness, and noticing others. In her workbook, children recognize emotions, help characters find safe places, and practice simple calming strategies.",
-        "parentDescription": "This workbook supports emotion recognition, talking about needs, self-regulation, and building a sense of safety. It may be especially helpful for children who get frustrated quickly, have a lot of energy, or benefit from simple calming routines.",
+        "guardianRole": "Guardiana dello Scudo Caldo",
+        "artifactName": "Artefatto dello Scudo Caldo",
+        "title": "Maela e l’Artefatto dello Scudo Caldo",
+        "description": "Maela insegna che l’eroismo non è solo coraggio, ma anche cura, calma e attenzione agli altri. Nel suo quaderno i bambini riconoscono le emozioni, aiutano i personaggi a trovare luoghi sicuri ed esercitano semplici strategie per calmarsi.",
+        "parentDescription": "Questo quaderno sostiene il riconoscimento delle emozioni, il dialogo sui bisogni, l’autoregolazione e la costruzione di un senso di sicurezza. Può essere particolarmente utile per i bambini che si frustrano in fretta, hanno molta energia o traggono beneficio da semplici routine di calma.",
         "supports": [
-          "emotions",
-          "empathy",
-          "calming down",
-          "safety",
-          "self-regulation"
+          "emozioni",
+          "empatia",
+          "calmarsi",
+          "sicurezza",
+          "autoregolazione"
         ],
         "inside": [
-          "emotion-based tasks",
-          "paths to safe places",
-          "matching needs with help",
-          "calm coloring pages",
-          "“pause and choose” exercises"
+          "attività sulle emozioni",
+          "percorsi verso luoghi sicuri",
+          "collegare i bisogni all’aiuto",
+          "pagine da colorare tranquille",
+          "esercizi «fermati e scegli»"
         ],
-        "quote": "Not every hero stands at the front of the journey. Some walk last so no one is left alone."
+        "quote": "Non tutti gli eroi stanno in testa al viaggio. Alcuni camminano per ultimi, perché nessuno resti solo."
       },
       "boran": {
-        "guardianRole": "Guardian of the Red Ribbon",
-        "artifactName": "Artifact of the Red Ribbon",
-        "title": "Boran and the Artifact of the Red Ribbon",
-        "description": "Boran shows that true strength is not about pushing, shouting, or hitting. A true warrior can stop, protect the weaker, and use courage wisely. This workbook helps children practice movement control, patience, boundaries, and responsibility for their own strength.",
-        "parentDescription": "This workbook supports children in understanding boundaries, controlling impulses, and choosing safe reactions. It helps start conversations about the fact that being bigger, stronger, or faster does not give anyone the right to hurt others.",
+        "guardianRole": "Guardiano del Nastro Rosso",
+        "artifactName": "Artefatto del Nastro Rosso",
+        "title": "Boran e l’Artefatto del Nastro Rosso",
+        "description": "Boran mostra che la vera forza non consiste nello spingere, gridare o colpire. Un vero guerriero sa fermarsi, proteggere i più deboli e usare il proprio coraggio con saggezza. Questo quaderno aiuta i bambini a esercitare il controllo del movimento, la pazienza, i limiti e la responsabilità della propria forza.",
+        "parentDescription": "Questo quaderno aiuta i bambini a comprendere i limiti, a controllare gli impulsi e a scegliere reazioni sicure. Aiuta a parlare del fatto che essere più grandi, più forti o più veloci non dà a nessuno il diritto di fare del male agli altri.",
         "supports": [
-          "boundaries",
-          "impulse control",
-          "courage",
-          "persistence",
-          "responsible strength"
+          "limiti",
+          "controllo degli impulsi",
+          "coraggio",
+          "perseveranza",
+          "forza responsabile"
         ],
         "inside": [
-          "training paths",
-          "shield-themed tasks",
-          "choosing good reactions",
-          "“freeze-frame” exercises",
-          "short scenes about strength and responsibility"
+          "percorsi di allenamento",
+          "attività con gli scudi",
+          "scegliere buone reazioni",
+          "esercizi «fermo immagine»",
+          "brevi scene sulla forza e la responsabilità"
         ],
-        "quote": "Courage without control is only noise. A true warrior knows when to move and when to stop."
+        "quote": "Il coraggio senza controllo è solo rumore. Un vero guerriero sa quando muoversi e quando fermarsi."
       }
     }
   }

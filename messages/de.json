@@ -1008,6 +1008,16 @@
         "Artefakt freischalten"
       ]
     },
+    "intro": {
+      "eyebrow": "Einführung",
+      "title": "Was sind die Prüfungsartefakte?",
+      "paragraphs": [
+        "Prüfungsartefakte sind zusätzliche Übungshefte, die in der Welt von Eduweer angesiedelt sind. Jedes Heft ist ein eigenes, kurzes Abenteuer, das von einem der Eduweer-Wächter begleitet wird — Lehrern, die jungen Helden helfen, wichtige Fähigkeiten zu entwickeln.",
+        "Das Kind bearbeitet die Übungen auf Papier, durchläuft in der Geschichte aber die Prüfung eines gewählten Amuletts: der Rune, der Spur, des Mechanismus, der Ranke, des Schildes oder des Roten Bandes.",
+        "Nach Abschluss des Hefts kann ein Elternteil den QR-Code scannen, das freigeschaltete Artefakt dem Helden des Kindes zuordnen und die Entwicklung der Figur in der Eduweer-Mentor-App fortsetzen."
+      ],
+      "tagline": "Das ist nicht nur ein Übungsheft. Es ist ein kleiner Quest, der das Kind auch in der App begleitet."
+    },
     "navLinks": {
       "how": "So funktioniert es",
       "artifacts": "Artefakte",

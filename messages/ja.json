@@ -1036,306 +1036,316 @@
   },
   "artifacts": {
     "meta": {
-      "title": "Eduweer Trial Artifacts — Workbooks for Children",
-      "description": "Discover six Eduweer workbooks and collect Trial Artifacts. Activities support handwriting readiness, focus, logic, creativity, emotions, and boundaries."
+      "title": "Eduweer 試練のアーティファクト — 子どものためのワークブック",
+      "description": "6冊のEduweerワークブックを見つけて、試練のアーティファクトを集めましょう。運筆、集中力、論理、創造力、感情、境界を育む活動です。"
     },
     "hero": {
-      "eyebrow": "Eduweer · Trial Artifacts",
-      "title": "Collect the Six Trial Artifacts",
-      "subtitle": "Each workbook is a separate adventure guided by one of the Eduweer Guardians. Your child develops important skills, and after completing the workbook, they can unlock an artifact and assign it to their hero.",
-      "primaryCta": "Create parent account",
-      "secondaryCta": "Explore artifacts",
-      "tertiaryLink": "How it works",
+      "eyebrow": "Eduweer · 試練のアーティファクト",
+      "title": "6つの試練のアーティファクトを集めよう",
+      "subtitle": "それぞれのワークブックは、Eduweerの守護者の一人が導く独立した冒険です。お子さまは大切なスキルを育て、ワークブックを終えるとアーティファクトを解放して、自分のヒーローに割り当てられます。",
+      "primaryCta": "保護者アカウントを作成",
+      "secondaryCta": "アーティファクトを見る",
+      "tertiaryLink": "仕組み",
       "process": [
-        "Choose a workbook",
-        "Complete the trial",
-        "Scan the QR code",
-        "Unlock the artifact"
+        "ワークブックを選ぶ",
+        "試練をやり遂げる",
+        "QRコードを読み取る",
+        "アーティファクトを解放する"
       ]
     },
+    "intro": {
+      "eyebrow": "はじめに",
+      "title": "試練のアーティファクトとは？",
+      "paragraphs": [
+        "試練のアーティファクトは、Eduweerの世界を舞台にした追加のワークブックです。それぞれのワークブックは、Eduweerの守護者の一人が導く独立した短い冒険であり、守護者は若きヒーローが大切なスキルを育てるのを助ける先生たちです。",
+        "子どもは紙の上で課題を行いますが、物語の中では選んだお守り、すなわちルーン・足あと・機構・つる・盾・赤い帯のいずれかの試練をくぐり抜けます。",
+        "ワークブックを終えると、保護者はQRコードを読み取り、解放したアーティファクトを子どものヒーローに割り当て、Eduweer Mentorアプリでキャラクターの成長を続けられます。"
+      ],
+      "tagline": "これはただのワークブックではありません。アプリの中でも子どもとともに残る、小さなクエストです。"
+    },
     "navLinks": {
-      "how": "How it works",
-      "artifacts": "Artifacts",
-      "parent": "Parent account",
-      "world": "Eduweer world"
+      "how": "仕組み",
+      "artifacts": "アーティファクト",
+      "parent": "保護者アカウント",
+      "world": "Eduweerの世界"
     },
     "how": {
-      "eyebrow": "How it works",
-      "title": "How do artifacts work in Eduweer?",
-      "description": "Completing a workbook does not end the adventure on paper. A parent can scan the QR code, assign the unlocked artifact to a child profile, and track the hero’s progress in the Eduweer parent panel.",
+      "eyebrow": "仕組み",
+      "title": "Eduweerでアーティファクトはどう機能する？",
+      "description": "ワークブックを終えても、冒険は紙の上で終わりません。保護者はQRコードを読み取り、解放したアーティファクトを子どものプロフィールに割り当て、Eduweerの保護者パネルでヒーローの成長を見守れます。",
       "steps": [
         {
-          "title": "Choose a workbook",
-          "description": "Each workbook trains a different skill and is guided by a different Guardian."
+          "title": "ワークブックを選ぶ",
+          "description": "それぞれのワークブックは異なるスキルを鍛え、異なる守護者が導きます。"
         },
         {
-          "title": "Complete the trial",
-          "description": "The child works through the exercises, develops specific skills, and discovers the story behind the artifact."
+          "title": "試練をやり遂げる",
+          "description": "子どもは課題に取り組み、具体的なスキルを育て、アーティファクトの物語を知ります。"
         },
         {
-          "title": "Scan the QR code",
-          "description": "After the workbook is completed, the parent scans the code and chooses which child should receive the reward."
+          "title": "QRコードを読み取る",
+          "description": "ワークブックを終えたら、保護者がコードを読み取り、ごほうびを受け取る子どもを選びます。"
         },
         {
-          "title": "Unlock the artifact",
-          "description": "The artifact is added to the hero profile and becomes part of the child’s larger development path."
+          "title": "アーティファクトを解放する",
+          "description": "アーティファクトはヒーローのプロフィールに加わり、子どものより大きな成長の道の一部になります。"
         }
       ]
     },
     "pathNav": {
-      "title": "Explore the six trial paths",
+      "title": "6つの試練の道を見てみよう",
       "items": [
         {
           "name": "Auralis",
-          "label": "Letters"
+          "label": "文字"
         },
         {
           "name": "Narin",
-          "label": "Mazes"
+          "label": "迷路"
         },
         {
           "name": "Tivia",
-          "label": "Logic"
+          "label": "論理"
         },
         {
           "name": "Liora",
-          "label": "Colors"
+          "label": "色"
         },
         {
           "name": "Maela",
-          "label": "Emotions"
+          "label": "感情"
         },
         {
           "name": "Boran",
-          "label": "Boundaries"
+          "label": "境界"
         }
       ]
     },
     "parentBenefits": {
-      "eyebrow": "Parent account",
-      "title": "Artifacts come alive in the parent panel",
-      "description": "After completing a workbook, you can assign the artifact to your child’s account, track completed trials, and build their hero path in the world of Eduweer.",
+      "eyebrow": "保護者アカウント",
+      "title": "アーティファクトは保護者パネルで生き生きとする",
+      "description": "ワークブックを終えると、アーティファクトを子どものアカウントに割り当て、達成した試練を記録し、Eduweerの世界でヒーローの道を築けます。",
       "features": [
         {
-          "title": "Assign artifacts",
-          "description": "Scan the QR code from the workbook and add the unlocked artifact to your child’s profile."
+          "title": "アーティファクトを割り当てる",
+          "description": "ワークブックのQRコードを読み取り、解放したアーティファクトを子どものプロフィールに追加します。"
         },
         {
-          "title": "Track the collection",
-          "description": "See which trials have been completed and which artifacts your child has already earned."
+          "title": "コレクションを記録する",
+          "description": "どの試練が達成され、子どもがどのアーティファクトをすでに得たかを確認できます。"
         },
         {
-          "title": "Add multiple children",
-          "description": "Manage the progress of more than one child from a single parent account."
+          "title": "複数の子どもを追加する",
+          "description": "一つの保護者アカウントで複数の子どもの進み具合を管理できます。"
         },
         {
-          "title": "Get ready for more adventures",
-          "description": "The parent account will connect workbooks, books, and future Eduweer activities."
+          "title": "次の冒険への備え",
+          "description": "保護者アカウントは、ワークブック・書籍・今後のEduweerの活動をつなげていきます。"
         }
       ],
-      "cta": "Create parent account"
+      "cta": "保護者アカウントを作成"
     },
     "world": {
-      "eyebrow": "Eduweer world",
-      "title": "Part of the larger Eduweer world",
-      "description": "Trial Artifacts are part of the larger Eduweer world. Children meet characters through stories, practice concrete skills in workbooks, and parents can track progress and hero development in the parent panel.",
+      "eyebrow": "Eduweerの世界",
+      "title": "より大きなEduweerの世界の一部",
+      "description": "試練のアーティファクトは、より大きなEduweerの世界の一部です。子どもは物語を通じて登場人物と出会い、ワークブックで具体的なスキルを練習し、保護者は保護者パネルで進み具合とヒーローの成長を見守れます。",
       "items": [
         {
-          "title": "Books",
-          "description": "Discover the story, lands, and heroes of Eduweer."
+          "title": "書籍",
+          "description": "Eduweerの物語、土地、そしてヒーローたちを知りましょう。"
         },
         {
-          "title": "Workbooks",
-          "description": "Complete Guardian trials and develop concrete skills."
+          "title": "ワークブック",
+          "description": "守護者の試練をやり遂げ、具体的なスキルを育てましょう。"
         },
         {
-          "title": "Parent panel",
-          "description": "Assign artifacts, track progress, and manage your child’s account."
+          "title": "保護者パネル",
+          "description": "アーティファクトを割り当て、進み具合を記録し、子どものアカウントを管理します。"
         },
         {
-          "title": "Hero adventure",
-          "description": "Collect artifacts and build the young hero’s development path."
+          "title": "ヒーローの冒険",
+          "description": "アーティファクトを集め、若きヒーローの成長の道を築きましょう。"
         }
       ],
-      "cta": "View parent page"
+      "cta": "保護者向けページを見る"
     },
     "faq": {
-      "eyebrow": "FAQ",
-      "title": "Frequently asked questions",
+      "eyebrow": "よくある質問",
+      "title": "よくある質問",
       "items": [
         {
-          "q": "Do I need a parent account to buy a workbook?",
-          "a": "No. You can buy a workbook independently. A parent account is needed when you want to assign the unlocked artifact to your child’s profile and track hero progress."
+          "q": "ワークブックを買うのに保護者アカウントは必要ですか？",
+          "a": "いいえ。ワークブックは単独で購入できます。保護者アカウントは、解放したアーティファクトを子どものプロフィールに割り当て、ヒーローの進み具合を記録したいときに必要です。"
         },
         {
-          "q": "How do I assign an artifact to a child?",
-          "a": "After completing the workbook, the parent scans the QR code, logs in, and chooses the child who should receive the artifact."
+          "q": "アーティファクトを子どもに割り当てるには？",
+          "a": "ワークブックを終えたら、保護者がQRコードを読み取り、ログインして、アーティファクトを受け取る子どもを選びます。"
         },
         {
-          "q": "Can the same artifact be unlocked more than once?",
-          "a": "The same code and artifact should be assigned only once to the selected child. This keeps the collection organized and fair."
+          "q": "同じアーティファクトを複数回解放できますか？",
+          "a": "同じコードとアーティファクトは、選んだ子どもに一度だけ割り当てるべきです。そうすることでコレクションは整理され、公平に保たれます。"
         },
         {
-          "q": "What age are the workbooks for?",
-          "a": "The workbooks are mainly designed for early primary school children, but the difficulty may vary depending on the trial and the child’s individual skills."
+          "q": "ワークブックは何歳向けですか？",
+          "a": "ワークブックは主に小学校低学年の子ども向けに作られていますが、難易度は試練の種類や子ども一人ひとりのスキルによって異なります。"
         },
         {
-          "q": "Are the workbooks part of a larger series?",
-          "a": "Yes. The workbooks, books, parent panel, and future Eduweer activities form one connected world of development and adventure."
+          "q": "ワークブックはより大きなシリーズの一部ですか？",
+          "a": "はい。ワークブック、書籍、保護者パネル、そして今後のEduweerの活動は、成長と冒険がつながった一つの世界を形づくります。"
         },
         {
-          "q": "Do the exercises replace therapy or diagnosis?",
-          "a": "No. The workbooks are educational and developmental. They may support focus, emotions, graphomotor skills, and self-regulation, but they do not replace professional consultation."
+          "q": "この練習は治療や診断の代わりになりますか？",
+          "a": "いいえ。ワークブックは教育と成長を目的としたものです。集中力、感情、運筆、自己調整を支えることはできますが、専門家への相談に代わるものではありません。"
         }
       ]
     },
     "finalCta": {
-      "title": "Start the first trial",
-      "description": "Choose a workbook, create a parent account, and help your child collect new artifacts in the world of Eduweer.",
-      "primaryCta": "Create parent account",
-      "secondaryCta": "View workbooks",
-      "tertiaryCta": "Back to parent page"
+      "title": "最初の試練を始めよう",
+      "description": "ワークブックを選び、保護者アカウントを作成して、お子さまがEduweerの世界で新しいアーティファクトを集めるのを助けましょう。",
+      "primaryCta": "保護者アカウントを作成",
+      "secondaryCta": "ワークブックを見る",
+      "tertiaryCta": "保護者向けページに戻る"
     },
     "guardianLabels": {
-      "supports": "This workbook supports",
-      "inside": "Inside you will find",
-      "parent": "For parents",
-      "buyAmazon": "Buy on Amazon",
-      "buyEmpik": "Buy on Empik",
-      "details": "View details"
+      "supports": "このワークブックが育むもの",
+      "inside": "中に入っているもの",
+      "parent": "保護者の方へ",
+      "buyAmazon": "Amazonで購入",
+      "buyEmpik": "Empikで購入",
+      "details": "詳細を見る"
     },
     "guardians": {
       "auralis": {
-        "guardianRole": "Guardian of Runes",
-        "artifactName": "Amulet of the First Rune",
-        "title": "Auralis and the Amulet of the First Rune",
-        "description": "Auralis guides young heroes through the world of lines, symbols, and first letters. This workbook helps children practice a steady hand, focus, and early writing readiness. Each page is a small trial of patience — because even the greatest magic begins with one carefully drawn line.",
-        "parentDescription": "This workbook supports handwriting readiness, line control, and focused practice without pressure.",
+        "guardianRole": "ルーンの守護者",
+        "artifactName": "最初のルーンのお守り",
+        "title": "Auralisと最初のルーンのお守り",
+        "description": "Auralisは若きヒーローを、線・記号・最初の文字の世界へと導きます。このワークブックは、落ち着いた手の動き、集中力、そして書く準備を練習する手助けをします。どのページも小さな忍耐の試練です。どんなに大きな魔法も、一本のていねいに引かれた線から始まるのですから。",
+        "parentDescription": "このワークブックは、書く準備、線のコントロール、そしてプレッシャーのない集中した練習を支えます。",
         "supports": [
-          "graphomotor skills",
-          "letters",
-          "focus",
-          "hand precision",
-          "visual-motor coordination"
+          "運筆",
+          "文字",
+          "集中力",
+          "手の精密さ",
+          "目と手の協応"
         ],
         "inside": [
-          "pre-writing patterns",
-          "tracing exercises",
-          "first letters",
-          "rune-inspired tasks",
-          "a short trial of the Rune Guardian"
+          "運筆の練習線",
+          "なぞり書きの練習",
+          "最初の文字",
+          "ルーンをテーマにした課題",
+          "ルーンの守護者による短い試練"
         ],
-        "quote": "Not every magic begins with a flash. Sometimes it begins with one well-drawn line."
+        "quote": "すべての魔法がまばゆい光から始まるわけではありません。ときには、一本のていねいに引かれた線から始まります。"
       },
       "narin": {
-        "guardianRole": "Guardian of Trails",
-        "artifactName": "Artifact of the Silent Trail",
-        "title": "Narin and the Artifact of the Silent Trail",
-        "description": "Narin teaches patience, orientation, and careful line control. In his trial, children follow mazes, paths, and hidden passages while practicing movement planning and hand control.",
-        "parentDescription": "This workbook supports spatial orientation, patience, planning, and controlled hand movement within clear boundaries.",
+        "guardianRole": "足あとの守護者",
+        "artifactName": "静かな足あとのアーティファクト",
+        "title": "Narinと静かな足あとのアーティファクト",
+        "description": "Narinは、忍耐、方向感覚、そしてていねいな線のコントロールを教えます。彼の試練では、子どもは迷路・小道・隠れた通路をたどりながら、動きの計画と手のコントロールを練習します。",
+        "parentDescription": "このワークブックは、空間の方向感覚、忍耐、計画力、そして決められた枠の中で手を動かすコントロールを支えます。",
         "supports": [
-          "mazes",
-          "attention",
-          "planning",
-          "focus",
-          "coordination"
+          "迷路",
+          "注意力",
+          "計画力",
+          "集中力",
+          "協応"
         ],
         "inside": [
-          "mazes",
-          "line-following paths",
-          "stay-within-the-path exercises",
-          "trails and maps",
-          "scout-themed tasks"
+          "迷路",
+          "線をたどる小道",
+          "道からはみ出さない課題",
+          "足あとと地図",
+          "斥候の課題"
         ],
-        "quote": "The path usually exists. You just have to stop looking so loudly."
+        "quote": "道はたいてい存在します。ただ、あまり大きな声で探すのをやめればよいのです。"
       },
       "tivia": {
-        "guardianRole": "Mechanism Mender",
-        "artifactName": "Artifact of the Amber Gear",
-        "title": "Tivia and the Artifact of the Amber Gear",
-        "description": "Tivia invites children into the world of shapes, patterns, and clever puzzles. In her workbook, simple forms turn into pictures, missing parts return to their places, and logic tasks show that every problem can be solved step by step.",
-        "parentDescription": "This workbook supports logical thinking, visual analysis, pattern recognition, and patient problem solving.",
+        "guardianRole": "機構の修理人",
+        "artifactName": "琥珀の歯車のアーティファクト",
+        "title": "Tiviaと琥珀の歯車のアーティファクト",
+        "description": "Tiviaは子どもを、形・模様・巧みな謎の世界へ招きます。彼女のワークブックでは、単純な形が絵に変わり、足りないピースが元の場所に戻り、論理の課題は、どんな問題も一歩ずつ解けることを教えてくれます。",
+        "parentDescription": "このワークブックは、論理的思考、視覚的分析、パターンの認識、そして根気強い問題解決を支えます。",
         "supports": [
-          "logic",
-          "geometric shapes",
-          "symmetry",
-          "patterns",
-          "problem solving"
+          "論理",
+          "幾何学的な形",
+          "対称",
+          "模様",
+          "問題解決"
         ],
         "inside": [
-          "pictures built from shapes",
-          "missing-part exercises",
-          "simple picture sudoku",
-          "logic puzzles",
-          "mechanism-themed tasks"
+          "形で作る絵",
+          "足りないピースを補う課題",
+          "やさしい絵のスドク",
+          "論理パズル",
+          "機構をテーマにした課題"
         ],
-        "quote": "If something does not work, it does not mean it is broken. Maybe you simply have not discovered how it wants to work."
+        "quote": "うまくいかないからといって、壊れているとはかぎりません。ただ、どう動きたがっているのかを、まだ見つけていないだけかもしれません。"
       },
       "liora": {
-        "guardianRole": "Keeper of Living Shapes",
-        "artifactName": "Artifact of the Green Vine",
-        "title": "Liora and the Artifact of the Green Vine",
-        "description": "Liora leads children through the world of nature, colors, and calm creation. This workbook is filled with plants, animals, magical gardens, and coloring pages. It is a trial of patience, harmony, and careful observation.",
-        "parentDescription": "This workbook helps children calm down, develop creativity, and practice completing work patiently.",
+        "guardianRole": "生きた形の守り手",
+        "artifactName": "緑のつるのアーティファクト",
+        "title": "Lioraと緑のつるのアーティファクト",
+        "description": "Lioraは子どもを、自然・色・穏やかな創作の世界へと導きます。このワークブックは、植物、動物、魔法の庭、ぬり絵でいっぱいです。それは、忍耐、調和、そしてじっくり見つめることの試練です。",
+        "parentDescription": "このワークブックは、子どもが落ち着き、創造力を育て、始めた作業を根気強く仕上げるのを助けます。",
         "supports": [
-          "colors",
-          "creativity",
-          "patience",
-          "attention",
-          "aesthetic sense"
+          "色",
+          "創造力",
+          "忍耐",
+          "注意力",
+          "美的感覚"
         ],
         "inside": [
-          "coloring pages",
-          "plants and animals of Eduweer",
-          "magical gardens",
-          "nature patterns",
-          "calm creative tasks"
+          "ぬり絵",
+          "Eduweerの植物と動物",
+          "魔法の庭",
+          "自然の模様",
+          "穏やかな創作課題"
         ],
-        "quote": "What grows slowly becomes strong."
+        "quote": "ゆっくり育つものは、強くなります。"
       },
       "maela": {
-        "guardianRole": "Guardian of the Warm Shield",
-        "artifactName": "Artifact of the Warm Shield",
-        "title": "Maela and the Artifact of the Warm Shield",
-        "description": "Maela teaches that heroism is not only courage, but also care, calmness, and noticing others. In her workbook, children recognize emotions, help characters find safe places, and practice simple calming strategies.",
-        "parentDescription": "This workbook supports emotion recognition, talking about needs, self-regulation, and building a sense of safety. It may be especially helpful for children who get frustrated quickly, have a lot of energy, or benefit from simple calming routines.",
+        "guardianRole": "温かな盾の守護者",
+        "artifactName": "温かな盾のアーティファクト",
+        "title": "Maelaと温かな盾のアーティファクト",
+        "description": "Maelaは、ヒーローらしさとは勇気だけでなく、思いやり、落ち着き、そして他者に気づくことでもあると教えます。彼女のワークブックでは、子どもは感情を見分け、登場人物が安全な場所を見つける手助けをし、気持ちを落ち着けるやさしい方法を練習します。",
+        "parentDescription": "このワークブックは、感情の認識、必要としていることについて話すこと、自己調整、そして安心感を築くことを支えます。すぐにいらいらする、エネルギーが多い、あるいはやさしく落ち着ける習慣が役立つ子どもに、とくに助けになります。",
         "supports": [
-          "emotions",
-          "empathy",
-          "calming down",
-          "safety",
-          "self-regulation"
+          "感情",
+          "共感",
+          "気持ちを落ち着ける",
+          "安心",
+          "自己調整"
         ],
         "inside": [
-          "emotion-based tasks",
-          "paths to safe places",
-          "matching needs with help",
-          "calm coloring pages",
-          "“pause and choose” exercises"
+          "感情についての課題",
+          "安全な場所への道",
+          "必要と助けを結びつける",
+          "穏やかなぬり絵",
+          "「立ち止まって選ぶ」練習"
         ],
-        "quote": "Not every hero stands at the front of the journey. Some walk last so no one is left alone."
+        "quote": "すべてのヒーローが旅の先頭に立つわけではありません。だれも一人にならないように、最後を歩む者もいます。"
       },
       "boran": {
-        "guardianRole": "Guardian of the Red Ribbon",
-        "artifactName": "Artifact of the Red Ribbon",
-        "title": "Boran and the Artifact of the Red Ribbon",
-        "description": "Boran shows that true strength is not about pushing, shouting, or hitting. A true warrior can stop, protect the weaker, and use courage wisely. This workbook helps children practice movement control, patience, boundaries, and responsibility for their own strength.",
-        "parentDescription": "This workbook supports children in understanding boundaries, controlling impulses, and choosing safe reactions. It helps start conversations about the fact that being bigger, stronger, or faster does not give anyone the right to hurt others.",
+        "guardianRole": "赤い帯の守護者",
+        "artifactName": "赤い帯のアーティファクト",
+        "title": "Boranと赤い帯のアーティファクト",
+        "description": "Boranは、本当の強さとは、押すことでも、叫ぶことでも、たたくことでもないと示します。本当の戦士は、立ち止まり、弱い者を守り、勇気を賢く使えます。このワークブックは、子どもが動きのコントロール、忍耐、境界、そして自分の力への責任を練習する手助けをします。",
+        "parentDescription": "このワークブックは、子どもが境界を理解し、衝動をコントロールし、安全な反応を選ぶのを支えます。大きい・強い・速いことは、だれかを傷つけてよい理由にはならない、と話し合う手助けをします。",
         "supports": [
-          "boundaries",
-          "impulse control",
-          "courage",
-          "persistence",
-          "responsible strength"
+          "境界",
+          "衝動のコントロール",
+          "勇気",
+          "粘り強さ",
+          "責任ある力"
         ],
         "inside": [
-          "training paths",
-          "shield-themed tasks",
-          "choosing good reactions",
-          "“freeze-frame” exercises",
-          "short scenes about strength and responsibility"
+          "トレーニングコース",
+          "盾をテーマにした課題",
+          "よい反応を選ぶ",
+          "「静止画」の練習",
+          "力と責任についての短い場面"
         ],
-        "quote": "Courage without control is only noise. A true warrior knows when to move and when to stop."
+        "quote": "コントロールのない勇気は、ただの騒音です。本当の戦士は、いつ動き、いつ止まるべきかを知っています。"
       }
     }
   }

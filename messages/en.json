@@ -1053,6 +1053,16 @@
         "Unlock the artifact"
       ]
     },
+    "intro": {
+      "eyebrow": "Introduction",
+      "title": "What are the Trial Artifacts?",
+      "paragraphs": [
+        "Trial Artifacts are additional workbooks set in the world of Eduweer. Each workbook is a separate, short adventure guided by one of the Eduweer Guardians — teachers who help young heroes develop important skills.",
+        "The child completes the exercises on paper, but in the story they take on the trial of a chosen amulet: the rune, the trail, the mechanism, the vine, the shield, or the red ribbon.",
+        "After completing the workbook, a parent can scan the QR code, assign the unlocked artifact to their child’s hero, and continue the character’s growth in the Eduweer Mentor app."
+      ],
+      "tagline": "This is not just a workbook. It’s a little quest that stays with your child in the app, too."
+    },
     "navLinks": {
       "how": "How it works",
       "artifacts": "Artifacts",

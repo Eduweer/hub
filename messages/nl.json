@@ -1036,54 +1036,64 @@
   },
   "artifacts": {
     "meta": {
-      "title": "Eduweer Trial Artifacts — Workbooks for Children",
-      "description": "Discover six Eduweer workbooks and collect Trial Artifacts. Activities support handwriting readiness, focus, logic, creativity, emotions, and boundaries."
+      "title": "Eduweer Beproevingsartefacten — Oefenboeken voor kinderen",
+      "description": "Ontdek zes Eduweer-oefenboeken en verzamel de Beproevingsartefacten. De activiteiten ondersteunen de schrijfmotoriek, concentratie, logica, creativiteit, emoties en grenzen."
     },
     "hero": {
-      "eyebrow": "Eduweer · Trial Artifacts",
-      "title": "Collect the Six Trial Artifacts",
-      "subtitle": "Each workbook is a separate adventure guided by one of the Eduweer Guardians. Your child develops important skills, and after completing the workbook, they can unlock an artifact and assign it to their hero.",
-      "primaryCta": "Create parent account",
-      "secondaryCta": "Explore artifacts",
-      "tertiaryLink": "How it works",
+      "eyebrow": "Eduweer · Beproevingsartefacten",
+      "title": "Verzamel de zes Beproevingsartefacten",
+      "subtitle": "Elk oefenboek is een apart avontuur, begeleid door een van de Eduweer-Wachters. Je kind ontwikkelt belangrijke vaardigheden en kan na het afronden van het boek een artefact vrijspelen en aan zijn held toewijzen.",
+      "primaryCta": "Ouderaccount aanmaken",
+      "secondaryCta": "Artefacten ontdekken",
+      "tertiaryLink": "Hoe het werkt",
       "process": [
-        "Choose a workbook",
-        "Complete the trial",
-        "Scan the QR code",
-        "Unlock the artifact"
+        "Kies een oefenboek",
+        "Voltooi de beproeving",
+        "Scan de QR-code",
+        "Speel het artefact vrij"
       ]
     },
+    "intro": {
+      "eyebrow": "Introductie",
+      "title": "Wat zijn de Beproevingsartefacten?",
+      "paragraphs": [
+        "De Beproevingsartefacten zijn extra oefenboeken die zich afspelen in de wereld van Eduweer. Elk boek is een apart, kort avontuur onder leiding van een van de Eduweer-Wachters — leraren die jonge helden helpen belangrijke vaardigheden te ontwikkelen.",
+        "Het kind maakt de oefeningen op papier, maar in het verhaal doorloopt het de beproeving van een gekozen amulet: de rune, het spoor, het mechanisme, de rank, het schild of het rode lint.",
+        "Na het afronden van het boek kan een ouder de QR-code scannen, het vrijgespeelde artefact toewijzen aan de held van het kind en de ontwikkeling van het personage voortzetten in de Eduweer Mentor-app."
+      ],
+      "tagline": "Dit is niet zomaar een oefenboek. Het is een kleine quest die ook in de app bij het kind blijft."
+    },
     "navLinks": {
-      "how": "How it works",
-      "artifacts": "Artifacts",
-      "parent": "Parent account",
-      "world": "Eduweer world"
+      "how": "Hoe het werkt",
+      "artifacts": "Artefacten",
+      "parent": "Ouderaccount",
+      "world": "Eduweer-wereld"
     },
     "how": {
-      "eyebrow": "How it works",
-      "title": "How do artifacts work in Eduweer?",
-      "description": "Completing a workbook does not end the adventure on paper. A parent can scan the QR code, assign the unlocked artifact to a child profile, and track the hero’s progress in the Eduweer parent panel.",
+      "eyebrow": "Hoe het werkt",
+      "title": "Hoe werken artefacten in Eduweer?",
+      "description": "Een boek afronden betekent niet dat het avontuur op papier stopt. Een ouder kan de QR-code scannen, het vrijgespeelde artefact aan een kindprofiel toewijzen en de voortgang van de held volgen in het Eduweer-ouderpaneel.",
       "steps": [
         {
-          "title": "Choose a workbook",
-          "description": "Each workbook trains a different skill and is guided by a different Guardian."
+          "title": "Kies een oefenboek",
+          "description": "Elk boek traint een andere vaardigheid en wordt begeleid door een andere Wachter."
         },
         {
-          "title": "Complete the trial",
-          "description": "The child works through the exercises, develops specific skills, and discovers the story behind the artifact."
+          "title": "Voltooi de beproeving",
+          "description": "Het kind maakt de oefeningen, ontwikkelt specifieke vaardigheden en ontdekt het verhaal achter het artefact."
         },
         {
-          "title": "Scan the QR code",
-          "description": "After the workbook is completed, the parent scans the code and chooses which child should receive the reward."
+          "title": "Scan de QR-code",
+          "description": "Na het afronden van het boek scant de ouder de code en kiest welk kind de beloning krijgt."
         },
         {
-          "title": "Unlock the artifact",
-          "description": "The artifact is added to the hero profile and becomes part of the child’s larger development path."
+          "title": "Speel het artefact vrij",
+          "description": "Het artefact wordt aan het heldprofiel toegevoegd en wordt deel van het ontwikkelingspad van het kind."
         }
       ]
     },
     "pathNav": {
-      "title": "Explore the six trial paths",
+      "title": "Ontdek de zes beproevingspaden",
       "items": [
         {
           "name": "Auralis",
@@ -1091,251 +1101,251 @@
         },
         {
           "name": "Narin",
-          "label": "Mazes"
+          "label": "Doolhoven"
         },
         {
           "name": "Tivia",
-          "label": "Logic"
+          "label": "Logica"
         },
         {
           "name": "Liora",
-          "label": "Colors"
+          "label": "Kleuren"
         },
         {
           "name": "Maela",
-          "label": "Emotions"
+          "label": "Emoties"
         },
         {
           "name": "Boran",
-          "label": "Boundaries"
+          "label": "Grenzen"
         }
       ]
     },
     "parentBenefits": {
-      "eyebrow": "Parent account",
-      "title": "Artifacts come alive in the parent panel",
-      "description": "After completing a workbook, you can assign the artifact to your child’s account, track completed trials, and build their hero path in the world of Eduweer.",
+      "eyebrow": "Ouderaccount",
+      "title": "Artefacten komen tot leven in het ouderpaneel",
+      "description": "Na het afronden van een boek kun je het artefact toewijzen aan het account van je kind, voltooide beproevingen volgen en zijn heldpad opbouwen in de wereld van Eduweer.",
       "features": [
         {
-          "title": "Assign artifacts",
-          "description": "Scan the QR code from the workbook and add the unlocked artifact to your child’s profile."
+          "title": "Artefacten toewijzen",
+          "description": "Scan de QR-code uit het boek en voeg het vrijgespeelde artefact toe aan het profiel van je kind."
         },
         {
-          "title": "Track the collection",
-          "description": "See which trials have been completed and which artifacts your child has already earned."
+          "title": "De collectie volgen",
+          "description": "Zie welke beproevingen zijn voltooid en welke artefacten je kind al heeft verdiend."
         },
         {
-          "title": "Add multiple children",
-          "description": "Manage the progress of more than one child from a single parent account."
+          "title": "Meerdere kinderen toevoegen",
+          "description": "Beheer de voortgang van meer dan één kind vanuit één ouderaccount."
         },
         {
-          "title": "Get ready for more adventures",
-          "description": "The parent account will connect workbooks, books, and future Eduweer activities."
+          "title": "Klaar voor meer avonturen",
+          "description": "Het ouderaccount zal oefenboeken, boeken en toekomstige Eduweer-activiteiten met elkaar verbinden."
         }
       ],
-      "cta": "Create parent account"
+      "cta": "Ouderaccount aanmaken"
     },
     "world": {
-      "eyebrow": "Eduweer world",
-      "title": "Part of the larger Eduweer world",
-      "description": "Trial Artifacts are part of the larger Eduweer world. Children meet characters through stories, practice concrete skills in workbooks, and parents can track progress and hero development in the parent panel.",
+      "eyebrow": "Eduweer-wereld",
+      "title": "Onderdeel van de grotere wereld van Eduweer",
+      "description": "De Beproevingsartefacten maken deel uit van de grotere wereld van Eduweer. Kinderen leren personages kennen via verhalen, oefenen concrete vaardigheden in de boeken, en ouders kunnen de voortgang en ontwikkeling van de held volgen in het ouderpaneel.",
       "items": [
         {
-          "title": "Books",
-          "description": "Discover the story, lands, and heroes of Eduweer."
+          "title": "Boeken",
+          "description": "Ontdek het verhaal, de landen en de helden van Eduweer."
         },
         {
-          "title": "Workbooks",
-          "description": "Complete Guardian trials and develop concrete skills."
+          "title": "Oefenboeken",
+          "description": "Voltooi de beproevingen van de Wachters en ontwikkel concrete vaardigheden."
         },
         {
-          "title": "Parent panel",
-          "description": "Assign artifacts, track progress, and manage your child’s account."
+          "title": "Ouderpaneel",
+          "description": "Wijs artefacten toe, volg de voortgang en beheer het account van je kind."
         },
         {
-          "title": "Hero adventure",
-          "description": "Collect artifacts and build the young hero’s development path."
+          "title": "Heldenavontuur",
+          "description": "Verzamel artefacten en bouw het ontwikkelingspad van de jonge held op."
         }
       ],
-      "cta": "View parent page"
+      "cta": "Bekijk de ouderpagina"
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Frequently asked questions",
+      "title": "Veelgestelde vragen",
       "items": [
         {
-          "q": "Do I need a parent account to buy a workbook?",
-          "a": "No. You can buy a workbook independently. A parent account is needed when you want to assign the unlocked artifact to your child’s profile and track hero progress."
+          "q": "Heb ik een ouderaccount nodig om een oefenboek te kopen?",
+          "a": "Nee. Je kunt een boek los kopen. Een ouderaccount is nodig wanneer je het vrijgespeelde artefact aan het profiel van je kind wilt toewijzen en de voortgang van de held wilt volgen."
         },
         {
-          "q": "How do I assign an artifact to a child?",
-          "a": "After completing the workbook, the parent scans the QR code, logs in, and chooses the child who should receive the artifact."
+          "q": "Hoe wijs ik een artefact aan een kind toe?",
+          "a": "Na het afronden van het boek scant de ouder de QR-code, logt in en kiest het kind dat het artefact moet krijgen."
         },
         {
-          "q": "Can the same artifact be unlocked more than once?",
-          "a": "The same code and artifact should be assigned only once to the selected child. This keeps the collection organized and fair."
+          "q": "Kan hetzelfde artefact meer dan eens worden vrijgespeeld?",
+          "a": "Dezelfde code en hetzelfde artefact zouden maar één keer aan het gekozen kind moeten worden toegewezen. Zo blijft de collectie overzichtelijk en eerlijk."
         },
         {
-          "q": "What age are the workbooks for?",
-          "a": "The workbooks are mainly designed for early primary school children, but the difficulty may vary depending on the trial and the child’s individual skills."
+          "q": "Voor welke leeftijd zijn de oefenboeken?",
+          "a": "De boeken zijn vooral bedoeld voor kinderen in de eerste jaren van de basisschool, maar de moeilijkheid kan variëren afhankelijk van de beproeving en de individuele vaardigheden van het kind."
         },
         {
-          "q": "Are the workbooks part of a larger series?",
-          "a": "Yes. The workbooks, books, parent panel, and future Eduweer activities form one connected world of development and adventure."
+          "q": "Maken de oefenboeken deel uit van een grotere reeks?",
+          "a": "Ja. De oefenboeken, boeken, het ouderpaneel en toekomstige Eduweer-activiteiten vormen één samenhangende wereld van ontwikkeling en avontuur."
         },
         {
-          "q": "Do the exercises replace therapy or diagnosis?",
-          "a": "No. The workbooks are educational and developmental. They may support focus, emotions, graphomotor skills, and self-regulation, but they do not replace professional consultation."
+          "q": "Vervangen de oefeningen therapie of diagnose?",
+          "a": "Nee. De boeken zijn educatief en ontwikkelingsgericht. Ze kunnen concentratie, emoties, schrijfmotoriek en zelfregulatie ondersteunen, maar vervangen geen professioneel advies."
         }
       ]
     },
     "finalCta": {
-      "title": "Start the first trial",
-      "description": "Choose a workbook, create a parent account, and help your child collect new artifacts in the world of Eduweer.",
-      "primaryCta": "Create parent account",
-      "secondaryCta": "View workbooks",
-      "tertiaryCta": "Back to parent page"
+      "title": "Begin de eerste beproeving",
+      "description": "Kies een oefenboek, maak een ouderaccount aan en help je kind nieuwe artefacten te verzamelen in de wereld van Eduweer.",
+      "primaryCta": "Ouderaccount aanmaken",
+      "secondaryCta": "Bekijk oefenboeken",
+      "tertiaryCta": "Terug naar de ouderpagina"
     },
     "guardianLabels": {
-      "supports": "This workbook supports",
-      "inside": "Inside you will find",
-      "parent": "For parents",
-      "buyAmazon": "Buy on Amazon",
-      "buyEmpik": "Buy on Empik",
-      "details": "View details"
+      "supports": "Dit oefenboek ondersteunt",
+      "inside": "Binnenin vind je",
+      "parent": "Voor ouders",
+      "buyAmazon": "Kopen op Amazon",
+      "buyEmpik": "Kopen op Empik",
+      "details": "Details bekijken"
     },
     "guardians": {
       "auralis": {
-        "guardianRole": "Guardian of Runes",
-        "artifactName": "Amulet of the First Rune",
-        "title": "Auralis and the Amulet of the First Rune",
-        "description": "Auralis guides young heroes through the world of lines, symbols, and first letters. This workbook helps children practice a steady hand, focus, and early writing readiness. Each page is a small trial of patience — because even the greatest magic begins with one carefully drawn line.",
-        "parentDescription": "This workbook supports handwriting readiness, line control, and focused practice without pressure.",
+        "guardianRole": "Wachter van de Runen",
+        "artifactName": "Amulet van de Eerste Rune",
+        "title": "Auralis en het Amulet van de Eerste Rune",
+        "description": "Auralis leidt jonge helden door de wereld van lijnen, symbolen en eerste letters. Dit boek helpt kinderen een rustige hand, concentratie en schrijfvoorbereiding te oefenen. Elke pagina is een kleine beproeving van geduld — want zelfs de grootste magie begint met één goed getrokken lijn.",
+        "parentDescription": "Dit oefenboek ondersteunt de schrijfvoorbereiding, de lijnbeheersing en geconcentreerd oefenen zonder druk.",
         "supports": [
-          "graphomotor skills",
+          "schrijfmotoriek",
           "letters",
-          "focus",
-          "hand precision",
-          "visual-motor coordination"
+          "concentratie",
+          "handprecisie",
+          "oog-handcoördinatie"
         ],
         "inside": [
-          "pre-writing patterns",
-          "tracing exercises",
-          "first letters",
-          "rune-inspired tasks",
-          "a short trial of the Rune Guardian"
+          "voorbereidende lijnpatronen",
+          "natrekoefeningen",
+          "eerste letters",
+          "op runen geïnspireerde opdrachten",
+          "een korte beproeving van de Runenwachter"
         ],
-        "quote": "Not every magic begins with a flash. Sometimes it begins with one well-drawn line."
+        "quote": "Niet elke magie begint met een flits. Soms begint ze met één goed getrokken lijn."
       },
       "narin": {
-        "guardianRole": "Guardian of Trails",
-        "artifactName": "Artifact of the Silent Trail",
-        "title": "Narin and the Artifact of the Silent Trail",
-        "description": "Narin teaches patience, orientation, and careful line control. In his trial, children follow mazes, paths, and hidden passages while practicing movement planning and hand control.",
-        "parentDescription": "This workbook supports spatial orientation, patience, planning, and controlled hand movement within clear boundaries.",
+        "guardianRole": "Wachter van de Sporen",
+        "artifactName": "Artefact van het Stille Spoor",
+        "title": "Narin en het Artefact van het Stille Spoor",
+        "description": "Narin leert geduld, oriëntatie en zorgvuldige lijnbeheersing. In zijn beproeving volgen kinderen doolhoven, paden en verborgen doorgangen terwijl ze bewegingsplanning en handcontrole oefenen.",
+        "parentDescription": "Dit oefenboek ondersteunt ruimtelijke oriëntatie, geduld, planning en gecontroleerde handbeweging binnen duidelijke grenzen.",
         "supports": [
-          "mazes",
-          "attention",
+          "doolhoven",
+          "aandacht",
           "planning",
-          "focus",
-          "coordination"
+          "concentratie",
+          "coördinatie"
         ],
         "inside": [
-          "mazes",
-          "line-following paths",
-          "stay-within-the-path exercises",
-          "trails and maps",
-          "scout-themed tasks"
+          "doolhoven",
+          "paden om de lijn te volgen",
+          "oefeningen zonder buiten het pad te gaan",
+          "sporen en kaarten",
+          "verkenneropdrachten"
         ],
-        "quote": "The path usually exists. You just have to stop looking so loudly."
+        "quote": "Het pad bestaat meestal wel. Je moet alleen stoppen met zo hard kijken."
       },
       "tivia": {
-        "guardianRole": "Mechanism Mender",
-        "artifactName": "Artifact of the Amber Gear",
-        "title": "Tivia and the Artifact of the Amber Gear",
-        "description": "Tivia invites children into the world of shapes, patterns, and clever puzzles. In her workbook, simple forms turn into pictures, missing parts return to their places, and logic tasks show that every problem can be solved step by step.",
-        "parentDescription": "This workbook supports logical thinking, visual analysis, pattern recognition, and patient problem solving.",
+        "guardianRole": "Mechanismenhersteller",
+        "artifactName": "Artefact van het Barnstenen Tandwiel",
+        "title": "Tivia en het Artefact van het Barnstenen Tandwiel",
+        "description": "Tivia nodigt kinderen uit in de wereld van vormen, patronen en slimme raadsels. In haar boek worden eenvoudige vormen plaatjes, keren ontbrekende stukjes terug op hun plek en laten logicaopdrachten zien dat elk probleem stap voor stap op te lossen is.",
+        "parentDescription": "Dit oefenboek ondersteunt logisch denken, visuele analyse, patroonherkenning en geduldig problemen oplossen.",
         "supports": [
-          "logic",
-          "geometric shapes",
-          "symmetry",
-          "patterns",
-          "problem solving"
+          "logica",
+          "geometrische vormen",
+          "symmetrie",
+          "patronen",
+          "problemen oplossen"
         ],
         "inside": [
-          "pictures built from shapes",
-          "missing-part exercises",
-          "simple picture sudoku",
-          "logic puzzles",
-          "mechanism-themed tasks"
+          "plaatjes opgebouwd uit vormen",
+          "opdrachten met ontbrekende stukken",
+          "eenvoudige beeldsudoku",
+          "logicapuzzels",
+          "opdrachten rond mechanismen"
         ],
-        "quote": "If something does not work, it does not mean it is broken. Maybe you simply have not discovered how it wants to work."
+        "quote": "Als iets niet werkt, betekent dat nog niet dat het stuk is. Misschien heb je alleen nog niet ontdekt hoe het wil werken."
       },
       "liora": {
-        "guardianRole": "Keeper of Living Shapes",
-        "artifactName": "Artifact of the Green Vine",
-        "title": "Liora and the Artifact of the Green Vine",
-        "description": "Liora leads children through the world of nature, colors, and calm creation. This workbook is filled with plants, animals, magical gardens, and coloring pages. It is a trial of patience, harmony, and careful observation.",
-        "parentDescription": "This workbook helps children calm down, develop creativity, and practice completing work patiently.",
+        "guardianRole": "Hoedster van de Levende Vormen",
+        "artifactName": "Artefact van de Groene Rank",
+        "title": "Liora en het Artefact van de Groene Rank",
+        "description": "Liora leidt kinderen door de wereld van natuur, kleuren en rustig creëren. Dit boek staat vol planten, dieren, magische tuinen en kleurplaten. Het is een beproeving van geduld, harmonie en aandachtig kijken.",
+        "parentDescription": "Dit oefenboek helpt kinderen tot rust te komen, creativiteit te ontwikkelen en begonnen werk geduldig af te maken.",
         "supports": [
-          "colors",
-          "creativity",
-          "patience",
-          "attention",
-          "aesthetic sense"
+          "kleuren",
+          "creativiteit",
+          "geduld",
+          "aandacht",
+          "gevoel voor esthetiek"
         ],
         "inside": [
-          "coloring pages",
-          "plants and animals of Eduweer",
-          "magical gardens",
-          "nature patterns",
-          "calm creative tasks"
+          "kleurplaten",
+          "planten en dieren van Eduweer",
+          "magische tuinen",
+          "natuurpatronen",
+          "rustige creatieve opdrachten"
         ],
-        "quote": "What grows slowly becomes strong."
+        "quote": "Wat langzaam groeit, wordt sterk."
       },
       "maela": {
-        "guardianRole": "Guardian of the Warm Shield",
-        "artifactName": "Artifact of the Warm Shield",
-        "title": "Maela and the Artifact of the Warm Shield",
-        "description": "Maela teaches that heroism is not only courage, but also care, calmness, and noticing others. In her workbook, children recognize emotions, help characters find safe places, and practice simple calming strategies.",
-        "parentDescription": "This workbook supports emotion recognition, talking about needs, self-regulation, and building a sense of safety. It may be especially helpful for children who get frustrated quickly, have a lot of energy, or benefit from simple calming routines.",
+        "guardianRole": "Wachter van het Warme Schild",
+        "artifactName": "Artefact van het Warme Schild",
+        "title": "Maela en het Artefact van het Warme Schild",
+        "description": "Maela leert dat heldendom niet alleen moed is, maar ook zorg, kalmte en oog hebben voor anderen. In haar boek herkennen kinderen emoties, helpen ze personages een veilige plek te vinden en oefenen ze eenvoudige manieren om te kalmeren.",
+        "parentDescription": "Dit oefenboek ondersteunt het herkennen van emoties, praten over behoeften, zelfregulatie en het opbouwen van een gevoel van veiligheid. Het kan vooral nuttig zijn voor kinderen die snel gefrustreerd raken, veel energie hebben of baat hebben bij eenvoudige rustroutines.",
         "supports": [
-          "emotions",
-          "empathy",
-          "calming down",
-          "safety",
-          "self-regulation"
+          "emoties",
+          "empathie",
+          "kalmeren",
+          "veiligheid",
+          "zelfregulatie"
         ],
         "inside": [
-          "emotion-based tasks",
-          "paths to safe places",
-          "matching needs with help",
-          "calm coloring pages",
-          "“pause and choose” exercises"
+          "opdrachten over emoties",
+          "wegen naar veilige plekken",
+          "behoeften aan hulp koppelen",
+          "rustige kleurplaten",
+          "«stop en kies»-oefeningen"
         ],
-        "quote": "Not every hero stands at the front of the journey. Some walk last so no one is left alone."
+        "quote": "Niet elke held loopt vooraan op de reis. Sommigen lopen als laatste, zodat niemand alleen achterblijft."
       },
       "boran": {
-        "guardianRole": "Guardian of the Red Ribbon",
-        "artifactName": "Artifact of the Red Ribbon",
-        "title": "Boran and the Artifact of the Red Ribbon",
-        "description": "Boran shows that true strength is not about pushing, shouting, or hitting. A true warrior can stop, protect the weaker, and use courage wisely. This workbook helps children practice movement control, patience, boundaries, and responsibility for their own strength.",
-        "parentDescription": "This workbook supports children in understanding boundaries, controlling impulses, and choosing safe reactions. It helps start conversations about the fact that being bigger, stronger, or faster does not give anyone the right to hurt others.",
+        "guardianRole": "Wachter van het Rode Lint",
+        "artifactName": "Artefact van het Rode Lint",
+        "title": "Boran en het Artefact van het Rode Lint",
+        "description": "Boran laat zien dat echte kracht niet gaat over duwen, schreeuwen of slaan. Een echte krijger kan stoppen, de zwakkeren beschermen en zijn moed verstandig gebruiken. Dit boek helpt kinderen bewegingscontrole, geduld, grenzen en verantwoordelijkheid voor hun eigen kracht te oefenen.",
+        "parentDescription": "Dit oefenboek helpt kinderen grenzen te begrijpen, impulsen te beheersen en veilige reacties te kiezen. Het helpt om te praten over het feit dat groter, sterker of sneller zijn niemand het recht geeft anderen pijn te doen.",
         "supports": [
-          "boundaries",
-          "impulse control",
-          "courage",
-          "persistence",
-          "responsible strength"
+          "grenzen",
+          "impulsbeheersing",
+          "moed",
+          "doorzettingsvermogen",
+          "verantwoorde kracht"
         ],
         "inside": [
-          "training paths",
-          "shield-themed tasks",
-          "choosing good reactions",
-          "“freeze-frame” exercises",
-          "short scenes about strength and responsibility"
+          "trainingsparcours",
+          "opdrachten met schilden",
+          "goede reacties kiezen",
+          "«stilstaand beeld»-oefeningen",
+          "korte scènes over kracht en verantwoordelijkheid"
         ],
-        "quote": "Courage without control is only noise. A true warrior knows when to move and when to stop."
+        "quote": "Moed zonder controle is alleen maar lawaai. Een echte krijger weet wanneer hij moet bewegen en wanneer hij moet stoppen."
       }
     }
   }

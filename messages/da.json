@@ -1036,306 +1036,316 @@
   },
   "artifacts": {
     "meta": {
-      "title": "Eduweer Trial Artifacts — Workbooks for Children",
-      "description": "Discover six Eduweer workbooks and collect Trial Artifacts. Activities support handwriting readiness, focus, logic, creativity, emotions, and boundaries."
+      "title": "Eduweer Prøveartefakter — Øvehæfter til børn",
+      "description": "Opdag seks Eduweer-øvehæfter og saml Prøveartefakterne. Aktiviteterne understøtter grafomotorik, koncentration, logik, kreativitet, følelser og grænser."
     },
     "hero": {
-      "eyebrow": "Eduweer · Trial Artifacts",
-      "title": "Collect the Six Trial Artifacts",
-      "subtitle": "Each workbook is a separate adventure guided by one of the Eduweer Guardians. Your child develops important skills, and after completing the workbook, they can unlock an artifact and assign it to their hero.",
-      "primaryCta": "Create parent account",
-      "secondaryCta": "Explore artifacts",
-      "tertiaryLink": "How it works",
+      "eyebrow": "Eduweer · Prøveartefakter",
+      "title": "Saml de seks Prøveartefakter",
+      "subtitle": "Hvert hæfte er et selvstændigt eventyr, ledet af en af Eduweer-Vogterne. Dit barn udvikler vigtige færdigheder og kan efter at have gennemført hæftet låse et artefakt op og tildele det til sin helt.",
+      "primaryCta": "Opret forældrekonto",
+      "secondaryCta": "Udforsk artefakterne",
+      "tertiaryLink": "Sådan virker det",
       "process": [
-        "Choose a workbook",
-        "Complete the trial",
-        "Scan the QR code",
-        "Unlock the artifact"
+        "Vælg et hæfte",
+        "Gennemfør prøven",
+        "Scan QR-koden",
+        "Lås artefaktet op"
       ]
     },
+    "intro": {
+      "eyebrow": "Introduktion",
+      "title": "Hvad er Prøveartefakterne?",
+      "paragraphs": [
+        "Prøveartefakterne er ekstra øvehæfter, der foregår i Eduweers verden. Hvert hæfte er et selvstændigt, kort eventyr ledet af en af Eduweer-Vogterne — lærere, der hjælper unge helte med at udvikle vigtige færdigheder.",
+        "Barnet laver øvelserne på papir, men i historien gennemgår det prøven for et valgt amulet: runen, sporet, mekanismen, slyngplanten, skjoldet eller det røde bånd.",
+        "Når hæftet er gennemført, kan en forælder scanne QR-koden, tildele det oplåste artefakt til barnets helt og fortsætte figurens udvikling i Eduweer Mentor-appen."
+      ],
+      "tagline": "Det er ikke bare et øvehæfte. Det er en lille quest, der følger barnet videre i appen."
+    },
     "navLinks": {
-      "how": "How it works",
-      "artifacts": "Artifacts",
-      "parent": "Parent account",
-      "world": "Eduweer world"
+      "how": "Sådan virker det",
+      "artifacts": "Artefakter",
+      "parent": "Forældrekonto",
+      "world": "Eduweer-verden"
     },
     "how": {
-      "eyebrow": "How it works",
-      "title": "How do artifacts work in Eduweer?",
-      "description": "Completing a workbook does not end the adventure on paper. A parent can scan the QR code, assign the unlocked artifact to a child profile, and track the hero’s progress in the Eduweer parent panel.",
+      "eyebrow": "Sådan virker det",
+      "title": "Hvordan virker artefakter i Eduweer?",
+      "description": "At gennemføre et hæfte afslutter ikke eventyret på papiret. En forælder kan scanne QR-koden, tildele det oplåste artefakt til en barneprofil og følge heltens fremskridt i Eduweer-forældrepanelet.",
       "steps": [
         {
-          "title": "Choose a workbook",
-          "description": "Each workbook trains a different skill and is guided by a different Guardian."
+          "title": "Vælg et hæfte",
+          "description": "Hvert hæfte træner en forskellig færdighed og ledes af en forskellig Vogter."
         },
         {
-          "title": "Complete the trial",
-          "description": "The child works through the exercises, develops specific skills, and discovers the story behind the artifact."
+          "title": "Gennemfør prøven",
+          "description": "Barnet arbejder sig gennem øvelserne, udvikler bestemte færdigheder og opdager historien bag artefaktet."
         },
         {
-          "title": "Scan the QR code",
-          "description": "After the workbook is completed, the parent scans the code and chooses which child should receive the reward."
+          "title": "Scan QR-koden",
+          "description": "Når hæftet er gennemført, scanner forælderen koden og vælger, hvilket barn der skal have belønningen."
         },
         {
-          "title": "Unlock the artifact",
-          "description": "The artifact is added to the hero profile and becomes part of the child’s larger development path."
+          "title": "Lås artefaktet op",
+          "description": "Artefaktet tilføjes til heltens profil og bliver en del af barnets større udviklingsvej."
         }
       ]
     },
     "pathNav": {
-      "title": "Explore the six trial paths",
+      "title": "Udforsk de seks prøvestier",
       "items": [
         {
           "name": "Auralis",
-          "label": "Letters"
+          "label": "Bogstaver"
         },
         {
           "name": "Narin",
-          "label": "Mazes"
+          "label": "Labyrinter"
         },
         {
           "name": "Tivia",
-          "label": "Logic"
+          "label": "Logik"
         },
         {
           "name": "Liora",
-          "label": "Colors"
+          "label": "Farver"
         },
         {
           "name": "Maela",
-          "label": "Emotions"
+          "label": "Følelser"
         },
         {
           "name": "Boran",
-          "label": "Boundaries"
+          "label": "Grænser"
         }
       ]
     },
     "parentBenefits": {
-      "eyebrow": "Parent account",
-      "title": "Artifacts come alive in the parent panel",
-      "description": "After completing a workbook, you can assign the artifact to your child’s account, track completed trials, and build their hero path in the world of Eduweer.",
+      "eyebrow": "Forældrekonto",
+      "title": "Artefakter kommer til live i forældrepanelet",
+      "description": "Når du har gennemført et hæfte, kan du tildele artefaktet til dit barns konto, følge de gennemførte prøver og bygge barnets heltevej i Eduweers verden.",
       "features": [
         {
-          "title": "Assign artifacts",
-          "description": "Scan the QR code from the workbook and add the unlocked artifact to your child’s profile."
+          "title": "Tildel artefakter",
+          "description": "Scan QR-koden fra hæftet og føj det oplåste artefakt til dit barns profil."
         },
         {
-          "title": "Track the collection",
-          "description": "See which trials have been completed and which artifacts your child has already earned."
+          "title": "Følg samlingen",
+          "description": "Se, hvilke prøver der er gennemført, og hvilke artefakter dit barn allerede har optjent."
         },
         {
-          "title": "Add multiple children",
-          "description": "Manage the progress of more than one child from a single parent account."
+          "title": "Tilføj flere børn",
+          "description": "Håndtér flere børns fremskridt fra én forældrekonto."
         },
         {
-          "title": "Get ready for more adventures",
-          "description": "The parent account will connect workbooks, books, and future Eduweer activities."
+          "title": "Klar til flere eventyr",
+          "description": "Forældrekontoen vil forbinde hæfter, bøger og fremtidige Eduweer-aktiviteter."
         }
       ],
-      "cta": "Create parent account"
+      "cta": "Opret forældrekonto"
     },
     "world": {
-      "eyebrow": "Eduweer world",
-      "title": "Part of the larger Eduweer world",
-      "description": "Trial Artifacts are part of the larger Eduweer world. Children meet characters through stories, practice concrete skills in workbooks, and parents can track progress and hero development in the parent panel.",
+      "eyebrow": "Eduweer-verden",
+      "title": "En del af den større Eduweer-verden",
+      "description": "Prøveartefakterne er en del af den større Eduweer-verden. Børn møder figurerne gennem historier, øver konkrete færdigheder i hæfterne, og forældre kan følge fremskridt og heltens udvikling i forældrepanelet.",
       "items": [
         {
-          "title": "Books",
-          "description": "Discover the story, lands, and heroes of Eduweer."
+          "title": "Bøger",
+          "description": "Opdag historien, landene og heltene i Eduweer."
         },
         {
-          "title": "Workbooks",
-          "description": "Complete Guardian trials and develop concrete skills."
+          "title": "Øvehæfter",
+          "description": "Gennemfør Vogternes prøver og udvikl konkrete færdigheder."
         },
         {
-          "title": "Parent panel",
-          "description": "Assign artifacts, track progress, and manage your child’s account."
+          "title": "Forældrepanel",
+          "description": "Tildel artefakter, følg fremskridt og administrér dit barns konto."
         },
         {
-          "title": "Hero adventure",
-          "description": "Collect artifacts and build the young hero’s development path."
+          "title": "Heltens eventyr",
+          "description": "Saml artefakter og byg den unge helts udviklingsvej."
         }
       ],
-      "cta": "View parent page"
+      "cta": "Se forældresiden"
     },
     "faq": {
       "eyebrow": "FAQ",
-      "title": "Frequently asked questions",
+      "title": "Ofte stillede spørgsmål",
       "items": [
         {
-          "q": "Do I need a parent account to buy a workbook?",
-          "a": "No. You can buy a workbook independently. A parent account is needed when you want to assign the unlocked artifact to your child’s profile and track hero progress."
+          "q": "Skal jeg have en forældrekonto for at købe et hæfte?",
+          "a": "Nej. Du kan købe et hæfte separat. En forældrekonto er nødvendig, når du vil tildele det oplåste artefakt til dit barns profil og følge heltens fremskridt."
         },
         {
-          "q": "How do I assign an artifact to a child?",
-          "a": "After completing the workbook, the parent scans the QR code, logs in, and chooses the child who should receive the artifact."
+          "q": "Hvordan tildeler jeg et artefakt til et barn?",
+          "a": "Når hæftet er gennemført, scanner forælderen QR-koden, logger ind og vælger det barn, der skal have artefaktet."
         },
         {
-          "q": "Can the same artifact be unlocked more than once?",
-          "a": "The same code and artifact should be assigned only once to the selected child. This keeps the collection organized and fair."
+          "q": "Kan det samme artefakt låses op mere end én gang?",
+          "a": "Den samme kode og artefakt bør kun tildeles én gang til det valgte barn. Sådan forbliver samlingen overskuelig og fair."
         },
         {
-          "q": "What age are the workbooks for?",
-          "a": "The workbooks are mainly designed for early primary school children, but the difficulty may vary depending on the trial and the child’s individual skills."
+          "q": "Hvilken alder er hæfterne til?",
+          "a": "Hæfterne er hovedsagelig lavet til børn i de tidlige skoleår, men sværhedsgraden kan variere afhængigt af prøven og barnets individuelle færdigheder."
         },
         {
-          "q": "Are the workbooks part of a larger series?",
-          "a": "Yes. The workbooks, books, parent panel, and future Eduweer activities form one connected world of development and adventure."
+          "q": "Er hæfterne en del af en større serie?",
+          "a": "Ja. Hæfterne, bøgerne, forældrepanelet og fremtidige Eduweer-aktiviteter danner én sammenhængende verden af udvikling og eventyr."
         },
         {
-          "q": "Do the exercises replace therapy or diagnosis?",
-          "a": "No. The workbooks are educational and developmental. They may support focus, emotions, graphomotor skills, and self-regulation, but they do not replace professional consultation."
+          "q": "Erstatter øvelserne terapi eller diagnose?",
+          "a": "Nej. Hæfterne er pædagogiske og udviklende. De kan understøtte koncentration, følelser, grafomotorik og selvregulering, men erstatter ikke professionel rådgivning."
         }
       ]
     },
     "finalCta": {
-      "title": "Start the first trial",
-      "description": "Choose a workbook, create a parent account, and help your child collect new artifacts in the world of Eduweer.",
-      "primaryCta": "Create parent account",
-      "secondaryCta": "View workbooks",
-      "tertiaryCta": "Back to parent page"
+      "title": "Start den første prøve",
+      "description": "Vælg et hæfte, opret en forældrekonto, og hjælp dit barn med at samle nye artefakter i Eduweers verden.",
+      "primaryCta": "Opret forældrekonto",
+      "secondaryCta": "Se hæfterne",
+      "tertiaryCta": "Tilbage til forældresiden"
     },
     "guardianLabels": {
-      "supports": "This workbook supports",
-      "inside": "Inside you will find",
-      "parent": "For parents",
-      "buyAmazon": "Buy on Amazon",
-      "buyEmpik": "Buy on Empik",
-      "details": "View details"
+      "supports": "Dette hæfte understøtter",
+      "inside": "Indeni finder du",
+      "parent": "Til forældre",
+      "buyAmazon": "Køb på Amazon",
+      "buyEmpik": "Køb på Empik",
+      "details": "Se detaljer"
     },
     "guardians": {
       "auralis": {
-        "guardianRole": "Guardian of Runes",
-        "artifactName": "Amulet of the First Rune",
-        "title": "Auralis and the Amulet of the First Rune",
-        "description": "Auralis guides young heroes through the world of lines, symbols, and first letters. This workbook helps children practice a steady hand, focus, and early writing readiness. Each page is a small trial of patience — because even the greatest magic begins with one carefully drawn line.",
-        "parentDescription": "This workbook supports handwriting readiness, line control, and focused practice without pressure.",
+        "guardianRole": "Runernes Vogter",
+        "artifactName": "Den Første Runes Amulet",
+        "title": "Auralis og Den Første Runes Amulet",
+        "description": "Auralis fører unge helte gennem verdenen af linjer, symboler og de første bogstaver. Dette hæfte hjælper børn med at øve en rolig hånd, koncentration og skriveparathed. Hver side er en lille prøve i tålmodighed — for selv den største magi begynder med én velformet linje.",
+        "parentDescription": "Dette hæfte understøtter skriveparathed, linjekontrol og koncentreret øvelse uden pres.",
         "supports": [
-          "graphomotor skills",
-          "letters",
-          "focus",
-          "hand precision",
-          "visual-motor coordination"
+          "grafomotorik",
+          "bogstaver",
+          "koncentration",
+          "håndpræcision",
+          "øje-hånd-koordination"
         ],
         "inside": [
-          "pre-writing patterns",
-          "tracing exercises",
-          "first letters",
-          "rune-inspired tasks",
-          "a short trial of the Rune Guardian"
+          "forberedende linjemønstre",
+          "sporingsøvelser",
+          "første bogstaver",
+          "runeinspirerede opgaver",
+          "en kort prøve fra Runernes Vogter"
         ],
-        "quote": "Not every magic begins with a flash. Sometimes it begins with one well-drawn line."
+        "quote": "Ikke al magi begynder med et glimt. Nogle gange begynder den med én velformet linje."
       },
       "narin": {
-        "guardianRole": "Guardian of Trails",
-        "artifactName": "Artifact of the Silent Trail",
-        "title": "Narin and the Artifact of the Silent Trail",
-        "description": "Narin teaches patience, orientation, and careful line control. In his trial, children follow mazes, paths, and hidden passages while practicing movement planning and hand control.",
-        "parentDescription": "This workbook supports spatial orientation, patience, planning, and controlled hand movement within clear boundaries.",
+        "guardianRole": "Sporenes Vogter",
+        "artifactName": "Det Stille Spors Artefakt",
+        "title": "Narin og Det Stille Spors Artefakt",
+        "description": "Narin lærer tålmodighed, orientering og omhyggelig linjekontrol. I hans prøve følger børn labyrinter, stier og skjulte passager, mens de øver bevægelsesplanlægning og håndkontrol.",
+        "parentDescription": "Dette hæfte understøtter rumlig orientering, tålmodighed, planlægning og kontrolleret håndbevægelse inden for klare grænser.",
         "supports": [
-          "mazes",
-          "attention",
-          "planning",
-          "focus",
-          "coordination"
+          "labyrinter",
+          "opmærksomhed",
+          "planlægning",
+          "koncentration",
+          "koordination"
         ],
         "inside": [
-          "mazes",
-          "line-following paths",
-          "stay-within-the-path exercises",
-          "trails and maps",
-          "scout-themed tasks"
+          "labyrinter",
+          "stier at følge med linjen",
+          "øvelser uden at gå uden for stien",
+          "spor og kort",
+          "spejderopgaver"
         ],
-        "quote": "The path usually exists. You just have to stop looking so loudly."
+        "quote": "Vejen findes som regel. Man skal bare holde op med at kigge så højt."
       },
       "tivia": {
-        "guardianRole": "Mechanism Mender",
-        "artifactName": "Artifact of the Amber Gear",
-        "title": "Tivia and the Artifact of the Amber Gear",
-        "description": "Tivia invites children into the world of shapes, patterns, and clever puzzles. In her workbook, simple forms turn into pictures, missing parts return to their places, and logic tasks show that every problem can be solved step by step.",
-        "parentDescription": "This workbook supports logical thinking, visual analysis, pattern recognition, and patient problem solving.",
+        "guardianRole": "Mekanismernes Reparatør",
+        "artifactName": "Ravtandhjulets Artefakt",
+        "title": "Tivia og Ravtandhjulets Artefakt",
+        "description": "Tivia inviterer børn ind i verdenen af former, mønstre og snedige gåder. I hendes hæfte bliver enkle former til billeder, manglende brikker finder tilbage på plads, og logikopgaver viser, at ethvert problem kan løses trin for trin.",
+        "parentDescription": "Dette hæfte understøtter logisk tænkning, visuel analyse, mønstergenkendelse og tålmodig problemløsning.",
         "supports": [
-          "logic",
-          "geometric shapes",
-          "symmetry",
-          "patterns",
-          "problem solving"
+          "logik",
+          "geometriske former",
+          "symmetri",
+          "mønstre",
+          "problemløsning"
         ],
         "inside": [
-          "pictures built from shapes",
-          "missing-part exercises",
-          "simple picture sudoku",
-          "logic puzzles",
-          "mechanism-themed tasks"
+          "billeder bygget af former",
+          "opgaver med manglende brikker",
+          "enkel billed-sudoku",
+          "logikgåder",
+          "opgaver om mekanismer"
         ],
-        "quote": "If something does not work, it does not mean it is broken. Maybe you simply have not discovered how it wants to work."
+        "quote": "Hvis noget ikke virker, betyder det ikke, at det er i stykker. Måske har du bare ikke opdaget, hvordan det gerne vil virke."
       },
       "liora": {
-        "guardianRole": "Keeper of Living Shapes",
-        "artifactName": "Artifact of the Green Vine",
-        "title": "Liora and the Artifact of the Green Vine",
-        "description": "Liora leads children through the world of nature, colors, and calm creation. This workbook is filled with plants, animals, magical gardens, and coloring pages. It is a trial of patience, harmony, and careful observation.",
-        "parentDescription": "This workbook helps children calm down, develop creativity, and practice completing work patiently.",
+        "guardianRole": "De Levende Formers Vogter",
+        "artifactName": "Den Grønne Ranks Artefakt",
+        "title": "Liora og Den Grønne Ranks Artefakt",
+        "description": "Liora fører børn gennem verdenen af natur, farver og rolig skabelse. Dette hæfte er fyldt med planter, dyr, magiske haver og malesider. Det er en prøve i tålmodighed, harmoni og opmærksom iagttagelse.",
+        "parentDescription": "Dette hæfte hjælper børn med at falde til ro, udvikle kreativitet og tålmodigt gøre påbegyndt arbejde færdigt.",
         "supports": [
-          "colors",
-          "creativity",
-          "patience",
-          "attention",
-          "aesthetic sense"
+          "farver",
+          "kreativitet",
+          "tålmodighed",
+          "opmærksomhed",
+          "sans for æstetik"
         ],
         "inside": [
-          "coloring pages",
-          "plants and animals of Eduweer",
-          "magical gardens",
-          "nature patterns",
-          "calm creative tasks"
+          "malesider",
+          "planter og dyr fra Eduweer",
+          "magiske haver",
+          "naturmønstre",
+          "rolige kreative opgaver"
         ],
-        "quote": "What grows slowly becomes strong."
+        "quote": "Det, der vokser langsomt, bliver stærkt."
       },
       "maela": {
-        "guardianRole": "Guardian of the Warm Shield",
-        "artifactName": "Artifact of the Warm Shield",
-        "title": "Maela and the Artifact of the Warm Shield",
-        "description": "Maela teaches that heroism is not only courage, but also care, calmness, and noticing others. In her workbook, children recognize emotions, help characters find safe places, and practice simple calming strategies.",
-        "parentDescription": "This workbook supports emotion recognition, talking about needs, self-regulation, and building a sense of safety. It may be especially helpful for children who get frustrated quickly, have a lot of energy, or benefit from simple calming routines.",
+        "guardianRole": "Det Varme Skjolds Vogter",
+        "artifactName": "Det Varme Skjolds Artefakt",
+        "title": "Maela og Det Varme Skjolds Artefakt",
+        "description": "Maela lærer, at heltemod ikke kun er mod, men også omsorg, ro og at lægge mærke til andre. I hendes hæfte genkender børn følelser, hjælper figurer med at finde sikre steder og øver enkle beroligende strategier.",
+        "parentDescription": "Dette hæfte understøtter genkendelse af følelser, samtaler om behov, selvregulering og opbygning af en følelse af tryghed. Det kan især være nyttigt for børn, der hurtigt bliver frustrerede, har meget energi eller har gavn af enkle, rolige rutiner.",
         "supports": [
-          "emotions",
-          "empathy",
-          "calming down",
-          "safety",
-          "self-regulation"
+          "følelser",
+          "empati",
+          "at falde til ro",
+          "tryghed",
+          "selvregulering"
         ],
         "inside": [
-          "emotion-based tasks",
-          "paths to safe places",
-          "matching needs with help",
-          "calm coloring pages",
-          "“pause and choose” exercises"
+          "opgaver om følelser",
+          "veje til sikre steder",
+          "forbinde behov med hjælp",
+          "rolige malesider",
+          "«stop op og vælg»-øvelser"
         ],
-        "quote": "Not every hero stands at the front of the journey. Some walk last so no one is left alone."
+        "quote": "Ikke alle helte går forrest på rejsen. Nogle går sidst, så ingen bliver ladt alene."
       },
       "boran": {
-        "guardianRole": "Guardian of the Red Ribbon",
-        "artifactName": "Artifact of the Red Ribbon",
-        "title": "Boran and the Artifact of the Red Ribbon",
-        "description": "Boran shows that true strength is not about pushing, shouting, or hitting. A true warrior can stop, protect the weaker, and use courage wisely. This workbook helps children practice movement control, patience, boundaries, and responsibility for their own strength.",
-        "parentDescription": "This workbook supports children in understanding boundaries, controlling impulses, and choosing safe reactions. It helps start conversations about the fact that being bigger, stronger, or faster does not give anyone the right to hurt others.",
+        "guardianRole": "Det Røde Bånds Vogter",
+        "artifactName": "Det Røde Bånds Artefakt",
+        "title": "Boran og Det Røde Bånds Artefakt",
+        "description": "Boran viser, at ægte styrke ikke handler om at skubbe, råbe eller slå. En ægte kriger kan standse, beskytte de svagere og bruge sit mod klogt. Dette hæfte hjælper børn med at øve bevægelseskontrol, tålmodighed, grænser og ansvar for deres egen styrke.",
+        "parentDescription": "Dette hæfte hjælper børn med at forstå grænser, styre impulser og vælge sikre reaktioner. Det hjælper med at tale om, at det at være større, stærkere eller hurtigere ikke giver nogen ret til at gøre andre fortræd.",
         "supports": [
-          "boundaries",
-          "impulse control",
-          "courage",
-          "persistence",
-          "responsible strength"
+          "grænser",
+          "impulskontrol",
+          "mod",
+          "vedholdenhed",
+          "ansvarlig styrke"
         ],
         "inside": [
-          "training paths",
-          "shield-themed tasks",
-          "choosing good reactions",
-          "“freeze-frame” exercises",
-          "short scenes about strength and responsibility"
+          "træningsbaner",
+          "opgaver med skjolde",
+          "at vælge gode reaktioner",
+          "«frysebillede»-øvelser",
+          "korte scener om styrke og ansvar"
         ],
-        "quote": "Courage without control is only noise. A true warrior knows when to move and when to stop."
+        "quote": "Mod uden kontrol er bare larm. En ægte kriger ved, hvornår man skal rykke, og hvornår man skal stå stille."
       }
     }
   }

@@ -1050,6 +1050,16 @@
         "Odbierz artefakt"
       ]
     },
+    "intro": {
+      "eyebrow": "Wprowadzenie",
+      "title": "Czym są Próby Artefaktów?",
+      "paragraphs": [
+        "Próby Artefaktów to dodatkowe zeszyty ćwiczeń osadzone w świecie Eduweer. Każdy zeszyt jest osobną, krótką przygodą prowadzoną przez jednego ze Strażników Eduweer — nauczycieli, którzy pomagają młodym bohaterom rozwijać ważne umiejętności.",
+        "Dziecko wykonuje ćwiczenia na papierze, ale fabularnie przechodzi próbę wybranego amuletu: runy, tropu, mechanizmu, pnącza, tarczy lub czerwonej wstęgi.",
+        "Po ukończeniu zeszytu rodzic może zeskanować kod QR, przypisać zdobyty artefakt do bohatera dziecka i kontynuować rozwój postaci w aplikacji Eduweer Mentor."
+      ],
+      "tagline": "To nie jest tylko zeszyt ćwiczeń. To mały quest, który zostaje z dzieckiem także w aplikacji."
+    },
     "navLinks": {
       "how": "Jak to działa",
       "artifacts": "Artefakty",

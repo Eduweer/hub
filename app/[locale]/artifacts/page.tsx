@@ -39,6 +39,7 @@ export default function ArtifactsPage() {
   const t = useTranslations("artifacts");
 
   // Translated arrays / objects
+  const introParagraphs = t.raw("intro.paragraphs") as string[];
   const howSteps = t.raw("how.steps") as Array<{ title: string; description: string }>;
   const pathItems = t.raw("pathNav.items") as Array<{ name: string; label: string }>;
   const parentFeatures = t.raw("parentBenefits.features") as Array<{ title: string; description: string }>;
@@ -73,6 +74,22 @@ export default function ArtifactsPage() {
 
       {/* Everything below scrolls over the fixed hero */}
       <div className={styles.pageContent}>
+
+        {/* ── INTRO — what are the Trial Artifacts ── */}
+        <section id="intro" className={`${styles.section} ${styles.wrap}`}>
+          <div className={styles.centered}>
+            <span className={styles.eye}>{t("intro.eyebrow")}</span>
+            <h2 className={styles.sectionTitle}>{t("intro.title")}</h2>
+          </div>
+          <div className={styles.introBody}>
+            {introParagraphs.map((p, i) => (
+              <p key={i} className={styles.introPara}>{p}</p>
+            ))}
+            <p className={styles.introTagline}>{t("intro.tagline")}</p>
+          </div>
+        </section>
+
+        <Ornament />
 
         {/* ── HOW IT WORKS ── */}
         <section id="how" className={`${styles.section} ${styles.wrap}`}>

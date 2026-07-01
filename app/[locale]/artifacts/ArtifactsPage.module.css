@@ -84,6 +84,33 @@
   margin: 0 auto 8px;
 }
 
+/* ── INTRO — what are the Trial Artifacts ── */
+.introBody {
+  max-width: 720px;
+  margin: 28px auto 0;
+}
+
+.introPara {
+  font-family: var(--f-body);
+  font-size: 16px;
+  line-height: 1.85;
+  color: var(--ink-mid);
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+
+.introTagline {
+  font-family: var(--f-display);
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 26px;
+  border-top: 1px solid var(--gold-border);
+}
+
 /* ── SHARED BUTTONS (gold collector theme) ── */
 .btnPrimary {
   display: inline-flex;
