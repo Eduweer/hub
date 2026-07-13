@@ -26,6 +26,7 @@ export interface ArtifactGuardianLabels {
 
 interface ArtifactGuardianSectionProps {
   config: ArtifactGuardianConfig;
+  image: string;
   text: ArtifactGuardianText;
   labels: ArtifactGuardianLabels;
   /** Buy links / availability for this workbook in the current locale. */
@@ -42,6 +43,7 @@ interface ArtifactGuardianSectionProps {
  */
 export default function ArtifactGuardianSection({
   config,
+  image,
   text,
   labels,
   store,
@@ -72,7 +74,7 @@ export default function ArtifactGuardianSection({
             blends its inner edge into the content panel. */}
         <div className={styles.media}>
           <Image
-            src={config.image}
+            src={image}
             alt={text.title}
             width={1448}
             height={1086}

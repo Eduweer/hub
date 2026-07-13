@@ -12,7 +12,12 @@ import ArtifactGuardianSection, {
   type ArtifactGuardianText,
   type ArtifactGuardianLabels,
 } from "@/components/artifacts/ArtifactGuardianSection";
-import { artifactGuardians, artifactLinks, getArtifactStoreEntry } from "@/lib/artifacts";
+import {
+  artifactGuardians,
+  artifactLinks,
+  getArtifactPreviewImage,
+  getArtifactStoreEntry,
+} from "@/lib/artifacts";
 import styles from "./ArtifactsPage.module.css";
 
 export async function generateMetadata({
@@ -123,6 +128,7 @@ export default function ArtifactsPage() {
             <ArtifactGuardianSection
               key={config.id}
               config={config}
+              image={getArtifactPreviewImage(config.id, locale)}
               text={t.raw(`guardians.${config.id}`) as ArtifactGuardianText}
               labels={guardianLabels}
               store={getArtifactStoreEntry(config.id, locale)}

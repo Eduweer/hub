@@ -26,8 +26,24 @@ export interface ArtifactGuardianConfig {
   theme: ArtifactTheme;
   /** Anchor id used by the path nav. */
   anchor: string;
-  /** 16:9 guardian illustration that fills the graphic half of the section. */
-  image: string;
+}
+
+const artifactPreviewLocales = new Set([
+  "pl",
+  "en",
+  "de",
+  "fr",
+  "es",
+  "it",
+  "da",
+  "nl",
+  "pt",
+]);
+
+/** Resolve localized guardian artwork, falling back to English. */
+export function getArtifactPreviewImage(id: string, locale: string): string {
+  const imageLocale = artifactPreviewLocales.has(locale) ? locale : "en";
+  return `/images/${id}_preview_${imageLocale}.webp`;
 }
 
 /** Shared, configurable links used across the page. */
@@ -94,37 +110,31 @@ export const artifactGuardians: ArtifactGuardianConfig[] = [
     id: "auralis",
     theme: "blue",
     anchor: "auralis",
-    image: "/images/auralis_preview.webp",
   },
   {
     id: "narin",
     theme: "purple",
     anchor: "narin",
-    image: "/images/narin_preview.webp",
   },
   {
     id: "tivia",
     theme: "amber",
     anchor: "tivia",
-    image: "/images/tivia_preview.webp",
   },
   {
     id: "liora",
     theme: "nature",
     anchor: "liora",
-    image: "/images/liora_preview.webp",
   },
   {
     id: "maela",
     theme: "warm",
     anchor: "maela",
-    image: "/images/maela_preview.webp",
   },
   {
     id: "boran",
     theme: "red",
     anchor: "boran",
-    image: "/images/boran_preview.webp",
   },
 ];
 
