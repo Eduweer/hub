@@ -17,6 +17,7 @@ import {
   artifactLinks,
   getArtifactPreviewImage,
   getArtifactStoreEntry,
+  getParentSignupUrl,
 } from "@/lib/artifacts";
 import styles from "./ArtifactsPage.module.css";
 
@@ -43,6 +44,7 @@ const ARTIFACT_MOTES = [
 export default function ArtifactsPage() {
   const t = useTranslations("artifacts");
   const locale = useLocale();
+  const parentSignupUrl = getParentSignupUrl(locale);
 
   // Translated arrays / objects
   const introParagraphs = t.raw("intro.paragraphs") as string[];
@@ -154,7 +156,7 @@ export default function ArtifactsPage() {
             ))}
           </div>
           <div className={styles.centeredCta}>
-            <a href={artifactLinks.parentSignup} className={styles.btnPrimary}>
+            <a href={parentSignupUrl} className={styles.btnPrimary}>
               {t("parentBenefits.cta")}
             </a>
           </div>
@@ -204,7 +206,7 @@ export default function ArtifactsPage() {
             <h2 className={styles.finalTitle}>{t("finalCta.title")}</h2>
             <p className={styles.finalDesc}>{t("finalCta.description")}</p>
             <div className={styles.finalCtas}>
-              <a href={artifactLinks.parentSignup} className={styles.btnPrimary}>
+              <a href={parentSignupUrl} className={styles.btnPrimary}>
                 {t("finalCta.primaryCta")}
               </a>
               <a href="#paths" className={styles.btnSecondary}>

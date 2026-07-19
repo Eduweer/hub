@@ -48,10 +48,37 @@ export function getArtifactPreviewImage(id: string, locale: string): string {
 
 /** Shared, configurable links used across the page. */
 export const artifactLinks = {
-  parentSignup: "/parents#signup",
   parentsPage: "/parents",
   artifactsDetailsBase: "/artifacts",
 } as const;
+
+/**
+ * mentor.eduweer.com serves every page under a locale prefix (`/pl`, `/de`, …)
+ * and returns 500 on the bare root, so we always append a locale. Anything
+ * outside this allow-list falls back to `parentSignupDefaultLocale`.
+ */
+const parentSignupBase = "https://mentor.eduweer.com";
+const parentSignupDefaultLocale = "pl";
+const parentSignupLocales = new Set([
+  "pl",
+  "en",
+  "de",
+  "fr",
+  "es",
+  "it",
+  "ja",
+  "da",
+  "nl",
+  "pt",
+]);
+
+/** Build the mentor signup URL for a given app locale. */
+export function getParentSignupUrl(locale: string): string {
+  const target = parentSignupLocales.has(locale)
+    ? locale
+    : parentSignupDefaultLocale;
+  return `${parentSignupBase}/${target}`;
+}
 
 /** Theme color tokens per section. Consumed as inline CSS variables. */
 export const artifactThemes: Record<
