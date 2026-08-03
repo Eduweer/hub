@@ -42,6 +42,33 @@
   color: var(--ink);
 }
 
+.light .logo,
+.light .nav a {
+  color: rgba(255, 255, 255, 0.78);
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.35);
+}
+
+.light .logo:hover,
+.light .nav a:hover {
+  color: #fff;
+}
+
+.light .langBtn {
+  color: rgba(255, 255, 255, 0.9);
+  border-color: rgba(255, 255, 255, 0.34);
+  background: rgba(12, 28, 20, 0.24);
+}
+
+.light .langBtn:hover {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.58);
+  background: rgba(12, 28, 20, 0.4);
+}
+
+.light .caret {
+  color: rgba(255, 255, 255, 0.64);
+}
+
 /* ── Language selector ── */
 .langWrap {
   position: relative;

@@ -70,17 +70,19 @@
 /* ── Portals row ── */
 .portals {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1012px;
   display: flex;
+  flex-wrap: wrap;
   align-items: stretch;   /* all pw same height → circles always at top */
   justify-content: center;
   padding: 16px 0 60px;
-  gap: 48px;
+  gap: 52px 56px;
 }
 
 /* ── Tagline ── */
 .tagline {
-  max-width: 640px;
+  width: 100%;
+  max-width: 900px;
   display: flex;
   gap: 0;
   justify-content: center;
@@ -89,9 +91,9 @@
 
 .tlItem {
   flex: 1;
-  max-width: 200px;
+  max-width: 300px;
   text-align: center;
-  padding: 0 24px;
+  padding: 0 32px;
   position: relative;
 }
 
@@ -111,7 +113,7 @@
 
 /* ── Responsive ── */
 @media (max-width: 1080px) {
-  .portals { gap: 32px; }
+  .portals { gap: 44px 32px; }
 }
 
 @media (max-width: 900px) {

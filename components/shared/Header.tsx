@@ -20,7 +20,12 @@ const LANGUAGES = [
 
 interface NavLink { label: string; href: string; }
 
-export default function Header({ navLinks }: { navLinks?: NavLink[] }) {
+interface HeaderProps {
+  navLinks?: NavLink[];
+  theme?: "default" | "light";
+}
+
+export default function Header({ navLinks, theme = "default" }: HeaderProps) {
   const [open, setOpen] = useState(false);
   const locale = useLocale();
   const router = useRouter();
@@ -35,7 +40,7 @@ export default function Header({ navLinks }: { navLinks?: NavLink[] }) {
   }
 
   return (
-    <header className={styles.hdr}>
+    <header className={`${styles.hdr} ${theme === "light" ? styles.light : ""}`}>
       <a
         href={locale === "pl" ? "https://eduweer.com" : `https://eduweer.com/${locale}`}
         className={styles.logo}
@@ -43,7 +48,7 @@ export default function Header({ navLinks }: { navLinks?: NavLink[] }) {
         Eduweer
       </a>
 
-      {/* <nav className={styles.nav} aria-label={t("mainNav")}>
+      <nav className={styles.nav} aria-label={t("mainNav")}>
         {(navLinks ?? [
           { label: t("about"),   href: "#" },
           { label: "Harvoria",   href: "#" },
@@ -51,7 +56,7 @@ export default function Header({ navLinks }: { navLinks?: NavLink[] }) {
         ]).map((link, i) => (
           <a key={i} href={link.href}>{link.label}</a>
         ))}
-      </nav> */}
+      </nav>
 
       <div className={`${styles.langWrap} ${open ? styles.open : ""}`}>
         <button

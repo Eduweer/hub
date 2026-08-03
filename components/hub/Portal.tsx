@@ -2,10 +2,11 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import styles from "./Portal.module.css";
 
 interface PortalProps {
-  color: "green" | "blue" | "copper";
+  color: "green" | "blue" | "copper" | "violet" | "gold";
   href: string;
   tag: string;
   name: string;
@@ -33,12 +34,29 @@ export default function Portal({
   imageSrc, ringColor, arcColor, dustColor,
   animDelay = "0s", arcReverse = false,
 }: PortalProps) {
+  const router = useRouter();
+
+  function navigateFromPageTop(event: { preventDefault: () => void }) {
+    event.preventDefault();
+    const root = document.documentElement;
+    const previousScrollBehavior = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+    window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+    root.style.scrollBehavior = previousScrollBehavior;
+    router.push(href, { scroll: false });
+  }
+
   return (
     <div
       className={`${styles.pw} ${styles[`c${color.charAt(0).toUpperCase()}${color.slice(1)}`]}`}
       style={{ animationDelay: animDelay }}
     >
-      <Link href={href} className={styles.portal} aria-label={ariaLabel}>
+      <Link
+        href={href}
+        className={styles.portal}
+        aria-label={ariaLabel}
+        onNavigate={navigateFromPageTop}
+      >
 
         {/* Halo glow behind */}
         <div className={styles.halo} />
@@ -141,7 +159,12 @@ export default function Portal({
         <span className={styles.tag}>{tag}</span>
         <span className={styles.name}>{name}</span>
         <p className={styles.desc}>{desc}</p>
-        <Link href={href} className={styles.btn} tabIndex={-1}>
+        <Link
+          href={href}
+          className={styles.btn}
+          tabIndex={-1}
+          onNavigate={navigateFromPageTop}
+        >
           {cta} <span className={styles.btnArr}>→</span>
         </Link>
       </div>

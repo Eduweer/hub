@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 import Background from "@/components/shared/Background";
@@ -13,6 +13,7 @@ import ContactSection from "@/components/parent/ContactSection";
 import ScrollReveal from "@/components/shared/ScrollReveal";
 import styles from "./ParentsPage.module.css";
 import { assetUrl } from "@/lib/cdn";
+import { getParentSignupUrl } from "@/lib/artifacts";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
@@ -31,6 +32,8 @@ const PARENT_MOTES = [
 
 export default function ParentsPage() {
   const t = useTranslations("parent");
+  const locale = useLocale();
+  const parentSignupUrl = getParentSignupUrl(locale);
 
   // Rich-text renderers for <accent> → green em, <gold> → gold span
   const accent = (chunks: React.ReactNode) => <em>{chunks}</em>;
@@ -543,12 +546,14 @@ export default function ParentsPage() {
           {/* ── JOIN — NEWSLETTER + CONTACT ── */}
           <section id="dolacz" className={styles.section}>
             <ContactSection
+              parentSignupUrl={parentSignupUrl}
               newsletter={{
                 eyebrow: t("join.newsletter.eyebrow"),
                 title: t("join.newsletter.title"),
                 lead: t("join.newsletter.lead"),
                 emailPlaceholder: t("join.newsletter.emailPlaceholder"),
                 cta: t("join.newsletter.cta"),
+                accountCta: t("join.newsletter.accountCta"),
                 success: t("join.newsletter.success"),
                 trust: newsletterTrust,
               }}

@@ -11,6 +11,7 @@ interface NewsletterT {
   lead: string;
   emailPlaceholder: string;
   cta: string;
+  accountCta: string;
   success: string;
   trust: string[];
 }
@@ -30,10 +31,17 @@ interface ContactT {
 interface ContactSectionProps {
   newsletter: NewsletterT;
   contact: ContactT;
+  parentSignupUrl: string;
 }
 
 // ─── Newsletter Form ──────────────────────────────────────────────────────────
-function NewsletterForm({ t }: { t: NewsletterT }) {
+function NewsletterForm({
+  t,
+  parentSignupUrl,
+}: {
+  t: NewsletterT;
+  parentSignupUrl: string;
+}) {
   const locale = useLocale();
   const [email, setEmail]         = useState("");
   const [loading, setLoading]     = useState(false);
@@ -129,6 +137,12 @@ function NewsletterForm({ t }: { t: NewsletterT }) {
           </div>
         </form>
       )}
+
+      <div className={styles.accountCtaWrap}>
+        <a href={parentSignupUrl} className={styles.btnAccount}>
+          {t.accountCta}
+        </a>
+      </div>
     </div>
   );
 }
@@ -271,10 +285,14 @@ function Spinner() {
 }
 
 // ─── Exported section ─────────────────────────────────────────────────────────
-export default function ContactSection({ newsletter, contact }: ContactSectionProps) {
+export default function ContactSection({
+  newsletter,
+  contact,
+  parentSignupUrl,
+}: ContactSectionProps) {
   return (
     <div className={styles.layout}>
-      <NewsletterForm t={newsletter} />
+      <NewsletterForm t={newsletter} parentSignupUrl={parentSignupUrl} />
       <ContactForm t={contact} />
     </div>
   );

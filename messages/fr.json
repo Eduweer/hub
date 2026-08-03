@@ -50,7 +50,7 @@
     "titleBefore": "Un ",
     "titleAccent": "monde",
     "titleAfter": ",",
-    "titleLine2": "trois portails",
+    "titleLine2": "de nombreuses portes",
     "subtitle": "Eduweer est une aventure éducative qui combine un livre, un cahier d'exercices et une application en un écosystème cohérent.",
     "portals": {
       "parent": {
@@ -58,6 +58,12 @@
         "name": "Pour les parents",
         "desc": "Ton enfant apprend parce qu'il le veut — parce que l'histoire l'attire. Tu es là avec lui.",
         "cta": "Entrer dans le monde"
+      },
+      "artifact": {
+        "tag": "Épreuves des Artefacts",
+        "name": "Artefacts",
+        "desc": "Six cahiers guidés par les Gardiens transforment les exercices en courtes aventures et en récompenses pour le héros de l'enfant.",
+        "cta": "Découvrir les Artefacts"
       },
       "investor": {
         "tag": "Portail système",
@@ -70,6 +76,12 @@
         "name": "Soutenir le projet",
         "desc": "Fais partie de l'histoire dès le premier chapitre. Des récompenses t'attendent.",
         "cta": "Soutenir le monde"
+      },
+      "teacher": {
+        "tag": "Guilde scolaire",
+        "name": "Pour les enseignants",
+        "desc": "Les écoles deviennent des guildes, les classes des équipes, pour apprendre ensemble autrement.",
+        "cta": "En savoir plus"
       }
     },
     "tagline": {
@@ -80,8 +92,8 @@
       },
       "paths": {
         "icon": "◈",
-        "label": "Trois chemins",
-        "text": "Pour les parents, investisseurs et soutiens de campagne"
+        "label": "De nombreux chemins",
+        "text": "Pour les parents, les enseignants, les investisseurs et les soutiens du projet — ainsi que vers le monde des Artefacts"
       },
       "harvoria": {
         "icon": "᛭",
@@ -403,6 +415,7 @@
         "lead": "Nous sommes au milieu de la première édition d'Harvoria. Inscris-toi sur la liste — nous t'informerons quand c'est prêt.",
         "emailPlaceholder": "ton@email.fr",
         "cta": "S'inscrire",
+        "accountCta": "Créer un compte parent",
         "success": "Merci ! Nous t'informerons quand Harvoria est prêt.",
         "trust": [
           "Pas de spam",
@@ -1302,6 +1315,344 @@
         ],
         "quote": "Le courage sans contrôle n’est que du bruit. Un vrai guerrier sait quand avancer et quand s’arrêter."
       }
+    }
+  },
+  "teacher": {
+    "meta": {
+      "title": "Eduweer for Teachers – learning, adventure and school guilds",
+      "description": "Discover Eduweer's vision for teachers and schools: school guilds, shared challenges and learning through adventure."
+    },
+    "nav": [
+      "Vision",
+      "Guilds",
+      "For teachers",
+      "Events",
+      "Newsletter"
+    ],
+    "hero": {
+      "eyebrow": "Eduweer for Teachers",
+      "title": "Every school can write its own story in the world of Eduweer",
+      "lead": "Eduweer connects story, learning activities, child development and game-inspired systems.",
+      "body": "In the future, schools will join the adventure as guilds that unite students, teachers and classes under one symbol. We want to connect the two key environments in a child's growth: home and school.",
+      "ctaPrimary": "Discover Eduweer for schools",
+      "ctaSecondary": "Teacher newsletter",
+      "note": "Eduweer for schools is part of our developing vision. Join the newsletter to follow progress and help shape future solutions.",
+      "seal": "School guild",
+      "orbitClass": "Classes",
+      "orbitTeacher": "Teachers",
+      "orbitStudent": "Students"
+    },
+    "intro": {
+      "eyebrow": "Czym jest Eduweer?",
+      "title": "Nauka opowiedziana jako przygoda",
+      "p1": "Eduweer powstaje jako połączony ekosystem edukacyjny dla dzieci, rodziców i nauczycieli. Książki wprowadzają dziecko do świata, zeszyty rozwijają umiejętności, a aplikacja i gra przenoszą postęp do interaktywnej przygody.",
+      "p2": "Dziecko nie wykonuje jedynie kolejnych ćwiczeń. Staje się bohaterem opowieści, w której wiedza, wysiłek, ciekawość i wytrwałość mają realne znaczenie.",
+      "cards": [
+        {
+          "title": "Opowieść",
+          "body": "Rozbudowany świat fantasy, bohaterowie, krainy i przygody nadające ćwiczeniom szerszy kontekst."
+        },
+        {
+          "title": "Edukacja",
+          "body": "Zadania rozwijające wiedzę, koncentrację, kreatywność, samodzielność i ważne umiejętności."
+        },
+        {
+          "title": "Rozwój bohatera",
+          "body": "Postęp dziecka jest rozwojem własnej postaci, zdobywaniem doświadczenia i nowych możliwości."
+        },
+        {
+          "title": "Połączony ekosystem",
+          "body": "Książki, Artefakty, aplikacja, portal i gra tworzą jedną, spójną drogę rozwoju."
+        }
+      ]
+    },
+    "homeSchool": {
+      "eyebrow": "Dom i szkoła",
+      "title": "Jedna przygoda, dwa ważne środowiska",
+      "p1": "Rodzice najlepiej znają codzienne potrzeby dziecka. Nauczyciele pomagają mu odkrywać wiedzę, współpracować i rozwijać się jako część społeczności.",
+      "p2": "Dziecko może rozwijać bohatera z pomocą rodzica, a jednocześnie uczestniczyć w przygodach klasy i szkolnej gildii.",
+      "quote": "Dziecko pozostaje bohaterem własnej historii, ale nie musi przeżywać jej samotnie.",
+      "home": "Dom",
+      "school": "Szkoła"
+    },
+    "guild": {
+      "eyebrow": "Szkoła jako gildia",
+      "title": "Szkoła może stać się gildią Eduweer",
+      "lead": "Gildia łączy uczniów, klasy i nauczycieli pod wspólną nazwą, symbolem i historią. Każda klasa jest drużyną młodych bohaterów.",
+      "levels": [
+        {
+          "title": "Bohater",
+          "body": "Każde dziecko rozwija własną postać, zdobywa doświadczenie i realizuje indywidualne zadania."
+        },
+        {
+          "title": "Drużyna klasowa",
+          "body": "Klasa podejmuje wspólne wyzwania, zdobywa osiągnięcia i pracuje nad wspólnym celem."
+        },
+        {
+          "title": "Gildia szkolna",
+          "body": "Cała szkoła buduje swoją historię, bierze udział w wydarzeniach i łączy wyniki klas."
+        }
+      ]
+    },
+    "role": {
+      "eyebrow": "Rola nauczyciela",
+      "title": "Nauczyciel jako przewodnik",
+      "p1": "Eduweer nie ma zastępować nauczyciela, programu nauczania ani sprawdzonych materiałów. Ma nadawać zadaniom fabularny kontekst i budować ciekawość.",
+      "p2": "Nauczyciel nie staje się operatorem gry. Staje się przewodnikiem wzmacniającym motywację, współpracę, samodzielność i zaangażowanie.",
+      "listTitle": "W przyszłości nauczyciele mogliby korzystać z:",
+      "tools": [
+        "materiałów edukacyjnych w świecie Eduweer",
+        "zadań indywidualnych i grupowych",
+        "wyzwań dla całej klasy",
+        "klasowych map postępu",
+        "osiągnięć drużynowych",
+        "scenariuszy zajęć",
+        "materiałów do wydruku",
+        "podglądu postępów klasy",
+        "narzędzi do szkolnych przygód"
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Dla dzieci",
+      "title": "Więcej sposobów na poznawanie świata",
+      "lead": "Każde dziecko uczy się inaczej. Eduweer łączy czytanie, działanie, rozmowę, ruch, tworzenie i współpracę.",
+      "cards": [
+        {
+          "title": "Poczucie celu",
+          "body": "Zadanie jest elementem większej przygody."
+        },
+        {
+          "title": "Widoczny postęp",
+          "body": "Regularna praca rozwija bohatera i prowadzi do odkryć."
+        },
+        {
+          "title": "Przynależność",
+          "body": "Uczeń jest częścią klasy, drużyny i gildii."
+        },
+        {
+          "title": "Współpraca",
+          "body": "Część wyzwań wymaga wspólnego działania."
+        },
+        {
+          "title": "Ciekawość",
+          "body": "Opowieść i tajemnice zachęcają do poznawania."
+        },
+        {
+          "title": "Radość z nauki",
+          "body": "Nauka staje się źródłem satysfakcji i przygody."
+        }
+      ]
+    },
+    "competition": {
+      "eyebrow": "Współpraca i zdrowa rywalizacja",
+      "title": "Wspólne cele zamiast niepotrzebnej presji",
+      "body": "Rankingi nie powinny publicznie oceniać pojedynczych dzieci. Mają wspierać regularność, współpracę i zaangażowanie całych drużyn.",
+      "listTitle": "Punkty mogą być przyznawane za:",
+      "items": [
+        "systematyczność",
+        "udział całej klasy",
+        "pomoc innym",
+        "kreatywność",
+        "współpracę",
+        "wytrwałość",
+        "projekty społeczne i ekologiczne"
+      ],
+      "quote": "Nie każda drużyna musi zwyciężać w ten sam sposób."
+    },
+    "events": {
+      "eyebrow": "Wydarzenia międzyszkolne",
+      "title": "Wielkie przygody mogą łączyć wiele szkół",
+      "lead": "Gildie będą mogły brać udział w wydarzeniach opartych na przyjaznej rywalizacji albo współpracy nad wspólnym celem.",
+      "cards": [
+        {
+          "label": "Wiedza",
+          "title": "Turnieje wiedzy",
+          "body": "Zadania i zagadki związane z określonym obszarem edukacji."
+        },
+        {
+          "label": "Czytanie",
+          "title": "Wyprawy czytelnicze",
+          "body": "Wspólne historie, zadania i kolejne etapy wyprawy."
+        },
+        {
+          "label": "Tworzenie",
+          "title": "Konkursy kreatywne",
+          "body": "Opowiadania, ilustracje, wynalazki i własne fragmenty świata."
+        },
+        {
+          "label": "Natura",
+          "title": "Wyzwania ekologiczne",
+          "body": "Działania związane ze środowiskiem i lokalną społecznością."
+        },
+        {
+          "label": "Drużyna",
+          "title": "Misje zespołowe",
+          "body": "Powodzenie zależy od udziału całej klasy."
+        },
+        {
+          "label": "Sezon",
+          "title": "Wydarzenia sezonowe",
+          "body": "Przygody związane z porami roku i światem Eduweer."
+        }
+      ],
+      "note": "Wydarzenia międzyszkolne są częścią długoterminowej wizji, rozwijanej wspólnie z nauczycielami i szkołami."
+    },
+    "artifacts": {
+      "eyebrow": "Artefakty w szkole",
+      "title": "Próby Strażników mogą rozpocząć się także w klasie",
+      "body": "Artefakty to zeszyty ćwiczeń prowadzone przez Strażników. Rozwijają określone umiejętności i w przyszłości mogą służyć jako materiały klasowe.",
+      "listTitle": "Możliwe zastosowania",
+      "items": [
+        "praca indywidualna",
+        "zajęcia dodatkowe",
+        "świetlica",
+        "różne tempo pracy",
+        "zadania dla uczniów kończących wcześniej",
+        "tygodniowe wyzwania klasowe",
+        "wspólne Próby Strażników",
+        "pakiety dla całej klasy"
+      ],
+      "quote": "Każdy zeszyt to osobna przygoda. Każda klasa może przeżyć ją na własny sposób."
+    },
+    "future": {
+      "eyebrow": "Przyszłe narzędzia",
+      "title": "Jak może rozwijać się Eduweer dla nauczycieli?",
+      "lead": "Rozwiązania szkolne będą powstawać stopniowo, w oparciu o realne potrzeby nauczycieli, uczniów i szkół.",
+      "items": [
+        "profile szkół i gildii",
+        "struktura klas",
+        "role nauczycieli",
+        "osiągnięcia szkolne",
+        "rankingi gildii",
+        "wspólne zadania",
+        "wydarzenia sezonowe",
+        "materiały dla nauczycieli",
+        "scenariusze zajęć",
+        "pakiety Artefaktów",
+        "mapy postępu",
+        "raporty aktywności"
+      ],
+      "note": "Te elementy przedstawiają kierunek rozwoju, a nie listę funkcji dostępnych obecnie."
+    },
+    "cooperation": {
+      "eyebrow": "Współpraca ze szkołami",
+      "title": "Chcemy tworzyć Eduweer razem z nauczycielami",
+      "body": "Chcemy poznawać realne potrzeby klas, testować pomysły i rozwijać materiały wartościowo uzupełniające codzienną edukację.",
+      "items": [
+        "konsultacje z nauczycielami",
+        "testowanie materiałów",
+        "programy pilotażowe",
+        "warsztaty dla dzieci",
+        "pakiety klasowe",
+        "wydarzenia szkolne",
+        "wspólne projekty",
+        "lokalizacja dla różnych systemów edukacji"
+      ],
+      "quote": "Eduweer ma dawać nauczycielom dodatkowe możliwości, a dzieciom kolejne drogi do odkrywania, uczenia się i przeżywania przygód."
+    },
+    "safety": {
+      "eyebrow": "Bezpieczeństwo i odpowiedzialność",
+      "title": "Technologia, która ma wspierać, a nie przeszkadzać",
+      "body": "Nauczyciele i rodzice powinni zachowywać kontrolę nad doświadczeniem dziecka.",
+      "items": [
+        "ochrona danych dzieci",
+        "jasne role dorosłych",
+        "ograniczony dostęp do danych",
+        "bezpieczna komunikacja",
+        "brak kontaktu z nieznajomymi",
+        "odpowiedzialne rankingi",
+        "brak publicznego zawstydzania",
+        "równowaga online i offline"
+      ],
+      "summary": "Celem nie jest zatrzymanie dzieci przed ekranem, lecz zachęcanie ich do czytania, myślenia, tworzenia i wspólnego działania."
+    },
+    "newsletter": {
+      "eyebrow": "Newsletter dla szkół",
+      "title": "Dołącz do nauczycieli Eduweer",
+      "lead": "Śledź rozwój projektu i poznawaj pomysły na połączenie edukacji z przygodą.",
+      "benefits": [
+        "nowe materiały Eduweer",
+        "informacje o Artefaktach",
+        "pomysły na zajęcia",
+        "planowane funkcje szkolne",
+        "zaproszenia do konsultacji i pilotaży",
+        "wpływ na rozwój szkolnych gildii"
+      ],
+      "note": "Bez spamu. Tylko najważniejsze informacje dla nauczycieli i szkół.",
+      "form": {
+        "email": "Adres e-mail",
+        "emailPlaceholder": "nauczyciel@szkola.pl",
+        "country": "Kraj",
+        "countryPlaceholder": "Polska",
+        "stage": "Nauczany etap",
+        "stagePlaceholder": "Wybierz etap",
+        "stages": [
+          "edukacja przedszkolna",
+          "edukacja wczesnoszkolna",
+          "szkoła podstawowa",
+          "szkoła ponadpodstawowa",
+          "zajęcia dodatkowe",
+          "świetlica",
+          "inne"
+        ],
+        "pilot": "Jestem zainteresowany udziałem w przyszłym programie pilotażowym.",
+        "consent": "Chcę otrzymywać informacje o rozwoju Eduweer dla nauczycieli, nowych materiałach i przyszłych pilotażach.",
+        "submit": "Dołącz do nauczycieli Eduweer",
+        "loading": "Zapisywanie…",
+        "success": "Dziękujemy! Witaj w gronie nauczycieli Eduweer. 🌿",
+        "errorEmail": "Podaj poprawny adres email",
+        "errorRequired": "Uzupełnij wymagane pola i zgodę",
+        "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie.",
+        "countries": [
+          "Poland",
+          "Germany",
+          "France",
+          "Spain",
+          "Italy",
+          "Japan",
+          "Denmark",
+          "Netherlands",
+          "Portugal",
+          "Other country"
+        ]
+      }
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Najczęściej zadawane pytania",
+      "items": [
+        {
+          "q": "Czy Eduweer dla szkół jest już dostępne?",
+          "a": "Nie. Rozwiązania szkolne są obecnie częścią rozwijanej wizji projektu."
+        },
+        {
+          "q": "Czy nauczyciel będzie musiał korzystać z gry?",
+          "a": "Nie. Będzie można korzystać z wybranych materiałów i narzędzi."
+        },
+        {
+          "q": "Czy Eduweer ma zastąpić podręczniki?",
+          "a": "Nie. Projekt ma uzupełniać istniejące materiały i metody pracy."
+        },
+        {
+          "q": "Czym jest gildia szkolna?",
+          "a": "To reprezentacja szkoły w świecie Eduweer, łącząca klasy, uczniów, nauczycieli i opiekuna."
+        },
+        {
+          "q": "Czy klasy będą ze sobą rywalizować?",
+          "a": "Możliwe wydarzenia mają wspierać współpracę i regularność, bez publicznego porównywania dzieci."
+        },
+        {
+          "q": "Jak zaangażować szkołę?",
+          "a": "Dołącz do newslettera i zaznacz zainteresowanie przyszłym pilotażem."
+        }
+      ]
+    },
+    "final": {
+      "eyebrow": "A new chapter",
+      "title": "Help us create a new chapter of educational adventure",
+      "body": "Join teachers who want to follow the project and help shape solutions combining learning, cooperation and adventure.",
+      "ctaNewsletter": "Join the newsletter",
+      "ctaWorld": "Discover Eduweer"
     }
   }
 }

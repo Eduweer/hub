@@ -62,6 +62,20 @@ export default function HubPage() {
             animDelay="0.14s"
           />
           <Portal
+            color="gold"
+            href="/artifacts"
+            tag={t("portals.artifact.tag")}
+            name={t("portals.artifact.name")}
+            desc={t("portals.artifact.desc")}
+            cta={t("portals.artifact.cta")}
+            ariaLabel={t("portals.artifact.name")}
+            imageSrc="/images/artifacts_portal.webp"
+            ringColor="#c8963c"
+            arcColor="#f5e4b8"
+            dustColor="#e8bb6a"
+            animDelay="0.22s"
+          />
+          <Portal
             color="blue"
             href="/investors"
             tag={t("portals.investor.tag")}
@@ -73,7 +87,21 @@ export default function HubPage() {
             ringColor="#6aaad4"
             arcColor="#c4dcf0"
             dustColor="#6AAAD4"
-            animDelay="0.26s"
+            animDelay="0.3s"
+          />
+          <Portal
+            color="violet"
+            href="/teachers"
+            tag={t("portals.teacher.tag")}
+            name={t("portals.teacher.name")}
+            desc={t("portals.teacher.desc")}
+            cta={t("portals.teacher.cta")}
+            ariaLabel={t("portals.teacher.name")}
+            imageSrc="/images/guild_portal.webp"
+            ringColor="#7b72b6"
+            arcColor="#d8d2f2"
+            dustColor="#8f86c8"
+            animDelay="0.38s"
           />
           <Portal
             color="copper"
@@ -87,7 +115,7 @@ export default function HubPage() {
             ringColor="#e09860"
             arcColor="#f0d4b8"
             dustColor="#E09860"
-            animDelay="0.38s"
+            animDelay="0.46s"
             arcReverse
           />
         </section>

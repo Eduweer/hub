@@ -13,7 +13,9 @@ interface LoaderParams {
   quality?: number;
 }
 
-export default function cdnLoader({ src }: LoaderParams): string {
+export default function cdnLoader({ src, width, quality }: LoaderParams): string {
   const cdn = (process.env.NEXT_PUBLIC_ASSETS_CDN ?? "").replace(/\/$/, "");
-  return cdn ? `${cdn}${src}` : src;
+  const url = cdn ? `${cdn}${src}` : src;
+  const separator = url.includes("?") ? "&" : "?";
+  return `${url}${separator}w=${width}&q=${quality ?? 75}`;
 }
