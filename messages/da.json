@@ -1,10 +1,10 @@
 {
   "emails": {
     "newsletter": {
-      "subject": "Velkommen til Eduweers verden! 🌿",
+      "subject": "Velkommen til Edurias verden! 🌿",
       "tagline": "Eventyr · Viden · Harvoria",
       "greeting": "Hej!",
-      "thanks": "Tak, fordi du slutter dig til Eduweers verden. 🌿",
+      "thanks": "Tak, fordi du slutter dig til Edurias verden. 🌿",
       "bodyLine1": "De første eventyr i Harvoria venter allerede.",
       "bodyLine2": "Vi holder dig opdateret om nyheder, boglanceringen og Mentor-appen.",
       "signoff": "Vi ses i eventyret,",
@@ -14,16 +14,16 @@
       "unsubscribe": "Afmeld"
     },
     "earlyList": {
-      "subject": "Velkommen til Eduweers tidlige liste! 🌿",
+      "subject": "Velkommen til Edurias tidlige liste! 🌿",
       "tagline": "Tidlig liste · Harvoria",
       "greeting": "Hej!",
-      "thanks": "Tak, fordi du tilmelder dig Eduweers tidlige liste. 🌿",
+      "thanks": "Tak, fordi du tilmelder dig Edurias tidlige liste. 🌿",
       "bodyLine1": "De første Harvoria-opgavehæfter bliver skabt lige nu.",
       "bodyLine2": "Som en af de første familier får du forhåndsvisninger, opdateringer om fremskridt og chancen for at prøve Eduria før den officielle lancering.",
       "signoff": "Vi ses i eventyret,",
       "team": "Eduria-teamet",
       "cta": "Oplev Eduria →",
-      "footerReason": "Du modtager denne besked, fordi du tilmeldte dig Eduweers tidlige liste.",
+      "footerReason": "Du modtager denne besked, fordi du tilmeldte dig Edurias tidlige liste.",
       "unsubscribe": "Afmeld"
     },
     "contactConfirm": {
@@ -51,13 +51,13 @@
     "titleAccent": "verden",
     "titleAfter": ",",
     "titleLine2": "mange portaler",
-    "subtitle": "Eduria er et pædagogisk eventyr, der kombinerer en bog, en opgavebog og en app til ét sammenhængende økosystem.",
+    "subtitle": "Eduria er et læringsprojekt for børn, forældre og lærere, der forbinder bøger, opgavehæfter, Mentor-appen og en kommende spilverden.",
     "portals": {
       "parent": {
         "tag": "Hovedindgang",
         "name": "Til forældre",
         "desc": "Dit barn lærer, fordi det vil — fordi historien trækker det ind. Du er lige ved siden af.",
-        "cta": "Træd ind i Eduweers verden"
+        "cta": "Træd ind i Edurias verden"
       },
       "artifact": {
         "tag": "Artefaktprøver",
@@ -75,7 +75,7 @@
         "tag": "Kampagne",
         "name": "Støt projektet",
         "desc": "Vær en del af historien fra det allerførste kapitel. Belønninger venter.",
-        "cta": "Støt Eduweers verden"
+        "cta": "Støt Edurias verden"
       },
       "teacher": {
         "tag": "Skolegilde",
@@ -185,7 +185,7 @@
           "desc": "Eduria opstod fra kombinationen af to verdener: rolig, værdifuld læsning med dit barn og de mekanikker, der kendes fra spil, som børn opdager tidligere og tidligere — en helt, fremskridt, niveauer, belønninger og opdagelsen af de næste stadier."
         },
         {
-          "desc": "Forskellen er, at disse mekanikker her ikke er ment til at holde barnet foran en skærm så længe som muligt. De er ment til at hjælpe det med at se meningen med anstrengelse. Enhver løst opgave, enhver læst del af historien og ethvert anerkendt fremskridt betyder, at ikke blot barnet udvikler sig, men også dets helt i Eduweers verden."
+          "desc": "Forskellen er, at disse mekanikker her ikke er ment til at holde barnet foran en skærm så længe som muligt. De er ment til at hjælpe det med at se meningen med anstrengelse. Enhver løst opgave, enhver læst del af historien og ethvert anerkendt fremskridt betyder, at ikke blot barnet udvikler sig, men også dets helt i Edurias verden."
         },
         {
           "desc": "Takket være dette er læring ikke længere bare en forpligtelse. Det bliver en del af et eventyr, hvor barnet vil finde ud af, hvad der sker næste gang — og forælderen kan være tæt på, guide historien og dele barnets små sejre sammen."
@@ -204,14 +204,14 @@
           "Varm, eventyrlig fortælling for børn og forældre",
           "Barnet bliver en del af historien — læser den ikke bare",
           "Opgaver udspringer naturligt af handlingen",
-          "Forælderen bliver en guide gennem Eduweers verden"
+          "Forælderen bliver en guide gennem Edurias verden"
         ],
         "caption": "Historien er begyndelsen på ethvert eventyr — den giver opgaverne mening."
       },
       "workbook": {
         "eyebrow": "Element 02 · Handling",
         "title": "Heltedagbogen, hvor barnet virkelig handler",
-        "body": "Opgavebogen er ikke et løsrevet arbejdsark. Det er et sted, hvor barnet hjælper helte, løser gåder, samler stjerner og ser, at dets indsats betyder noget i Eduweers verden.",
+        "body": "Opgavebogen er ikke et løsrevet arbejdsark. Det er et sted, hvor barnet hjælper helte, løser gåder, samler stjerner og ser, at dets indsats betyder noget i Edurias verden.",
         "bullets": [
           "Opgaver direkte knyttet til handlingen",
           "Plads til at skrive, tegne og løse",
@@ -258,7 +258,7 @@
         {
           "num": "02",
           "title": "Barnet løser en opgave",
-          "desc": "Opgaven i Heltedagbogen udspringer af historien. Barnet løser den ikke 'fordi det skal', men fordi det hjælper nogen i Eduweers verden."
+          "desc": "Opgaven i Heltedagbogen udspringer af historien. Barnet løser den ikke 'fordi det skal', men fordi det hjælper nogen i Edurias verden."
         },
         {
           "num": "03",
@@ -401,7 +401,7 @@
           "icon": "🗺️",
           "num": "Øjeblik 05",
           "title": "Helten rykker videre",
-          "desc": "Det næste trin vises på kortet. Barnet ser, at dets arbejde ændrede noget i Eduweers verden."
+          "desc": "Det næste trin vises på kortet. Barnet ser, at dets arbejde ændrede noget i Edurias verden."
         },
         {
           "icon": "🌙",
@@ -437,7 +437,7 @@
         },
         {
           "q": "Vil Eduria have et spil?",
-          "a": "Ja — spillet er en del af den bredere vision for Eduweers verden. På nuværende tidspunkt er centrum for oplevelsen bogen, opgavebogen og Mentor-appen. Spillet vil være en fremtidig udvidelse af verdenen, der styrker engagement og tilknytning til historien."
+          "a": "Ja — spillet er en del af den bredere vision for Edurias verden. På nuværende tidspunkt er centrum for oplevelsen bogen, opgavebogen og Mentor-appen. Spillet vil være en fremtidig udvidelse af verdenen, der styrker engagement og tilknytning til historien."
         }
       ]
     },
@@ -456,7 +456,7 @@
     "join": {
       "newsletter": {
         "eyebrow": "Vær den første",
-        "title": "Tilslut dig Eduweers verden",
+        "title": "Tilslut dig Edurias verden",
         "lead": "Vi er midt i den første Harvoria-udgave. Tilmeld dig listen — vi giver dig besked, når den er klar, og deler eksklusive forhåndsvisninger.",
         "emailPlaceholder": "din@email.com",
         "cta": "Tilmeld dig",
@@ -585,7 +585,7 @@
         {
           "num": "02",
           "title": "Opgave",
-          "desc": "Øvelser opbygger specifikke skolekompetencer, forankret i begivenheder fra Eduweers verden."
+          "desc": "Øvelser opbygger specifikke skolekompetencer, forankret i begivenheder fra Edurias verden."
         },
         {
           "num": "03",
@@ -628,7 +628,7 @@
         {
           "label": "Narrativt fundament",
           "title": "Bog + Opgavebog",
-          "body": "Bogen og opgavebogen udgør kernen i oplevelsen: historie, opgaver, en rytme af arbejde og fælles tid mellem forælder og barn. Indgangspunktet til Eduweers verden.",
+          "body": "Bogen og opgavebogen udgør kernen i oplevelsen: historie, opgaver, en rytme af arbejde og fælles tid mellem forælder og barn. Indgangspunktet til Edurias verden.",
           "pill": "Fysisk · Digital PDF"
         },
         {
@@ -640,7 +640,7 @@
         {
           "label": "Langsigtet engagement",
           "title": "Eventyrspil",
-          "body": "Spillet udvider Eduweers verden ud over bogen: landbrug, udforskning, håndværk og quests, der uddyber motivation og tilknytning til IP'et.",
+          "body": "Spillet udvider Edurias verden ud over bogen: landbrug, udforskning, håndværk og quests, der uddyber motivation og tilknytning til IP'et.",
           "pill": "Harvoria-del · I konceptfase"
         },
         {
@@ -1070,7 +1070,7 @@
       "eyebrow": "Introduktion",
       "title": "Hvad er Prøveartefakterne?",
       "paragraphs": [
-        "Prøveartefakterne er ekstra øvehæfter, der foregår i Eduweers verden. Hvert hæfte er et selvstændigt, kort eventyr ledet af en af Eduria-Vogterne — lærere, der hjælper unge helte med at udvikle vigtige færdigheder.",
+        "Prøveartefakterne er ekstra øvehæfter, der foregår i Edurias verden. Hvert hæfte er et selvstændigt, kort eventyr ledet af en af Eduria-Vogterne — lærere, der hjælper unge helte med at udvikle vigtige færdigheder.",
         "Barnet laver øvelserne på papir, men i historien gennemgår det prøven for et valgt amulet: runen, sporet, mekanismen, slyngplanten, skjoldet eller det røde bånd.",
         "Når hæftet er gennemført, kan en forælder scanne QR-koden, tildele det oplåste artefakt til barnets helt og fortsætte figurens udvikling i Eduria Mentor-appen."
       ],
@@ -1137,7 +1137,7 @@
     "parentBenefits": {
       "eyebrow": "Forældrekonto",
       "title": "Artefakter kommer til live i forældrepanelet",
-      "description": "Når du har gennemført et hæfte, kan du tildele artefaktet til dit barns konto, følge de gennemførte prøver og bygge barnets heltevej i Eduweers verden.",
+      "description": "Når du har gennemført et hæfte, kan du tildele artefaktet til dit barns konto, følge de gennemførte prøver og bygge barnets heltevej i Edurias verden.",
       "features": [
         {
           "title": "Tildel artefakter",
@@ -1214,7 +1214,7 @@
     },
     "finalCta": {
       "title": "Start den første prøve",
-      "description": "Vælg et hæfte, opret en forældrekonto, og hjælp dit barn med at samle nye artefakter i Eduweers verden.",
+      "description": "Vælg et hæfte, opret en forældrekonto, og hjælp dit barn med at samle nye artefakter i Edurias verden.",
       "primaryCta": "Opret forældrekonto",
       "secondaryCta": "Se hæfterne",
       "tertiaryCta": "Tilbage til forældresiden"
@@ -1364,8 +1364,8 @@
   },
   "teacher": {
     "meta": {
-      "title": "Eduria for Teachers – learning, adventure and school guilds",
-      "description": "Discover Eduria's vision for teachers and schools: school guilds, shared challenges and learning through adventure."
+      "title": "Eduria for lærere – læring, eventyr og skolegilder",
+      "description": "Oplev Edurias vision for lærere og skoler: skolegilder, fælles udfordringer og læring gennem eventyr."
     },
     "nav": [
       "Vision",

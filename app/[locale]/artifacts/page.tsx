@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import React from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import Background from "@/components/shared/Background";
 import Motes from "@/components/shared/Motes";
 import Footer from "@/components/shared/Footer";
+import JsonLd from "@/components/shared/JsonLd";
 import FaqAccordion from "@/components/parent/FaqAccordion";
 import ArtifactsHero from "@/components/artifacts/ArtifactsHero";
 import ArtifactPathNav from "@/components/artifacts/ArtifactPathNav";
@@ -19,6 +21,7 @@ import {
   getArtifactStoreEntry,
   getParentSignupUrl,
 } from "@/lib/artifacts";
+import { createFaqJsonLd, createPageMetadata } from "@/lib/seo";
 import styles from "./ArtifactsPage.module.css";
 
 export async function generateMetadata({
@@ -28,7 +31,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "artifacts.meta" });
-  return { title: t("title"), description: t("description") };
+  return createPageMetadata({
+    locale,
+    path: "/artifacts",
+    title: t("title"),
+    description: t("description"),
+  });
 }
 
 // Gold/amber motes to match the collector identity (distinct from /parents green)
@@ -57,6 +65,7 @@ export default function ArtifactsPage() {
 
   return (
     <>
+      <JsonLd data={createFaqJsonLd(faqItems)} />
       <Background
         glowStyle={{
           background: `
@@ -181,9 +190,9 @@ export default function ArtifactsPage() {
             ))}
           </ol>
           <div className={styles.centeredCta}>
-            <a href={artifactLinks.parentsPage} className={styles.btnSecondary}>
+            <Link href={artifactLinks.parentsPage} className={styles.btnSecondary}>
               {t("world.cta")}
-            </a>
+            </Link>
           </div>
         </section>
 
@@ -213,9 +222,9 @@ export default function ArtifactsPage() {
                 {t("finalCta.secondaryCta")}
               </a>
             </div>
-            <a href={artifactLinks.parentsPage} className={styles.finalTertiary}>
+            <Link href={artifactLinks.parentsPage} className={styles.finalTertiary}>
               {t("finalCta.tertiaryCta")}
-            </a>
+            </Link>
           </div>
         </section>
 

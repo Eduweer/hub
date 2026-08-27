@@ -1,7 +1,27 @@
+import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import Background from "@/components/shared/Background";
 import Motes from "@/components/shared/Motes";
 import Header from "@/components/shared/Header";
 import Footer from "@/components/shared/Footer";
+import { createPageMetadata } from "@/lib/seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "hub.portals.campaign" });
+
+  return createPageMetadata({
+    locale,
+    path: "/kampania",
+    title: `${t("name")} — Eduria`,
+    description: t("desc"),
+    noIndex: true,
+  });
+}
 
 export default function KampaniaPage() {
   return (

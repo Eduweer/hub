@@ -51,7 +51,7 @@
     "titleAccent": "wereld",
     "titleAfter": ",",
     "titleLine2": "vele poorten",
-    "subtitle": "Eduria is een educatief avontuur dat een boek, werkboek en app combineert tot één samenhangend ecosysteem.",
+    "subtitle": "Eduria is een educatief project voor kinderen, ouders en leerkrachten dat boeken, werkboeken, de Mentor-app en de wereld van een toekomstig spel verbindt.",
     "portals": {
       "parent": {
         "tag": "Hoofdingang",
@@ -1364,8 +1364,8 @@
   },
   "teacher": {
     "meta": {
-      "title": "Eduria for Teachers – learning, adventure and school guilds",
-      "description": "Discover Eduria's vision for teachers and schools: school guilds, shared challenges and learning through adventure."
+      "title": "Eduria voor leerkrachten – leren, avontuur en schoolgilden",
+      "description": "Ontdek Eduria’s visie voor leerkrachten en scholen: schoolgilden, gezamenlijke uitdagingen en leren door avontuur."
     },
     "nav": [
       "Vision",

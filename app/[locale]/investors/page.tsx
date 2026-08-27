@@ -3,6 +3,7 @@ import type React from "react";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+import { Link } from "@/i18n/navigation";
 import Background from "@/components/shared/Background";
 import Motes from "@/components/shared/Motes";
 import Header from "@/components/shared/Header";
@@ -11,6 +12,7 @@ import ScrollReveal from "@/components/shared/ScrollReveal";
 import InvestorContact from "@/components/investor/InvestorContact";
 import styles from "./InvestorsPage.module.css";
 import { assetUrl } from "@/lib/cdn";
+import { createPageMetadata } from "@/lib/seo";
 
 const LOOP_ICONS = [
   "/images/i_book_icon_2.webp",
@@ -53,7 +55,12 @@ const NODE_CLASSES = ["on0", "on1", "on2", "on3", "on4", "on5"] as const;
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "investor.meta" });
-  return { title: t("title"), description: t("description") };
+  return createPageMetadata({
+    locale,
+    path: "/investors",
+    title: t("title"),
+    description: t("description"),
+  });
 }
 
 const INVESTOR_MOTES = [
@@ -555,7 +562,7 @@ export default function InvestorsPage() {
             <div className={`${styles.ctaBtns} ${styles.rev}`}>
               <a href="mailto:radoslaw.kamysz@gmail.com" className={styles.btnP}>{t("cta.btn1")}</a>
               <a href={assetUrl("/docs/pitch-deck.pdf")} target="_blank" rel="noopener noreferrer" className={styles.btnS}>{t("cta.btn2")}</a>
-              <a href="/parents" className={styles.btnLink}>{t("cta.btn3")} →</a>
+              <Link href="/parents" className={styles.btnLink}>{t("cta.btn3")} →</Link>
             </div>
             <div className={`${styles.ctaInfo} ${styles.rev}`}>
               <div className={styles.ciItem}><div className={styles.ciDot} />{t("cta.info1")}</div>
@@ -597,4 +604,3 @@ export default function InvestorsPage() {
     </>
   );
 }
-

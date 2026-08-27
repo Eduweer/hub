@@ -1,17 +1,25 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
 import Footer from "@/components/shared/Footer";
+import JsonLd from "@/components/shared/JsonLd";
 import ScrollReveal from "@/components/shared/ScrollReveal";
 import TeacherHero from "@/components/teacher/TeacherHero";
 import TeacherNewsletter, { TeacherNewsletterCopy } from "@/components/teacher/TeacherNewsletter";
 import styles from "./TeachersPage.module.css";
 import { assetUrl } from "@/lib/cdn";
+import { createFaqJsonLd, createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "teacher.meta" });
-  return { title: t("title"), description: t("description") };
+  return createPageMetadata({
+    locale,
+    path: "/teachers",
+    title: t("title"),
+    description: t("description"),
+  });
 }
 
 type Card = { title: string; body: string };
@@ -36,6 +44,7 @@ export default function TeachersPage() {
 
   return (
     <div className={styles.page} style={{ backgroundImage: `url('${assetUrl("/images/bg_3.webp")}')` }}>
+      <JsonLd data={createFaqJsonLd(faq)} />
       <ScrollReveal revClass={styles.rev} visClass={styles.vis} />
 
       <main>
@@ -118,7 +127,7 @@ export default function TeachersPage() {
 
         <section className={`${styles.section} ${styles.light}`}><div className={styles.wrap}><div className={styles.centerHeading}><span className={styles.eye}>{t("faq.eyebrow")}</span><h2>{t("faq.title")}</h2></div><div className={styles.faq}>{faq.map((item) => <details key={item.q}><summary>{item.q}</summary><p>{item.a}</p></details>)}</div></div></section>
 
-        <section className={styles.cta}><div className={styles.wrap}><span className={styles.eye}>{t("final.eyebrow")}</span><h2>{t("final.title")}</h2><p>{t("final.body")}</p><div className={styles.actions}><a className={styles.primary} href="#newsletter">{t("final.ctaNewsletter")}</a><a className={styles.secondary} href="/">{t("final.ctaWorld")}</a></div></div></section>
+        <section className={styles.cta}><div className={styles.wrap}><span className={styles.eye}>{t("final.eyebrow")}</span><h2>{t("final.title")}</h2><p>{t("final.body")}</p><div className={styles.actions}><a className={styles.primary} href="#newsletter">{t("final.ctaNewsletter")}</a><Link className={styles.secondary} href="/">{t("final.ctaWorld")}</Link></div></div></section>
       </main>
       <Footer />
     </div>

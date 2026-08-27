@@ -6,6 +6,7 @@ import Image from "next/image";
 import Background from "@/components/shared/Background";
 import Motes from "@/components/shared/Motes";
 import Footer from "@/components/shared/Footer";
+import JsonLd from "@/components/shared/JsonLd";
 import StickyHero from "@/components/parent/StickyHero";
 import FaqAccordion from "@/components/parent/FaqAccordion";
 import EarlyListSection from "@/components/parent/EarlyListSection";
@@ -14,11 +15,17 @@ import ScrollReveal from "@/components/shared/ScrollReveal";
 import styles from "./ParentsPage.module.css";
 import { assetUrl } from "@/lib/cdn";
 import { getParentSignupUrl } from "@/lib/artifacts";
+import { createFaqJsonLd, createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "parent.meta" });
-  return { title: t("title"), description: t("description") };
+  return createPageMetadata({
+    locale,
+    path: "/parents",
+    title: t("title"),
+    description: t("description"),
+  });
 }
 
 const PARENT_MOTES = [
@@ -77,6 +84,7 @@ export default function ParentsPage() {
 
   return (
     <>
+      <JsonLd data={createFaqJsonLd(faqItems)} />
       <Background
         glowStyle={{
           background: `

@@ -51,7 +51,7 @@
     "titleAccent": "mundo",
     "titleAfter": ",",
     "titleLine2": "muchas puertas",
-    "subtitle": "Eduria es una aventura educativa que combina un libro, un cuaderno de ejercicios y una aplicación en un ecosistema cohesivo.",
+    "subtitle": "Eduria es un proyecto educativo para niños, familias y docentes que une libros, cuadernos de ejercicios, la aplicación Mentor y el mundo de un futuro juego.",
     "portals": {
       "parent": {
         "tag": "Puerta principal",
@@ -1319,8 +1319,8 @@
   },
   "teacher": {
     "meta": {
-      "title": "Eduria for Teachers – learning, adventure and school guilds",
-      "description": "Discover Eduria's vision for teachers and schools: school guilds, shared challenges and learning through adventure."
+      "title": "Eduria para docentes – aprendizaje, aventura y gremios escolares",
+      "description": "Descubre la visión de Eduria para docentes y escuelas: gremios escolares, retos compartidos y aprendizaje a través de la aventura."
     },
     "nav": [
       "Vision",

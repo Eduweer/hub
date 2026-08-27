@@ -1,15 +1,21 @@
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import Background from "@/components/shared/Background";
 import Footer from "@/components/shared/Footer";
 import styles from "./PrivacyPage.module.css";
+import { createPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "privacy.meta" });
-  return { title: t("title"), description: t("description") };
+  return createPageMetadata({
+    locale,
+    path: "/privacy",
+    title: t("title"),
+    description: t("description"),
+  });
 }
 
 interface Section {

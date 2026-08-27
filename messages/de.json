@@ -51,7 +51,7 @@
     "titleAccent": "Welt",
     "titleAfter": ",",
     "titleLine2": "viele Tore",
-    "subtitle": "Eduria ist ein Bildungsabenteuer, das Buch, Arbeitsheft und App zu einem geschlossenen Ökosystem verbindet.",
+    "subtitle": "Eduria ist ein Bildungsprojekt für Kinder, Eltern und Lehrkräfte, das Bücher, Arbeitshefte, die Mentor-App und die Welt eines künftigen Spiels verbindet.",
     "portals": {
       "parent": {
         "tag": "Haupttor",
@@ -1319,8 +1319,8 @@
   },
   "teacher": {
     "meta": {
-      "title": "Eduria for Teachers – learning, adventure and school guilds",
-      "description": "Discover Eduria's vision for teachers and schools: school guilds, shared challenges and learning through adventure."
+      "title": "Eduria für Lehrkräfte – Lernen, Abenteuer und Schulgilden",
+      "description": "Entdecke Edurias Vision für Lehrkräfte und Schulen: Schulgilden, gemeinsame Herausforderungen und Lernen durch Abenteuer."
     },
     "nav": [
       "Vision",
