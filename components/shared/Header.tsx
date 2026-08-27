@@ -42,10 +42,10 @@ export default function Header({ navLinks, theme = "default" }: HeaderProps) {
   return (
     <header className={`${styles.hdr} ${theme === "light" ? styles.light : ""}`}>
       <a
-        href={locale === "pl" ? "https://eduweer.com" : `https://eduweer.com/${locale}`}
+        href={locale === "pl" ? "https://eduria.io" : `https://eduria.io/${locale}`}
         className={styles.logo}
       >
-        Eduweer
+        Eduria
       </a>
 
       <nav className={styles.nav} aria-label={t("mainNav")}>

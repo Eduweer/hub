@@ -164,7 +164,7 @@ export default function ArtifactsPage() {
 
         <Ornament />
 
-        {/* ── EDUWEER WORLD BRIDGE ── */}
+        {/* ── EDURIA WORLD BRIDGE ── */}
         <section id="world" className={`${styles.section} ${styles.wrap}`}>
           <div className={styles.centered}>
             <span className={styles.eye}>{t("world.eyebrow")}</span>

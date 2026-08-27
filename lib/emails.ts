@@ -37,7 +37,7 @@ export async function newsletterWelcomeEmail(locale: string | undefined, email: 
   const loc = normalizeLocale(locale);
   const t = await getTranslator(loc);
   const k = (key: string) => t(`emails.newsletter.${key}`);
-  const unsubUrl = `https://eduweer.com/unsubscribe?email=${encodeURIComponent(email)}`;
+  const unsubUrl = `https://eduria.io/unsubscribe?email=${encodeURIComponent(email)}`;
 
   const html = `<!DOCTYPE html>
 <html lang="${loc}">
@@ -51,7 +51,7 @@ export async function newsletterWelcomeEmail(locale: string | undefined, email: 
     <tr><td align="center">
       <table width="560" cellpadding="0" cellspacing="0" role="presentation"
              style="background:#fff;border-radius:16px;overflow:hidden;border:1px solid #E8E0CC;max-width:560px;">
-        ${gradientHeader("EDUWEER", k("tagline"))}
+        ${gradientHeader("EDURIA", k("tagline"))}
         <tr>
           <td style="padding:48px 48px 36px;">
             <p style="font-size:18px;color:#2A1F0F;margin:0 0 20px;line-height:1.5;font-weight:300;">${k("greeting")}</p>
@@ -66,7 +66,7 @@ export async function newsletterWelcomeEmail(locale: string | undefined, email: 
             <table cellpadding="0" cellspacing="0" role="presentation">
               <tr>
                 <td style="background:${GREEN};border-radius:999px;">
-                  <a href="https://eduweer.com"
+                  <a href="https://eduria.io"
                      style="display:inline-block;padding:14px 36px;color:#fff;text-decoration:none;
                             font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
                             font-family:Georgia,serif;">
@@ -99,7 +99,7 @@ export async function earlyListWelcomeEmail(locale: string | undefined, email: s
   const loc = normalizeLocale(locale);
   const t = await getTranslator(loc);
   const k = (key: string) => t(`emails.earlyList.${key}`);
-  const unsubUrl = `https://eduweer.com/unsubscribe?email=${encodeURIComponent(email)}`;
+  const unsubUrl = `https://eduria.io/unsubscribe?email=${encodeURIComponent(email)}`;
 
   const html = `<!DOCTYPE html>
 <html lang="${loc}">
@@ -113,7 +113,7 @@ export async function earlyListWelcomeEmail(locale: string | undefined, email: s
     <tr><td align="center">
       <table width="560" cellpadding="0" cellspacing="0" role="presentation"
              style="background:#fff;border-radius:16px;overflow:hidden;border:1px solid #E8E0CC;max-width:560px;">
-        ${gradientHeader("EDUWEER", k("tagline"))}
+        ${gradientHeader("EDURIA", k("tagline"))}
         <tr>
           <td style="padding:48px 48px 36px;">
             <p style="font-size:18px;color:#2A1F0F;margin:0 0 20px;line-height:1.5;font-weight:300;">${k("greeting")}</p>
@@ -128,7 +128,7 @@ export async function earlyListWelcomeEmail(locale: string | undefined, email: s
             <table cellpadding="0" cellspacing="0" role="presentation">
               <tr>
                 <td style="background:${GREEN};border-radius:999px;">
-                  <a href="https://eduweer.com"
+                  <a href="https://eduria.io"
                      style="display:inline-block;padding:14px 36px;color:#fff;text-decoration:none;
                             font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;
                             font-family:Georgia,serif;">
@@ -170,7 +170,7 @@ export async function contactConfirmEmail(locale: string | undefined, name: stri
     <tr><td align="center">
       <table width="560" cellpadding="0" cellspacing="0"
              style="background:#fff;border-radius:16px;overflow:hidden;border:1px solid #E8E0CC;max-width:560px;">
-        ${gradientHeader("EDUWEER", "")}
+        ${gradientHeader("EDURIA", "")}
         <tr>
           <td style="padding:48px 48px 36px;">
             <p style="font-size:18px;color:#2A1F0F;margin:0 0 20px;line-height:1.5;font-weight:300;">${k("greeting", { name })}</p>

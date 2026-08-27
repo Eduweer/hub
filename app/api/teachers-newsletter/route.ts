@@ -228,13 +228,13 @@ export async function POST(request: NextRequest) {
   }
 
   const { error: emailError } = await resend.emails.send({
-    from: "Eduweer <hello@support.eduweer.com>",
+    from: "Eduria <hello@eduria.io>",
     to: email,
     subject:
       locale === "pl"
-        ? "Witaj w gronie nauczycieli Eduweer!"
-        : "Welcome to Eduweer for Teachers!",
-    html: `<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto;padding:40px;color:#24352d"><h1 style="color:#3A8A62">Eduweer for Teachers</h1><p>${locale === "pl" ? "Dziękujemy za dołączenie do newslettera dla nauczycieli i szkół." : "Thank you for joining our newsletter for teachers and schools."}</p><p><b>${country}</b> · ${stage}</p><p>${locale === "pl" ? "Będziemy informować Cię o materiałach, konsultacjach i przyszłych pilotażach." : "We will share updates about materials, consultations and future pilots."}</p><p>Eduweer Team</p></div>`,
+        ? "Witaj w gronie nauczycieli Eduria!"
+        : "Welcome to Eduria for Teachers!",
+    html: `<div style="font-family:Arial,sans-serif;max-width:560px;margin:auto;padding:40px;color:#24352d"><h1 style="color:#3A8A62">Eduria for Teachers</h1><p>${locale === "pl" ? "Dziękujemy za dołączenie do newslettera dla nauczycieli i szkół." : "Thank you for joining our newsletter for teachers and schools."}</p><p><b>${country}</b> · ${stage}</p><p>${locale === "pl" ? "Będziemy informować Cię o materiałach, konsultacjach i przyszłych pilotażach." : "We will share updates about materials, consultations and future pilots."}</p><p>Eduria Team</p></div>`,
   });
 
   if (emailError) logResendError("welcome email error", emailError);

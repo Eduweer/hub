@@ -49,7 +49,7 @@ function buildOwnerEmail(name: string, email: string, message: string): string {
         <tr>
           <td style="background:#2A5C3F;padding:28px 40px;">
             <p style="color:#fff;font-size:11px;letter-spacing:4px;text-transform:uppercase;margin:0;font-family:Georgia,serif;">
-              EDUWEER · Nowa wiadomość
+              EDURIA · Nowa wiadomość
             </p>
           </td>
         </tr>
@@ -160,10 +160,10 @@ export async function POST(req: NextRequest) {
   // Send notification to owner
   try {
     await resend.emails.send({
-      from: "Eduweer Contact <hello@support.eduweer.com>",
+      from: "Eduria Contact <hello@eduria.io>",
       to: "radoslaw.kamysz@gmail.com",
       replyTo: cleanEmail,
-      subject: `Wiadomość od ${cleanName} — Eduweer`,
+      subject: `Wiadomość od ${cleanName} — Eduria`,
       html: buildOwnerEmail(cleanName, cleanEmail, cleanMessage),
     });
   } catch (err) {
@@ -178,7 +178,7 @@ export async function POST(req: NextRequest) {
   try {
     const { subject, html } = await contactConfirmEmail(locale, cleanName);
     await resend.emails.send({
-      from: "Eduweer <hello@support.eduweer.com>",
+      from: "Eduria <hello@eduria.io>",
       to: cleanEmail,
       subject,
       html,

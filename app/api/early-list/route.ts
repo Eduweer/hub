@@ -107,7 +107,7 @@ export async function POST(req: NextRequest) {
   try {
     const { subject, html } = await earlyListWelcomeEmail(locale, cleanEmail);
     await resend.emails.send({
-      from: "Eduweer <hello@support.eduweer.com>",
+      from: "Eduria <hello@eduria.io>",
       to: cleanEmail,
       subject,
       html,

@@ -34,7 +34,7 @@ export default function PrivacyPage() {
         <div className={styles.wrap}>
 
           <Link href="/" className={styles.backLink}>
-            ← Eduweer
+            ← Eduria
           </Link>
 
           <span className={styles.eyebrow}>{t("eyebrow")}</span>

@@ -46,7 +46,7 @@ export default function HubPage() {
           <p className={styles.heroSub}>{t("subtitle")}</p>
         </section>
 
-        <section className={styles.portals} aria-label="Portale Eduweer">
+        <section className={styles.portals} aria-label="Portale Eduria">
           <Portal
             color="green"
             href="/parents"

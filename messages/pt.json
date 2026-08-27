@@ -1,29 +1,29 @@
 {
   "emails": {
     "newsletter": {
-      "subject": "Bem-vindo ao mundo do Eduweer! 🌿",
+      "subject": "Bem-vindo ao mundo do Eduria! 🌿",
       "tagline": "Aventura · Conhecimento · Harvoria",
       "greeting": "Olá!",
-      "thanks": "Obrigado por te juntares ao mundo do Eduweer. 🌿",
+      "thanks": "Obrigado por te juntares ao mundo do Eduria. 🌿",
       "bodyLine1": "As primeiras aventuras em Harvoria já te esperam.",
       "bodyLine2": "Vamos manter-te a par das novidades, do lançamento do livro e da app Mentor.",
       "signoff": "Vemo-nos na aventura,",
-      "team": "A equipa Eduweer",
-      "cta": "Descobrir o Eduweer →",
-      "footerReason": "Recebes esta mensagem porque te inscreveste na lista do Eduweer.",
+      "team": "A equipa Eduria",
+      "cta": "Descobrir o Eduria →",
+      "footerReason": "Recebes esta mensagem porque te inscreveste na lista do Eduria.",
       "unsubscribe": "Cancelar subscrição"
     },
     "earlyList": {
-      "subject": "Bem-vindo à lista antecipada do Eduweer! 🌿",
+      "subject": "Bem-vindo à lista antecipada do Eduria! 🌿",
       "tagline": "Lista antecipada · Harvoria",
       "greeting": "Olá!",
-      "thanks": "Obrigado por te juntares à lista antecipada do Eduweer. 🌿",
+      "thanks": "Obrigado por te juntares à lista antecipada do Eduria. 🌿",
       "bodyLine1": "Os primeiros cadernos de atividades de Harvoria estão a ser criados neste momento.",
-      "bodyLine2": "Como uma das primeiras famílias, vais receber pré-visualizações, novidades sobre o progresso e a oportunidade de experimentar o Eduweer antes do lançamento oficial.",
+      "bodyLine2": "Como uma das primeiras famílias, vais receber pré-visualizações, novidades sobre o progresso e a oportunidade de experimentar o Eduria antes do lançamento oficial.",
       "signoff": "Vemo-nos na aventura,",
-      "team": "A equipa Eduweer",
-      "cta": "Descobrir o Eduweer →",
-      "footerReason": "Recebes esta mensagem porque te inscreveste na lista antecipada do Eduweer.",
+      "team": "A equipa Eduria",
+      "cta": "Descobrir o Eduria →",
+      "footerReason": "Recebes esta mensagem porque te inscreveste na lista antecipada do Eduria.",
       "unsubscribe": "Cancelar subscrição"
     },
     "contactConfirm": {
@@ -31,7 +31,7 @@
       "greeting": "Olá, {name}!",
       "body": "Obrigado pela tua mensagem. Entraremos em contacto o mais rápido possível — normalmente dentro de 1 a 2 dias úteis.",
       "signoff": "Vemo-nos na aventura,",
-      "team": "A equipa Eduweer",
+      "team": "A equipa Eduria",
       "footerAuto": "Esta mensagem foi enviada automaticamente. Por favor, não respondas."
     }
   },
@@ -51,7 +51,7 @@
     "titleAccent": "mundo",
     "titleAfter": ",",
     "titleLine2": "muitos portais",
-    "subtitle": "Eduweer é uma aventura educativa que combina um livro, um caderno de atividades e um app em um único ecossistema coeso.",
+    "subtitle": "Eduria é uma aventura educativa que combina um livro, um caderno de atividades e um app em um único ecossistema coeso.",
     "portals": {
       "parent": {
         "tag": "Portal principal",
@@ -104,12 +104,12 @@
   },
   "parent": {
     "meta": {
-      "title": "Eduweer — Aprendizado que começa com aventura",
-      "description": "Eduweer combina um livro, caderno de atividades e o app Mentor para transformar o aprendizado do seu filho em uma aventura tranquila e compartilhada."
+      "title": "Eduria — Aprendizado que começa com aventura",
+      "description": "Eduria combina um livro, caderno de atividades e o app Mentor para transformar o aprendizado do seu filho em uma aventura tranquila e compartilhada."
     },
     "hero": {
       "eyebrow": "Para pais",
-      "title": "Bem-vindo ao Eduweer",
+      "title": "Bem-vindo ao Eduria",
       "subtitle": "Aqui seu filho se torna o herói de uma história cheia de mistérios, desafios e pequenas vitórias — e cada passo o leva mais longe."
     },
     "cta": {
@@ -140,7 +140,7 @@
     "howItWorks": {
       "eyebrow": "Como funciona",
       "title": "Três passos, um ritmo",
-      "lead": "O ecossistema Eduweer funciona como um ciclo de reforço — cada elemento alimenta o próximo e faz seu filho querer voltar por conta própria.",
+      "lead": "O ecossistema Eduria funciona como um ciclo de reforço — cada elemento alimenta o próximo e faz seu filho querer voltar por conta própria.",
       "steps": [
         {
           "num": "1",
@@ -178,14 +178,14 @@
       ]
     },
     "what": {
-      "eyebrow": "O que é Eduweer",
-      "title": "Eduweer é uma <accent>aventura</accent> contada de várias formas",
+      "eyebrow": "O que é Eduria",
+      "title": "Eduria é uma <accent>aventura</accent> contada de várias formas",
       "flow": [
         {
-          "desc": "Eduweer nasceu da combinação de dois mundos: a leitura tranquila e enriquecedora com seu filho e as mecânicas conhecidas dos jogos, que as crianças descobrem cada vez mais cedo — um herói, progresso, níveis, recompensas e a descoberta das próximas etapas."
+          "desc": "Eduria nasceu da combinação de dois mundos: a leitura tranquila e enriquecedora com seu filho e as mecânicas conhecidas dos jogos, que as crianças descobrem cada vez mais cedo — um herói, progresso, níveis, recompensas e a descoberta das próximas etapas."
         },
         {
-          "desc": "A diferença é que aqui essas mecânicas não têm o objetivo de manter a criança na frente de uma tela pelo maior tempo possível. Elas têm o objetivo de ajudá-la a ver o significado do esforço. Cada tarefa concluída, cada parte da história lida e cada progresso reconhecido fazem com que não só a criança se desenvolva, mas também o seu herói no mundo do Eduweer."
+          "desc": "A diferença é que aqui essas mecânicas não têm o objetivo de manter a criança na frente de uma tela pelo maior tempo possível. Elas têm o objetivo de ajudá-la a ver o significado do esforço. Cada tarefa concluída, cada parte da história lida e cada progresso reconhecido fazem com que não só a criança se desenvolva, mas também o seu herói no mundo do Eduria."
         },
         {
           "desc": "Graças a isso, o aprendizado não é mais apenas uma obrigação. Torna-se parte de uma aventura na qual a criança quer descobrir o que vem a seguir — e o pai pode estar perto, guiar a história e compartilhar juntos as pequenas vitórias da criança."
@@ -195,23 +195,23 @@
     "elements": {
       "eyebrow": "Uma aventura, quatro elementos",
       "title": "Quatro elementos que <accent>trabalham juntos</accent>",
-      "lead": "Eduweer foi projetado para que as crianças não alternem entre atividades aleatórias. Cada elemento tem seu papel em uma única aventura.",
+      "lead": "Eduria foi projetado para que as crianças não alternem entre atividades aleatórias. Cada elemento tem seu papel em uma única aventura.",
       "book": {
         "eyebrow": "Elemento 01 · Narrativa",
         "title": "O livro que abre o mundo",
-        "body": "A história apresenta a criança ao Eduweer — uma terra cheia de aventuras, heróis e desafios. O pai a lê junto com a criança, e cada novo evento leva naturalmente a tarefas e decisões.",
+        "body": "A história apresenta a criança ao Eduria — uma terra cheia de aventuras, heróis e desafios. O pai a lê junto com a criança, e cada novo evento leva naturalmente a tarefas e decisões.",
         "bullets": [
           "Narrativa calorosa e aventureira para crianças e pais",
           "A criança torna-se parte da história — não apenas a lê",
           "As tarefas fluem naturalmente do enredo",
-          "O pai torna-se um guia pelo mundo do Eduweer"
+          "O pai torna-se um guia pelo mundo do Eduria"
         ],
         "caption": "A história é o começo de cada aventura — é ela que dá sentido às tarefas."
       },
       "workbook": {
         "eyebrow": "Elemento 02 · Ação",
         "title": "O Diário do Herói onde a criança realmente age",
-        "body": "O caderno de atividades não é uma folha de trabalho solta. É um lugar onde a criança ajuda os heróis, resolve enigmas, coleta estrelas e vê que seu esforço importa no mundo do Eduweer.",
+        "body": "O caderno de atividades não é uma folha de trabalho solta. É um lugar onde a criança ajuda os heróis, resolve enigmas, coleta estrelas e vê que seu esforço importa no mundo do Eduria.",
         "bullets": [
           "Tarefas diretamente ligadas ao enredo",
           "Espaço para escrever, desenhar e resolver",
@@ -234,8 +234,8 @@
       },
       "game": {
         "eyebrow": "Elemento 04 · Mundo do jogo",
-        "title": "Eduweer Adventure — o jogo onde a <accent>história vive</accent>",
-        "body": "Eduweer Adventure é um jogo mobile onde a criança entra no papel do seu herói e realiza tarefas de ação e trabalho ambientadas no mundo de Harvoria. Configurações seguras de tela e o personagem Mentor tornam o jogo um complemento seguro e envolvente para todo o ecossistema.",
+        "title": "Eduria Adventure — o jogo onde a <accent>história vive</accent>",
+        "body": "Eduria Adventure é um jogo mobile onde a criança entra no papel do seu herói e realiza tarefas de ação e trabalho ambientadas no mundo de Harvoria. Configurações seguras de tela e o personagem Mentor tornam o jogo um complemento seguro e envolvente para todo o ecossistema.",
         "bullets": [
           "Tarefas de ação e trabalho como extensão da aventura do livro",
           "O personagem Mentor aparece no jogo — familiar do app",
@@ -248,7 +248,7 @@
     "advHow": {
       "eyebrow": "Como funciona",
       "title": "Como é a <accent>aventura</accent> passo a passo?",
-      "lead": "Eduweer tem um ritmo simples que rapidamente se torna uma parte natural da noite.",
+      "lead": "Eduria tem um ritmo simples que rapidamente se torna uma parte natural da noite.",
       "steps": [
         {
           "num": "01",
@@ -258,7 +258,7 @@
         {
           "num": "02",
           "title": "A criança realiza uma tarefa",
-          "desc": "A tarefa no Diário do Herói decorre da história. A criança não a resolve 'porque precisa', mas porque está ajudando alguém no mundo do Eduweer."
+          "desc": "A tarefa no Diário do Herói decorre da história. A criança não a resolve 'porque precisa', mas porque está ajudando alguém no mundo do Eduria."
         },
         {
           "num": "03",
@@ -308,7 +308,7 @@
       "parent": {
         "eyebrow": "Para o pai",
         "title": "O pai não precisa ser um <accent>professor</accent>",
-        "lead": "Eduweer cria uma estrutura de aprendizado pronta em casa — com calma, passo a passo, com uma visão real do progresso.",
+        "lead": "Eduria cria uma estrutura de aprendizado pronta em casa — com calma, passo a passo, com uma visão real do progresso.",
         "cards": [
           {
             "num": "01",
@@ -336,7 +336,7 @@
     "safety": {
       "eyebrow": "Segurança",
       "title": "A tecnologia deve apoiar, não substituir, o <accent>relacionamento</accent>",
-      "lead": "No Eduweer, o centro da experiência permanece sendo a história compartilhada, a conversa e as tarefas realizadas longe da tela. O app Mentor é uma ferramenta para o pai — não substitui o livro nem o tempo compartilhado.",
+      "lead": "No Eduria, o centro da experiência permanece sendo a história compartilhada, a conversa e as tarefas realizadas longe da tela. O app Mentor é uma ferramenta para o pai — não substitui o livro nem o tempo compartilhado.",
       "points": [
         "O app apoia o pai, não o substitui",
         "O livro e o caderno são o centro físico da experiência",
@@ -370,8 +370,8 @@
     },
     "day": {
       "eyebrow": "Uma noite de exemplo",
-      "title": "Como pode ser uma <gold>noite</gold> com Eduweer?",
-      "lead": "Eduweer tem o objetivo de criar um ritmo tranquilo ao qual você quer voltar. Não precisa fazer tudo de uma vez.",
+      "title": "Como pode ser uma <gold>noite</gold> com Eduria?",
+      "lead": "Eduria tem o objetivo de criar um ritmo tranquilo ao qual você quer voltar. Não precisa fazer tudo de uma vez.",
       "moments": [
         {
           "icon": "🛋️",
@@ -401,13 +401,13 @@
           "icon": "🗺️",
           "num": "Momento 05",
           "title": "O herói avança",
-          "desc": "O próximo passo aparece no mapa. A criança vê que seu trabalho mudou algo no mundo do Eduweer."
+          "desc": "O próximo passo aparece no mapa. A criança vê que seu trabalho mudou algo no mundo do Eduria."
         },
         {
           "icon": "🌙",
           "num": "Momento 06",
           "title": "Vocês terminam com calma",
-          "desc": "Não precisa fazer tudo de uma vez. Eduweer tem o objetivo de criar um ritmo tranquilo ao qual você quer voltar."
+          "desc": "Não precisa fazer tudo de uma vez. Eduria tem o objetivo de criar um ritmo tranquilo ao qual você quer voltar."
         }
       ]
     },
@@ -416,11 +416,11 @@
       "title": "Tem perguntas? <accent>Temos respostas.</accent>",
       "items": [
         {
-          "q": "Eduweer é um app educativo?",
-          "a": "Não apenas. Eduweer é uma combinação de livro, caderno de atividades e o app Mentor. O app apoia o pai, mas o coração da experiência permanece sendo a história e as tarefas realizadas pela criança."
+          "q": "Eduria é um app educativo?",
+          "a": "Não apenas. Eduria é uma combinação de livro, caderno de atividades e o app Mentor. O app apoia o pai, mas o coração da experiência permanece sendo a história e as tarefas realizadas pela criança."
         },
         {
-          "q": "Para qual idade é o Eduweer?",
+          "q": "Para qual idade é o Eduria?",
           "a": "O projeto foi desenvolvido pensando em crianças de cerca de 6 a 12 anos. O primeiro volume e a primeira aventura são especialmente adequados para crianças que estão começando sua educação escolar."
         },
         {
@@ -436,16 +436,16 @@
           "a": "As estrelas são a forma do pai valorizar o trabalho da criança. Elas mostram as tarefas concluídas e se traduzem em recompensas no sistema, mas o mais importante é o senso de progresso visível e esforço reconhecido."
         },
         {
-          "q": "O Eduweer vai ter um jogo?",
-          "a": "Sim — o jogo faz parte da visão mais ampla do mundo Eduweer. Nesta etapa, o centro da experiência é o livro, o caderno e o app Mentor. O jogo será uma extensão futura do mundo que fortalecerá o engajamento e a conexão com a história."
+          "q": "O Eduria vai ter um jogo?",
+          "a": "Sim — o jogo faz parte da visão mais ampla do mundo Eduria. Nesta etapa, o centro da experiência é o livro, o caderno e o app Mentor. O jogo será uma extensão futura do mundo que fortalecerá o engajamento e a conexão com a história."
         }
       ]
     },
     "earlyList": {
       "eyebrow": "Lista antecipada",
       "title": "Pequenos passos. Grandes aventuras.",
-      "lead": "O Eduweer está a ser criado para famílias que querem que aprender seja menos uma pressão e mais uma jornada partilhada.",
-      "body": "Os primeiros cadernos de atividades de Harvoria estão agora em desenvolvimento. Ao juntares-te à lista antecipada, vais receber pré-visualizações, novidades sobre o progresso e a oportunidade de seres uma das primeiras famílias a experimentar o Eduweer antes do lançamento oficial.",
+      "lead": "O Eduria está a ser criado para famílias que querem que aprender seja menos uma pressão e mais uma jornada partilhada.",
+      "body": "Os primeiros cadernos de atividades de Harvoria estão agora em desenvolvimento. Ao juntares-te à lista antecipada, vais receber pré-visualizações, novidades sobre o progresso e a oportunidade de seres uma das primeiras famílias a experimentar o Eduria antes do lançamento oficial.",
       "emailPlaceholder": "o.teu@email.com",
       "cta": "Juntar-me à lista",
       "loading": "A guardar…",
@@ -456,7 +456,7 @@
     "join": {
       "newsletter": {
         "eyebrow": "Seja o primeiro",
-        "title": "Junte-se ao mundo do Eduweer",
+        "title": "Junte-se ao mundo do Eduria",
         "lead": "Estamos no meio da primeira edição de Harvoria. Inscreva-se na lista — avisaremos quando estiver pronto e compartilharemos prévias exclusivas.",
         "emailPlaceholder": "seu@email.com",
         "cta": "Inscrever-se",
@@ -490,7 +490,7 @@
   "investor": {
     "contactForm": {
       "eyebrow": "Contacto",
-      "title": "Interessado no Eduweer? Entra em contacto.",
+      "title": "Interessado no Eduria? Entra em contacto.",
       "lead": "Se quiseres saber mais sobre o produto, o roadmap, a oportunidade de investimento ou as opções de parceria, envia uma mensagem e responderemos pessoalmente.",
       "namePlaceholder": "Nome completo",
       "emailPlaceholder": "Endereço de email",
@@ -504,12 +504,12 @@
       "errorGeneric": "Algo correu mal. Tenta novamente."
     },
     "meta": {
-      "title": "Eduweer — Portal do Investidor · Sistema & Visão",
+      "title": "Eduria — Portal do Investidor · Sistema & Visão",
       "description": "Um ecossistema educativo escalável — IP, narrativa, app e jogo em um único pipeline."
     },
     "hero": {
       "eyebrow": "Portal do Investidor · Sistema & Visão",
-      "title": "Eduweer — educação como <gold>aventura</gold>, projetada como um sistema escalável.",
+      "title": "Eduria — educação como <gold>aventura</gold>, projetada como um sistema escalável.",
       "subtitle": "Combinamos narrativa, tarefas educativas, um app para pais e um futuro jogo de aventura em um único ciclo fechado: história → ação → avaliação → recompensa → progresso → retorno.",
       "support": "Estamos construindo um universo onde as crianças não resolvem tarefas \"porque precisam\" — mas porque cada tarefa leva seu herói adiante na história e desbloqueia novos elementos do mundo.",
       "cta1": "Ver o modelo do sistema",
@@ -575,7 +575,7 @@
     "loop": {
       "eyebrow": "Sistema",
       "title": "O Ciclo Educativo <gold>Fechado</gold>",
-      "subtitle": "Eduweer transforma uma única tarefa em parte de uma aventura maior. Cada passo que a criança dá importa na história, no app e no desenvolvimento do herói.",
+      "subtitle": "Eduria transforma uma única tarefa em parte de uma aventura maior. Cada passo que a criança dá importa na história, no app e no desenvolvimento do herói.",
       "steps": [
         {
           "num": "01",
@@ -585,7 +585,7 @@
         {
           "num": "02",
           "title": "Tarefa",
-          "desc": "Os exercícios desenvolvem habilidades escolares específicas, inseridos em eventos do mundo Eduweer."
+          "desc": "Os exercícios desenvolvem habilidades escolares específicas, inseridos em eventos do mundo Eduria."
         },
         {
           "num": "03",
@@ -623,12 +623,12 @@
     "ecosystem": {
       "eyebrow": "Ecossistema",
       "title": "Um mundo, <gold>muitos pontos de entrada.</gold>",
-      "subtitle": "Eduweer foi projetado como um ecossistema onde elementos físicos e digitais se reforçam mutuamente — do livro e caderno ao app Mentor e ao jogo que vem por aí.",
+      "subtitle": "Eduria foi projetado como um ecossistema onde elementos físicos e digitais se reforçam mutuamente — do livro e caderno ao app Mentor e ao jogo que vem por aí.",
       "cards": [
         {
           "label": "Fundamento narrativo",
           "title": "Livro + Caderno",
-          "body": "O livro e o caderno formam a experiência principal: história, tarefas, um ritmo de trabalho e tempo compartilhado entre pai e filho. O ponto de entrada no mundo Eduweer.",
+          "body": "O livro e o caderno formam a experiência principal: história, tarefas, um ritmo de trabalho e tempo compartilhado entre pai e filho. O ponto de entrada no mundo Eduria.",
           "pill": "Físico · PDF Digital"
         },
         {
@@ -640,7 +640,7 @@
         {
           "label": "Engajamento de longo prazo",
           "title": "Jogo de Aventura",
-          "body": "O jogo expande o mundo Eduweer além do livro: agricultura, exploração, artesanato e quests que aprofundam a motivação e a conexão com o IP.",
+          "body": "O jogo expande o mundo Eduria além do livro: agricultura, exploração, artesanato e quests que aprofundam a motivação e a conexão com o IP.",
           "pill": "Fatia Harvoria · Em conceito"
         },
         {
@@ -654,7 +654,7 @@
     "flow": {
       "eyebrow": "Como funciona",
       "title": "Como uma única tarefa se torna parte de uma <gold>aventura maior.</gold>",
-      "subtitle": "Eduweer não termina ao resolver um exercício. Cada tarefa afeta o progresso no livro, no app e no herói.",
+      "subtitle": "Eduria não termina ao resolver um exercício. Cada tarefa afeta o progresso no livro, no app e no herói.",
       "steps": [
         {
           "num": "01",
@@ -686,12 +686,12 @@
     "traction": {
       "eyebrow": "Status do projeto",
       "title": "Isto não é apenas um conceito. <gold>O fundamento já existe.</gold>",
-      "subtitle": "Eduweer tem um mundo construído, um livro rascunhado, um modelo de app Mentor definido e uma direção clara para o jogo e a plataforma.",
+      "subtitle": "Eduria tem um mundo construído, um livro rascunhado, um modelo de app Mentor definido e uma direção clara para o jogo e a plataforma.",
       "done": {
         "badge": "Concluído",
         "items": [
           "Rascunho do primeiro volume",
-          "Worldbuilding central do Eduweer",
+          "Worldbuilding central do Eduria",
           "Principais terras e conflito do mundo",
           "Ciclo educativo central",
           "Conceito do app Mentor",
@@ -724,9 +724,9 @@
     "scale": {
       "eyebrow": "Escalabilidade",
       "title": "Escalando pelo mundo, não apenas pelas <gold>funcionalidades.</gold>",
-      "subtitle": "Cada terra do Eduweer significa um novo volume, um novo conjunto de competências, uma nova temporada de conteúdo e novas oportunidades de produto.",
+      "subtitle": "Cada terra do Eduria significa um novo volume, um novo conjunto de competências, uma nova temporada de conteúdo e novas oportunidades de produto.",
       "dimsTitle": "4 dimensões de expansão",
-      "dimsSubtitle": "Eduweer pode crescer simultaneamente em quatro eixos independentes — cada um abre novos mercados e fluxos de receita.",
+      "dimsSubtitle": "Eduria pode crescer simultaneamente em quatro eixos independentes — cada um abre novos mercados e fluxos de receita.",
       "lands": [
         {
           "name": "Harvoria",
@@ -791,7 +791,7 @@
     "tech": {
       "eyebrow": "Tecnologia",
       "title": "Construído para progresso, dados e <gold>expansão.</gold>",
-      "subtitle": "Eduweer foi projetado desde o início para suportar sincronização de progresso, recompensas dinâmicas, conteúdo escalável e futura personalização do aprendizado.",
+      "subtitle": "Eduria foi projetado desde o início para suportar sincronização de progresso, recompensas dinâmicas, conteúdo escalável e futura personalização do aprendizado.",
       "layers": [
         {
           "label": "Experiência",
@@ -849,7 +849,7 @@
     "biz": {
       "eyebrow": "Modelo de negócio",
       "title": "Receita sem quebrar a <gold>confiança.</gold>",
-      "subtitle": "Eduweer monetiza IP, produtos educativos e complementos digitais sem vender o progresso, EXP ou vantagem educacional de uma criança.",
+      "subtitle": "Eduria monetiza IP, produtos educativos e complementos digitais sem vender o progresso, EXP ou vantagem educacional de uma criança.",
       "streams": [
         {
           "num": "01",
@@ -970,7 +970,7 @@
       "btn3": "Ver página dos pais",
       "info1": "Radosław Kamysz — Desenvolvedor & Fundador",
       "info2": "15+ anos de experiência em produção",
-      "info3": "Eduweer — construído com escala em mente"
+      "info3": "Eduria — construído com escala em mente"
     },
     "navLabels": [
       "Sistema",
@@ -992,17 +992,17 @@
   },
   "privacy": {
     "meta": {
-      "title": "Política de Privacidade — Eduweer",
-      "description": "Saiba como o Eduweer processa seus dados pessoais em conformidade com o RGPD."
+      "title": "Política de Privacidade — Eduria",
+      "description": "Saiba como o Eduria processa seus dados pessoais em conformidade com o RGPD."
     },
     "eyebrow": "Documentos Legais",
     "title": "Política de Privacidade",
     "updated": "Última atualização: 23 de maio de 2026",
-    "intro": "Esta política de privacidade descreve como o Eduweer coleta, usa e protege seus dados pessoais. Nos preocupamos com sua privacidade e processamos dados apenas na medida necessária para operar nossos serviços.",
+    "intro": "Esta política de privacidade descreve como o Eduria coleta, usa e protege seus dados pessoais. Nos preocupamos com sua privacidade e processamos dados apenas na medida necessária para operar nossos serviços.",
     "sections": [
       {
         "title": "1. Controlador de Dados",
-        "body": "O controlador de dados é Radoslaw Kamysz, responsável pelo projeto Eduweer. Contato: hello@support.eduweer.com"
+        "body": "O controlador de dados é Radoslaw Kamysz, responsável pelo projeto Eduria. Contato: hello@eduria.io"
       },
       {
         "title": "2. Dados que Coletamos",
@@ -1010,7 +1010,7 @@
       },
       {
         "title": "3. Finalidade e Base Legal",
-        "body": "Processamos seus dados para as seguintes finalidades:\n• Newsletter — envio de atualizações do Eduweer (base legal: consentimento, art. 6(1)(a) RGPD)\n• Formulário de contato — resposta à sua solicitação (base legal: interesses legítimos, art. 6(1)(f) RGPD)"
+        "body": "Processamos seus dados para as seguintes finalidades:\n• Newsletter — envio de atualizações do Eduria (base legal: consentimento, art. 6(1)(a) RGPD)\n• Formulário de contato — resposta à sua solicitação (base legal: interesses legítimos, art. 6(1)(f) RGPD)"
       },
       {
         "title": "4. Processadores de Dados",
@@ -1022,11 +1022,11 @@
       },
       {
         "title": "6. Seus Direitos",
-        "body": "Você tem os seguintes direitos:\n• Acesso — pergunte quais dados mantemos sobre você\n• Retificação — corrija dados imprecisos\n• Exclusão — solicite a exclusão de seus dados\n• Restrição — limite como processamos seus dados\n• Portabilidade — receba seus dados em formato estruturado\n• Objeção — objete ao processamento baseado em interesses legítimos\n• Retirada de consentimento — cancele a assinatura da newsletter a qualquer momento\n\nPara exercer esses direitos, escreva para hello@support.eduweer.com. Responderemos em 30 dias."
+        "body": "Você tem os seguintes direitos:\n• Acesso — pergunte quais dados mantemos sobre você\n• Retificação — corrija dados imprecisos\n• Exclusão — solicite a exclusão de seus dados\n• Restrição — limite como processamos seus dados\n• Portabilidade — receba seus dados em formato estruturado\n• Objeção — objete ao processamento baseado em interesses legítimos\n• Retirada de consentimento — cancele a assinatura da newsletter a qualquer momento\n\nPara exercer esses direitos, escreva para hello@eduria.io. Responderemos em 30 dias."
       },
       {
         "title": "7. Cancelamento de Assinatura",
-        "body": "Você pode cancelar a assinatura da newsletter a qualquer momento clicando no link de cancelamento em qualquer e-mail nosso, ou entrando em contato conosco: hello@support.eduweer.com"
+        "body": "Você pode cancelar a assinatura da newsletter a qualquer momento clicando no link de cancelamento em qualquer e-mail nosso, ou entrando em contato conosco: hello@eduria.io"
       },
       {
         "title": "8. Cookies",
@@ -1038,24 +1038,24 @@
       },
       {
         "title": "10. Alterações na Política",
-        "body": "Reservamo-nos o direito de atualizar esta política. Os assinantes da newsletter serão notificados sobre mudanças significativas. A versão atual está sempre disponível em eduweer.com/privacy."
+        "body": "Reservamo-nos o direito de atualizar esta política. Os assinantes da newsletter serão notificados sobre mudanças significativas. A versão atual está sempre disponível em eduria.io/privacy."
       },
       {
         "title": "11. Autoridade Supervisora",
         "body": "Se você acredita que estamos processando seus dados ilegalmente, tem o direito de apresentar uma reclamação à sua autoridade local de proteção de dados. No Brasil: ANPD — Autoridade Nacional de Proteção de Dados, www.gov.br/anpd"
       }
     ],
-    "contact": "Dúvidas? Entre em contato conosco: hello@support.eduweer.com"
+    "contact": "Dúvidas? Entre em contato conosco: hello@eduria.io"
   },
   "artifacts": {
     "meta": {
-      "title": "Artefatos das Provas Eduweer — Cadernos de exercícios para crianças",
-      "description": "Descubra seis cadernos de exercícios Eduweer e colecione os Artefatos das Provas. As atividades apoiam a grafomotricidade, a concentração, a lógica, a criatividade, as emoções e os limites."
+      "title": "Artefatos das Provas Eduria — Cadernos de exercícios para crianças",
+      "description": "Descubra seis cadernos de exercícios Eduria e colecione os Artefatos das Provas. As atividades apoiam a grafomotricidade, a concentração, a lógica, a criatividade, as emoções e os limites."
     },
     "hero": {
-      "eyebrow": "Eduweer · Artefatos das Provas",
+      "eyebrow": "Eduria · Artefatos das Provas",
       "title": "Colecione os seis Artefatos das Provas",
-      "subtitle": "Cada caderno é uma aventura à parte, guiada por um dos Guardiões de Eduweer. A criança desenvolve competências importantes e, ao concluir o caderno, pode desbloquear um artefato e atribuí-lo ao seu herói.",
+      "subtitle": "Cada caderno é uma aventura à parte, guiada por um dos Guardiões de Eduria. A criança desenvolve competências importantes e, ao concluir o caderno, pode desbloquear um artefato e atribuí-lo ao seu herói.",
       "primaryCta": "Criar conta de pais",
       "secondaryCta": "Explorar artefatos",
       "tertiaryLink": "Como funciona",
@@ -1070,9 +1070,9 @@
       "eyebrow": "Introdução",
       "title": "O que são os Artefatos das Provas?",
       "paragraphs": [
-        "Os Artefatos das Provas são cadernos de exercícios adicionais ambientados no mundo de Eduweer. Cada caderno é uma aventura curta e independente, guiada por um dos Guardiões de Eduweer — professores que ajudam os jovens heróis a desenvolver competências importantes.",
+        "Os Artefatos das Provas são cadernos de exercícios adicionais ambientados no mundo de Eduria. Cada caderno é uma aventura curta e independente, guiada por um dos Guardiões de Eduria — professores que ajudam os jovens heróis a desenvolver competências importantes.",
         "A criança faz os exercícios no papel, mas na história atravessa a prova de um amuleto escolhido: a runa, o rasto, o mecanismo, a trepadeira, o escudo ou a fita vermelha.",
-        "Depois de concluir o caderno, um dos pais pode digitalizar o QR code, atribuir o artefato desbloqueado ao herói da criança e continuar o desenvolvimento da personagem na aplicação Eduweer Mentor."
+        "Depois de concluir o caderno, um dos pais pode digitalizar o QR code, atribuir o artefato desbloqueado ao herói da criança e continuar o desenvolvimento da personagem na aplicação Eduria Mentor."
       ],
       "tagline": "Não é apenas um caderno de exercícios. É uma pequena missão que acompanha a criança também na aplicação."
     },
@@ -1080,12 +1080,12 @@
       "how": "Como funciona",
       "artifacts": "Artefatos",
       "parent": "Conta de pais",
-      "world": "Mundo Eduweer"
+      "world": "Mundo Eduria"
     },
     "how": {
       "eyebrow": "Como funciona",
-      "title": "Como funcionam os artefatos em Eduweer?",
-      "description": "Concluir um caderno não termina a aventura no papel. Um dos pais pode digitalizar o QR code, atribuir o artefato desbloqueado ao perfil de uma criança e acompanhar o progresso do herói no painel de pais Eduweer.",
+      "title": "Como funcionam os artefatos em Eduria?",
+      "description": "Concluir um caderno não termina a aventura no papel. Um dos pais pode digitalizar o QR code, atribuir o artefato desbloqueado ao perfil de uma criança e acompanhar o progresso do herói no painel de pais Eduria.",
       "steps": [
         {
           "title": "Escolhe um caderno",
@@ -1137,7 +1137,7 @@
     "parentBenefits": {
       "eyebrow": "Conta de pais",
       "title": "Os artefatos ganham vida no painel de pais",
-      "description": "Depois de concluir um caderno, podes atribuir o artefato à conta da criança, acompanhar as provas concluídas e construir o seu percurso de herói no mundo de Eduweer.",
+      "description": "Depois de concluir um caderno, podes atribuir o artefato à conta da criança, acompanhar as provas concluídas e construir o seu percurso de herói no mundo de Eduria.",
       "features": [
         {
           "title": "Atribuir artefatos",
@@ -1153,19 +1153,19 @@
         },
         {
           "title": "Preparado para mais aventuras",
-          "description": "A conta de pais irá ligar cadernos, livros e futuras atividades Eduweer."
+          "description": "A conta de pais irá ligar cadernos, livros e futuras atividades Eduria."
         }
       ],
       "cta": "Criar conta de pais"
     },
     "world": {
-      "eyebrow": "Mundo Eduweer",
-      "title": "Parte do mundo mais amplo de Eduweer",
-      "description": "Os Artefatos das Provas fazem parte do mundo mais amplo de Eduweer. As crianças conhecem as personagens através das histórias, praticam competências concretas nos cadernos, e os pais podem acompanhar o progresso e o desenvolvimento do herói no painel de pais.",
+      "eyebrow": "Mundo Eduria",
+      "title": "Parte do mundo mais amplo de Eduria",
+      "description": "Os Artefatos das Provas fazem parte do mundo mais amplo de Eduria. As crianças conhecem as personagens através das histórias, praticam competências concretas nos cadernos, e os pais podem acompanhar o progresso e o desenvolvimento do herói no painel de pais.",
       "items": [
         {
           "title": "Livros",
-          "description": "Descobre a história, as terras e os heróis de Eduweer."
+          "description": "Descobre a história, as terras e os heróis de Eduria."
         },
         {
           "title": "Cadernos de exercícios",
@@ -1204,7 +1204,7 @@
         },
         {
           "q": "Os cadernos fazem parte de uma série maior?",
-          "a": "Sim. Os cadernos, os livros, o painel de pais e as futuras atividades Eduweer formam um único mundo ligado de desenvolvimento e aventura."
+          "a": "Sim. Os cadernos, os livros, o painel de pais e as futuras atividades Eduria formam um único mundo ligado de desenvolvimento e aventura."
         },
         {
           "q": "Os exercícios substituem terapia ou diagnóstico?",
@@ -1214,7 +1214,7 @@
     },
     "finalCta": {
       "title": "Começa a primeira prova",
-      "description": "Escolhe um caderno, cria uma conta de pais e ajuda a criança a colecionar novos artefatos no mundo de Eduweer.",
+      "description": "Escolhe um caderno, cria uma conta de pais e ajuda a criança a colecionar novos artefatos no mundo de Eduria.",
       "primaryCta": "Criar conta de pais",
       "secondaryCta": "Ver cadernos",
       "tertiaryCta": "Voltar à página para pais"
@@ -1309,7 +1309,7 @@
         ],
         "inside": [
           "páginas para colorir",
-          "plantas e animais de Eduweer",
+          "plantas e animais de Eduria",
           "jardins mágicos",
           "padrões da natureza",
           "tarefas criativas tranquilas"
@@ -1364,8 +1364,8 @@
   },
   "teacher": {
     "meta": {
-      "title": "Eduweer for Teachers – learning, adventure and school guilds",
-      "description": "Discover Eduweer's vision for teachers and schools: school guilds, shared challenges and learning through adventure."
+      "title": "Eduria for Teachers – learning, adventure and school guilds",
+      "description": "Discover Eduria's vision for teachers and schools: school guilds, shared challenges and learning through adventure."
     },
     "nav": [
       "Vision",
@@ -1375,22 +1375,22 @@
       "Newsletter"
     ],
     "hero": {
-      "eyebrow": "Eduweer for Teachers",
-      "title": "Every school can write its own story in the world of Eduweer",
-      "lead": "Eduweer connects story, learning activities, child development and game-inspired systems.",
+      "eyebrow": "Eduria for Teachers",
+      "title": "Every school can write its own story in the world of Eduria",
+      "lead": "Eduria connects story, learning activities, child development and game-inspired systems.",
       "body": "In the future, schools will join the adventure as guilds that unite students, teachers and classes under one symbol. We want to connect the two key environments in a child's growth: home and school.",
-      "ctaPrimary": "Discover Eduweer for schools",
+      "ctaPrimary": "Discover Eduria for schools",
       "ctaSecondary": "Teacher newsletter",
-      "note": "Eduweer for schools is part of our developing vision. Join the newsletter to follow progress and help shape future solutions.",
+      "note": "Eduria for schools is part of our developing vision. Join the newsletter to follow progress and help shape future solutions.",
       "seal": "School guild",
       "orbitClass": "Classes",
       "orbitTeacher": "Teachers",
       "orbitStudent": "Students"
     },
     "intro": {
-      "eyebrow": "Czym jest Eduweer?",
+      "eyebrow": "Czym jest Eduria?",
       "title": "Nauka opowiedziana jako przygoda",
-      "p1": "Eduweer powstaje jako połączony ekosystem edukacyjny dla dzieci, rodziców i nauczycieli. Książki wprowadzają dziecko do świata, zeszyty rozwijają umiejętności, a aplikacja i gra przenoszą postęp do interaktywnej przygody.",
+      "p1": "Eduria powstaje jako połączony ekosystem edukacyjny dla dzieci, rodziców i nauczycieli. Książki wprowadzają dziecko do świata, zeszyty rozwijają umiejętności, a aplikacja i gra przenoszą postęp do interaktywnej przygody.",
       "p2": "Dziecko nie wykonuje jedynie kolejnych ćwiczeń. Staje się bohaterem opowieści, w której wiedza, wysiłek, ciekawość i wytrwałość mają realne znaczenie.",
       "cards": [
         {
@@ -1422,7 +1422,7 @@
     },
     "guild": {
       "eyebrow": "Szkoła jako gildia",
-      "title": "Szkoła może stać się gildią Eduweer",
+      "title": "Szkoła może stać się gildią Eduria",
       "lead": "Gildia łączy uczniów, klasy i nauczycieli pod wspólną nazwą, symbolem i historią. Każda klasa jest drużyną młodych bohaterów.",
       "levels": [
         {
@@ -1442,11 +1442,11 @@
     "role": {
       "eyebrow": "Rola nauczyciela",
       "title": "Nauczyciel jako przewodnik",
-      "p1": "Eduweer nie ma zastępować nauczyciela, programu nauczania ani sprawdzonych materiałów. Ma nadawać zadaniom fabularny kontekst i budować ciekawość.",
+      "p1": "Eduria nie ma zastępować nauczyciela, programu nauczania ani sprawdzonych materiałów. Ma nadawać zadaniom fabularny kontekst i budować ciekawość.",
       "p2": "Nauczyciel nie staje się operatorem gry. Staje się przewodnikiem wzmacniającym motywację, współpracę, samodzielność i zaangażowanie.",
       "listTitle": "W przyszłości nauczyciele mogliby korzystać z:",
       "tools": [
-        "materiałów edukacyjnych w świecie Eduweer",
+        "materiałów edukacyjnych w świecie Eduria",
         "zadań indywidualnych i grupowych",
         "wyzwań dla całej klasy",
         "klasowych map postępu",
@@ -1460,7 +1460,7 @@
     "benefits": {
       "eyebrow": "Dla dzieci",
       "title": "Więcej sposobów na poznawanie świata",
-      "lead": "Każde dziecko uczy się inaczej. Eduweer łączy czytanie, działanie, rozmowę, ruch, tworzenie i współpracę.",
+      "lead": "Każde dziecko uczy się inaczej. Eduria łączy czytanie, działanie, rozmowę, ruch, tworzenie i współpracę.",
       "cards": [
         {
           "title": "Poczucie celu",
@@ -1537,7 +1537,7 @@
         {
           "label": "Sezon",
           "title": "Wydarzenia sezonowe",
-          "body": "Przygody związane z porami roku i światem Eduweer."
+          "body": "Przygody związane z porami roku i światem Eduria."
         }
       ],
       "note": "Wydarzenia międzyszkolne są częścią długoterminowej wizji, rozwijanej wspólnie z nauczycielami i szkołami."
@@ -1561,7 +1561,7 @@
     },
     "future": {
       "eyebrow": "Przyszłe narzędzia",
-      "title": "Jak może rozwijać się Eduweer dla nauczycieli?",
+      "title": "Jak może rozwijać się Eduria dla nauczycieli?",
       "lead": "Rozwiązania szkolne będą powstawać stopniowo, w oparciu o realne potrzeby nauczycieli, uczniów i szkół.",
       "items": [
         "profile szkół i gildii",
@@ -1581,7 +1581,7 @@
     },
     "cooperation": {
       "eyebrow": "Współpraca ze szkołami",
-      "title": "Chcemy tworzyć Eduweer razem z nauczycielami",
+      "title": "Chcemy tworzyć Eduria razem z nauczycielami",
       "body": "Chcemy poznawać realne potrzeby klas, testować pomysły i rozwijać materiały wartościowo uzupełniające codzienną edukację.",
       "items": [
         "konsultacje z nauczycielami",
@@ -1593,7 +1593,7 @@
         "wspólne projekty",
         "lokalizacja dla różnych systemów edukacji"
       ],
-      "quote": "Eduweer ma dawać nauczycielom dodatkowe możliwości, a dzieciom kolejne drogi do odkrywania, uczenia się i przeżywania przygód."
+      "quote": "Eduria ma dawać nauczycielom dodatkowe możliwości, a dzieciom kolejne drogi do odkrywania, uczenia się i przeżywania przygód."
     },
     "safety": {
       "eyebrow": "Bezpieczeństwo i odpowiedzialność",
@@ -1613,10 +1613,10 @@
     },
     "newsletter": {
       "eyebrow": "Newsletter dla szkół",
-      "title": "Dołącz do nauczycieli Eduweer",
+      "title": "Dołącz do nauczycieli Eduria",
       "lead": "Śledź rozwój projektu i poznawaj pomysły na połączenie edukacji z przygodą.",
       "benefits": [
-        "nowe materiały Eduweer",
+        "nowe materiały Eduria",
         "informacje o Artefaktach",
         "pomysły na zajęcia",
         "planowane funkcje szkolne",
@@ -1641,10 +1641,10 @@
           "inne"
         ],
         "pilot": "Jestem zainteresowany udziałem w przyszłym programie pilotażowym.",
-        "consent": "Chcę otrzymywać informacje o rozwoju Eduweer dla nauczycieli, nowych materiałach i przyszłych pilotażach.",
-        "submit": "Dołącz do nauczycieli Eduweer",
+        "consent": "Chcę otrzymywać informacje o rozwoju Eduria dla nauczycieli, nowych materiałach i przyszłych pilotażach.",
+        "submit": "Dołącz do nauczycieli Eduria",
         "loading": "Zapisywanie…",
-        "success": "Dziękujemy! Witaj w gronie nauczycieli Eduweer. 🌿",
+        "success": "Dziękujemy! Witaj w gronie nauczycieli Eduria. 🌿",
         "errorEmail": "Podaj poprawny adres email",
         "errorRequired": "Uzupełnij wymagane pola i zgodę",
         "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie.",
@@ -1667,7 +1667,7 @@
       "title": "Najczęściej zadawane pytania",
       "items": [
         {
-          "q": "Czy Eduweer dla szkół jest już dostępne?",
+          "q": "Czy Eduria dla szkół jest już dostępne?",
           "a": "Nie. Rozwiązania szkolne są obecnie częścią rozwijanej wizji projektu."
         },
         {
@@ -1675,12 +1675,12 @@
           "a": "Nie. Będzie można korzystać z wybranych materiałów i narzędzi."
         },
         {
-          "q": "Czy Eduweer ma zastąpić podręczniki?",
+          "q": "Czy Eduria ma zastąpić podręczniki?",
           "a": "Nie. Projekt ma uzupełniać istniejące materiały i metody pracy."
         },
         {
           "q": "Czym jest gildia szkolna?",
-          "a": "To reprezentacja szkoły w świecie Eduweer, łącząca klasy, uczniów, nauczycieli i opiekuna."
+          "a": "To reprezentacja szkoły w świecie Eduria, łącząca klasy, uczniów, nauczycieli i opiekuna."
         },
         {
           "q": "Czy klasy będą ze sobą rywalizować?",
@@ -1697,7 +1697,7 @@
       "title": "Help us create a new chapter of educational adventure",
       "body": "Join teachers who want to follow the project and help shape solutions combining learning, cooperation and adventure.",
       "ctaNewsletter": "Join the newsletter",
-      "ctaWorld": "Discover Eduweer"
+      "ctaWorld": "Discover Eduria"
     }
   }
 }

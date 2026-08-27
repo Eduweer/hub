@@ -53,11 +53,11 @@ export const artifactLinks = {
 } as const;
 
 /**
- * mentor.eduweer.com serves every page under a locale prefix (`/pl`, `/de`, …)
+ * mentor.eduria.io serves every page under a locale prefix (`/pl`, `/de`, …)
  * and returns 500 on the bare root, so we always append a locale. Anything
  * outside this allow-list falls back to `parentSignupDefaultLocale`.
  */
-const parentSignupBase = "https://mentor.eduweer.com";
+const parentSignupBase = "https://mentor.eduria.io";
 const parentSignupDefaultLocale = "pl";
 const parentSignupLocales = new Set([
   "pl",

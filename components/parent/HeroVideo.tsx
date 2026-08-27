@@ -68,7 +68,7 @@ export default function HeroVideo() {
       {/* Branded loader — visible until the video can play through, so a slow
           network shows the mark + progress instead of a bare grey panel. */}
       <div className={styles.loader} aria-hidden="true">
-        <div className={styles.brand}>EDUWEER</div>
+        <div className={styles.brand}>EDURIA</div>
         <div className={styles.track}>
           <div
             className={`${styles.fill} ${indeterminate ? styles.indeterminate : ""} ${failed ? styles.stalled : ""}`}

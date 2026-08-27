@@ -166,7 +166,7 @@ export default function InvestorsPage() {
                   <div className={styles.orbitCenter}>
                     <div className={styles.centerHex}>
                       <span className={styles.centerStar}>✦</span>
-                      <span className={styles.centerText}>EDUWEER</span>
+                      <span className={styles.centerText}>EDURIA</span>
                     </div>
                   </div>
 

@@ -54,7 +54,7 @@ export default function TeacherHeroVideo() {
       )}
 
       <div className={styles.loader}>
-        <span>Eduweer</span>
+        <span>Eduria</span>
         <i />
       </div>
     </div>

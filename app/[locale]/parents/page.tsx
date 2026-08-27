@@ -157,7 +157,7 @@ export default function ParentsPage() {
             <div className={styles.ornLine} /><div className={styles.ornDiamond} /><div className={styles.ornLine} />
           </div>
 
-          {/* ── S3 — WHAT IS EDUWEER ── */}
+          {/* ── S3 — WHAT IS EDURIA ── */}
           <section id="what" className={styles.section}>
             <div className={styles.whatCentered}>
               <span className={styles.eye} style={{ color: "var(--green)" }}>
@@ -206,7 +206,7 @@ export default function ParentsPage() {
                 <div className={styles.pbMockup}>
                   <Image
                     src="/images/book_cover.png"
-                    alt="Okładka książki Eduweer — Harvoria"
+                    alt="Okładka książki Eduria — Harvoria"
                     width={360}
                     height={460}
                     style={{ width: "100%", height: "auto", display: "block" }}
@@ -235,7 +235,7 @@ export default function ParentsPage() {
                 <div className={styles.pbMockup}>
                   <Image
                     src="/images/workbook_cover.png"
-                    alt="Okładka Dziennika Bohatera — zeszyt ćwiczeń Eduweer"
+                    alt="Okładka Dziennika Bohatera — zeszyt ćwiczeń Eduria"
                     width={360}
                     height={460}
                     style={{ width: "100%", height: "auto", display: "block" }}
@@ -283,7 +283,7 @@ export default function ParentsPage() {
               </div>
             </div>
 
-            {/* Eduweer Adventure — Game (4th element, reversed) */}
+            {/* Eduria Adventure — Game (4th element, reversed) */}
             <div className={`${styles.productBlock} ${styles.productBlockReverse}`}>
               <div>
                 <span className={styles.pbEyebrow}>{t("elements.game.eyebrow")}</span>
@@ -303,7 +303,7 @@ export default function ParentsPage() {
                 <div className={styles.gameTablet}>
                   <Image
                     src="/images/game_concept_godot_2.webp"
-                    alt="Eduweer Adventure — koncepcja gry mobilnej w Godot, widok horyzontalny"
+                    alt="Eduria Adventure — koncepcja gry mobilnej w Godot, widok horyzontalny"
                     width={1280}
                     height={800}
                     style={{ width: "100%", height: "auto", display: "block" }}

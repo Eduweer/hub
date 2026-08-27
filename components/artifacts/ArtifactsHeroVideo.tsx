@@ -92,7 +92,7 @@ export default function ArtifactsHeroVideo() {
       {/* Branded loader — shown until the video can play through. */}
       {!failed && (
         <div className={styles.loader} aria-hidden="true">
-          <div className={styles.brand}>EDUWEER</div>
+          <div className={styles.brand}>EDURIA</div>
           <div className={styles.track}>
             <div
               className={`${styles.fill} ${indeterminate ? styles.indeterminate : ""}`}
