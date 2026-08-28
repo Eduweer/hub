@@ -213,7 +213,7 @@ export default function ParentsPage() {
               <div className={styles.pbVisual}>
                 <div className={styles.pbMockup}>
                   <Image
-                    src="/images/book_cover.png"
+                    src="/images/book_cover.webp"
                     alt="Okładka książki Eduria — Harvoria"
                     width={360}
                     height={460}
@@ -242,7 +242,7 @@ export default function ParentsPage() {
               <div className={styles.pbVisual}>
                 <div className={styles.pbMockup}>
                   <Image
-                    src="/images/workbook_cover.png"
+                    src="/images/workbook_cover.webp"
                     alt="Okładka Dziennika Bohatera — zeszyt ćwiczeń Eduria"
                     width={360}
                     height={460}
