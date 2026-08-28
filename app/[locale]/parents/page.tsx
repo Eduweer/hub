@@ -13,7 +13,7 @@ import EarlyListSection from "@/components/parent/EarlyListSection";
 import ContactSection from "@/components/parent/ContactSection";
 import ScrollReveal from "@/components/shared/ScrollReveal";
 import styles from "./ParentsPage.module.css";
-import { assetUrl } from "@/lib/cdn";
+import { assetUrl, localizedAsset } from "@/lib/cdn";
 import { getParentSignupUrl } from "@/lib/artifacts";
 import { createFaqJsonLd, createPageMetadata } from "@/lib/seo";
 
@@ -242,7 +242,7 @@ export default function ParentsPage() {
               <div className={styles.pbVisual}>
                 <div className={styles.pbMockup}>
                   <Image
-                    src="/images/workbook_cover.webp"
+                    src={localizedAsset("/images/workbook_cover.webp", locale)}
                     alt="Okładka Dziennika Bohatera — zeszyt ćwiczeń Eduria"
                     width={360}
                     height={460}
