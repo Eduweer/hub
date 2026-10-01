@@ -102,6 +102,13 @@
       }
     },
     "experience": {
+      "pathDescriptions": {
+        "parent": "Ontdek de producten en de wereld van Eduria.",
+        "artifact": "Ontdek werkboeken vol opdrachten en avonturen.",
+        "teacher": "Bekijk hoe je Eduria in de klas kunt gebruiken.",
+        "investor": "Ontdek het concept en de ontwikkelplannen van het project.",
+        "campaign": "Lees meer over de geplande Kickstarter-campagne."
+      },
       "discover": "Ontdek de wereld van Eduria",
       "lead": "Elk avontuur begint met nieuwsgierigheid. Vind jouw weg naar Eduria.",
       "language": "Taal",

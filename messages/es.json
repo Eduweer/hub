@@ -102,6 +102,13 @@
       }
     },
     "experience": {
+      "pathDescriptions": {
+        "parent": "Conoce los productos y el mundo de Eduria.",
+        "artifact": "Descubre cuadernos llenos de actividades y aventuras.",
+        "teacher": "Descubre cómo usar Eduria en el aula.",
+        "investor": "Conoce el concepto y los planes de desarrollo del proyecto.",
+        "campaign": "Infórmate sobre la campaña prevista en Kickstarter."
+      },
       "discover": "Descubre el mundo de Eduria",
       "lead": "Cada aventura empieza con curiosidad. Encuentra tu camino hacia Eduria.",
       "language": "Idioma",

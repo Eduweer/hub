@@ -74,3 +74,14 @@
 
 .eduria-hub{position:relative;isolation:isolate;min-height:100vh;overflow-x:clip}.eduria-hub .space{z-index:-1}.eduria-hub .choices{margin:0}.eduria-hub .check a{text-decoration:underline}.eduria-hub .status{min-height:24px}.eduria-hub button:disabled{opacity:.65;cursor:wait}.eduria-hub .description .index{display:none}
 .eduria-hub .portal-caption button{border:0;background:none;color:#f1ebdc;font-size:9px;padding:7px 0;letter-spacing:0;white-space:nowrap}.eduria-hub .eyebrow,.eduria-hub .path-label{text-transform:uppercase}.eduria-hub .subheading{max-width:430px}.eduria-hub .check input{flex-shrink:0}.eduria-hub .choice{text-transform:none}.eduria-hub .brand{color:var(--text)}
+
+/* A game-style menu keeps each explanation beside its destination. */
+.eduria-hub .choices{display:flex;flex-direction:column;align-items:flex-start;gap:8px;max-width:470px}
+.eduria-hub .choice{display:flex;flex-direction:column;gap:5px;padding:10px 0 12px 23px;width:100%}
+.eduria-hub .choice:before{top:15px}.eduria-hub .choice:after{left:23px;right:25%}
+.eduria-hub .choice-title{font-size:23px;line-height:1.2}
+.eduria-hub .choice-description{font:12px/1.6 Arial,Helvetica,sans-serif;color:#d0d8da;letter-spacing:0;text-shadow:none}
+.eduria-hub .path-label{margin:28px 0 16px}
+.eduria-hub .portal-sanctuary{position:absolute;pointer-events:none;width:126%;max-width:880px;height:auto;left:50%;top:3%;transform:translateX(-50%);z-index:-1;opacity:.38;filter:saturate(.25);mask-image:linear-gradient(180deg,#000 65%,transparent 98%)}
+@media(min-width:701px){.eduria-hub .hero{align-items:start;padding-top:32px}.eduria-hub .intro h1{margin-top:0}.eduria-hub .portal-column{align-self:center}}
+@media(max-width:700px){.eduria-hub .choices,.eduria-hub .path-label{display:none}.eduria-hub .portal-sanctuary{width:132%;top:-4%;opacity:.3}.eduria-hub .intro h1{margin-top:0}}

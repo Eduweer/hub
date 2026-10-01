@@ -102,6 +102,13 @@
       }
     },
     "experience": {
+      "pathDescriptions": {
+        "parent": "Udforsk Edurias produkter og univers.",
+        "artifact": "Opdag øvehæfter fyldt med opgaver og eventyr.",
+        "teacher": "Se, hvordan du kan bruge Eduria i klassen.",
+        "investor": "Lær om projektets idé og udviklingsplaner.",
+        "campaign": "Læs om den planlagte Kickstarter-kampagne."
+      },
       "discover": "Oplev Edurias verden",
       "lead": "Alle eventyr begynder med nysgerrighed. Find din vej til Eduria.",
       "language": "Sprog",

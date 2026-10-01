@@ -66,14 +66,11 @@ export default function WorldHub(){
    <header><Link className="brand" href="/" onClick={event=>{event.preventDefault();if(locked.current)return;setActive(0);window.scrollTo({top:0,behavior:paused?'instant':'smooth'})}}>EDURIA</Link><div className="header-right"><div className="social-slot" aria-hidden="true"/><label className="sr" htmlFor="hub-language">{c('language')}</label><select id="hub-language" value={locale} onChange={event=>router.replace('/',{locale:event.target.value})}>{languages.map(([code,name])=><option key={code} value={code}>{name}</option>)}</select></div></header>
    <main>
     <section className="hero" aria-labelledby="hub-heading"><div className="intro">
-     <div className="eyebrow"><span/>{c('discover')}</div>
      <h1 id="hub-heading">{t('titleBefore')}{t('titleAccent')}{t('titleAfter')}<br/><em>{t('titleLine2')}</em></h1>
-     <p className="subheading">{c('lead')}</p>
-     <div className="path-label">{t('eyebrow')} <span aria-hidden="true">↘</span></div>
-     <nav className="choices" aria-label={t('eyebrow')}>{paths.map((path,index)=><Link key={path.key} className="choice" href={path.href} data-active={active===index} onPointerEnter={event=>{if(event.pointerType==='mouse')choose(index)}} onFocus={()=>choose(index)} onClick={event=>enter(event,index)}>{t(`portals.${path.key}.name`)}</Link>)}</nav>
-     <div className="description" aria-live="polite"><h2>{t(`portals.${scene.key}.name`)}</h2><p>{t(`portals.${scene.key}.desc`)}</p></div>
+     <div className="path-label">{t('eyebrow')}</div>
+     <nav className="choices" aria-label={t('eyebrow')}>{paths.map((path,index)=><Link key={path.key} className="choice" href={path.href} data-active={active===index} onPointerEnter={event=>{if(event.pointerType==='mouse')choose(index)}} onFocus={()=>choose(index)} onClick={event=>enter(event,index)}><span className="choice-title">{t(`portals.${path.key}.name`)}</span><span className="choice-description">{c(`pathDescriptions.${path.key}`)}</span></Link>)}</nav>
     </div>
-    <div className="portal-column"><img className="stone-walkway" src="/hub/stone-walkway.png" alt="" aria-hidden="true"/>
+    <div className="portal-column"><img className="portal-sanctuary" src="/hub/portal-sanctuary.png" alt="" aria-hidden="true"/>
      <div className="portal" ref={portal} onPointerMove={event=>{if(paused||event.pointerType!=='mouse')return;const r=event.currentTarget.getBoundingClientRect();event.currentTarget.style.setProperty('--px',`${((event.clientX-r.left)/r.width-.5)*12}px`);event.currentTarget.style.setProperty('--py',`${((event.clientY-r.top)/r.height-.5)*12}px`)}} onPointerLeave={event=>{event.currentTarget.style.setProperty('--px','0px');event.currentTarget.style.setProperty('--py','0px')}}>
       <div className="halo"/><div className="orbit orbit-one"/><div className="orbit orbit-two"/>
       <div className="aperture">{paths.map((path,index)=><img key={path.key} src={assetUrl(`/images/${path.image}`)} alt="" className={`scene${index===active?' active':''}`} fetchPriority={index===0?'high':'auto'}/>)}</div>
@@ -92,7 +89,7 @@ export default function WorldHub(){
       </form>}
      </article>
     </section>
-    <section className="mobile-paths" aria-label={t('eyebrow')}><div className="eyebrow">{t('eyebrow')}</div><div id="mobile-cards">{paths.map(path=><Link className="mobile-card" href={path.href} key={path.key}><img src={assetUrl(`/images/${path.image}`)} alt="" loading="lazy"/><h3>{t(`portals.${path.key}.name`)}</h3><p>{t(`portals.${path.key}.desc`)}</p><span>{t(`portals.${path.key}.cta`)} →</span></Link>)}</div></section>
+    <section className="mobile-paths" aria-label={t('eyebrow')}><div className="eyebrow">{t('eyebrow')}</div><div id="mobile-cards">{paths.map(path=><Link className="mobile-card" href={path.href} key={path.key}><img src={assetUrl(`/images/${path.image}`)} alt="" loading="lazy"/><h3>{t(`portals.${path.key}.name`)}</h3><p>{c(`pathDescriptions.${path.key}`)}</p><span>{t(`portals.${path.key}.cta`)} →</span></Link>)}</div></section>
    </main>
    <footer><span className="footer-brand">EDURIA · HARVORIA &amp; BEYOND</span><span>© 2026 Radosław Kamysz</span><nav><Link href="/privacy">{footer('privacy')}</Link><Link href="/parents#dolacz">{footer('contact')}</Link></nav></footer>
   </div>

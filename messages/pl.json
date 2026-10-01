@@ -102,6 +102,13 @@
       }
     },
     "experience": {
+      "pathDescriptions": {
+        "parent": "Poznaj produkty i świat Edurii.",
+        "artifact": "Odkryj zeszyty pełne zadań i przygód.",
+        "teacher": "Zobacz, jak wykorzystać Edurię w klasie.",
+        "investor": "Poznaj koncepcję i kierunek rozwoju projektu.",
+        "campaign": "Dowiedz się o planowanej kampanii Kickstarter."
+      },
       "discover": "Odkryj świat Edurii",
       "lead": "Każda przygoda zaczyna się od ciekawości. Znajdź swoją drogę do Edurii.",
       "language": "Język",

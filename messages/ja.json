@@ -102,6 +102,13 @@
       }
     },
     "experience": {
+      "pathDescriptions": {
+        "parent": "Eduriaの教材と世界を知ろう。",
+        "artifact": "課題と冒険が詰まったワークブックを見つけよう。",
+        "teacher": "授業でのEduriaの活用方法をご紹介します。",
+        "investor": "プロジェクトの構想と今後の展開をご紹介します。",
+        "campaign": "予定されているKickstarterキャンペーンについて。"
+      },
       "discover": "Eduriaの世界へ",
       "lead": "すべての冒険は好奇心から始まります。Eduriaへの道を見つけましょう。",
       "language": "言語",
