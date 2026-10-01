@@ -100,6 +100,37 @@
         "label": "Harvoria",
         "text": "O primeiro reino — um começo tranquilo para cada aventura"
       }
+    },
+    "experience": {
+      "discover": "Conheça o mundo de Eduria",
+      "lead": "Toda a aventura começa com curiosidade. Encontre o seu caminho para Eduria.",
+      "language": "Idioma",
+      "pause": "Pausar animação",
+      "play": "Ativar animação",
+      "productEyebrow": "A sua aventura começa agora",
+      "productTitle": "O primeiro caderno de Artefatos chegou.",
+      "productLead": "Pequenas tarefas. Grandes descobertas. Disponível em polaco, alemão e inglês.",
+      "country": "País de compra",
+      "poland": "Polónia",
+      "germany": "Alemanha",
+      "uk": "Reino Unido",
+      "editionPl": "Edição polaca",
+      "editionDe": "Edição alemã",
+      "editionEn": "Edição inglesa",
+      "newsEyebrow": "O próximo capítulo? Fique por perto.",
+      "newsTitle": "Faça parte desta história.",
+      "newsLead": "Novos cadernos, notícias de Eduria e novas aventuras. Diretamente na sua caixa de correio.",
+      "early": "Também quero aderir à lista de pré-lançamento e receber convites para testar novos materiais.",
+      "consent": "Quero receber a newsletter de Eduria. Posso cancelar a subscrição a qualquer momento.",
+      "consentRequired": "Para te inscreveres, aceita receber a newsletter.",
+      "addAnother": "Adicionar outro endereço",
+      "success": "Obrigado! Subscreveu a newsletter.",
+      "successBoth": "Obrigado! Aderiu à newsletter e à lista de pré-lançamento.",
+      "error": "Não foi possível concluir a subscrição. Tente novamente.",
+      "rate": "Demasiadas tentativas. Tente novamente dentro de uma hora.",
+      "loading": "A subscrever…",
+      "email": "O seu endereço de e-mail",
+      "submit": "Subscrever"
     }
   },
   "parent": {
@@ -1365,339 +1396,339 @@
   "teacher": {
     "meta": {
       "title": "Eduria para professores – aprendizagem, aventura e guildas escolares",
-      "description": "Conheça a visão da Eduria para professores e escolas: guildas escolares, desafios partilhados e aprendizagem através da aventura."
+      "description": "Conheça a visão de Eduria para professores e escolas: guildas escolares, desafios partilhados e desenvolvimento das crianças através da aprendizagem e da aventura."
     },
     "nav": [
-      "Vision",
-      "Guilds",
-      "For teachers",
-      "Events",
+      "Visão",
+      "Guildas",
+      "Para professores",
+      "Eventos",
       "Newsletter"
     ],
     "hero": {
-      "eyebrow": "Eduria for Teachers",
-      "title": "Every school can write its own story in the world of Eduria",
-      "lead": "Eduria connects story, learning activities, child development and game-inspired systems.",
-      "body": "In the future, schools will join the adventure as guilds that unite students, teachers and classes under one symbol. We want to connect the two key environments in a child's growth: home and school.",
-      "ctaPrimary": "Discover Eduria for schools",
-      "ctaSecondary": "Teacher newsletter",
-      "note": "Eduria for schools is part of our developing vision. Join the newsletter to follow progress and help shape future solutions.",
-      "seal": "School guild",
-      "orbitClass": "Classes",
-      "orbitTeacher": "Teachers",
-      "orbitStudent": "Students"
+      "eyebrow": "Eduria para professores",
+      "title": "Cada escola pode escrever a sua própria história no mundo de Eduria",
+      "lead": "Eduria liga histórias, exercícios, desenvolvimento infantil e mecânicas de jogo.",
+      "body": "No futuro, as escolas poderão juntar-se a esta aventura como guildas que reúnem alunos, professores e turmas sob um símbolo comum. Queremos ligar os dois ambientes mais importantes para o desenvolvimento da criança: a casa e a escola.",
+      "ctaPrimary": "Conheça Eduria para escolas",
+      "ctaSecondary": "Newsletter para professores",
+      "note": "Eduria para escolas faz parte da visão do projeto em desenvolvimento. Subscreva a newsletter para acompanhar os progressos e ajudar a definir futuras soluções.",
+      "seal": "Guilda escolar",
+      "orbitClass": "Turmas",
+      "orbitTeacher": "Professores",
+      "orbitStudent": "Alunos"
     },
     "intro": {
-      "eyebrow": "Czym jest Eduria?",
-      "title": "Nauka opowiedziana jako przygoda",
-      "p1": "Eduria powstaje jako połączony ekosystem edukacyjny dla dzieci, rodziców i nauczycieli. Książki wprowadzają dziecko do świata, zeszyty rozwijają umiejętności, a aplikacja i gra przenoszą postęp do interaktywnej przygody.",
-      "p2": "Dziecko nie wykonuje jedynie kolejnych ćwiczeń. Staje się bohaterem opowieści, w której wiedza, wysiłek, ciekawość i wytrwałość mają realne znaczenie.",
+      "eyebrow": "O que é Eduria?",
+      "title": "A aprendizagem contada como uma aventura",
+      "p1": "Eduria está a ser desenvolvido como um ecossistema educativo interligado para crianças, pais e professores. Os livros apresentam o mundo à criança, os cadernos desenvolvem competências e a aplicação e o jogo transformam os progressos numa aventura interativa.",
+      "p2": "A criança não se limita a resolver um exercício após outro. Torna-se a heroína de uma história em que o conhecimento, o esforço, a curiosidade e a perseverança têm verdadeiro significado.",
       "cards": [
         {
-          "title": "Opowieść",
-          "body": "Rozbudowany świat fantasy, bohaterowie, krainy i przygody nadające ćwiczeniom szerszy kontekst."
+          "title": "História",
+          "body": "Um vasto mundo de fantasia, personagens, terras e aventuras dão aos exercícios um contexto mais amplo."
         },
         {
-          "title": "Edukacja",
-          "body": "Zadania rozwijające wiedzę, koncentrację, kreatywność, samodzielność i ważne umiejętności."
+          "title": "Educação",
+          "body": "Atividades que desenvolvem conhecimentos, concentração, criatividade, autonomia e competências importantes."
         },
         {
-          "title": "Rozwój bohatera",
-          "body": "Postęp dziecka jest rozwojem własnej postaci, zdobywaniem doświadczenia i nowych możliwości."
+          "title": "Evolução do herói",
+          "body": "Os progressos da criança fazem evoluir a sua personagem, que ganha experiência e novas possibilidades."
         },
         {
-          "title": "Połączony ekosystem",
-          "body": "Książki, Artefakty, aplikacja, portal i gra tworzą jedną, spójną drogę rozwoju."
+          "title": "Um ecossistema interligado",
+          "body": "Livros, Artefatos, aplicação, portal e jogo formam um único percurso de desenvolvimento coerente."
         }
       ]
     },
     "homeSchool": {
-      "eyebrow": "Dom i szkoła",
-      "title": "Jedna przygoda, dwa ważne środowiska",
-      "p1": "Rodzice najlepiej znają codzienne potrzeby dziecka. Nauczyciele pomagają mu odkrywać wiedzę, współpracować i rozwijać się jako część społeczności.",
-      "p2": "Dziecko może rozwijać bohatera z pomocą rodzica, a jednocześnie uczestniczyć w przygodach klasy i szkolnej gildii.",
-      "quote": "Dziecko pozostaje bohaterem własnej historii, ale nie musi przeżywać jej samotnie.",
-      "home": "Dom",
-      "school": "Szkoła"
+      "eyebrow": "Casa e escola",
+      "title": "Uma aventura, dois ambientes importantes",
+      "p1": "Os pais conhecem melhor do que ninguém as necessidades diárias da criança. Os professores ajudam-na a descobrir conhecimentos, a colaborar e a crescer como parte de uma comunidade.",
+      "p2": "A criança pode desenvolver o seu herói com a ajuda dos pais e, ao mesmo tempo, participar nas aventuras da turma e da guilda escolar.",
+      "quote": "A criança continua a ser a heroína da sua própria história, mas não tem de a viver sozinha.",
+      "home": "Casa",
+      "school": "Escola"
     },
     "guild": {
-      "eyebrow": "Szkoła jako gildia",
-      "title": "Szkoła może stać się gildią Eduria",
-      "lead": "Gildia łączy uczniów, klasy i nauczycieli pod wspólną nazwą, symbolem i historią. Każda klasa jest drużyną młodych bohaterów.",
+      "eyebrow": "A escola como guilda",
+      "title": "Uma escola pode tornar-se uma guilda de Eduria",
+      "lead": "Uma guilda reúne alunos, turmas e professores sob um nome, um símbolo e uma história comuns. Cada turma é uma equipa de jovens heróis.",
       "levels": [
         {
-          "title": "Bohater",
-          "body": "Każde dziecko rozwija własną postać, zdobywa doświadczenie i realizuje indywidualne zadania."
+          "title": "Herói",
+          "body": "Cada criança desenvolve a sua própria personagem, ganha experiência e realiza tarefas individuais."
         },
         {
-          "title": "Drużyna klasowa",
-          "body": "Klasa podejmuje wspólne wyzwania, zdobywa osiągnięcia i pracuje nad wspólnym celem."
+          "title": "Equipa da turma",
+          "body": "A turma enfrenta desafios partilhados, alcança conquistas e trabalha para um objetivo comum."
         },
         {
-          "title": "Gildia szkolna",
-          "body": "Cała szkoła buduje swoją historię, bierze udział w wydarzeniach i łączy wyniki klas."
+          "title": "Guilda escolar",
+          "body": "Toda a escola constrói a sua história, participa em eventos e reúne os resultados das turmas."
         }
       ]
     },
     "role": {
-      "eyebrow": "Rola nauczyciela",
-      "title": "Nauczyciel jako przewodnik",
-      "p1": "Eduria nie ma zastępować nauczyciela, programu nauczania ani sprawdzonych materiałów. Ma nadawać zadaniom fabularny kontekst i budować ciekawość.",
-      "p2": "Nauczyciel nie staje się operatorem gry. Staje się przewodnikiem wzmacniającym motywację, współpracę, samodzielność i zaangażowanie.",
-      "listTitle": "W przyszłości nauczyciele mogliby korzystać z:",
+      "eyebrow": "O papel do professor",
+      "title": "O professor como guia",
+      "p1": "Eduria não pretende substituir o professor, o currículo ou os materiais de eficácia comprovada. Pretende dar um contexto narrativo às atividades e despertar a curiosidade.",
+      "p2": "O professor não se torna um administrador do jogo. Torna-se um guia que reforça a motivação, a colaboração, a autonomia e o envolvimento.",
+      "listTitle": "No futuro, os professores poderão utilizar:",
       "tools": [
-        "materiałów edukacyjnych w świecie Eduria",
-        "zadań indywidualnych i grupowych",
-        "wyzwań dla całej klasy",
-        "klasowych map postępu",
-        "osiągnięć drużynowych",
-        "scenariuszy zajęć",
-        "materiałów do wydruku",
-        "podglądu postępów klasy",
-        "narzędzi do szkolnych przygód"
+        "materiais educativos no mundo de Eduria",
+        "tarefas individuais e de grupo",
+        "desafios para toda a turma",
+        "mapas de progresso da turma",
+        "conquistas de equipa",
+        "planos de aula",
+        "materiais para imprimir",
+        "uma visão geral dos progressos da turma",
+        "ferramentas para aventuras escolares"
       ]
     },
     "benefits": {
-      "eyebrow": "Dla dzieci",
-      "title": "Więcej sposobów na poznawanie świata",
-      "lead": "Każde dziecko uczy się inaczej. Eduria łączy czytanie, działanie, rozmowę, ruch, tworzenie i współpracę.",
+      "eyebrow": "Para as crianças",
+      "title": "Mais formas de descobrir o mundo",
+      "lead": "Cada criança aprende de maneira diferente. Eduria combina leitura, ação, conversa, movimento, criação e colaboração.",
       "cards": [
         {
-          "title": "Poczucie celu",
-          "body": "Zadanie jest elementem większej przygody."
+          "title": "Um sentido de propósito",
+          "body": "Cada tarefa faz parte de uma aventura maior."
         },
         {
-          "title": "Widoczny postęp",
-          "body": "Regularna praca rozwija bohatera i prowadzi do odkryć."
+          "title": "Progressos visíveis",
+          "body": "O trabalho regular faz evoluir o herói e leva a novas descobertas."
         },
         {
-          "title": "Przynależność",
-          "body": "Uczeń jest częścią klasy, drużyny i gildii."
+          "title": "Sentido de pertença",
+          "body": "O aluno faz parte de uma turma, de uma equipa e de uma guilda."
         },
         {
-          "title": "Współpraca",
-          "body": "Część wyzwań wymaga wspólnego działania."
+          "title": "Colaboração",
+          "body": "Alguns desafios exigem trabalho conjunto."
         },
         {
-          "title": "Ciekawość",
-          "body": "Opowieść i tajemnice zachęcają do poznawania."
+          "title": "Curiosidade",
+          "body": "A história e os mistérios incentivam a descoberta."
         },
         {
-          "title": "Radość z nauki",
-          "body": "Nauka staje się źródłem satysfakcji i przygody."
+          "title": "O prazer de aprender",
+          "body": "A aprendizagem torna-se uma fonte de satisfação e aventura."
         }
       ]
     },
     "competition": {
-      "eyebrow": "Współpraca i zdrowa rywalizacja",
-      "title": "Wspólne cele zamiast niepotrzebnej presji",
-      "body": "Rankingi nie powinny publicznie oceniać pojedynczych dzieci. Mają wspierać regularność, współpracę i zaangażowanie całych drużyn.",
-      "listTitle": "Punkty mogą być przyznawane za:",
+      "eyebrow": "Colaboração e competição saudável",
+      "title": "Objetivos partilhados sem pressão desnecessária",
+      "body": "As classificações não devem avaliar publicamente cada criança. Devem incentivar a regularidade, a colaboração e o envolvimento de equipas inteiras.",
+      "listTitle": "Poderão ser atribuídos pontos por:",
       "items": [
-        "systematyczność",
-        "udział całej klasy",
-        "pomoc innym",
-        "kreatywność",
-        "współpracę",
-        "wytrwałość",
-        "projekty społeczne i ekologiczne"
+        "regularidade",
+        "participação de toda a turma",
+        "ajuda aos outros",
+        "criatividade",
+        "colaboração",
+        "perseverança",
+        "projetos sociais e ambientais"
       ],
-      "quote": "Nie każda drużyna musi zwyciężać w ten sam sposób."
+      "quote": "Nem todas as equipas têm de vencer da mesma forma."
     },
     "events": {
-      "eyebrow": "Wydarzenia międzyszkolne",
-      "title": "Wielkie przygody mogą łączyć wiele szkół",
-      "lead": "Gildie będą mogły brać udział w wydarzeniach opartych na przyjaznej rywalizacji albo współpracy nad wspólnym celem.",
+      "eyebrow": "Eventos entre escolas",
+      "title": "Grandes aventuras podem unir muitas escolas",
+      "lead": "As guildas poderão participar em eventos baseados numa competição amigável ou na colaboração para atingir um objetivo comum.",
       "cards": [
         {
-          "label": "Wiedza",
-          "title": "Turnieje wiedzy",
-          "body": "Zadania i zagadki związane z określonym obszarem edukacji."
+          "label": "Conhecimento",
+          "title": "Torneios de conhecimento",
+          "body": "Tarefas e enigmas ligados a uma área de aprendizagem específica."
         },
         {
-          "label": "Czytanie",
-          "title": "Wyprawy czytelnicze",
-          "body": "Wspólne historie, zadania i kolejne etapy wyprawy."
+          "label": "Leitura",
+          "title": "Expedições de leitura",
+          "body": "Histórias partilhadas, tarefas e etapas sucessivas de uma expedição."
         },
         {
-          "label": "Tworzenie",
-          "title": "Konkursy kreatywne",
-          "body": "Opowiadania, ilustracje, wynalazki i własne fragmenty świata."
+          "label": "Criação",
+          "title": "Concursos criativos",
+          "body": "Contos, ilustrações, invenções e partes do mundo criadas pelas crianças."
         },
         {
-          "label": "Natura",
-          "title": "Wyzwania ekologiczne",
-          "body": "Działania związane ze środowiskiem i lokalną społecznością."
+          "label": "Natureza",
+          "title": "Desafios ambientais",
+          "body": "Atividades ligadas ao ambiente e à comunidade local."
         },
         {
-          "label": "Drużyna",
-          "title": "Misje zespołowe",
-          "body": "Powodzenie zależy od udziału całej klasy."
+          "label": "Equipa",
+          "title": "Missões de equipa",
+          "body": "O sucesso depende da participação de toda a turma."
         },
         {
-          "label": "Sezon",
-          "title": "Wydarzenia sezonowe",
-          "body": "Przygody związane z porami roku i światem Eduria."
+          "label": "Estações",
+          "title": "Eventos sazonais",
+          "body": "Aventuras ligadas às estações do ano e ao mundo de Eduria."
         }
       ],
-      "note": "Wydarzenia międzyszkolne są częścią długoterminowej wizji, rozwijanej wspólnie z nauczycielami i szkołami."
+      "note": "Os eventos entre escolas fazem parte de uma visão a longo prazo, desenvolvida em conjunto com professores e escolas."
     },
     "artifacts": {
-      "eyebrow": "Artefakty w szkole",
-      "title": "Próby Strażników mogą rozpocząć się także w klasie",
-      "body": "Artefakty to zeszyty ćwiczeń prowadzone przez Strażników. Rozwijają określone umiejętności i w przyszłości mogą służyć jako materiały klasowe.",
-      "listTitle": "Możliwe zastosowania",
+      "eyebrow": "Artefatos na escola",
+      "title": "As Provas dos Guardiões também podem começar na sala de aula",
+      "body": "Os Artefatos são cadernos de exercícios guiados pelos Guardiões. Desenvolvem competências específicas e, no futuro, poderão ser utilizados como materiais de aula.",
+      "listTitle": "Possíveis utilizações",
       "items": [
-        "praca indywidualna",
-        "zajęcia dodatkowe",
-        "świetlica",
-        "różne tempo pracy",
-        "zadania dla uczniów kończących wcześniej",
-        "tygodniowe wyzwania klasowe",
-        "wspólne Próby Strażników",
-        "pakiety dla całej klasy"
+        "trabalho individual",
+        "atividades extracurriculares",
+        "atividades de tempos livres",
+        "trabalho a diferentes ritmos",
+        "tarefas para alunos que terminam mais cedo",
+        "desafios semanais da turma",
+        "Provas dos Guardiões em conjunto",
+        "conjuntos para toda a turma"
       ],
-      "quote": "Każdy zeszyt to osobna przygoda. Każda klasa może przeżyć ją na własny sposób."
+      "quote": "Cada caderno é uma aventura própria. Cada turma pode vivê-la à sua maneira."
     },
     "future": {
-      "eyebrow": "Przyszłe narzędzia",
-      "title": "Jak może rozwijać się Eduria dla nauczycieli?",
-      "lead": "Rozwiązania szkolne będą powstawać stopniowo, w oparciu o realne potrzeby nauczycieli, uczniów i szkół.",
+      "eyebrow": "Ferramentas futuras",
+      "title": "Como poderá evoluir Eduria para professores?",
+      "lead": "As soluções escolares serão desenvolvidas gradualmente, com base nas necessidades reais dos professores, dos alunos e das escolas.",
       "items": [
-        "profile szkół i gildii",
-        "struktura klas",
-        "role nauczycieli",
-        "osiągnięcia szkolne",
-        "rankingi gildii",
-        "wspólne zadania",
-        "wydarzenia sezonowe",
-        "materiały dla nauczycieli",
-        "scenariusze zajęć",
-        "pakiety Artefaktów",
-        "mapy postępu",
-        "raporty aktywności"
+        "perfis de escolas e guildas",
+        "organização das turmas",
+        "papéis dos professores",
+        "conquistas escolares",
+        "classificações das guildas",
+        "tarefas partilhadas",
+        "eventos sazonais",
+        "materiais para professores",
+        "planos de aula",
+        "conjuntos de Artefatos",
+        "mapas de progresso",
+        "relatórios de atividade"
       ],
-      "note": "Te elementy przedstawiają kierunek rozwoju, a nie listę funkcji dostępnych obecnie."
+      "note": "Estes elementos apresentam a direção do desenvolvimento, e não uma lista de funcionalidades já disponíveis."
     },
     "cooperation": {
-      "eyebrow": "Współpraca ze szkołami",
-      "title": "Chcemy tworzyć Eduria razem z nauczycielami",
-      "body": "Chcemy poznawać realne potrzeby klas, testować pomysły i rozwijać materiały wartościowo uzupełniające codzienną edukację.",
+      "eyebrow": "Colaboração com escolas",
+      "title": "Queremos criar Eduria em conjunto com os professores",
+      "body": "Queremos conhecer as necessidades reais das turmas, testar ideias e desenvolver materiais que complementem de forma útil a educação diária.",
       "items": [
-        "konsultacje z nauczycielami",
-        "testowanie materiałów",
-        "programy pilotażowe",
-        "warsztaty dla dzieci",
-        "pakiety klasowe",
-        "wydarzenia szkolne",
-        "wspólne projekty",
-        "lokalizacja dla różnych systemów edukacji"
+        "consultas com professores",
+        "testes de materiais",
+        "programas-piloto",
+        "oficinas para crianças",
+        "conjuntos para turmas",
+        "eventos escolares",
+        "projetos conjuntos",
+        "adaptação a diferentes sistemas educativos"
       ],
-      "quote": "Eduria ma dawać nauczycielom dodatkowe możliwości, a dzieciom kolejne drogi do odkrywania, uczenia się i przeżywania przygód."
+      "quote": "Eduria pretende dar aos professores novas possibilidades e às crianças mais caminhos para descobrir, aprender e viver aventuras."
     },
     "safety": {
-      "eyebrow": "Bezpieczeństwo i odpowiedzialność",
-      "title": "Technologia, która ma wspierać, a nie przeszkadzać",
-      "body": "Nauczyciele i rodzice powinni zachowywać kontrolę nad doświadczeniem dziecka.",
+      "eyebrow": "Segurança e responsabilidade",
+      "title": "Tecnologia que apoia sem atrapalhar",
+      "body": "Professores e pais devem manter o controlo sobre a experiência da criança.",
       "items": [
-        "ochrona danych dzieci",
-        "jasne role dorosłych",
-        "ograniczony dostęp do danych",
-        "bezpieczna komunikacja",
-        "brak kontaktu z nieznajomymi",
-        "odpowiedzialne rankingi",
-        "brak publicznego zawstydzania",
-        "równowaga online i offline"
+        "proteção dos dados das crianças",
+        "papéis claros para os adultos",
+        "acesso limitado aos dados",
+        "comunicação segura",
+        "sem contacto com desconhecidos",
+        "classificações responsáveis",
+        "sem humilhação pública",
+        "equilíbrio entre atividades online e offline"
       ],
-      "summary": "Celem nie jest zatrzymanie dzieci przed ekranem, lecz zachęcanie ich do czytania, myślenia, tworzenia i wspólnego działania."
+      "summary": "O objetivo não é manter as crianças em frente ao ecrã, mas incentivá-las a ler, pensar, criar e agir em conjunto."
     },
     "newsletter": {
-      "eyebrow": "Newsletter dla szkół",
-      "title": "Dołącz do nauczycieli Eduria",
-      "lead": "Śledź rozwój projektu i poznawaj pomysły na połączenie edukacji z przygodą.",
+      "eyebrow": "Newsletter para escolas",
+      "title": "Junte-se aos professores de Eduria",
+      "lead": "Acompanhe o desenvolvimento do projeto e descubra ideias para unir educação e aventura.",
       "benefits": [
-        "nowe materiały Eduria",
-        "informacje o Artefaktach",
-        "pomysły na zajęcia",
-        "planowane funkcje szkolne",
-        "zaproszenia do konsultacji i pilotaży",
-        "wpływ na rozwój szkolnych gildii"
+        "novos materiais de Eduria",
+        "informações sobre os Artefatos",
+        "ideias para as aulas",
+        "funcionalidades escolares previstas",
+        "convites para consultas e programas-piloto",
+        "participação no desenvolvimento das guildas escolares"
       ],
-      "note": "Bez spamu. Tylko najważniejsze informacje dla nauczycieli i szkół.",
+      "note": "Sem spam. Apenas as informações mais importantes para professores e escolas.",
       "form": {
-        "email": "Adres e-mail",
-        "emailPlaceholder": "nauczyciel@szkola.pl",
-        "country": "Kraj",
-        "countryPlaceholder": "Polska",
-        "stage": "Nauczany etap",
-        "stagePlaceholder": "Wybierz etap",
+        "email": "Endereço de e-mail",
+        "emailPlaceholder": "professor@escola.example",
+        "country": "País",
+        "countryPlaceholder": "Selecione um país",
+        "stage": "Nível de ensino",
+        "stagePlaceholder": "Selecione um nível",
         "stages": [
-          "edukacja przedszkolna",
-          "edukacja wczesnoszkolna",
-          "szkoła podstawowa",
-          "szkoła ponadpodstawowa",
-          "zajęcia dodatkowe",
-          "świetlica",
-          "inne"
+          "educação pré-escolar",
+          "primeiros anos do ensino básico",
+          "ensino básico",
+          "ensino secundário",
+          "atividades extracurriculares",
+          "atividades de tempos livres",
+          "outro"
         ],
-        "pilot": "Jestem zainteresowany udziałem w przyszłym programie pilotażowym.",
-        "consent": "Chcę otrzymywać informacje o rozwoju Eduria dla nauczycieli, nowych materiałach i przyszłych pilotażach.",
-        "submit": "Dołącz do nauczycieli Eduria",
-        "loading": "Zapisywanie…",
-        "success": "Dziękujemy! Witaj w gronie nauczycieli Eduria. 🌿",
-        "errorEmail": "Podaj poprawny adres email",
-        "errorRequired": "Uzupełnij wymagane pola i zgodę",
-        "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie.",
+        "pilot": "Tenho interesse em participar num futuro programa-piloto.",
+        "consent": "Quero receber informações sobre o desenvolvimento de Eduria para professores, novos materiais e futuros programas-piloto.",
+        "submit": "Junte-se aos professores de Eduria",
+        "loading": "A subscrever…",
+        "success": "Obrigado! Damos-lhe as boas-vindas à comunidade de professores de Eduria. 🌿",
+        "errorEmail": "Introduza um endereço de e-mail válido",
+        "errorRequired": "Preencha os campos obrigatórios e dê o seu consentimento",
+        "errorGeneric": "Ocorreu um erro. Tente novamente.",
         "countries": [
-          "Poland",
-          "Germany",
-          "France",
-          "Spain",
-          "Italy",
-          "Japan",
-          "Denmark",
-          "Netherlands",
+          "Polónia",
+          "Alemanha",
+          "França",
+          "Espanha",
+          "Itália",
+          "Japão",
+          "Dinamarca",
+          "Países Baixos",
           "Portugal",
-          "Other country"
+          "Outro país"
         ]
       }
     },
     "faq": {
-      "eyebrow": "FAQ",
-      "title": "Najczęściej zadawane pytania",
+      "eyebrow": "Perguntas e respostas",
+      "title": "Perguntas frequentes",
       "items": [
         {
-          "q": "Czy Eduria dla szkół jest już dostępne?",
-          "a": "Nie. Rozwiązania szkolne są obecnie częścią rozwijanej wizji projektu."
+          "q": "Eduria para escolas já está disponível?",
+          "a": "Não. As soluções escolares fazem atualmente parte da visão do projeto em desenvolvimento."
         },
         {
-          "q": "Czy nauczyciel będzie musiał korzystać z gry?",
-          "a": "Nie. Będzie można korzystać z wybranych materiałów i narzędzi."
+          "q": "Os professores terão de utilizar o jogo?",
+          "a": "Não. Será possível utilizar apenas alguns materiais e ferramentas."
         },
         {
-          "q": "Czy Eduria ma zastąpić podręczniki?",
-          "a": "Nie. Projekt ma uzupełniać istniejące materiały i metody pracy."
+          "q": "Eduria pretende substituir os manuais escolares?",
+          "a": "Não. O projeto pretende complementar os materiais e os métodos de ensino existentes."
         },
         {
-          "q": "Czym jest gildia szkolna?",
-          "a": "To reprezentacja szkoły w świecie Eduria, łącząca klasy, uczniów, nauczycieli i opiekuna."
+          "q": "O que é uma guilda escolar?",
+          "a": "É a representação de uma escola no mundo de Eduria, reunindo turmas, alunos, professores e um responsável."
         },
         {
-          "q": "Czy klasy będą ze sobą rywalizować?",
-          "a": "Możliwe wydarzenia mają wspierać współpracę i regularność, bez publicznego porównywania dzieci."
+          "q": "As turmas vão competir entre si?",
+          "a": "Os possíveis eventos pretendem incentivar a colaboração e a regularidade, sem comparar publicamente as crianças."
         },
         {
-          "q": "Jak zaangażować szkołę?",
-          "a": "Dołącz do newslettera i zaznacz zainteresowanie przyszłym pilotażem."
+          "q": "Como pode uma escola participar?",
+          "a": "Subscreva a newsletter e indique o seu interesse num futuro programa-piloto."
         }
       ]
     },
     "final": {
-      "eyebrow": "A new chapter",
-      "title": "Help us create a new chapter of educational adventure",
-      "body": "Join teachers who want to follow the project and help shape solutions combining learning, cooperation and adventure.",
-      "ctaNewsletter": "Join the newsletter",
-      "ctaWorld": "Discover Eduria"
+      "eyebrow": "Um novo capítulo",
+      "title": "Ajude-nos a criar um novo capítulo da aventura educativa",
+      "body": "Junte-se aos professores que querem acompanhar o desenvolvimento do projeto e ajudar a criar soluções que combinem aprendizagem, colaboração e aventura.",
+      "ctaNewsletter": "Subscreva a newsletter",
+      "ctaWorld": "Conheça o mundo de Eduria"
     }
   }
 }

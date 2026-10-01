@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow">
+<title>Eduria — prototyp portalu</title>
+<link rel="stylesheet" href="hub.css">
+</head>
+<body>
+<div class="passage-light" aria-hidden="true"></div>
+<div class="space" aria-hidden="true"></div>
+<div class="shell">
+<header><button class="brand" id="reset" aria-label="Eduria — wróć do początku">EDURIA</button><div class="header-right"><span class="social-slot" aria-label="Miejsce na przyszłe media społecznościowe"></span><span class="prototype">PROTOTYP</span><label class="sr" for="language">Język</label><select id="language"><option value="pl">Polski</option><option value="de">Deutsch</option><option value="en">English</option><option value="fr">Français</option><option value="es">Español</option><option value="it">Italiano</option><option value="ja">日本語</option><option value="da">Dansk</option><option value="nl">Nederlands</option><option value="pt">Português</option></select></div></header>
+<main>
+<section class="hero" aria-labelledby="heading">
+<div class="intro"><div class="eyebrow"><span></span> ODKRYJ ŚWIAT EDURII</div><h1 id="heading">Jeden świat.<br><em>Wiele wejść.</em></h1><p class="subheading">Każda przygoda zaczyna się od ciekawości.<br>Znajdź swoją drogę do Edurii.</p>
+<div class="path-label">WYBIERZ SWOJĄ ŚCIEŻKĘ <span>↘</span></div>
+<div class="choices" role="group" aria-label="Wybierz ścieżkę"></div>
+<div class="description" aria-live="polite"><span class="index sr" id="path-index">01 / 05</span><div><h2 id="path-title"></h2><p id="path-description"></p></div></div>
+</div>
+<div class="portal-column"><img class="stone-walkway" src="stone-walkway.png" alt="" aria-hidden="true"><div class="portal" id="portal"><div class="halo"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="aperture" id="scenes"></div><canvas id="magic" aria-hidden="true"></canvas></div><div class="portal-caption"><span class="live-dot"></span><span id="caption">BRAMA RODZICÓW</span><span class="caption-rule"></span><button id="motion" aria-pressed="false">Wstrzymaj animację</button></div></div>
+</section>
+<section class="action-grid" aria-label="Zacznij przygodę">
+<article class="product"><div class="book-wrap"><img src="/images/cover_auralis_pl.webp" alt="Artefakty — Iskra Pierwszej Runy" class="book"><span class="book-caption">PODGLĄD ZESZYTU</span></div><div class="product-copy"><div class="eyebrow">PRZYGODA ZACZYNA SIĘ JUŻ TERAZ</div><h2>Pierwszy zeszyt<br>Artefaktów jest tutaj.</h2><p>Małe zadania. Wielkie odkrycia.<br>Dostępne wydania: polskie, niemieckie i angielskie.</p><div class="buy-row"><label for="country" class="sr">Kraj zakupu</label><select id="country"><option value="pl">Polska</option><option value="de">Niemcy</option><option value="gb">Wielka Brytania</option></select><a id="buy" href="https://www.amazon.pl/dp/B0HKMZ9J9W" target="_blank" rel="noopener noreferrer">Amazon.pl <span>↗</span></a></div><p id="shop-note" class="small" role="status">Wydanie polskie · zakup w Amazon.pl</p></div></article>
+<article class="newsletter"><div class="eyebrow">KOLEJNY ROZDZIAŁ? BĄDŹ BLISKO.</div><h2>Zostań częścią tej historii.</h2><p>Nowe zeszyty, wieści ze świata Edurii i kolejne przygody.<br>Prosto do Twojej skrzynki.</p><form id="newsletter"><label class="sr" for="email">Adres e-mail</label><div class="email-row"><input id="email" name="email" type="email" placeholder="Twój adres e-mail" autocomplete="email" required><button type="submit">Dołącz <span>→</span></button></div><label class="check"><input id="early" type="checkbox"><span>Chcę też dołączyć do grupy przedpremierowej<br class="desktop-break"> i otrzymywać zaproszenia do testów.</span></label><p class="small" id="form-note" role="status">Tryb demonstracyjny — formularz nie wysyła danych.</p></form></article>
+</section>
+<section class="mobile-paths" aria-label="Odkrywaj świat Edurii"><div class="eyebrow">ODKRYJ SWOJĄ ŚCIEŻKĘ</div><div id="mobile-cards"></div></section>
+</main>
+<footer><span class="footer-brand">EDURIA <span>·</span> HARVORIA & BEYOND</span><span>© 2026 Eduria</span><nav aria-label="Informacje"><a href="https://eduria.io/privacy">Prywatność</a><a href="https://eduria.io/parents#contact">Kontakt</a><span title="Dane prawne do uzupełnienia przed publikacją">Informacje prawne — podgląd</span></nav></footer>
+</div>
+<script src="hub.js"></script>
+</body>
+</html>

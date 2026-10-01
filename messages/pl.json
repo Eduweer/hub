@@ -100,6 +100,37 @@
         "label": "Harvoria",
         "text": "Pierwsza kraina — spokojny start każdej przygody"
       }
+    },
+    "experience": {
+      "discover": "Odkryj świat Edurii",
+      "lead": "Każda przygoda zaczyna się od ciekawości. Znajdź swoją drogę do Edurii.",
+      "language": "Język",
+      "pause": "Wstrzymaj animację",
+      "play": "Włącz animację",
+      "productEyebrow": "Przygoda zaczyna się już teraz",
+      "productTitle": "Pierwszy zeszyt Artefaktów jest tutaj.",
+      "productLead": "Małe zadania. Wielkie odkrycia. Dostępne wydania: polskie, niemieckie i angielskie.",
+      "country": "Kraj zakupu",
+      "poland": "Polska",
+      "germany": "Niemcy",
+      "uk": "Wielka Brytania",
+      "editionPl": "Wydanie polskie",
+      "editionDe": "Wydanie niemieckie",
+      "editionEn": "Wydanie angielskie",
+      "newsEyebrow": "Kolejny rozdział? Bądź blisko.",
+      "newsTitle": "Zostań częścią tej historii.",
+      "newsLead": "Nowe zeszyty, wieści ze świata Edurii i kolejne przygody. Prosto do Twojej skrzynki.",
+      "early": "Chcę też dołączyć do grupy przedpremierowej i otrzymywać zaproszenia do testów.",
+      "consent": "Chcę otrzymywać newsletter Edurii. Mogę wypisać się w każdej chwili.",
+      "consentRequired": "Zaznacz zgodę na otrzymywanie newslettera, aby się zapisać.",
+      "addAnother": "Dodaj kolejny",
+      "success": "Dziękujemy! Jesteś na liście newslettera.",
+      "successBoth": "Dziękujemy! Jesteś na liście newslettera i liście przedpremierowej.",
+      "error": "Nie udało się ukończyć zapisu. Spróbuj ponownie.",
+      "rate": "Zbyt wiele prób. Spróbuj ponownie za godzinę.",
+      "loading": "Zapisywanie…",
+      "email": "Twój adres e-mail",
+      "submit": "Dołącz"
     }
   },
   "parent": {

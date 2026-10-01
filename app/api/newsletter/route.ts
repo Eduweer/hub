@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
+import { subscribeToLists } from "@/lib/newsletter-signup";
 import { newsletterWelcomeEmail } from "@/lib/emails";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
@@ -54,7 +55,14 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid JSON" }, { status: 400 });
   }
 
-  const { email, hp, locale } = body as { email?: string; hp?: string; locale?: string };
+  if (!body || typeof body !== "object" || Array.isArray(body)) {
+    return NextResponse.json({ error: "Invalid request" }, { status: 400 });
+  }
+  const { email, hp, locale, earlyList, consent } = body as Record<string, unknown>;
+  if (typeof email !== "string" || (locale !== undefined && typeof locale !== "string") ||
+      (earlyList !== undefined && (typeof earlyList !== "boolean" || consent !== true))) {
+    return NextResponse.json({ error: "Invalid request" }, { status: 422 });
+  }
 
   // Honeypot — bot filled a hidden field → silent success
   if (hp) {
@@ -78,29 +86,21 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  // KROK 1 — dodaj kontakt do globalnej listy
-  const { error: contactError } = await resend.contacts.create({
-    email: cleanEmail,
-    unsubscribed: false,
-  });
-
-  if (contactError) {
-    console.error("[newsletter] contact error:", contactError);
-    return NextResponse.json(
-      { error: "Błąd zapisu kontaktu" },
-      { status: 500 }
+  try {
+    const result = await subscribeToLists(
+      { email: cleanEmail, earlyList: earlyList === true },
+      { newsletter: process.env.RESEND_SEGMENT_ID, early: process.env.RESEND_EARLY_LIST_SEGMENT_ID },
+      {
+        create: email => resend.contacts.create({ email, unsubscribed: false }),
+        add: (email, segmentId) => resend.contacts.segments.add({ email, segmentId }),
+      },
     );
-  }
-
-  // KROK 2 — przypisz do segmentu Newsletter
-  const { error: segmentError } = await resend.contacts.segments.add({
-    email: cleanEmail,
-    segmentId: process.env.RESEND_SEGMENT_ID!,
-  });
-
-  if (segmentError) {
-    console.error("[newsletter] segment error:", segmentError);
-    // Nie przerywaj — kontakt jest zapisany, tylko segment nie działa
+    if (result !== "ok") {
+      console.error("[newsletter] subscription failed:", result);
+      return NextResponse.json({ error: "Subscription could not be completed" }, { status: result === "configuration" ? 503 : 502 });
+    }
+  } catch {
+    return NextResponse.json({ error: "Subscription service unavailable" }, { status: 502 });
   }
 
   // Send welcome email (non-blocking — failure doesn't abort signup)

@@ -100,6 +100,37 @@
         "label": "ハーボリア",
         "text": "第一の世界——すべての冒険の穏やかな始まり"
       }
+    },
+    "experience": {
+      "discover": "Eduriaの世界へ",
+      "lead": "すべての冒険は好奇心から始まります。Eduriaへの道を見つけましょう。",
+      "language": "言語",
+      "pause": "アニメーションを停止",
+      "play": "アニメーションを再生",
+      "productEyebrow": "冒険は今始まります",
+      "productTitle": "最初のアーティファクトのワークブックが登場。",
+      "productLead": "小さな課題、大きな発見。ポーランド語・ドイツ語・英語版をご用意しています。",
+      "country": "購入する国",
+      "poland": "ポーランド",
+      "germany": "ドイツ",
+      "uk": "イギリス",
+      "editionPl": "ポーランド語版",
+      "editionDe": "ドイツ語版",
+      "editionEn": "英語版",
+      "newsEyebrow": "次の章も一緒に。",
+      "newsTitle": "この物語の仲間になりませんか。",
+      "newsLead": "新しいワークブック、Eduriaのお知らせ、次の冒険をメールでお届けします。",
+      "early": "先行案内リストにも登録し、新しい教材を試すための招待を受け取りたいです。",
+      "consent": "Eduriaのニュースレターを受け取ることに同意します。いつでも配信を解除できます。",
+      "consentRequired": "登録するには、ニュースレターの受信に同意してください。",
+      "addAnother": "別のアドレスを登録",
+      "success": "ありがとうございます！ニュースレターに登録しました。",
+      "successBoth": "ありがとうございます！ニュースレターと先行案内リストに登録しました。",
+      "error": "登録を完了できませんでした。もう一度お試しください。",
+      "rate": "試行回数が多すぎます。1時間後にお試しください。",
+      "loading": "登録中…",
+      "email": "メールアドレス",
+      "submit": "登録する"
     }
   },
   "parent": {
@@ -1365,339 +1396,339 @@
   "teacher": {
     "meta": {
       "title": "教師向けEduria — 学び・冒険・スクールギルド",
-      "description": "教師と学校のためのEduriaのビジョンをご紹介します。スクールギルド、共通の挑戦、冒険を通じた学びをつなぎます。"
+      "description": "教師と学校のためのEduriaのビジョンをご紹介します。スクールギルド、共通の挑戦、学びと冒険を通じた子どもたちの成長をつなぎます。"
     },
     "nav": [
-      "Vision",
-      "Guilds",
-      "For teachers",
-      "Events",
-      "Newsletter"
+      "ビジョン",
+      "ギルド",
+      "先生の役割",
+      "イベント",
+      "ニュースレター"
     ],
     "hero": {
-      "eyebrow": "Eduria for Teachers",
-      "title": "Every school can write its own story in the world of Eduria",
-      "lead": "Eduria connects story, learning activities, child development and game-inspired systems.",
-      "body": "In the future, schools will join the adventure as guilds that unite students, teachers and classes under one symbol. We want to connect the two key environments in a child's growth: home and school.",
-      "ctaPrimary": "Discover Eduria for schools",
-      "ctaSecondary": "Teacher newsletter",
-      "note": "Eduria for schools is part of our developing vision. Join the newsletter to follow progress and help shape future solutions.",
-      "seal": "School guild",
-      "orbitClass": "Classes",
-      "orbitTeacher": "Teachers",
-      "orbitStudent": "Students"
+      "eyebrow": "教師向けEduria",
+      "title": "どの学校も、Eduriaの世界で自分たちの物語を紡ぐことができます",
+      "lead": "Eduriaは、物語、学習課題、子どもの成長、ゲームの仕組みを結びつけます。",
+      "body": "将来、学校は児童・生徒、教師、クラスを共通のシンボルのもとに集めるギルドとして、この冒険に参加できるようになる予定です。子どもの成長にとって特に大切な二つの環境、家庭と学校をつなげたいと考えています。",
+      "ctaPrimary": "学校向けEduriaを知る",
+      "ctaSecondary": "教師向けニュースレター",
+      "note": "学校向けEduriaは、現在構想を進めているプロジェクトの一部です。ニュースレターに登録して開発の進捗を見守り、これからの仕組みづくりにご参加ください。",
+      "seal": "スクールギルド",
+      "orbitClass": "クラス",
+      "orbitTeacher": "教師",
+      "orbitStudent": "児童・生徒"
     },
     "intro": {
-      "eyebrow": "Czym jest Eduria?",
-      "title": "Nauka opowiedziana jako przygoda",
-      "p1": "Eduria powstaje jako połączony ekosystem edukacyjny dla dzieci, rodziców i nauczycieli. Książki wprowadzają dziecko do świata, zeszyty rozwijają umiejętności, a aplikacja i gra przenoszą postęp do interaktywnej przygody.",
-      "p2": "Dziecko nie wykonuje jedynie kolejnych ćwiczeń. Staje się bohaterem opowieści, w której wiedza, wysiłek, ciekawość i wytrwałość mają realne znaczenie.",
+      "eyebrow": "Eduriaとは？",
+      "title": "冒険の物語として楽しむ学び",
+      "p1": "Eduriaは、子ども、保護者、教師のための、互いにつながる教育の仕組みとして開発されています。本が子どもを物語の世界へ導き、ワークブックが力を育て、アプリとゲームがその成長を参加型の冒険につなげます。",
+      "p2": "子どもは課題を次々にこなすだけではありません。知識、努力、好奇心、粘り強さが本当の意味を持つ物語の主人公になります。",
       "cards": [
         {
-          "title": "Opowieść",
-          "body": "Rozbudowany świat fantasy, bohaterowie, krainy i przygody nadające ćwiczeniom szerszy kontekst."
+          "title": "物語",
+          "body": "豊かなファンタジーの世界、登場人物、さまざまな土地や冒険が、課題に広がりのある背景を与えます。"
         },
         {
-          "title": "Edukacja",
-          "body": "Zadania rozwijające wiedzę, koncentrację, kreatywność, samodzielność i ważne umiejętności."
+          "title": "教育",
+          "body": "知識、集中力、創造力、自立心、大切なスキルを育てる課題です。"
         },
         {
-          "title": "Rozwój bohatera",
-          "body": "Postęp dziecka jest rozwojem własnej postaci, zdobywaniem doświadczenia i nowych możliwości."
+          "title": "ヒーローの成長",
+          "body": "子どもの進歩は、自分のキャラクターの成長となり、経験や新たな可能性につながります。"
         },
         {
-          "title": "Połączony ekosystem",
-          "body": "Książki, Artefakty, aplikacja, portal i gra tworzą jedną, spójną drogę rozwoju."
+          "title": "つながる学びの仕組み",
+          "body": "本、アーティファクト、アプリ、ポータル、ゲームが、一つのまとまりある成長の道をつくります。"
         }
       ]
     },
     "homeSchool": {
-      "eyebrow": "Dom i szkoła",
-      "title": "Jedna przygoda, dwa ważne środowiska",
-      "p1": "Rodzice najlepiej znają codzienne potrzeby dziecka. Nauczyciele pomagają mu odkrywać wiedzę, współpracować i rozwijać się jako część społeczności.",
-      "p2": "Dziecko może rozwijać bohatera z pomocą rodzica, a jednocześnie uczestniczyć w przygodach klasy i szkolnej gildii.",
-      "quote": "Dziecko pozostaje bohaterem własnej historii, ale nie musi przeżywać jej samotnie.",
-      "home": "Dom",
-      "school": "Szkoła"
+      "eyebrow": "家庭と学校",
+      "title": "一つの冒険、二つの大切な環境",
+      "p1": "保護者は、子どもが日々必要としていることを最もよく知っています。教師は、子どもが知識に出会い、協力し、集団の一員として成長することを支えます。",
+      "p2": "子どもは保護者の助けを借りてヒーローを育てながら、クラスやスクールギルドの冒険にも参加できます。",
+      "quote": "子どもは自分の物語の主人公であり続けますが、一人でその物語を歩む必要はありません。",
+      "home": "家庭",
+      "school": "学校"
     },
     "guild": {
-      "eyebrow": "Szkoła jako gildia",
-      "title": "Szkoła może stać się gildią Eduria",
-      "lead": "Gildia łączy uczniów, klasy i nauczycieli pod wspólną nazwą, symbolem i historią. Każda klasa jest drużyną młodych bohaterów.",
+      "eyebrow": "学校がギルドに",
+      "title": "学校はEduriaのギルドになれます",
+      "lead": "ギルドは、共通の名前、シンボル、物語のもとに児童・生徒、クラス、教師を結びつけます。それぞれのクラスが、小さなヒーローたちのチームです。",
       "levels": [
         {
-          "title": "Bohater",
-          "body": "Każde dziecko rozwija własną postać, zdobywa doświadczenie i realizuje indywidualne zadania."
+          "title": "ヒーロー",
+          "body": "一人ひとりが自分のキャラクターを育て、経験を積み、個人の課題に取り組みます。"
         },
         {
-          "title": "Drużyna klasowa",
-          "body": "Klasa podejmuje wspólne wyzwania, zdobywa osiągnięcia i pracuje nad wspólnym celem."
+          "title": "クラスチーム",
+          "body": "クラスで共通の課題に挑み、実績を積み重ね、同じ目標に向かって取り組みます。"
         },
         {
-          "title": "Gildia szkolna",
-          "body": "Cała szkoła buduje swoją historię, bierze udział w wydarzeniach i łączy wyniki klas."
+          "title": "スクールギルド",
+          "body": "学校全体で物語をつくり、イベントに参加し、各クラスの成果を一つにまとめます。"
         }
       ]
     },
     "role": {
-      "eyebrow": "Rola nauczyciela",
-      "title": "Nauczyciel jako przewodnik",
-      "p1": "Eduria nie ma zastępować nauczyciela, programu nauczania ani sprawdzonych materiałów. Ma nadawać zadaniom fabularny kontekst i budować ciekawość.",
-      "p2": "Nauczyciel nie staje się operatorem gry. Staje się przewodnikiem wzmacniającym motywację, współpracę, samodzielność i zaangażowanie.",
-      "listTitle": "W przyszłości nauczyciele mogliby korzystać z:",
+      "eyebrow": "教師の役割",
+      "title": "先生は冒険の案内役",
+      "p1": "Eduriaは、教師や教育課程、実績のある教材に取って代わるものではありません。課題に物語の背景を添え、好奇心を育てることを目指しています。",
+      "p2": "先生がゲームの運営者になるわけではありません。意欲、協力、自立心、主体的な参加を支える案内役になります。",
+      "listTitle": "将来、先生方にご活用いただけるものとして、次の内容を考えています。",
       "tools": [
-        "materiałów edukacyjnych w świecie Eduria",
-        "zadań indywidualnych i grupowych",
-        "wyzwań dla całej klasy",
-        "klasowych map postępu",
-        "osiągnięć drużynowych",
-        "scenariuszy zajęć",
-        "materiałów do wydruku",
-        "podglądu postępów klasy",
-        "narzędzi do szkolnych przygód"
+        "Eduriaの世界を舞台にした教材",
+        "個人やグループで取り組む課題",
+        "クラス全体で挑む課題",
+        "クラスの成長マップ",
+        "チームで獲得する実績",
+        "授業案",
+        "印刷用教材",
+        "クラスの進捗を確認する機能",
+        "学校での冒険を支えるツール"
       ]
     },
     "benefits": {
-      "eyebrow": "Dla dzieci",
-      "title": "Więcej sposobów na poznawanie świata",
-      "lead": "Każde dziecko uczy się inaczej. Eduria łączy czytanie, działanie, rozmowę, ruch, tworzenie i współpracę.",
+      "eyebrow": "子どもたちのために",
+      "title": "世界を知る方法を、もっと豊かに",
+      "lead": "子どもの学び方は一人ひとり違います。Eduriaは、読むこと、行動すること、話すこと、体を動かすこと、つくること、協力することを結びつけます。",
       "cards": [
         {
-          "title": "Poczucie celu",
-          "body": "Zadanie jest elementem większej przygody."
+          "title": "目的を感じる",
+          "body": "一つひとつの課題が、大きな冒険の一部になります。"
         },
         {
-          "title": "Widoczny postęp",
-          "body": "Regularna praca rozwija bohatera i prowadzi do odkryć."
+          "title": "目に見える成長",
+          "body": "継続した取り組みがヒーローを育て、新たな発見につながります。"
         },
         {
-          "title": "Przynależność",
-          "body": "Uczeń jest częścią klasy, drużyny i gildii."
+          "title": "仲間の一員に",
+          "body": "子どもはクラス、チーム、ギルドの一員です。"
         },
         {
-          "title": "Współpraca",
-          "body": "Część wyzwań wymaga wspólnego działania."
+          "title": "協力",
+          "body": "力を合わせて取り組む課題もあります。"
         },
         {
-          "title": "Ciekawość",
-          "body": "Opowieść i tajemnice zachęcają do poznawania."
+          "title": "好奇心",
+          "body": "物語や謎が、もっと知りたい気持ちを引き出します。"
         },
         {
-          "title": "Radość z nauki",
-          "body": "Nauka staje się źródłem satysfakcji i przygody."
+          "title": "学ぶ喜び",
+          "body": "学びが達成感と冒険の源になります。"
         }
       ]
     },
     "competition": {
-      "eyebrow": "Współpraca i zdrowa rywalizacja",
-      "title": "Wspólne cele zamiast niepotrzebnej presji",
-      "body": "Rankingi nie powinny publicznie oceniać pojedynczych dzieci. Mają wspierać regularność, współpracę i zaangażowanie całych drużyn.",
-      "listTitle": "Punkty mogą być przyznawane za:",
+      "eyebrow": "協力と健全な競争",
+      "title": "余計なプレッシャーをかけず、共通の目標へ",
+      "body": "ランキングで子ども一人ひとりを公に評価すべきではありません。チーム全体の継続的な取り組み、協力、参加を後押しするものを目指します。",
+      "listTitle": "次のような取り組みにポイントを付与することを考えています。",
       "items": [
-        "systematyczność",
-        "udział całej klasy",
-        "pomoc innym",
-        "kreatywność",
-        "współpracę",
-        "wytrwałość",
-        "projekty społeczne i ekologiczne"
+        "継続的な努力",
+        "クラス全員の参加",
+        "仲間への手助け",
+        "創造力",
+        "協力",
+        "粘り強さ",
+        "地域貢献や環境保全の活動"
       ],
-      "quote": "Nie każda drużyna musi zwyciężać w ten sam sposób."
+      "quote": "すべてのチームが同じ方法で勝つ必要はありません。"
     },
     "events": {
-      "eyebrow": "Wydarzenia międzyszkolne",
-      "title": "Wielkie przygody mogą łączyć wiele szkół",
-      "lead": "Gildie będą mogły brać udział w wydarzeniach opartych na przyjaznej rywalizacji albo współpracy nad wspólnym celem.",
+      "eyebrow": "学校をつなぐイベント",
+      "title": "大きな冒険が、多くの学校をつなぎます",
+      "lead": "ギルドは、友好的な競争や、共通の目標に向けた協力を中心とするイベントに参加できるようになる予定です。",
       "cards": [
         {
-          "label": "Wiedza",
-          "title": "Turnieje wiedzy",
-          "body": "Zadania i zagadki związane z określonym obszarem edukacji."
+          "label": "知識",
+          "title": "知識のトーナメント",
+          "body": "特定の学習分野に関連する課題や謎解きです。"
         },
         {
-          "label": "Czytanie",
-          "title": "Wyprawy czytelnicze",
-          "body": "Wspólne historie, zadania i kolejne etapy wyprawy."
+          "label": "読書",
+          "title": "読書の探検",
+          "body": "物語や課題を共有し、探検の次の段階へ進みます。"
         },
         {
-          "label": "Tworzenie",
-          "title": "Konkursy kreatywne",
-          "body": "Opowiadania, ilustracje, wynalazki i własne fragmenty świata."
+          "label": "創作",
+          "title": "創作コンテスト",
+          "body": "物語、イラスト、発明、自分たちでつくる世界の一部です。"
         },
         {
-          "label": "Natura",
-          "title": "Wyzwania ekologiczne",
-          "body": "Działania związane ze środowiskiem i lokalną społecznością."
+          "label": "自然",
+          "title": "環境への挑戦",
+          "body": "環境や地域社会に関わる活動です。"
         },
         {
-          "label": "Drużyna",
-          "title": "Misje zespołowe",
-          "body": "Powodzenie zależy od udziału całej klasy."
+          "label": "チーム",
+          "title": "チームミッション",
+          "body": "成功の鍵は、クラス全員の参加です。"
         },
         {
-          "label": "Sezon",
-          "title": "Wydarzenia sezonowe",
-          "body": "Przygody związane z porami roku i światem Eduria."
+          "label": "季節",
+          "title": "季節のイベント",
+          "body": "四季やEduriaの世界にまつわる冒険です。"
         }
       ],
-      "note": "Wydarzenia międzyszkolne są częścią długoterminowej wizji, rozwijanej wspólnie z nauczycielami i szkołami."
+      "note": "学校間のイベントは、教師や学校とともに育てていく長期的な構想の一部です。"
     },
     "artifacts": {
-      "eyebrow": "Artefakty w szkole",
-      "title": "Próby Strażników mogą rozpocząć się także w klasie",
-      "body": "Artefakty to zeszyty ćwiczeń prowadzone przez Strażników. Rozwijają określone umiejętności i w przyszłości mogą służyć jako materiały klasowe.",
-      "listTitle": "Możliwe zastosowania",
+      "eyebrow": "学校でのアーティファクト",
+      "title": "守護者の試練は、教室でも始められます",
+      "body": "アーティファクトは、守護者が案内するワークブックです。特定のスキルを育て、将来はクラスの教材としても活用できる可能性があります。",
+      "listTitle": "想定される活用方法",
       "items": [
-        "praca indywidualna",
-        "zajęcia dodatkowe",
-        "świetlica",
-        "różne tempo pracy",
-        "zadania dla uczniów kończących wcześniej",
-        "tygodniowe wyzwania klasowe",
-        "wspólne Próby Strażników",
-        "pakiety dla całej klasy"
+        "個別学習",
+        "課外活動",
+        "放課後の学童保育",
+        "それぞれのペースでの学習",
+        "早く終わった子ども向けの課題",
+        "毎週のクラスチャレンジ",
+        "みんなで取り組む守護者の試練",
+        "クラス全員分のセット"
       ],
-      "quote": "Każdy zeszyt to osobna przygoda. Każda klasa może przeżyć ją na własny sposób."
+      "quote": "一冊ごとに、別の冒険があります。それぞれのクラスが、自分たちらしい方法で楽しめます。"
     },
     "future": {
-      "eyebrow": "Przyszłe narzędzia",
-      "title": "Jak może rozwijać się Eduria dla nauczycieli?",
-      "lead": "Rozwiązania szkolne będą powstawać stopniowo, w oparciu o realne potrzeby nauczycieli, uczniów i szkół.",
+      "eyebrow": "これからのツール",
+      "title": "教師向けEduriaは、どう発展していくのでしょうか？",
+      "lead": "学校向けの仕組みは、教師、児童・生徒、学校の実際のニーズに基づき、段階的に開発していく予定です。",
       "items": [
-        "profile szkół i gildii",
-        "struktura klas",
-        "role nauczycieli",
-        "osiągnięcia szkolne",
-        "rankingi gildii",
-        "wspólne zadania",
-        "wydarzenia sezonowe",
-        "materiały dla nauczycieli",
-        "scenariusze zajęć",
-        "pakiety Artefaktów",
-        "mapy postępu",
-        "raporty aktywności"
+        "学校やギルドのプロフィール",
+        "クラスの構成",
+        "教師の役割設定",
+        "学校の実績",
+        "ギルドのランキング",
+        "共通の課題",
+        "季節のイベント",
+        "教師向け教材",
+        "授業案",
+        "アーティファクトのセット",
+        "成長マップ",
+        "活動レポート"
       ],
-      "note": "Te elementy przedstawiają kierunek rozwoju, a nie listę funkcji dostępnych obecnie."
+      "note": "これらは開発の方向性を示すもので、現在利用できる機能の一覧ではありません。"
     },
     "cooperation": {
-      "eyebrow": "Współpraca ze szkołami",
-      "title": "Chcemy tworzyć Eduria razem z nauczycielami",
-      "body": "Chcemy poznawać realne potrzeby klas, testować pomysły i rozwijać materiały wartościowo uzupełniające codzienną edukację.",
+      "eyebrow": "学校との協力",
+      "title": "先生方と一緒にEduriaをつくりたい",
+      "body": "クラスの実際のニーズを知り、アイデアを試し、日々の教育を有意義に補う教材を開発したいと考えています。",
       "items": [
-        "konsultacje z nauczycielami",
-        "testowanie materiałów",
-        "programy pilotażowe",
-        "warsztaty dla dzieci",
-        "pakiety klasowe",
-        "wydarzenia szkolne",
-        "wspólne projekty",
-        "lokalizacja dla różnych systemów edukacji"
+        "先生方との意見交換",
+        "教材の試用",
+        "試験導入プログラム",
+        "子ども向けワークショップ",
+        "クラス用セット",
+        "学校イベント",
+        "共同プロジェクト",
+        "さまざまな教育制度に合わせた調整"
       ],
-      "quote": "Eduria ma dawać nauczycielom dodatkowe możliwości, a dzieciom kolejne drogi do odkrywania, uczenia się i przeżywania przygód."
+      "quote": "Eduriaは、先生方に新たな選択肢を、子どもたちに発見、学び、冒険への新たな道を届けることを目指します。"
     },
     "safety": {
-      "eyebrow": "Bezpieczeństwo i odpowiedzialność",
-      "title": "Technologia, która ma wspierać, a nie przeszkadzać",
-      "body": "Nauczyciele i rodzice powinni zachowywać kontrolę nad doświadczeniem dziecka.",
+      "eyebrow": "安全と責任",
+      "title": "妨げるのではなく、支えるテクノロジー",
+      "body": "教師と保護者が、子どもの体験を管理できることが大切です。",
       "items": [
-        "ochrona danych dzieci",
-        "jasne role dorosłych",
-        "ograniczony dostęp do danych",
-        "bezpieczna komunikacja",
-        "brak kontaktu z nieznajomymi",
-        "odpowiedzialne rankingi",
-        "brak publicznego zawstydzania",
-        "równowaga online i offline"
+        "子どものデータの保護",
+        "大人の役割の明確化",
+        "データへのアクセス制限",
+        "安全なコミュニケーション",
+        "知らない人との接触を防ぐ仕組み",
+        "配慮あるランキング",
+        "人前で恥をかかせない仕組み",
+        "オンラインとオフラインの活動のバランス"
       ],
-      "summary": "Celem nie jest zatrzymanie dzieci przed ekranem, lecz zachęcanie ich do czytania, myślenia, tworzenia i wspólnego działania."
+      "summary": "目標は、子どもを画面の前にとどめることではありません。読み、考え、つくり、仲間と行動することを促すことです。"
     },
     "newsletter": {
-      "eyebrow": "Newsletter dla szkół",
-      "title": "Dołącz do nauczycieli Eduria",
-      "lead": "Śledź rozwój projektu i poznawaj pomysły na połączenie edukacji z przygodą.",
+      "eyebrow": "学校向けニュースレター",
+      "title": "Eduriaの先生のコミュニティに参加しませんか",
+      "lead": "プロジェクトの進展を見守りながら、教育と冒険を結びつけるアイデアに出会えます。",
       "benefits": [
-        "nowe materiały Eduria",
-        "informacje o Artefaktach",
-        "pomysły na zajęcia",
-        "planowane funkcje szkolne",
-        "zaproszenia do konsultacji i pilotaży",
-        "wpływ na rozwój szkolnych gildii"
+        "新しいEduriaの教材",
+        "アーティファクトの情報",
+        "授業のアイデア",
+        "学校向け機能の開発予定",
+        "意見交換や試験導入へのご招待",
+        "スクールギルドの開発への参加"
       ],
-      "note": "Bez spamu. Tylko najważniejsze informacje dla nauczycieli i szkół.",
+      "note": "迷惑メールは送りません。教師と学校に大切なお知らせだけをお届けします。",
       "form": {
-        "email": "Adres e-mail",
-        "emailPlaceholder": "nauczyciel@szkola.pl",
-        "country": "Kraj",
-        "countryPlaceholder": "Polska",
-        "stage": "Nauczany etap",
-        "stagePlaceholder": "Wybierz etap",
+        "email": "メールアドレス",
+        "emailPlaceholder": "teacher@school.example",
+        "country": "国",
+        "countryPlaceholder": "国を選択",
+        "stage": "担当する教育段階",
+        "stagePlaceholder": "教育段階を選択",
         "stages": [
-          "edukacja przedszkolna",
-          "edukacja wczesnoszkolna",
-          "szkoła podstawowa",
-          "szkoła ponadpodstawowa",
-          "zajęcia dodatkowe",
-          "świetlica",
-          "inne"
+          "就学前教育",
+          "初等教育の低学年",
+          "初等教育",
+          "中等教育",
+          "課外活動",
+          "放課後の学童保育",
+          "その他"
         ],
-        "pilot": "Jestem zainteresowany udziałem w przyszłym programie pilotażowym.",
-        "consent": "Chcę otrzymywać informacje o rozwoju Eduria dla nauczycieli, nowych materiałach i przyszłych pilotażach.",
-        "submit": "Dołącz do nauczycieli Eduria",
-        "loading": "Zapisywanie…",
-        "success": "Dziękujemy! Witaj w gronie nauczycieli Eduria. 🌿",
-        "errorEmail": "Podaj poprawny adres email",
-        "errorRequired": "Uzupełnij wymagane pola i zgodę",
-        "errorGeneric": "Coś poszło nie tak. Spróbuj ponownie.",
+        "pilot": "今後の試験導入プログラムへの参加に関心があります。",
+        "consent": "教師向けEduriaの開発、新しい教材、今後の試験導入についてのお知らせを受け取ることに同意します。",
+        "submit": "Eduriaの先生のコミュニティに参加する",
+        "loading": "登録中…",
+        "success": "ありがとうございます！Eduriaの先生のコミュニティへようこそ。🌿",
+        "errorEmail": "有効なメールアドレスを入力してください",
+        "errorRequired": "必須項目を入力し、お知らせの受信に同意してください",
+        "errorGeneric": "エラーが発生しました。もう一度お試しください。",
         "countries": [
-          "Poland",
-          "Germany",
-          "France",
-          "Spain",
-          "Italy",
-          "Japan",
-          "Denmark",
-          "Netherlands",
-          "Portugal",
-          "Other country"
+          "ポーランド",
+          "ドイツ",
+          "フランス",
+          "スペイン",
+          "イタリア",
+          "日本",
+          "デンマーク",
+          "オランダ",
+          "ポルトガル",
+          "その他の国"
         ]
       }
     },
     "faq": {
-      "eyebrow": "FAQ",
-      "title": "Najczęściej zadawane pytania",
+      "eyebrow": "よくある質問",
+      "title": "よくあるご質問",
       "items": [
         {
-          "q": "Czy Eduria dla szkół jest już dostępne?",
-          "a": "Nie. Rozwiązania szkolne są obecnie częścią rozwijanej wizji projektu."
+          "q": "学校向けEduriaは、もう利用できますか？",
+          "a": "いいえ。学校向けの仕組みは、現在開発を進めているプロジェクトの構想の一部です。"
         },
         {
-          "q": "Czy nauczyciel będzie musiał korzystać z gry?",
-          "a": "Nie. Będzie można korzystać z wybranych materiałów i narzędzi."
+          "q": "教師はゲームを使う必要がありますか？",
+          "a": "いいえ。必要な教材やツールだけを選んで使えるようにする予定です。"
         },
         {
-          "q": "Czy Eduria ma zastąpić podręczniki?",
-          "a": "Nie. Projekt ma uzupełniać istniejące materiały i metody pracy."
+          "q": "Eduriaは教科書に取って代わるものですか？",
+          "a": "いいえ。既存の教材や指導方法を補うことを目指しています。"
         },
         {
-          "q": "Czym jest gildia szkolna?",
-          "a": "To reprezentacja szkoły w świecie Eduria, łącząca klasy, uczniów, nauczycieli i opiekuna."
+          "q": "スクールギルドとは何ですか？",
+          "a": "Eduriaの世界で学校を表すもので、クラス、児童・生徒、教師、担当者を結びつけます。"
         },
         {
-          "q": "Czy klasy będą ze sobą rywalizować?",
-          "a": "Możliwe wydarzenia mają wspierać współpracę i regularność, bez publicznego porównywania dzieci."
+          "q": "クラス同士で競争するのでしょうか？",
+          "a": "検討しているイベントは、子どもを公に比較することなく、協力や継続的な取り組みを促すものです。"
         },
         {
-          "q": "Jak zaangażować szkołę?",
-          "a": "Dołącz do newslettera i zaznacz zainteresowanie przyszłym pilotażem."
+          "q": "学校として参加するにはどうすればよいですか？",
+          "a": "ニュースレターに登録し、今後の試験導入への参加に関心があることをお知らせください。"
         }
       ]
     },
     "final": {
-      "eyebrow": "A new chapter",
-      "title": "Help us create a new chapter of educational adventure",
-      "body": "Join teachers who want to follow the project and help shape solutions combining learning, cooperation and adventure.",
-      "ctaNewsletter": "Join the newsletter",
-      "ctaWorld": "Discover Eduria"
+      "eyebrow": "新たな章",
+      "title": "学びの冒険の新たな章を、一緒につくりましょう",
+      "body": "プロジェクトの進展を見守り、学び、協力、冒険を結びつける仕組みづくりに参加したい先生方をお待ちしています。",
+      "ctaNewsletter": "ニュースレターに登録する",
+      "ctaWorld": "Eduriaの世界を知る"
     }
   }
 }
