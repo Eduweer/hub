@@ -33,7 +33,7 @@ export default function WorldHub(){
  useEffect(()=>{
   const mq=matchMedia('(prefers-reduced-motion: reduce)');setPaused(mq.matches);
   const motion=()=>setPaused(mq.matches);mq.addEventListener('change',motion);
-  const update=()=>{const h=new Date().getHours();setSky(h>=6&&h<10?'dawn':h>=10&&h<17?'day':h>=17&&h<21?'dusk':'night')};update();const clock=setInterval(update,60000);
+  const update=()=>{const h=new Date().getHours();setSky(h>=5&&h<9?'dawn':h>=9&&h<17?'day':h>=17&&h<20?'dusk':h>=20&&h<22?'evening':'night')};update();const clock=setInterval(update,60000);
   const restore=()=>{locked.current=false;setEntering(false);if(timer.current)clearTimeout(timer.current)};
   window.addEventListener('pageshow',restore);
   return()=>{mq.removeEventListener('change',motion);clearInterval(clock);if(timer.current)clearTimeout(timer.current);window.removeEventListener('pageshow',restore)};
@@ -71,6 +71,7 @@ export default function WorldHub(){
      <nav className="choices" aria-label={t('eyebrow')}>{paths.map((path,index)=><Link key={path.key} className="choice" href={path.href} data-active={active===index} onPointerEnter={event=>{if(event.pointerType==='mouse')choose(index)}} onFocus={()=>choose(index)} onClick={event=>enter(event,index)}><span className="choice-title">{t(`portals.${path.key}.name`)}</span><span className="choice-description">{c(`pathDescriptions.${path.key}`)}</span></Link>)}</nav>
     </div>
     <div className="portal-column"><img className="portal-sanctuary" src="/hub/portal-sanctuary.png" alt="" aria-hidden="true"/>
+     <div className="cloud-sea" aria-hidden="true"><span className="cloud-layer cloud-far"/><span className="cloud-layer cloud-near"/><span className="cloud-layer cloud-mist"/></div>
      <div className="portal" ref={portal} onPointerMove={event=>{if(paused||event.pointerType!=='mouse')return;const r=event.currentTarget.getBoundingClientRect();event.currentTarget.style.setProperty('--px',`${((event.clientX-r.left)/r.width-.5)*12}px`);event.currentTarget.style.setProperty('--py',`${((event.clientY-r.top)/r.height-.5)*12}px`)}} onPointerLeave={event=>{event.currentTarget.style.setProperty('--px','0px');event.currentTarget.style.setProperty('--py','0px')}}>
       <div className="halo"/><div className="orbit orbit-one"/><div className="orbit orbit-two"/>
       <div className="aperture">{paths.map((path,index)=><img key={path.key} src={assetUrl(`/images/${path.image}`)} alt="" className={`scene${index===active?' active':''}`} fetchPriority={index===0?'high':'auto'}/>)}</div>

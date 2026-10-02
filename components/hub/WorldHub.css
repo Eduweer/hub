@@ -56,10 +56,11 @@
 @media(max-width:700px){.eduria-hub .space{background-position:center,center,67% center}.eduria-hub .brand{font-size:20px}.eduria-hub header select{padding-right:35px;background-position:right 12px center}.eduria-hub .subheading{font-size:14px}.eduria-hub .description{display:none}.eduria-hub .action-grid{gap:17px}.eduria-hub .newsletter{border:1px solid #e3c284aa}.eduria-hub .product,.eduria-hub .newsletter{padding:24px 19px}.eduria-hub .product{gap:16px}.eduria-hub .action-grid .small{color:#c6d5d3}.eduria-hub .mobile-card{padding:12px;background:#1f354bac;border:1px solid #e2c58b70;border-radius:15px 4px;backdrop-filter:blur(12px)}.eduria-hub .mobile-card p{color:#dce4e0}.eduria-hub .mobile-card h3{color:#fff0d1}.eduria-hub .mobile-card span{color:#ffdc99}.eduria-hub footer{border-color:#ead19e66}.eduria-hub .portal-caption{font-size:7px}}
 /* Quiet layered sky: no full-page illustration. */
 .eduria-hub{--sky-top:#344b62;--sky-middle:#667c8b;--sky-bottom:#9dabae;--mist:#d6ddd5;--cloud-opacity:.09}
-.eduria-hub[data-sky=dawn]{--sky-top:#465871;--sky-middle:#858994;--sky-bottom:#b4aaa3;--mist:#e1d6ca}
-.eduria-hub[data-sky=day]{--sky-top:#405c75;--sky-middle:#7c929f;--sky-bottom:#b4c1c3;--mist:#e3e9df}
-.eduria-hub[data-sky=dusk]{--sky-top:#39475f;--sky-middle:#737a8d;--sky-bottom:#aaa4ad;--mist:#dbd0cf}
-.eduria-hub[data-sky=night]{--sky-top:#14253b;--sky-middle:#33485c;--sky-bottom:#697988;--mist:#a4b8c3;--cloud-opacity:.055}
+ .eduria-hub[data-sky=dawn]{--sky-top:#495d99;--sky-middle:#bd929e;--sky-bottom:#ffd5a0;--mist:#ffe2c5;--sun-glow:#ffc78480;--sun-x:85%;--sun-y:75%}
+.eduria-hub[data-sky=day]{--sky-top:#247ec0;--sky-middle:#80c3e7;--sky-bottom:#e0f0e9;--mist:#fff7dc;--sun-glow:#fff1b6b0;--sun-x:84%;--sun-y:18%}
+.eduria-hub[data-sky=dusk]{--sky-top:#4b4f91;--sky-middle:#bf7894;--sky-bottom:#ffbd7b;--mist:#ffd8ba;--sun-glow:#ffb25db0;--sun-x:82%;--sun-y:68%}
+.eduria-hub[data-sky=evening]{--sky-top:#193c7b;--sky-middle:#396cac;--sky-bottom:#7c9bc6;--mist:#bacfe8;--sun-glow:#8bacdd35;--sun-x:80%;--sun-y:50%}
+.eduria-hub[data-sky=night]{--sky-top:#080f2a;--sky-middle:#14264b;--sky-bottom:#304365;--mist:#8297bf;--cloud-opacity:.04;--sun-glow:#829bd51c;--sun-x:80%;--sun-y:22%}
 .eduria-hub{background:var(--sky-top)}
 .eduria-hub .space{background:linear-gradient(115deg,#12283b25,transparent 64%),linear-gradient(180deg,var(--sky-top),var(--sky-middle) 62%,var(--sky-bottom));transition:background 2s}
 .eduria-hub .space:before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 35% 7% at 81% 22%,#f1f2df 8%,transparent 78%),radial-gradient(ellipse 28% 6% at 61% 25%,#e1e5df 6%,transparent 78%),radial-gradient(ellipse 42% 8% at 12% 44%,#e3e8df 9%,transparent 75%);filter:blur(23px);opacity:var(--cloud-opacity)}
@@ -85,3 +86,19 @@
 .eduria-hub .portal-sanctuary{position:absolute;pointer-events:none;width:126%;max-width:880px;height:auto;left:50%;top:3%;transform:translateX(-50%);z-index:-1;opacity:.38;filter:saturate(.25);mask-image:linear-gradient(180deg,#000 65%,transparent 98%)}
 @media(min-width:701px){.eduria-hub .hero{align-items:start;padding-top:32px}.eduria-hub .intro h1{margin-top:0}.eduria-hub .portal-column{align-self:center}}
 @media(max-width:700px){.eduria-hub .choices,.eduria-hub .path-label{display:none}.eduria-hub .portal-sanctuary{width:132%;top:-4%;opacity:.3}.eduria-hub .intro h1{margin-top:0}}
+
+/* Viewport-wide clouds sit above the sanctuary and below the portal. */
+.eduria-hub .cloud-sea{position:fixed;z-index:0;pointer-events:none;left:0;right:0;top:44vh;height:62vh;overflow:hidden;mask-image:linear-gradient(180deg,transparent,#000 20%,#000 85%,transparent)}
+.eduria-hub .cloud-layer{position:absolute;inset:0 -20%;will-change:transform;background-repeat:no-repeat;transform:translate3d(-4%,0,0)}
+.eduria-hub .cloud-far{opacity:.28;filter:blur(22px);background:radial-gradient(ellipse 19% 22% at 12% 30%,var(--mist) 22%,transparent 75%),radial-gradient(ellipse 23% 24% at 42% 42%,var(--mist) 24%,transparent 77%),radial-gradient(ellipse 20% 26% at 72% 25%,var(--mist) 20%,transparent 76%),radial-gradient(ellipse 19% 25% at 94% 42%,var(--mist) 25%,transparent 78%);animation:eduria-cloud-drift 85s ease-in-out infinite alternate}
+.eduria-hub .cloud-near{opacity:.47;filter:blur(16px);background:radial-gradient(ellipse 23% 24% at 5% 67%,var(--mist) 22%,transparent 76%),radial-gradient(ellipse 18% 23% at 28% 77%,var(--mist) 25%,transparent 75%),radial-gradient(ellipse 26% 23% at 57% 69%,var(--mist) 24%,transparent 78%),radial-gradient(ellipse 20% 28% at 84% 63%,var(--mist) 25%,transparent 77%),radial-gradient(ellipse 25% 26% at 100% 80%,var(--mist) 20%,transparent 78%);animation:eduria-cloud-drift 58s ease-in-out infinite alternate-reverse}
+.eduria-hub .cloud-mist{opacity:.24;filter:blur(30px);background:radial-gradient(ellipse 65% 34% at 46% 100%,var(--mist) 28%,transparent 84%);animation:eduria-cloud-drift 100s ease-in-out infinite alternate}
+@keyframes eduria-cloud-drift{from{transform:translate3d(-5%,-1%,0)}to{transform:translate3d(5%,3%,0)}}
+@media(max-width:700px){.eduria-hub .cloud-sea{top:46vh;height:58vh}.eduria-hub .cloud-far{opacity:.23}.eduria-hub .cloud-near{opacity:.36}}
+@media(prefers-reduced-motion:reduce){.eduria-hub .cloud-layer{animation:none;will-change:auto}}
+
+/* Sunlight stays strongest beside the portal; a blue veil keeps the menu legible. */
+.eduria-hub .space{background:linear-gradient(90deg,#1027409c,transparent 70%),radial-gradient(ellipse at var(--sun-x,84%) var(--sun-y,18%),var(--sun-glow,#fff1b6b0),transparent 62%),linear-gradient(180deg,var(--sky-top),var(--sky-middle) 62%,var(--sky-bottom))}
+.eduria-hub[data-sky=night] .cloud-sea{opacity:.6}
+.eduria-hub[data-sky=night] .portal-sanctuary{opacity:.25}
+@media(max-width:700px){.eduria-hub .space{background:linear-gradient(180deg,#10274060,transparent 65%),radial-gradient(ellipse at var(--sun-x,84%) var(--sun-y,18%),var(--sun-glow,#fff1b6b0),transparent 62%),linear-gradient(180deg,var(--sky-top),var(--sky-middle) 65%,var(--sky-bottom))}}
